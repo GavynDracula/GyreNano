@@ -1,0 +1,121 @@
+{
+  "scope": "Relative mounting geometry within each half. New outer skin, tray height above desk and user-adjustable placement between halves are not claimed identical. The physical sphere centre is determined by the installed adapter/bearings, not measured here.",
+  "baselines": {
+    "right": "Charybdis charybdisnano_v2_v187.stl",
+    "left": "Skeletyl V4 case_v4_103.stl, mirrored"
+  },
+  "sides": {
+    "left": {
+      "main_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "thumb_indices": [
+        0,
+        16,
+        17
+      ],
+      "max_absolute_key_center_shift_mm": 1.4210854715202004e-14,
+      "max_pairwise_vector_change_mm": 1.464821375527116e-14,
+      "max_pairwise_distance_change_mm": 1.4210854715202004e-14,
+      "thumb_centroid_relative_to_main_before_mm": [
+        39.31922610281817,
+        -51.58781187573915,
+        11.326035560127298
+      ],
+      "thumb_centroid_relative_to_main_after_mm": [
+        39.31922610281817,
+        -51.58781187573915,
+        11.326035560127298
+      ],
+      "thumb_to_main_change_mm": 0.0
+    },
+    "right": {
+      "main_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "thumb_indices": [
+        5,
+        7
+      ],
+      "max_absolute_key_center_shift_mm": 1.4210854715202004e-14,
+      "max_pairwise_vector_change_mm": 1.464821375527116e-14,
+      "max_pairwise_distance_change_mm": 1.4210854715202004e-14,
+      "thumb_centroid_relative_to_main_before_mm": [
+        -48.21185150123767,
+        -55.577353494398125,
+        6.757247848329655
+      ],
+      "thumb_centroid_relative_to_main_after_mm": [
+        -48.21185150123767,
+        -55.577353494398125,
+        6.757247848329655
+      ],
+      "thumb_to_main_change_mm": 0.0
+    }
+  },
+  "trackball": {
+    "wall_samples": 576,
+    "seat_samples": 432,
+    "max_original_wall_sample_displacement_mm": 0.0,
+    "fitted_seat_center_shift_mm": 0.0,
+    "fitted_seat_normal_change_deg": 8.537736462515939e-07,
+    "max_ball_seat_to_any_key_vector_change_mm": 1.4210854715202004e-14,
+    "fitted_center_before_mm": [
+      -49.78955501588275,
+      -32.033412814414156,
+      32.65927158730169
+    ],
+    "fitted_center_after_mm": [
+      -49.78955501588275,
+      -32.033412814414156,
+      32.65927158730169
+    ],
+    "nominal_seat_datum_mm": [
+      -49.7884582778934,
+      -32.0372274373079,
+      32.66025394843741
+    ],
+    "nominal_axis": [
+      -0.4999999999999999,
+      9.614813431917822e-17,
+      0.8660254037844388
+    ],
+    "physical_sphere_center_verified": false
+  },
+  "passed": true,
+  "checked_stl_sha256": {
+    "exports/right-closed-development.stl": "eb9ab970f6a22f989b5c1f83cfa2a59862f11282c7e084e6eb8e12905cc077cb",
+    "exports/left-closed-development.stl": "7547c8eba8924dc4755426f5b0035958966d75fb4eaaeeff0fcff8fee40f7209",
+    "references/skeletyl-v4-103.stl": "08eb45ae4cd48fe7a7f6c71a8852e789c82c933eb65a86534269ad7300bd036c"
+  },
+  "right_baseline_sha256": "5c050b5a5df9008dda606a7fe82089b87b809bfb2e83118f5aa4e00df5550807",
+  "method": "Matched original/current wall probes at local axial depths -0.5, -1, -2, -3 mm; fitted ring at -3 mm. Seat-plane probes at radii 23.05, 23.10, 23.14 mm. Key centres measured from original/current bearing planes and apertures."
+}

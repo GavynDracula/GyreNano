@@ -1,0 +1,125 @@
+{
+  "transform_source_to_assembly": [
+    [
+      0.8660254037844388,
+      -0.4999999999999999,
+      -4.8074067159589095e-17,
+      -51.251223515657685
+    ],
+    [
+      0.0,
+      9.614813431917822e-17,
+      -1.0000000000000002,
+      -32.0204594373079
+    ],
+    [
+      0.4999999999999999,
+      0.8660254037844388,
+      8.326672684688678e-17,
+      35.279827659790726
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "datum": "Top adapter Y=-3 flange underside seated at original shell rim; common native coordinates retained for BTU and cover.",
+  "parts": {
+    "top": {
+      "source": "3x5 nano/adapter_v2_top_v75.stl",
+      "bounds_mm": [
+        [
+          -70.53383721565999,
+          -54.83722808354814,
+          10.173286325679456
+        ],
+        [
+          -24.114278986696174,
+          -9.237227702078403,
+          45.792305101770445
+        ]
+      ],
+      "original_shell_overlap_mm3": 0.27551826920073924,
+      "upper_overlap_mm3": 0.27551826920074096,
+      "added_upper_overlap_mm3": 0.0,
+      "lower_overlap_mm3": 0.0,
+      "outside_inner_footprint_mm3": 0.0
+    },
+    "btu": {
+      "source": "mods/btu/adapter_btu_bottom_v32.stl",
+      "bounds_mm": [
+        [
+          -67.24569453367619,
+          -54.34904220097978,
+          2.9497340868717075
+        ],
+        [
+          -20.19658287895576,
+          -9.69216086858231,
+          41.548536706030895
+        ]
+      ],
+      "original_shell_overlap_mm3": 0.0,
+      "upper_overlap_mm3": 0.0,
+      "added_upper_overlap_mm3": 0.0,
+      "lower_overlap_mm3": 0.0,
+      "outside_inner_footprint_mm3": 0.0
+    },
+    "cover": {
+      "source": "sensor_cover_v51.stl",
+      "bounds_mm": [
+        [
+          -56.617647903267226,
+          -54.34902694219072,
+          -0.9468242380318017
+        ],
+        [
+          -17.665056538434406,
+          -9.692347788748325,
+          22.119519502239452
+        ]
+      ],
+      "original_shell_overlap_mm3": 0.0,
+      "upper_overlap_mm3": 0.0,
+      "added_upper_overlap_mm3": 0.0,
+      "lower_overlap_mm3": 0.0,
+      "outside_inner_footprint_mm3": 0.0
+    }
+  },
+  "top_insertion_added_overlap_mm3": [
+    0.0,
+    179.97221100505408,
+    214.4108591457937,
+    104.99754887985739,
+    52.19934287084921,
+    18.062026745388042,
+    11.994265725822405,
+    11.989951883374006,
+    11.35144400861502,
+    6.644118703334994,
+    0.41810762398864376,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "part_pair_overlap_mm3": {
+    "top_btu": 0.0,
+    "top_cover": 0.0,
+    "btu_cover": 9.450773497121645e-15
+  },
+  "original_mount_core_removed_mm3": 8.149134578944173e-17,
+  "horizontal_clearance_probe_mm": 0.5,
+  "parts_outside_inner_after_clearance_probe_mm3": {
+    "top": 0.0,
+    "btu": 0.0,
+    "cover": 0.0
+  },
+  "straight_normal_insertion_validated": false,
+  "validation_scope": "Static installed geometry only. The original shell also intersects a straight normal insertion; do not infer an insertion path from added-material overlap."
+}

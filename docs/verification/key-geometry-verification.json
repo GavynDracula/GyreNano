@@ -1,0 +1,571 @@
+{
+  "datum": "original STEP rotated X+90, translated Z+8; left mirrored X; all local dimensions mm",
+  "scope": "Written final STL versus official baseline mesh within rounded 16.8 mm functional switch lands, corner radius 1.5 mm (outside frame air is filled in V5) from -4 to +0.2 mm; relative keyboard geometry, not world height above desk",
+  "key_count": 35,
+  "max_center_xy_delta_mm": 0.0,
+  "max_bearing_plane_delta_mm": 1.730386667286865e-15,
+  "max_axis_delta_deg": 1.2074182697257333e-06,
+  "max_aperture_size_delta_mm": 0.0,
+  "keys": [
+    {
+      "side": "left",
+      "key": 0,
+      "reference_center_mm": [
+        99.5229989472023,
+        -34.839157897609226,
+        18.073989149043687
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.3245294578089215e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -2.822175879892844e-14,
+      "removed_mm3": 1.577371386557499e-14,
+      "pcb_added_interference_mm3": 1.624741522441323e-14
+    },
+    {
+      "side": "left",
+      "key": 1,
+      "reference_center_mm": [
+        1.7294073885889898,
+        -6.483440363011778,
+        13.830196547036033
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 4.5536491244391186e-17,
+      "axis_delta_deg": 8.537736462515939e-07,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 2.29119536952479e-16,
+      "removed_mm3": -1.6167622799068445e-15,
+      "pcb_added_interference_mm3": 0.0
+    },
+    {
+      "side": "left",
+      "key": 2,
+      "reference_center_mm": [
+        23.552227655013247,
+        26.485554937302066,
+        8.254076699626417
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.8598183308854465e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -5.599411852484754e-15,
+      "removed_mm3": -1.5512764683934714e-15,
+      "pcb_added_interference_mm3": 1.397166123690807e-16
+    },
+    {
+      "side": "left",
+      "key": 3,
+      "reference_center_mm": [
+        22.95489465510287,
+        47.74048755487561,
+        11.106729718479427
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.8775079522443625e-16,
+      "axis_delta_deg": 1.2074182697257333e-06,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -1.6426287028915026e-14,
+      "removed_mm3": -7.444007125092775e-14,
+      "pcb_added_interference_mm3": -6.511636059233809e-16
+    },
+    {
+      "side": "left",
+      "key": 4,
+      "reference_center_mm": [
+        23.200854066476435,
+        5.1782443465748225,
+        10.732311661832947
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.18110474374725e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.4522195521968776e-14,
+      "removed_mm3": -8.711002469206064e-15,
+      "pcb_added_interference_mm3": 7.609544098357082e-15
+    },
+    {
+      "side": "left",
+      "key": 5,
+      "reference_center_mm": [
+        64.20929100594336,
+        26.916610305452153,
+        19.18244206646395
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 7.681922322546133e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.429527905650074e-16,
+      "removed_mm3": -1.3462275458788128e-15,
+      "pcb_added_interference_mm3": 0.0
+    },
+    {
+      "side": "left",
+      "key": 6,
+      "reference_center_mm": [
+        63.15804226851866,
+        48.21699331452657,
+        21.5180696684461
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 3.9049593311729064e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 2.9994458561203523e-15,
+      "removed_mm3": -6.344370350568685e-15,
+      "pcb_added_interference_mm3": -1.2368192719025838e-15
+    },
+    {
+      "side": "left",
+      "key": 7,
+      "reference_center_mm": [
+        63.4005368821561,
+        5.655097034962909,
+        21.93209054443514
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 4.414541168209341e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 9.160288076840073e-14,
+      "removed_mm3": 2.3951697665855937e-15,
+      "pcb_added_interference_mm3": 0.0
+    },
+    {
+      "side": "left",
+      "key": 8,
+      "reference_center_mm": [
+        45.6902558530696,
+        30.117887214155918,
+        8.416180610898428
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.0002404454979995e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.2989145119295357e-14,
+      "removed_mm3": -3.1308289294429414e-14,
+      "pcb_added_interference_mm3": 5.551115123125783e-16
+    },
+    {
+      "side": "left",
+      "key": 9,
+      "reference_center_mm": [
+        44.8465707929042,
+        51.37281983172945,
+        11.20591742250034
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.8915614199793934e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -7.293763975783728e-16,
+      "removed_mm3": -9.194034402740732e-16,
+      "pcb_added_interference_mm3": -6.379377820268928e-15
+    },
+    {
+      "side": "left",
+      "key": 10,
+      "reference_center_mm": [
+        45.124226938285446,
+        8.81057662342863,
+        10.854360914783348
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 6.520969832965427e-17,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.649348839481359e-14,
+      "removed_mm3": -5.152894744907322e-14,
+      "pcb_added_interference_mm3": -3.858153619109624e-14
+    },
+    {
+      "side": "left",
+      "key": 11,
+      "reference_center_mm": [
+        1.8634514857044957,
+        14.777003974596363,
+        10.959284621560448
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 3.129229418895126e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -1.4724864031563014e-14,
+      "removed_mm3": 0.0,
+      "pcb_added_interference_mm3": 3.9427750509286256e-16
+    },
+    {
+      "side": "left",
+      "key": 12,
+      "reference_center_mm": [
+        1.517016610858009,
+        36.0792041631783,
+        13.481752964159014
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.3827154596782696e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.0802042902767258e-14,
+      "removed_mm3": -6.265924776630428e-15,
+      "pcb_added_interference_mm3": 1.873034220576623e-16
+    },
+    {
+      "side": "left",
+      "key": 13,
+      "reference_center_mm": [
+        83.46115669208585,
+        27.52740416709689,
+        27.07606807931329
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 8.518064543681112e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 4.0160303814982303e-14,
+      "removed_mm3": 2.7533531010703882e-14,
+      "pcb_added_interference_mm3": -4.694709756310114e-16
+    },
+    {
+      "side": "left",
+      "key": 14,
+      "reference_center_mm": [
+        82.17797638655905,
+        48.78378070247229,
+        29.68115952227469
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 5.551665694541498e-18,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -5.0896085486546947e-14,
+      "removed_mm3": -1.0782339629520403e-13,
+      "pcb_added_interference_mm3": 3.423535716458873e-14
+    },
+    {
+      "side": "left",
+      "key": 15,
+      "reference_center_mm": [
+        82.4482093743141,
+        6.221141145263939,
+        29.37469599879855
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 9.269928574751063e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.2678884139956068e-14,
+      "removed_mm3": -1.4340762932881042e-14,
+      "pcb_added_interference_mm3": 9.878945263826905e-17
+    },
+    {
+      "side": "left",
+      "key": 16,
+      "reference_center_mm": [
+        64.32477877044175,
+        -18.870065679078948,
+        37.18659930543506
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 3.6082544761849127e-17,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.0804468885140983e-13,
+      "removed_mm3": 1.9363268800699036e-05,
+      "pcb_added_interference_mm3": 1.692863253574923e-13
+    },
+    {
+      "side": "left",
+      "key": 17,
+      "reference_center_mm": [
+        83.97740527189094,
+        -25.574905814321337,
+        28.239392215602876
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 3.2229304203644384e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 3.027344385751187e-14,
+      "removed_mm3": 2.0286310409287465e-08,
+      "pcb_added_interference_mm3": -2.0623701202732003e-14
+    },
+    {
+      "side": "right",
+      "key": 0,
+      "reference_center_mm": [
+        -23.200854066476435,
+        5.1782443465748225,
+        10.732311661832949
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 4.0793106739767104e-18,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 6.783860828296563e-15,
+      "removed_mm3": 0.0,
+      "pcb_added_interference_mm3": 7.659474996531829e-15
+    },
+    {
+      "side": "right",
+      "key": 1,
+      "reference_center_mm": [
+        -45.124226938285446,
+        8.810576623428657,
+        10.854360914783342
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 4.508248158466288e-17,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 7.101171387617963e-16,
+      "removed_mm3": -1.4654076563314078e-15,
+      "pcb_added_interference_mm3": 5.551115123125783e-15
+    },
+    {
+      "side": "right",
+      "key": 2,
+      "reference_center_mm": [
+        -44.8465707929042,
+        51.37281983172945,
+        11.20591742250034
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.8214596497756474e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -3.908123334073613e-14,
+      "removed_mm3": 1.0658141036401503e-13,
+      "pcb_added_interference_mm3": -7.84051799226317e-15
+    },
+    {
+      "side": "right",
+      "key": 3,
+      "reference_center_mm": [
+        -63.158042268518656,
+        48.2169933145266,
+        21.51806966844611
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 7.467984564080155e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -1.3899340468513114e-14,
+      "removed_mm3": 1.4210854715202004e-14,
+      "pcb_added_interference_mm3": 1.6306400674181987e-16
+    },
+    {
+      "side": "right",
+      "key": 4,
+      "reference_center_mm": [
+        -22.95489465510287,
+        47.74048755487561,
+        11.106729718479427
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 4.345482307321902e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 6.644281198378667e-14,
+      "removed_mm3": -2.842170943040401e-14,
+      "pcb_added_interference_mm3": 6.6491815308919455e-15
+    },
+    {
+      "side": "right",
+      "key": 5,
+      "reference_center_mm": [
+        -99.27375137577438,
+        -35.049533522754686,
+        18.1822898000261
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.3010426069826053e-18,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -5.571487324298433e-16,
+      "removed_mm3": 9.559020242022598e-14,
+      "pcb_added_interference_mm3": 5.672762606878656e-15
+    },
+    {
+      "side": "right",
+      "key": 6,
+      "reference_center_mm": [
+        -82.4482093743141,
+        6.221141145263954,
+        29.374695998798547
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.1608149297636103e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -1.5450680570255536e-14,
+      "removed_mm3": -1.9539925233402755e-14,
+      "pcb_added_interference_mm3": 6.439293542825908e-15
+    },
+    {
+      "side": "right",
+      "key": 7,
+      "reference_center_mm": [
+        -83.72815770046324,
+        -25.785281439466903,
+        28.34769286658529
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.730386667286865e-15,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 8.258287956148131e-14,
+      "removed_mm3": 6.423592940115602e-16,
+      "pcb_added_interference_mm3": -2.0087801051466708e-13
+    },
+    {
+      "side": "right",
+      "key": 8,
+      "reference_center_mm": [
+        -83.46115669208585,
+        27.527404167096858,
+        27.076068079313288
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.0234868508263162e-15,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -5.397847040507558e-14,
+      "removed_mm3": 0.0,
+      "pcb_added_interference_mm3": 0.0
+    },
+    {
+      "side": "right",
+      "key": 9,
+      "reference_center_mm": [
+        -82.17797638655905,
+        48.78378070247231,
+        29.68115952227469
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.4536982728685643e-15,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -7.374832407635996e-14,
+      "removed_mm3": -2.2436913438284023e-14,
+      "pcb_added_interference_mm3": 0.0
+    },
+    {
+      "side": "right",
+      "key": 10,
+      "reference_center_mm": [
+        -45.69025585306961,
+        30.117887214155935,
+        8.41618061089843
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 9.82287168271867e-17,
+      "axis_delta_deg": 1.2074182697257333e-06,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 2.604467778679494e-15,
+      "removed_mm3": 0.0,
+      "pcb_added_interference_mm3": 2.572594914873605e-15
+    },
+    {
+      "side": "right",
+      "key": 11,
+      "reference_center_mm": [
+        -1.8634514857044955,
+        14.777003974596377,
+        10.95928462156045
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 9.269928574751063e-17,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 1.6578025446019974e-15,
+      "removed_mm3": -6.161737786669619e-15,
+      "pcb_added_interference_mm3": 1.6333878422990916e-15
+    },
+    {
+      "side": "right",
+      "key": 12,
+      "reference_center_mm": [
+        -1.5170166108580092,
+        36.0792041631783,
+        13.481752964159016
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 2.7582103268031233e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 4.260116537085563e-15,
+      "removed_mm3": -2.7977620220553945e-14,
+      "pcb_added_interference_mm3": -9.889116435457534e-15
+    },
+    {
+      "side": "right",
+      "key": 13,
+      "reference_center_mm": [
+        -1.7294073885889893,
+        -6.483440363011779,
+        13.830196547036035
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.4226595975493778e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 6.461895306769299e-15,
+      "removed_mm3": 1.6653345369377348e-15,
+      "pcb_added_interference_mm3": 3.774758283725532e-15
+    },
+    {
+      "side": "right",
+      "key": 14,
+      "reference_center_mm": [
+        -23.552227655013255,
+        26.485554937302137,
+        8.254076699626415
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 1.227316859253591e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": -1.8368259659650657e-14,
+      "removed_mm3": -5.329070518200751e-15,
+      "pcb_added_interference_mm3": 1.4130308975819053e-15
+    },
+    {
+      "side": "right",
+      "key": 15,
+      "reference_center_mm": [
+        -64.20929100594336,
+        26.916610305452195,
+        19.18244206646395
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 5.893723009631202e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 2.6335419400380498e-14,
+      "removed_mm3": 1.2434497875801753e-14,
+      "pcb_added_interference_mm3": -4.263950303950992e-15
+    },
+    {
+      "side": "right",
+      "key": 16,
+      "reference_center_mm": [
+        -63.400536882156096,
+        5.655097034962898,
+        21.932090544435148
+      ],
+      "center_xy_delta_mm": 0.0,
+      "bearing_plane_delta_mm": 7.638204305160379e-16,
+      "axis_delta_deg": 0.0,
+      "aperture_size_delta_mm": 0.0,
+      "added_mm3": 2.3973839712711917e-14,
+      "removed_mm3": 2.220446049250313e-16,
+      "pcb_added_interference_mm3": 0.0
+    }
+  ]
+}

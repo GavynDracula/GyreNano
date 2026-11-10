@@ -1,0 +1,73 @@
+# 洄流 · Gyre Nano
+
+[English](README.md) | **简体中文**
+
+基于 [BastardKB Charybdis Nano](https://github.com/Bastardkb/Charybdis) 的无线、热插拔分体轨迹球键盘外壳项目。保留熟悉的 3×5 键位曲面和拇指键布局，将原来的开放式结构改为圆润的封闭外壳，风格参考 Charybdis MK2。
+
+“洄流 / Gyre”呼应 Charybdis 的漩涡意象，Nano 代表紧凑布局。这是独立派生项目。
+
+![Gyre Nano 外壳模型渲染](pics/gyre-nano.png)
+
+**当前为开发快照：右上壳 V11；左上壳及左右底板 V7。** 几何检查和参考配置切片已通过，尚未完成实物打印及整机试装。图片为模型渲染。
+
+## 布局与兼容性
+
+- 每侧 3×5 主键区；左侧 3 个拇指键，右侧 2 个拇指键及 34 mm 轨迹球，共 35 键。
+- 主键区、拇指键和原轨迹球座的**安装位置与轴线关系保留**。左右基准分别为镜像 Skeletyl V4 `case_v4_103.stl` 和 Charybdis Nano `charybdisnano_v2_v187.stl`。[校验说明](docs/geometry.md)
+- 新外皮、拇指/球口之间的过渡、侧壁和底板是重新设计的；桌面以上高度不承诺与原版一致。
+- 目标硬件：Amoeba Royale 单轴 PCB、Kailh 热插拔座、通过排针安装的 nrfmicro、Elite-C-holder、ZMK。
+- 保留原 holder 安装基准，预留 Type-C 开口；底板螺丝座贴近外壁。
+- 电池仓专门优化和 nice!view 开窗待完成；本快照不包含可直接刷写的固件或完整电路方案。
+
+## 所需打印件
+
+打印文件位于 [`files/`](files/)，采用仅含几何的 **3MF**，单位为毫米，以 **100%** 比例导入切片器，不附带打印机配置或 G-code。左壳已镜像，无需再次镜像。
+
+| 零件 | 文件 |
+| --- | --- |
+| 右上壳 V11 | [gyre-nano-right-v11.3mf](files/3x5/gyre-nano-right-v11.3mf) |
+| 左上壳 V7 | [gyre-nano-left-v7.3mf](files/3x5/gyre-nano-left-v7.3mf) |
+| 右底板 V7 | [gyre-nano-right-bottom-v7.3mf](files/3x5/gyre-nano-right-bottom-v7.3mf) |
+| 左底板 V7 | [gyre-nano-left-bottom-v7.3mf](files/3x5/gyre-nano-left-bottom-v7.3mf) |
+| holder / USB 试装小样 | [right-holder-usb-fit.3mf](files/trials/right-holder-usb-fit.3mf) |
+| 球口 / 拇指试装小样 | [right-ball-thumb-fit.3mf](files/trials/right-ball-thumb-fit.3mf) |
+
+底板 STEP 也在 [`files/3x5/`](files/3x5/)，使用装配坐标；底板 3MF 使用贴床坐标。上壳目前提供网格模型，没有精确 B-rep STEP。
+
+轨迹球组件使用上游原件，以下版本已检查最终安装位置的静态配合：
+
+| 零件 | Charybdis 文件 |
+| --- | --- |
+| Nano adapter 上件 | [`adapter_v2_top_v75.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/3x5%20nano/adapter_v2_top_v75.stl) |
+| BTU adapter 下件 | [`adapter_btu_bottom_v32.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/mods/btu/adapter_btu_bottom_v32.stl) |
+| 传感器盖 | [`sensor_cover_v51.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/sensor_cover_v51.stl) |
+
+## FDM 打印与装配
+
+建议先打印两个小样，确认主控排针高度、USB 插头、嵌件孔及球口薄边。完整外壳与底板已有参考切片结果，但完整 adapter 的装入动作、拆支撑和实际制造公差仍需试装。球口局部下缘的径向材料弦长约 0.60 mm，是优先检查的薄处。
+
+[FDM 打印说明](docs/FDM-PRINTING.md) · [几何验证与限制](docs/geometry.md) · [装配指南（待补充）](docs/build-guide.md)
+
+## 电路、PCB 与固件
+
+[电子元件清单](electronics_bom.md)记录已选组件；数量、接线和电源方案待补充。[PCB](pcb/README.md) 与 [固件](firmware/README.md)目录先保留占位。
+
+## 仓库结构
+
+| 路径 | 内容 |
+| --- | --- |
+| `files/` | 当前打印模型、底板 STEP、模型哈希与精度回读记录 |
+| `pics/` | 当前外壳与小样的模型渲染 |
+| `docs/` | 打印说明、几何验证、开发说明及装配指南占位 |
+| `src/`、`parameters/` | 可编辑建模源和安装参数 |
+| `checks/`、`scripts/` | 几何校验、模型导出及开发工具 |
+| `references/` | 上游测量基准与必要的参考几何 |
+| `pcb/`、`firmware/` | 后续电路、PCB 与固件资料占位 |
+
+重建依赖和坐标约定见 [开发说明](docs/DEVELOPMENT.md)。历史归档、工作 STL、缓存和本机日志保留在本地，不纳入 Git。
+
+## 来源与许可
+
+机械设计派生自 BastardKB 及原作者的 [Charybdis](https://github.com/Bastardkb/Charybdis) 和 [Skeletyl](https://github.com/Bastardkb/Skeletyl)，沿用 **CC BY-NC-SA 4.0**。本项目的修改包括封闭外皮、过渡曲面、无线硬件安装结构和配套底板。
+
+[Elite-C-holder](https://github.com/Bastardkb/Elite-C-holder)、[Amoeba Royale](https://github.com/mtl/keyboard-pcbs/tree/master/amoeba-royale) 和 [ZMK](https://github.com/zmkfirmware/zmk) 保留各自作者归属及许可。详见 [许可范围](LICENSE.md) 和 [来源记录](docs/ATTRIBUTION.md)。

@@ -1,0 +1,28 @@
+{
+  "ball_diameter_mm": 34,
+  "probe_diameter_mm": 35.2,
+  "axis_origin_mm": [
+    -49.7884582778934,
+    -32.0372274373079,
+    32.66025394843741
+  ],
+  "axis_direction": [
+    -0.4999999999999999,
+    9.614813431917822e-17,
+    0.8660254037844388
+  ],
+  "sphere_center_path_axial_mm": [
+    -3,
+    80
+  ],
+  "minimum_shell_axis_distance_mm": 17.648670987460893,
+  "minimum_radial_margin_for_34mm_ball_mm": 0.6486709874608927,
+  "closest_case_point_mm": [
+    -65.9170488349921,
+    -26.707223801517326,
+    26.946622934667253
+  ],
+  "continuous_capsule_upper_interference_mm3": 0.0,
+  "scope": "Upper enclosure and thumb region for insertion along original inclined ball axis. Original adapter bearing contact and adapter installation motions are separate.",
+  "method": "Continuous capsule boolean plus analytic minimum over projected triangle interiors/edges, not discrete ball poses."
+}

@@ -1,0 +1,73 @@
+# Gyre Nano · 洄流
+
+**English** | [简体中文](README.zh-CN.md)
+
+A wireless, hot-swap split trackball keyboard enclosure derived from [BastardKB Charybdis Nano](https://github.com/Bastardkb/Charybdis). It keeps the familiar 3×5 keywell and thumb layout while replacing the open frame with a rounded, closed enclosure inspired by Charybdis MK2.
+
+“Gyre / 洄流” echoes the swirling water of Charybdis; Nano denotes the compact layout. This is an independent derivative project.
+
+![Gyre Nano enclosure render](pics/gyre-nano.png)
+
+**Development snapshot: right upper V11; left upper and both bottom trays V7.** Geometry checks and reference-profile slicing have passed. Physical printing and complete assembly validation are pending. Images are model renders.
+
+## Layout and compatibility
+
+- 3×5 main keys per half; three left thumb keys, two right thumb keys and a 34 mm trackball: 35 keys total.
+- **Mounting positions and relative axes of the main keys, thumb keys and original trackball seat are preserved.** Baselines are mirrored Skeletyl V4 `case_v4_103.stl` on the left and Charybdis Nano `charybdisnano_v2_v187.stl` on the right. [Verification details](docs/geometry.md)
+- The outer skin, thumb/ball transitions, sidewalls and bottom trays are redesigned. Height above the desk is not claimed identical to the original.
+- Intended hardware: Amoeba Royale single-switch PCBs, Kailh hot-swap sockets, header-mounted nrfmicro, Elite-C-holder and ZMK.
+- Original holder mounting datums, a Type-C opening and bottom screw bosses adjacent to the sidewalls.
+- Dedicated battery accommodation and a nice!view window remain planned. This snapshot does not include ready-to-flash firmware or a complete circuit design.
+
+## Required prints
+
+Print files are in [`files/`](files/) as **geometry-only 3MF**, in millimetres. Import at **100% scale** using your own printer profile; no printer settings or G-code are embedded. The left case is already mirrored.
+
+| Part | File |
+| --- | --- |
+| Right upper V11 | [gyre-nano-right-v11.3mf](files/3x5/gyre-nano-right-v11.3mf) |
+| Left upper V7 | [gyre-nano-left-v7.3mf](files/3x5/gyre-nano-left-v7.3mf) |
+| Right bottom V7 | [gyre-nano-right-bottom-v7.3mf](files/3x5/gyre-nano-right-bottom-v7.3mf) |
+| Left bottom V7 | [gyre-nano-left-bottom-v7.3mf](files/3x5/gyre-nano-left-bottom-v7.3mf) |
+| Holder / USB fit trial | [right-holder-usb-fit.3mf](files/trials/right-holder-usb-fit.3mf) |
+| Ball / thumb fit trial | [right-ball-thumb-fit.3mf](files/trials/right-ball-thumb-fit.3mf) |
+
+Bottom STEP files are also in [`files/3x5/`](files/3x5/), in assembly coordinates; bottom 3MF files use bed coordinates. Upper cases are mesh models, without exact B-rep STEP exports.
+
+Use the original upstream trackball components below. Their final installed positions have been checked for static fit:
+
+| Part | Charybdis file |
+| --- | --- |
+| Nano adapter top | [`adapter_v2_top_v75.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/3x5%20nano/adapter_v2_top_v75.stl) |
+| BTU adapter bottom | [`adapter_btu_bottom_v32.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/mods/btu/adapter_btu_bottom_v32.stl) |
+| Sensor cover | [`sensor_cover_v51.stl`](https://github.com/Bastardkb/Charybdis/blob/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a/files/sensor_cover_v51.stl) |
+
+## FDM printing and assembly
+
+Print the two trials first to check controller header height, USB access, insert fit and the thin ball-opening skirt. Full cases and trays have passed reference slicing, but the complete adapter installation motion, support removal and manufacturing tolerances still need a physical trial. A local lower edge near the ball opening has a radial material chord of about 0.60 mm and deserves particular attention.
+
+[FDM printing notes](docs/printing.md) · [Geometry checks and limits](docs/geometry.md) · [Build guide (TBD)](docs/build-guide.md)
+
+## Electronics, PCB and firmware
+
+The [electronics BOM](electronics_bom.md) lists selected components; quantities, wiring and the power circuit remain to be documented. [PCB](pcb/README.md) and [firmware](firmware/README.md) directories are placeholders.
+
+## Repository layout
+
+| Path | Contents |
+| --- | --- |
+| `files/` | Current prints, bottom STEP files, model hashes and mesh round-trip results |
+| `pics/` | Renders of the enclosure and trial parts |
+| `docs/` | Printing, geometry verification, development notes and build-guide placeholder |
+| `src/`, `parameters/` | Editable modeling sources and hardware parameters |
+| `checks/`, `scripts/` | Geometry checks, model export and development tools |
+| `references/` | Upstream measurement datums and required reference geometry |
+| `pcb/`, `firmware/` | Placeholders for future electronics and firmware documentation |
+
+See [development notes](docs/DEVELOPMENT.md) for dependencies and coordinate conventions. Historical archives, working STL exports, caches and machine logs stay local and are excluded from Git.
+
+## Attribution and license
+
+Mechanical designs derive from [Charybdis](https://github.com/Bastardkb/Charybdis) and [Skeletyl](https://github.com/Bastardkb/Skeletyl) by BastardKB and their original contributors, under **CC BY-NC-SA 4.0**. Changes here include the closed skin, blended transitions, wireless hardware accommodation and matching bottom trays.
+
+[Elite-C-holder](https://github.com/Bastardkb/Elite-C-holder), [Amoeba Royale](https://github.com/mtl/keyboard-pcbs/tree/master/amoeba-royale) and [ZMK](https://github.com/zmkfirmware/zmk) retain their respective authorship and licenses. See [license scope](LICENSE.md) and [source records](docs/ATTRIBUTION.md).

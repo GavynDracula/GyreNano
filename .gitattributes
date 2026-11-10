@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.3mf binary
+*.stl binary
+*.npz binary
+*.png binary
+*.step -diff
+# Keep the upstream license verbatim, including its final blank line.
+references/amoeba-LICENSE.txt whitespace=-blank-at-eof

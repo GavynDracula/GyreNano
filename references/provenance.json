@@ -1,0 +1,13 @@
+{
+  "references/right-mount-centers.json": "6a2d8800a0a025e07d07946069bb5a1c81e6d32ac137d79e8f04c62babd36d5e",
+  "references/skeletyl-v4-v99.step": "f3301909ee2d96a002ec7d0d8254379d5846c98c1c38723b74a6f02bb73f344a",
+  "references/amoeba-royale.kicad_pcb": "127755787c57ba13a0c6d2251828938156d6a11baa0335599231fef1f78b2af0",
+  "references/left-mesh-reliefs.json": "540a89c5312ceb0aee5ec6195812bd5d722e634da475c35fb5d3cd732ca3c291",
+  "references/amoeba-LICENSE.txt": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01",
+  "references/left-mount-centers.json": "09ff3201dd94df9ab16a30f0717258a9155855f336ed0c636a1ebd324ccc9afb",
+  "references/trackball-opening-tool.stl": "25199d00fac917175e1ebc97f041617bed8d80a0ebbd3cec2308ea19496ff6da",
+  "references/left-switch-planes.json": "aed53ecc209c215cb301ffd83f33bc8e66ff57ce91a235e1b84bb5d486aa1b69",
+  "references/skeletyl-v4-103.stl": "08eb45ae4cd48fe7a7f6c71a8852e789c82c933eb65a86534269ad7300bd036c",
+  "references/right-switch-planes.json": "2b77e64026632325bc26b365839ea6f592da2541c491c171e7951375a87ac28d",
+  "references/right-mesh-reliefs.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

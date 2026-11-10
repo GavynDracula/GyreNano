@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "scope": "Slicer toolpath generation with a reference profile. Not a physical fit test or a printer-specific production job. No 3MF thumbnail export: macOS GUI registration previously aborted headless runs.",
+  "config_sha256": {
+    "machine": "65af21967f435e5b036f1b56aef53b771f12e9cb7b68e12b26e2cff2a5243707",
+    "process": "9c3ed9b88910b1080dc76e179bac698e583e974a0401c38d17561e55f7021b01",
+    "filament": "ad8b8a2dd89a00f04318855414c76453a67e9f19faa90212a982fb94622862c9"
+  },
+  "results": [
+    {
+      "model": "files/3x5/gyre-nano-left-bottom-v7.3mf",
+      "model_sha256": "f777f69e3dc97cc71da9ad18b98ffa254d50d4169003fa5312bb2ef53983dc73",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": false,
+      "estimated_model_time": "53m 49s",
+      "estimated_weight_g": "34.41",
+      "layers": "37",
+      "warnings": [
+        "[2026-11-10 11:02:34.265143] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:34.287066] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:34.480751] [0x000000016d73f000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-10 11:02:34.485725] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    },
+    {
+      "model": "files/3x5/gyre-nano-left-v7.3mf",
+      "model_sha256": "a2276f6e3a77c801185b1a01672c76eecce647b614ca5c6a6c4ed312cb2350e0",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": true,
+      "estimated_model_time": "4h 53m 45s",
+      "estimated_weight_g": "81.77",
+      "layers": "213",
+      "warnings": [
+        "[2026-11-10 11:02:34.265144] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:34.674474] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:36.489275] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-10 11:02:38.423718] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    },
+    {
+      "model": "files/3x5/gyre-nano-right-bottom-v7.3mf",
+      "model_sha256": "ca170c62647d9d0bf87acd0f6863e68932632d583f4de236c6afdb795fdd7a9e",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": false,
+      "estimated_model_time": "58m 18s",
+      "estimated_weight_g": "37.76",
+      "layers": "37",
+      "warnings": [
+        "[2026-11-10 11:02:34.713613] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:34.724900] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:34.962346] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    },
+    {
+      "model": "files/3x5/gyre-nano-right-v11.3mf",
+      "model_sha256": "19e995101712373ce0b8aaf6153958be45483dc810af5760e4c0535924f75bb6",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": true,
+      "estimated_model_time": "5h 20m 22s",
+      "estimated_weight_g": "91.20",
+      "layers": "237",
+      "warnings": [
+        "[2026-11-10 11:02:35.232981] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:35.715871] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:37.637434] [0x0000000171823000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-10 11:02:37.639995] [0x000000016ffdb000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-10 11:02:37.723756] [0x000000016ffdb000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-10 11:02:37.816772] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-10 11:02:39.817605] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    },
+    {
+      "model": "files/trials/right-ball-thumb-fit.3mf",
+      "model_sha256": "8e2b45df33ea89b4b57f53d81eaa8848a171d79690c442919b5b363c0e087b4b",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": true,
+      "estimated_model_time": "1h 56m 12s",
+      "estimated_weight_g": "30.66",
+      "layers": "237",
+      "warnings": [
+        "[2026-11-10 11:02:49.103663] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:49.201911] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:49.711122] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-10 11:02:50.243827] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    },
+    {
+      "model": "files/trials/right-holder-usb-fit.3mf",
+      "model_sha256": "405a6bcf785b55e4a1970cb69a47067551dfff2aabfbb5d9e46f2f92d316e32c",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "reference_profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer",
+      "wall_generator": "classic",
+      "support_enabled": true,
+      "estimated_model_time": "19m 22s",
+      "estimated_weight_g": "5.42",
+      "layers": "65",
+      "warnings": [
+        "[2026-11-10 11:02:50.801570] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-10 11:02:50.817329] [0x00000001f99f98c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-10 11:02:50.905862] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-10 11:02:51.026769] [0x00000001f99f98c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ]
+    }
+  ]
+}

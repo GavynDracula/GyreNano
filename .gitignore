@@ -1,0 +1,46 @@
+# Local engineering products and historical evidence remain on disk.
+/exports/
+/archive/
+/previews/
+/reports/
+/PROGRESS.md
+/docs/local-engineering-notes.md
+/docs/design-history-through-v11.md
+/docs/pause-*
+# Regenerable dense envelopes and local historical regression fixtures.
+/references/*-rounded-envelope.stl
+/references/regression/*.stl.gz
+# Superseded generated hardware. V6 PCB/plug references are still used by checks.
+/references/*-holder-support-v6.stl
+/references/*-mount-bores-v6.stl
+/references/*-upper-features-v6.stl
+/references/*-usb-cut-v6.stl
+# Upstream repositories and PCB sources are linked, not republished here.
+/references/Elite-C-holder/
+/references/amoeba-royale.kicad_pcb
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.blend1
+*.gcode
+
+# Delivery archives and extracted duplicates, including copies outside exports/.
+*.zip
+*-fdm-trial-pack/
+__MACOSX/
+._*
+
+# Local environments, tool caches and editor scratch files.
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
