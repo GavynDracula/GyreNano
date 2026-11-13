@@ -1,0 +1,57 @@
+{
+  "archive": "GyreNano-EngineeringSnapshot-20261113.tar.gz",
+  "sha256": "9d6422596bbbffff9a00e2b6aac1937ce340d9781d717369f6b474536cf597b5",
+  "size_bytes": 628927431,
+  "parts": [
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part01",
+      "sha256": "e80c7c62e9816245b6117d8e274c98774375576d6a44096824ed26a0f676a707",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part02",
+      "sha256": "ff6a22d4a2fd06bc8cdbcfda744bb477488c8c47393f9f83aec4e070f3397cc4",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part03",
+      "sha256": "6cf5b258e4f5e8821aecaff7c094e3ac9a7ef3f15556b935484a2c691b44f0a1",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part04",
+      "sha256": "fa15af806a97e8b8ea1daaec30433da39973bc9a7d6b17fb2209a7d3ff4e3998",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part05",
+      "sha256": "1f9cce2cd90824c366f61d3a97eeb0e34aaf93fc57a77ece06366c3c7c6f53f5",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part06",
+      "sha256": "408a7b20d99d6477d9b3ca5a45fd28b735eb2d1bc506d54c39227b4f0a3b0a9d",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part07",
+      "sha256": "5a9c78b4d2827737e5ba235f1dea6f6d57c6695778b3d6de882ef881d7d0b905",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part08",
+      "sha256": "d5c1252dfeb20a579a1de06eba004a07fdac6ed2f73f6cb98f266eb8826bc68b",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part09",
+      "sha256": "7a4bb2d5fcae1e9fa6666e4135ff06d7579f8d255cb4cc34f927ada109e63919",
+      "size_bytes": 67108864
+    },
+    {
+      "name": "GyreNano-EngineeringSnapshot-20261113.tar.gz.part10",
+      "sha256": "582cc4e389afd9aa53c905c1d7e3278e66d0cdb04e69d9997430e6fdac6617c7",
+      "size_bytes": 24947655
+    }
+  ]
+}

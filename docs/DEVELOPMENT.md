@@ -69,8 +69,18 @@ Upper meshes use the assembly datum. Baseline bottom meshes use a bed datum: tra
 
 Current KiCad/EDA sources are under `pcb/keyfield-fr4`, `pcb/keyfield-fpc`, `pcb/holders` and `pcb/sensor`, with local/embedded libraries. Holder/sensor EDA projects contain corrected mask openings; their KiCad projects are older reference artwork.
 
-Cross-version PCB scripts and locked inputs are in the optional [engineering snapshot](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz). Its checksum is in [cleanup.json](releases/cleanup.json). Local copy: `.local/GyreNano-EngineeringSnapshot-20261113.tar.gz`, excluded from Git.
+Cross-version PCB scripts and locked inputs are in the optional [engineering snapshot](https://github.com/GavynDracula/GyreNano/releases/tag/v0.2.0-prototype.1). Its checksum is in [cleanup.json](releases/cleanup.json). Local copy: `.local/GyreNano-EngineeringSnapshot-20261113.tar.gz`, excluded from Git.
 
 Extract into an **empty separate workspace**, never over this checkout. It preserves the pre-cleanup layout, with `SNAPSHOT-SHA256.json`, scripts, native projects, reports, references and working exports. It intentionally predates the top-level reorganization. Some generated scripts embed the old absolute path: regenerate their preparation stage or adjust that path in the restored copy. Python/CAD environments and the sibling Charybdis checkout remain external. This is provenance, not a one-command portable rebuild claim.
 
 The old large backup ZIP, extracted duplicates, loose chronological PCB directories and runtime debris were removed. The local progress journal is `.local/PROGRESS.md`. [Release notes](releases/v0.2.0-prototype.1.md) and migration manifests describe both cleanup steps.
+
+## Resume-safe snapshot download
+
+The large optional archive is distributed as ten 64 MiB-or-smaller parts after the original single-file upload was interrupted. To download, resume and combine them with per-part and complete SHA-256 verification:
+
+```sh
+python3 development/scripts/restore_snapshot.py --output /tmp/GyreNano-EngineeringSnapshot-20261113.tar.gz
+```
+
+The helper caches verified parts in the system temporary directory and does not extract the archive. If parts were downloaded manually, add `--parts-dir /path/to/parts`. The original complete archive hash is unchanged. [Part manifest](releases/snapshot-parts.json). Daily printing and PCB ordering do not need this snapshot.

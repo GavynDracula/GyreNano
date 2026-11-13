@@ -18,4 +18,4 @@ holder/sensor 的 `reference-kicad/` 仅保留旧设计来源；其中部分通�
 
 当前等待实物折弯、焊接、承托和整机装配验证；尚不是量产放行版。0.4/0.8 mm 仅讨论过，文件仍是 0.6 mm。厂家审核与优惠资格以实际订单为准。
 
-旧版生成脚本及跨版本依赖集中封存在 [工程快照](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz)；恢复说明见 [开发文档](../docs/DEVELOPMENT.md)。
+旧版生成脚本及跨版本依赖集中封存在 [工程快照](https://github.com/GavynDracula/GyreNano/releases/tag/v0.2.0-prototype.1)；恢复说明见 [开发文档](../docs/DEVELOPMENT.md)。

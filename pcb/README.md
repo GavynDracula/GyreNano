@@ -18,4 +18,4 @@ Holder/sensor `reference-kicad/` directories retain the older artwork for tracea
 
 All order ZIPs are engineering samples, not a qualified production release. Coupon eligibility and vendor classification are not established by this repository. Source board thicknesses have not been changed to 0.4 or 0.8 mm.
 
-The old numbered experiment directories are removed from the working tree. Cross-version generation scripts, inputs and historical evidence are preserved in the [engineering snapshot](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz); see [development notes](../docs/DEVELOPMENT.md).
+The old numbered experiment directories are removed from the working tree. Cross-version generation scripts, inputs and historical evidence are preserved in the [engineering snapshot](https://github.com/GavynDracula/GyreNano/releases/tag/v0.2.0-prototype.1); see [development notes](../docs/DEVELOPMENT.md).
