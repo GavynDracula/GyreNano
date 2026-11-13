@@ -1,96 +1,76 @@
-# Development snapshot
+# Development and reproduction
 
-Printing requires only the files in `files/`. Rebuilding and running checks use
-the sources and upstream references below. This is an archived development
-pipeline, not a single-command parametric keyboard generator.
+The repository has four public entry directories:
 
-## Environment
+| Directory | Purpose |
+| --- | --- |
+| `files/` | Printable geometry and supporting checks |
+| `pcb/` | Current editable PCB projects and sample packages |
+| `docs/` | Documentation, images and release evidence |
+| `development/` | Enclosure sources, parameters, reference geometry and tools |
 
-Use a Python environment with `numpy`, `scipy`, `trimesh`, `manifold3d`, `rtree`,
-`matplotlib` and `Pillow`. The measured snapshot used Python 3.13 and versions
-listed in [the environment record](verification/environment.json).
-CAD hardware generation additionally requires build123d; rendering uses Blender;
-reference slicing uses the Bambu Studio macOS application.
+## Current delivery verification
 
-`scripts/run_python.sh` uses `GYRE_PYTHON` if set, then `.venv/bin/python`, then an
-existing local CAD-support environment, then `python3`. It does not install tools.
-For a project-local environment:
+From the repository root, using standard Python only:
 
 ```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install numpy scipy trimesh manifold3d rtree matplotlib Pillow
-bash scripts/run_python.sh scripts/restore_working_models.py
+python3 development/scripts/verify_delivery.py
 ```
 
-Restoration creates ignored working STL files from the published 3MF models and
-keeps existing files. Coordinates are preserved; ASCII serialization and therefore
-file hashes may differ from the original STL. It also restores bottom STEP files.
+This checks delivery hashes and ZIP/3MF integrity, not physical fit or manufacturing approval.
 
-## Upstream inputs and checks
+## Enclosure development environment
 
-Place a checkout of [Charybdis](https://github.com/Bastardkb/Charybdis/tree/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a)
-at `../Charybdis`, using commit `47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a`.
-The scripts refer to this sibling path. The required Skeletyl mesh is included in
-`references/`; its source and hash are documented in [attribution](ATTRIBUTION.md).
+Use Python with `numpy`, `scipy`, `trimesh`, `manifold3d`, `rtree`, `matplotlib` and `Pillow`. Baseline versions are in [verification/environment.json](verification/environment.json). Exact CAD work additionally needs build123d; rendering needs Blender. Use the relevant CAD backend for model changes.
 
-After restoring working models:
+`development/scripts/run_python.sh` selects `GYRE_PYTHON`, then `development/.venv/bin/python`, then the existing local CAD-support environment, then `python3`. It installs nothing. The wrapper changes its working directory to `development/` and sets `GYRE_PROJECT_ROOT` there. Script arguments are relative to `development/`:
 
 ```sh
-bash scripts/run_python.sh checks/verify_relative_layout.py
-bash scripts/run_python.sh checks/verify_trackball_v11.py
-bash scripts/run_python.sh checks/verify_ball34_v11.py
+python3 -m venv development/.venv
+development/.venv/bin/python -m pip install numpy scipy trimesh manifold3d rtree matplotlib Pillow
+bash development/scripts/run_python.sh scripts/restore_working_models.py
+bash development/scripts/run_python.sh checks/verify_relative_layout.py
 ```
 
-The broader local `scripts/check_all.py` suite also uses historical V7–V10
-regression meshes in `references/regression/*.stl.gz`. They remain in the local
-archive and are excluded from Git; that full historical suite is not available
-from a fresh clone alone. Current measurement evidence is in `docs/verification/`.
+Restoration reads six published baseline 3MF files from `files/`, creates ignored working STLs in `development/exports/`, preserves existing files and restores bottom STEP files. Coordinates remain unchanged, but ASCII STL serialization may differ from historical hashes.
 
-## Modeling and export
+Place the [Charybdis checkout](https://github.com/Bastardkb/Charybdis/tree/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a) at `../Charybdis` relative to this repository, pinned to commit `47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a`. Skeletyl geometry is under `development/references/`; see [attribution](ATTRIBUTION.md).
 
-- Right upper: run `src/fair_envelope_v9.py right`, then `src/mesh_v11.py`.
-- Left upper: run `src/fair_envelope_v7.py left`, then `src/mesh_v7.py`.
-- Hardware/bottom sources: `src/generate_hardware_v7.py` embeds the current
-  parameters into `src/hardware_v7.py` and `src/bottoms_v7.py`; these are build123d
-  programs. Inspect and validate the CAD objects before exporting changed parts.
-- Dense `references/*-rounded-envelope.stl` files are regenerated locally.
-- Publish unchanged working meshes with `scripts/export_public_models.py`.
-  It verifies coordinate and triangle-index equality after a 3MF XML round trip.
-- `scripts/slice_fdm_review.py --public-3mf` checks all six public models with
-  the supplied reference profiles. G-code and application state stay temporary.
+Further checks use the same wrapper:
 
-Run each Python command through `bash scripts/run_python.sh`. For CAD/Blender
-backends that execute source text without `__file__`, set `GYRE_PROJECT_ROOT` to
-the checkout's absolute directory or run with that directory as the working
-directory. Rendering scripts have scene prerequisites; inspect the active scene
-before running them. Renders do not validate manufacturing fit.
+```sh
+bash development/scripts/run_python.sh checks/verify_trackball_v11.py
+bash development/scripts/run_python.sh checks/verify_ball34_v11.py
+```
 
-Some maintenance scripts, including `package_delivery.py`, need the local archive
-and logs. They are retained for ongoing work, not needed to print this snapshot.
+`development/scripts/check_all.py` also needs V7–V10 meshes in `development/references/regression/*.stl.gz`. Those large fixtures remain local and in the snapshot, not in a normal clone. Delivery-hash verification does not rerun the whole historical suite.
+
+## Enclosure modeling
+
+The following paths are relative to `development/`:
+
+- Right upper baseline: `src/fair_envelope_v9.py right`, then `src/mesh_v11.py`.
+- Left upper baseline: `src/fair_envelope_v7.py left`, then `src/mesh_v7.py`.
+- Hardware/bottoms: `src/generate_hardware_v7.py` prepares the `src/hardware_v7.py` and `src/bottoms_v7.py` build123d programs.
+- `scripts/export_public_models.py` publishes baseline 3MF files to the repository's `files/` directory and verifies coordinate/triangle equality. It overwrites those files; use only after a reviewed model change.
+- For backends executing source without `__file__`, set `GYRE_PROJECT_ROOT` to the absolute **development directory**, or use that as their working directory. Inspect the model before export.
+
+Working exports, reports, previews and regenerated dense envelopes stay under `development/` and are ignored. Renders do not validate manufacturing fit. The archive-dependent `package_delivery.py` was removed from active tools and is retained only in the historical snapshot.
+
+The historical slicing script remains available but was **not run for this release**. Users slice the supplied geometry themselves; no printer profile or G-code is part of the current delivery.
 
 ## Coordinates
 
-All engineering dimensions are millimetres. Original right mesh `(x,y,z)` becomes
-`(x, 70.01831113-z, y+8)`; left becomes `(x,-z,y+8)` and is then mirrored in X.
-This is a rigid coordinate conversion, not a change to relative key positions.
+All engineering dimensions are millimetres. Original right mesh `(x,y,z)` becomes `(x, 70.01831113-z, y+8)`; left becomes `(x,-z,y+8)` and is then mirrored in X. This rigid conversion does not change relative key positions.
 
-Upper-case meshes use the assembly datum. Bottom meshes use their own bed datum:
-translate them by **Z = −7.3 mm** to assemble. Bottom STEP files already use assembly
-coordinates. `assembly.scad` reads the restored working STL files; the separation
-between halves in its preview is arbitrary and does not specify typing posture.
+Upper meshes use the assembly datum. Baseline bottom meshes use a bed datum: translate **Z = −7.3 mm** for assembly. Bottom STEP files already use assembly coordinates. `development/assembly.scad` reads restored meshes; its separation between hands is arbitrary.
 
-## Git scope
+## PCB sources and historical engineering snapshot
 
-`files/` and `pics/` are the public deliverables. `.gitignore` excludes working
-exports, previews, local logs, historical archives, personal progress notes,
-nested upstream checkouts and generated dense envelopes. Disposable historical exports were removed during the 2026-11-13 cleanup. The cross-version PCB pipeline is preserved in the release snapshot described below.
+Current KiCad/EDA sources are under `pcb/keyfield-fr4`, `pcb/keyfield-fpc`, `pcb/holders` and `pcb/sensor`, with local/embedded libraries. Holder/sensor EDA projects contain corrected mask openings; their KiCad projects are older reference artwork.
 
-## PCB development snapshot and current sources
+Cross-version PCB scripts and locked inputs are in the optional [engineering snapshot](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz). Its checksum is in [cleanup.json](releases/cleanup.json). Local copy: `.local/GyreNano-EngineeringSnapshot-20261113.tar.gz`, excluded from Git.
 
-Current editable KiCad/EDA projects live in `pcb/keyfield-fr4`, `pcb/keyfield-fpc`, `pcb/holders` and `pcb/sensor`. Their project-local footprint libraries travel with them. Native PCB/schematic/CAM data was not changed by the reorganization. Holders and sensor use EDA as the corrected source; their older KiCad versions are explicitly reference-only.
+Extract into an **empty separate workspace**, never over this checkout. It preserves the pre-cleanup layout, with `SNAPSHOT-SHA256.json`, scripts, native projects, reports, references and working exports. It intentionally predates the top-level reorganization. Some generated scripts embed the old absolute path: regenerate their preparation stage or adjust that path in the restored copy. Python/CAD environments and the sibling Charybdis checkout remain external. This is provenance, not a one-command portable rebuild claim.
 
-The historical generated PCB pipeline is frozen as a separate archive because it references many older revisions by path and SHA-256. It is not installed alongside the current projects. Download [GyreNano-EngineeringSnapshot-20261113.tar.gz](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz) from the pre-release and verify the checksum in [cleanup.json](releases/cleanup.json). Local copy: `.local/GyreNano-EngineeringSnapshot-20261113.tar.gz` (ignored by Git).
-
-Extract into an **empty separate workspace**, never over this checkout. `SNAPSHOT-SHA256.json` covers each retained input. It includes original PCB scripts/projects/reports, mechanical inputs, reference geometry, original enclosure scripts and working exports. Dependencies such as Python, KiCad, CAD tools and the sibling Charybdis checkout remain external. Some historical generated scripts embed the original absolute workspace path: regenerate their preparation stage or adjust that path in the restored copy before execution. The frozen archive is provenance, not a claim of a one-command portable rebuild.
-
-Discarded loose files include the old large pre-print backup ZIP, extracted delivery duplicates, previews, runtime logs, Blender autosaves and caches. The local detailed progress journal is now `.local/PROGRESS.md`. Current status is summarized in the release notes. New development should use the component-based projects; restore the historical workspace only when a specific generator/reference check is needed.
+The old large backup ZIP, extracted duplicates, loose chronological PCB directories and runtime debris were removed. The local progress journal is `.local/PROGRESS.md`. [Release notes](releases/v0.2.0-prototype.1.md) and migration manifests describe both cleanup steps.

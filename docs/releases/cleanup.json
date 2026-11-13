@@ -13,5 +13,12 @@
   "pcb_thickness_changed": false,
   "old_pcb_directories": 37,
   "new_pcb_directories": 5,
-  "tracked_delivery_manifest": "delivery-sha256.json"
+  "tracked_delivery_manifest": "delivery-sha256.json",
+  "root_layout": [
+    "files",
+    "pcb",
+    "docs",
+    "development"
+  ],
+  "root_layout_details": "root-layout-migration.json"
 }

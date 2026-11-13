@@ -8,7 +8,7 @@ The 3MF files preserve every vertex coordinate and triangle index from the
 working STL meshes; no global smoothing, resizing or hole enlargement was applied
 for publication. [File manifest](../files/manifest.json)
 
-![Trial geometry; orange marks cropped faces](../pics/fdm-trials.png)
+![Trial geometry; orange marks cropped faces](images/fdm-trials.png)
 
 The left sample in the image covers the ball/thumb region; the right sample
 covers the holder and USB opening. Orange faces are crop boundaries. Cropping

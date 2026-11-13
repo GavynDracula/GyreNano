@@ -7,5 +7,5 @@ trials; a complete wiring and assembly sequence is not yet documented.
 
 - [Print files / 打印文件](../files/)
 - [Printing notes](printing.md) / [中文打印说明](FDM-PRINTING.md)
-- [Selected electronics / 已选电子元件](../electronics_bom.md)
+- [Selected electronics / 已选电子元件](BOM.md)
 - [Geometry verification / 几何校验](geometry.md)

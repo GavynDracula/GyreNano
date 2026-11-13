@@ -7,7 +7,7 @@ import hashlib
 import json
 import zipfile
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 manifest = json.loads((ROOT / 'docs/releases/delivery-sha256.json').read_text())
 for relative, expected in manifest.items():
     path = ROOT / relative

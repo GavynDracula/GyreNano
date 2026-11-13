@@ -1,7 +1,7 @@
 """Re-run current engineering checks; keep verbose evidence in reports/check-logs."""
 from pathlib import Path
 import concurrent.futures,json,subprocess,sys,time
-R=Path(__file__).resolve().parents[1];logs=R/'reports/check-logs';logs.mkdir(exist_ok=True)
+R=Path(__file__).resolve().parents[1];logs=R/'reports/check-logs';logs.mkdir(parents=True,exist_ok=True)
 names=['verify_keys.py','verify_assembly.py','verify_hardware_v7.py','verify_roof.py','verify_lower_connectivity_v7.py','verify_inner_window_v11.py','verify_junction_v11.py','verify_ball_rim_v11.py','verify_trackball_v11.py','verify_ball34_v11.py','verify_partition_v11.py']
 def check(name):
  start=time.monotonic();log=logs/(name+'.log')

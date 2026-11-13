@@ -12,13 +12,13 @@ origin=c+3*n+.042995*x-.016768*z
 T=np.eye(4);T[:3,:]=np.column_stack((x,n,z,origin))
 upper=manifold(trimesh.load(ROOT/'exports/right-closed-v11.stl'))
 lower=manifold(trimesh.load(ROOT/'exports/right-bottom-development.stl')).translate((0,0,-7.3))
-m=trimesh.load(ROOT.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl');v=m.vertices.copy();m.vertices=np.column_stack((v[:,0],70.01831113-v[:,2],v[:,1]+8));original=manifold(m)
+m=trimesh.load(ROOT.parent.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl');v=m.vertices.copy();m.vertices=np.column_stack((v[:,0],70.01831113-v[:,2],v[:,1]+8));original=manifold(m)
 paths={'top':'3x5 nano/adapter_v2_top_v75.stl','btu':'mods/btu/adapter_btu_bottom_v32.stl','cover':'sensor_cover_v51.stl'}
 report={'transform_source_to_assembly':T.tolist(),'datum':'Top adapter Y=-3 flange underside seated at original shell rim; common native coordinates retained for BTU and cover.','parts':{}}
 models={}
 interior=manifold(trimesh.load(ROOT/'references/right-interior-v3.stl'))
 for name,path in paths.items():
- m=trimesh.load(ROOT.parent/'Charybdis/files'/path);m.apply_transform(T);m.export(ROOT/'references'/f'trackball-{name}-assembly-v7.stl');a=manifold(m);models[name]=a
+ m=trimesh.load(ROOT.parent.parent/'Charybdis/files'/path);m.apply_transform(T);m.export(ROOT/'references'/f'trackball-{name}-assembly-v7.stl');a=manifold(m);models[name]=a
  report['parts'][name]={'source':path,'bounds_mm':m.bounds.tolist(),'original_shell_overlap_mm3':(a^original).volume(),'upper_overlap_mm3':(a^upper).volume(),'added_upper_overlap_mm3':(a^(upper-original)).volume(),'lower_overlap_mm3':(a^lower).volume(),'outside_inner_footprint_mm3':(a-interior).volume()}
 # Check top adapter's insertion normal without attributing original snap contact to new geometry.
 report['top_insertion_added_overlap_mm3']=[((models['top'].translate(n*d))^(upper-original)).volume() for d in np.arange(0,36,2)]

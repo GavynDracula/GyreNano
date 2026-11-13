@@ -22,5 +22,12 @@
   "no_slicing_performed": true,
   "physical_validation_pending": true,
   "historical_eda_checks_not_rerun": true,
-  "native_project_hashes_preserved": true
+  "native_project_hashes_preserved": true,
+  "root_reorganization": {
+    "source_syntax_passed": true,
+    "baseline_3mf_restore_passed": true,
+    "relative_key_thumb_ball_seat_check_passed": true,
+    "report": "layout-check-after-move.json",
+    "all_delivery_hashes_unchanged": true
+  }
 }

@@ -15,7 +15,7 @@ def sha(path):
  return h.hexdigest()
 inputs=[R/'exports'/f'{side}-{part}-development.stl' for side in ['left','right'] for part in ['closed','bottom']]
 inputs += [R/'exports/trials'/f'{name}.stl' for name in ['right-ball-thumb-fit','right-holder-usb-fit']]
-if options.public_3mf:inputs=sorted((R/'files').rglob('*.3mf'))
+if options.public_3mf:inputs=sorted((R.parent/'files/3x5').glob('*.3mf'))+sorted((R.parent/'files/trials').glob('*.3mf'))
 if options.model:inputs=[p for p in inputs if p.stem in options.model]
 assert inputs
 def run(path):
@@ -30,7 +30,7 @@ def run(path):
  if gcode.exists():
   with gcode.open() as stream:header=''.join(stream.readline() for _ in range(15))
   with gcode.open('rb') as stream:stream.seek(max(0,gcode.stat().st_size-4096));tail=stream.read().decode(errors='replace')
- row={'model':str(path.relative_to(R)),'model_sha256':sha(path),'exit_code':result.returncode,'gcode_complete_marker':'; EXECUTABLE_BLOCK_END' in tail,'reference_profile':'Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer','wall_generator':options.variant,'support_enabled':process['enable_support']=='1','log':str(log.relative_to(R)),'temporary_gcode':str(gcode),'command':command}
+ row={'model':str(path.relative_to(R.parent)),'model_sha256':sha(path),'exit_code':result.returncode,'gcode_complete_marker':'; EXECUTABLE_BLOCK_END' in tail,'reference_profile':'Bambu A1 0.4 / Generic PLA / 0.20 mm, 3 perimeters, 15% infill; NOT the users confirmed printer','wall_generator':options.variant,'support_enabled':process['enable_support']=='1','log':str(log.relative_to(R)),'temporary_gcode':str(gcode),'command':command}
  for key,pattern in [('estimated_model_time',r'model printing time: ([^;\n]+)'),('estimated_weight_g',r'total filament weight \[g\] : ([0-9.]+)'),('layers',r'total layer number: (\d+)')]:
   match=re.search(pattern,header);row[key]=match[1] if match else None
  row['warnings']=[s for s in log.read_text().splitlines() if '[warning]' in s or '[error]' in s]

@@ -11,7 +11,7 @@ from mesh_union import manifold
 # all existing per-key preservation checks on the actual exported files.
 pose=runpy.run_path(str(R/'checks/verify_keys.py'))['pose']
 def original(side):
- path=R.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else R/'references/skeletyl-v4-103.stl'
+ path=R.parent.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else R/'references/skeletyl-v4-103.stl'
  mesh=trimesh.load(path);v=mesh.vertices.copy();mesh.vertices=np.c_[v[:,0],(70.01831113 if side=='right' else 0)-v[:,2],v[:,1]+8]
  if side=='left':mesh.apply_transform(np.diag([-1,1,1,1]))
  return mesh

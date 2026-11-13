@@ -1,4 +1,4 @@
-"""V11 global-sheet composition: one continuous enclosure; transplant only functional original mounts.
+"""V7 global-sheet composition: one continuous enclosure; transplant only functional original mounts.
 Uses the established mesh fallback after upstream B-rep boolean failures.
 """
 from pathlib import Path
@@ -11,14 +11,13 @@ ROOT=Path(__file__).resolve().parent.parent
 def box(size,center,x,n):
  return mf.Manifold.cube(size,center=True).transform(np.column_stack((x,np.cross(n,x),n,center)))
 def export_checked(solid,side):
- candidate=ROOT/'previews'/f'{side}-v11-candidate.stl';repairs=[]
+ candidate=ROOT/'previews'/f'{side}-v7-candidate.stl';repairs=[]
  for attempt in range(5):
   m=solid.to_mesh64();mesh=trimesh.Trimesh(m.vert_properties[:,:3],m.tri_verts,process=False)
   candidate.write_text(trimesh.exchange.stl.export_stl_ascii(mesh))
   reread=trimesh.load(candidate)
   if reread.is_watertight and reread.is_winding_consistent:break
   counts=np.bincount(reread.edges_unique_inverse);bad=reread.edges_unique[counts>2]
-  print("export repair",attempt,len(bad),flush=True)
   assert 0<len(bad)<100
   for ids in bad:
    p,q=reread.vertices[ids];n=q-p;length=np.linalg.norm(n)
@@ -28,10 +27,10 @@ def export_checked(solid,side):
     tool=mf.Manifold.cylinder(length+.006,.003,circular_segments=12).transform(np.column_stack((x,np.cross(n,x),n,p-n*.003)))
    solid=solid-tool;repairs.append([p.tolist(),q.tolist()])
  else:raise RuntimeError('Mesh export repair did not converge')
- candidate.replace(ROOT/'exports'/f'{side}-closed-v11.stl')
+ candidate.replace(ROOT/'exports'/f'{side}-closed-development.stl')
  return solid,mesh,repairs
 def build(side):
- source=ROOT.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
+ source=ROOT.parent.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
  orig=trimesh.load(source);v=orig.vertices.copy();orig.vertices=np.column_stack((v[:,0],(70.01831113 if side=='right' else 0)-v[:,2],v[:,1]+8))
  if side=='left':orig.apply_transform(np.diag([-1,1,1,1]))
  a=manifold(orig)
@@ -44,14 +43,21 @@ def build(side):
   # through the established Manifold/Clipper fallback, and revalidate the STL.
   ball=json.load(open(ROOT/'references/ball-surface.json'))
   cn=np.array(ball['center']);nz=np.array(ball['normal']);ux=np.array([nz[2],0,-nz[0]]);uy=np.cross(nz,ux)
-  # One continuous backing volume joins the original inclined seat to the
-  # upper skin. The adapter tool defines its inside; no competing offset rings.
-  footprint=mf.CrossSection([np.array(ball['outline'])[:,:2]]).offset(3,circular_segments=64)
-  backing=footprint.extrude(100)^box((300,300,120),cn+nz*51.6,ux,nz)
-  local=(np.array(ball['outline'])-cn)@np.column_stack((ux,uy))
-  if np.sum(local[:,0]*np.roll(local[:,1],-1)-local[:,1]*np.roll(local[:,0],-1))<0:local=local[::-1]
-  inclined=(mf.CrossSection([local]).offset(3,circular_segments=64)-mf.CrossSection.circle(22.95,circular_segments=256)).extrude(8.5).transform(np.column_stack((ux,uy,nz,cn-nz*8.4)))
-  b=b+((backing+inclined)^outer)
+  poly=(np.array(ball['outline'])-cn)@np.column_stack((ux,uy))
+  if np.sum(poly[:,0]*np.roll(poly[:,1],-1)-poly[:,1]*np.roll(poly[:,0],-1))<0:poly=poly[::-1]
+  section=mf.CrossSection([poly])
+  band=section.offset(3,circular_segments=64)-section.offset(-.8,circular_segments=64)
+  collar=band.extrude(8.5).transform(np.column_stack((ux,uy,nz,cn-nz*8.4)))
+  b=b+(collar^outer)
+  # A raised fair roof must also connect down to the original seating rim.
+  # The above-seat mouth is a vertical projection, so its backing wall must
+  # follow that projection rather than an inclined annular extrusion.
+  angles=np.linspace(0,2*np.pi,160,endpoint=False)
+  inner_xy=(cn+20.5*(np.cos(angles)[:,None]*ux+np.sin(angles)[:,None]*uy))[:,:2]
+  outer_xy=mf.CrossSection([np.array(ball['outline'])[:,:2]]).offset(3,circular_segments=64)
+  upper_band=(outer_xy-mf.CrossSection([inner_xy])).extrude(100)
+  above_seat=box((300,300,120),cn+nz*59.5,ux,nz)
+  b=b+(upper_band^above_seat^outer)
  # Wall-integrated screw tabs, original holder datums and reinforced USB port.
  features=manifold(trimesh.load(ROOT/'references'/f'{side}-upper-features-v7.stl'))
  bores=manifold(trimesh.load(ROOT/'references'/f'{side}-mount-bores-v7.stl'))
@@ -72,8 +78,7 @@ def build(side):
   c=np.array(p['center']);n=np.array(p['normal']);x=np.array(p['x']);y=np.cross(n,x)
   outside=mf.CrossSection.square((18,18),center=True).offset(2.6,circular_segments=48)
   inside=mf.CrossSection.square((13.8,13.8),center=True).offset(1.5,circular_segments=64)
-  depth=4.0
-  collar=(outside-inside).extrude(depth).transform(np.column_stack((x,y,n,c-n*(depth+.05))))
+  collar=(outside-inside).extrude(4.0).transform(np.column_stack((x,y,n,c-n*4.05)))
   b=b+(collar^outer)
  for key_index,p in enumerate(planes):
   c=np.array(p['center']);n=np.array(p['normal']);x=np.array(p['x'])
@@ -96,44 +101,9 @@ def build(side):
   ball_core=manifold(trimesh.load(ROOT/'references/ball-mount-core.stl'))
   # Fuse the original rim into the continuous skin. Subtracting its outer
   # prism left horizontal slots where the original ring tapers underneath.
-  # Preserve the inclined flange interface through n=2.4 mm. Above it,
-  # form a normal-axis hood with angular fairing toward the thumb.
-  # Independent exported-mesh checks verify ball insertion and static fit.
-  transition=2.4
-  lower_bore=mf.Manifold.cylinder(35+transition+.01,23.15,circular_segments=256).transform(np.column_stack((ux,uy,nz,cn-nz*35)))
-  # Independent spherical insertion clearance: never narrow the local
-  # cross-section below 17.6 mm about the original ball axis.
-  angles=np.linspace(0,2*np.pi,256,endpoint=False)
-  # Above the flange a continuous hood separates the PCB cavity from the
-  # ball opening. It occupies only the thumb-facing sector.
-  # Concentrate the closure near the PCB corner. The V10 broad 140..220
-  # degree plateau created free tongues at both ends of the thumb-side rim.
-  hood_center_deg=175.;hood_half_plateau_deg=15.;hood_fairing_deg=40.
-  delta=np.abs(np.arctan2(np.sin(angles-np.deg2rad(hood_center_deg)),np.cos(angles-np.deg2rad(hood_center_deg))))
-  t=np.clip((delta-np.deg2rad(hood_half_plateau_deg))/np.deg2rad(hood_fairing_deg),0,1);angular=1-t*t*t*(10+t*(-15+6*t))
-  radii=23.17-(23.17-17.65)*angular
-  poly=np.column_stack((radii*np.cos(angles),radii*np.sin(angles)))
-  mouth=mf.CrossSection([poly]).extrude(120).transform(np.column_stack((ux,uy,nz,cn+nz*(transition-.01))))
-  ball_pass=mf.Manifold.cylinder(160,17.65,circular_segments=256).transform(np.column_stack((ux,uy,nz,cn-nz*40)))
-  mouth=mouth+ball_pass
-  adapter_clear=lower_bore+mouth
-  m=adapter_clear.to_mesh64();trimesh.Trimesh(m.vert_properties[:,:3],m.tri_verts,process=False).export(ROOT/'references/ball-opening-v11.stl')
+  # Full original adapter insertion diameter, with no undersized raised throat.
+  adapter_clear=mf.Manifold.cylinder(140,23.15,circular_segments=256).transform(np.column_stack((ux,uy,nz,cn-nz*35)))
   b=b-(adapter_clear^interior)
-  # Short inner skirt, inside the adapter's conical free aperture. Its
-  # underside stays above the original support seat; it closes the low
-  # sightline below the hood without occupying the PCB corner or flange.
-  skirt_bottom=.6;skirt_top=2.55
-  skirt=mf.Manifold.cylinder(skirt_top-skirt_bottom,17.9+.6*skirt_bottom,17.9+.6*skirt_top,circular_segments=256).transform(np.column_stack((ux,uy,nz,cn+nz*skirt_bottom)))
-  sector_angles=np.linspace(np.deg2rad(140),np.deg2rad(220),65)
-  sector_poly=np.vstack(([0,0],np.column_stack((50*np.cos(sector_angles),50*np.sin(sector_angles)))))
-  sector=mf.CrossSection([sector_poly]).extrude(20).transform(np.column_stack((ux,uy,nz,cn-nz*5)))
-  # Share the hood contour down to the skirt: an independent round bore
-  # would leave the skirt ends as unsupported fins after trimming the hood.
-  skirt_profile=np.column_stack(((radii+.02)*np.cos(angles),(radii+.02)*np.sin(angles)))
-  skirt_inner=mf.CrossSection([skirt_profile]).extrude(160).transform(np.column_stack((ux,uy,nz,cn-nz*40)))
-  skirt=(skirt-skirt_inner)^sector
-  for keepout in pcb:skirt=skirt-keepout
-  b=b+skirt
   retained.append(a^ball_core)
  holder=holder-mcu
  for keepout in pcb:holder=holder-(keepout-a)
@@ -155,9 +125,5 @@ def build(side):
  for zone in locks:preservation.append({'added_mm3':((combined-a)^zone).volume(),'removed_mm3':((a-combined)^zone).volume()})
  return {'sealed_void_volumes_mm3':[-p.volume() for p in parts if p.volume()<0],'discarded_new_skin_slivers':discarded,'volume_mm3':combined.volume(),'components':len(combined.decompose()),'genus':combined.genus(),'watertight':True,'old_frame_volume_removed_mm3':(a-combined).volume(),'key_preservation':preservation,'pcb_added_interference_mm3':[((combined-a)^p).volume() for p in pcb],'reliefs':repairs,'bounds_mm':mesh.bounds.tolist()}
 if __name__=='__main__':
- report={side:build(side) for side in ['right']}
- (ROOT/'reports/v11-geometry-checks.json').write_text(json.dumps(report,indent=2))
-
-if __name__ == "__main__":
- import shutil
- shutil.copy2(ROOT/"exports/right-closed-v11.stl", ROOT/"exports/right-closed-development.stl")
+ report={side:build(side) for side in ['right','left']}
+ (ROOT/'reports/v7-geometry-checks.json').write_text(json.dumps(report,indent=2))

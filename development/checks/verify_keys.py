@@ -31,7 +31,7 @@ def pose(mesh,p,solid):
  lo=v[:,:2].min(0);hi=v[:,:2].max(0)
  return normal,plane_offset,(lo+hi)/2,hi-lo
 for side in ['left','right']:
- path=ROOT.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
+ path=ROOT.parent.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
  original=trimesh.load(path);v=original.vertices.copy()
  original.vertices=np.column_stack((v[:,0],(70.01831113 if side=='right' else 0)-v[:,2],v[:,1]+8))
  if side=='left':original.apply_transform(np.diag([-1,1,1,1]))

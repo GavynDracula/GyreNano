@@ -14,5 +14,6 @@ else
 fi
 export MPLCONFIGDIR="${MPLCONFIGDIR:-${TMPDIR:-/tmp}/gyre-mpl}"
 export PYTHONDONTWRITEBYTECODE=1
+export GYRE_PROJECT_ROOT="$project_dir"
 cd "$project_dir"
 exec "$gyre_python" "$@"

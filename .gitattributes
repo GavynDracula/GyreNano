@@ -13,4 +13,4 @@
 # Generated vector previews are hash-pinned export artifacts.
 *.svg -diff -whitespace
 # Keep the upstream license verbatim, including its final blank line.
-references/amoeba-LICENSE.txt whitespace=-blank-at-eof
+development/references/amoeba-LICENSE.txt whitespace=-blank-at-eof

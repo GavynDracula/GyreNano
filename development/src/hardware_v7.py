@@ -33,7 +33,7 @@ for side in ['left','right']:
  x=d['usb_center_x'];z=d['usb_center_z'];front=Plane(origin=(x,64.6662553633265,z),x_dir=(1,0,0),z_dir=(0,1,0))
  collar=extrude(front*RectangleRounded(18,12,2),amount=12)
  features.append(collar)
- original=import_step(ROOT+'/../Charybdis/files/3x5 nano/charybdisnano_v2_v187.step').rotate(Axis.X,90).translate((0,0,8)) if side=='right' else import_step(ROOT+'/references/skeletyl-v4-v99.step').rotate(Axis.X,90).translate((0,0,8)).mirror(Plane.YZ)
+ original=import_step(ROOT+'/../../Charybdis/files/3x5 nano/charybdisnano_v2_v187.step').rotate(Axis.X,90).translate((0,0,8)) if side=='right' else import_step(ROOT+'/references/skeletyl-v4-v99.step').rotate(Axis.X,90).translate((0,0,8)).mirror(Plane.YZ)
  wires=[w for f in original.faces() if f.geom_type==GeomType.PLANE and abs(f.center().Y-64.6662553633265)<.001 for w in f.inner_wires() if 9<w.bounding_box().size.X<11 and 3<w.bounding_box().size.Z<4]
  assert len(wires)==1
  throat=extrude(Face(wires[0]),amount=30,dir=(0,1,0)).translate((0,-5,0))

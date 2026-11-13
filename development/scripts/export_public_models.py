@@ -40,7 +40,7 @@ def export(name, source):
     mesh = trimesh.load(source)
     assert mesh.is_watertight and mesh.is_winding_consistent
     assert len(mesh.split(only_watertight=False)) == 1
-    target = ROOT / 'files' / (name + '.3mf')
+    target = ROOT.parent / 'files' / (name + '.3mf')
     target.parent.mkdir(parents=True, exist_ok=True)
     xml = StringIO()
     xml.write(f'<?xml version="1.0" encoding="UTF-8"?>\n<model unit="millimeter" xml:lang="en-US" xmlns="{NS}">\n')
@@ -68,7 +68,7 @@ def export(name, source):
     assert np.array_equal(mesh.faces, restored.faces)
     assert restored.is_watertight and restored.is_winding_consistent
     assert target.stat().st_size < 100 * 1024**2
-    row = dict(file=str(target.relative_to(ROOT)), sha256=sha(target),
+    row = dict(file=str(target.relative_to(ROOT.parent)), sha256=sha(target),
                source_stl_sha256=sha(source), bytes=target.stat().st_size,
                vertices=len(mesh.vertices), triangles=len(mesh.faces),
                bounds_mm=mesh.bounds.tolist(), watertight=True,
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     rows = [export(name, ROOT/'exports'/source) for name, source in MODELS.items()]
     for side in ['left', 'right']:
         shutil.copy2(ROOT/'exports'/f'{side}-bottom-development.step',
-                     ROOT/'files/3x5'/f'gyre-nano-{side}-bottom-v7.step')
-    (ROOT/'files/manifest.json').write_text(json.dumps({
+                     ROOT.parent/'files/3x5'/f'gyre-nano-{side}-bottom-v7.step')
+    (ROOT.parent/'files/manifest.json').write_text(json.dumps({
         'units': 'millimeter', 'scope': 'Geometry-only development snapshot. No printer configuration.',
         'models': rows}, indent=2) + '\n')

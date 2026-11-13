@@ -6,7 +6,7 @@ A wireless, hot-swap split trackball keyboard enclosure derived from [BastardKB 
 
 “Gyre / 洄流” echoes the swirling water of Charybdis; Nano denotes the compact layout. This is an independent derivative project.
 
-![Gyre Nano enclosure render](pics/gyre-nano.png)
+![Gyre Nano enclosure render](docs/images/gyre-nano.png)
 
 **Earlier enclosure baseline: right upper V11; left upper and both bottom trays V7.** Current integrated PCB/retainer routes are linked below. Geometry checks and reference-profile slicing have passed. Physical printing and complete assembly validation are pending. Images are model renders.
 
@@ -64,19 +64,16 @@ Print the two trials first to check controller header height, USB access, insert
 
 Existing holder interfaces and key/ball mounting poses are retained. Six keyfield FFCs are still required per hand. Cross-region FR4 bridges must be removed before curved installation. Thin-FR4 forming, FPC durability, complete cable paths and printed fit remain trial items. No 0.4 mm thickness change is included.
 
-[Electronics index](pcb/README.md) · [BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [All prints](files/README.md) · [Firmware placeholder](firmware/README.md)
+[Electronics index](pcb/README.md) · [BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [All prints](files/README.md) · [Firmware placeholder](docs/firmware.md)
 
 ## Repository layout
 
 | Path | Contents |
 | --- | --- |
-| `files/` | Current prints, bottom STEP files, model hashes and mesh round-trip results |
-| `pics/` | Renders of the enclosure and trial parts |
-| `docs/` | Printing, geometry verification, development notes and build-guide placeholder |
-| `src/`, `parameters/` | Editable modeling sources and hardware parameters |
-| `checks/`, `scripts/` | Geometry checks, model export and development tools |
-| `references/` | Upstream measurement datums and required reference geometry |
-| `pcb/`, `firmware/` | Current PCB projects, sample packages and checks; firmware placeholder |
+| `files/` | Print-ready geometry, integrated shells and FR4/FPC retainers |
+| `pcb/` | Current KiCad/EDA projects, sample packages, BOM and checks |
+| `docs/` | Build/printing notes, images, verification and release records |
+| `development/` | Modeling sources, dimensions, reference geometry and engineering tools |
 
 See [development notes](docs/DEVELOPMENT.md) for dependencies and coordinate conventions. Old cross-version pipelines are preserved as a checksummed engineering snapshot attached to the pre-release; disposable exports and local caches are excluded from Git.
 

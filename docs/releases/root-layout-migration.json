@@ -1,0 +1,671 @@
+{
+  "src/ball_clearance_v10.py": {
+    "new_path": "development/src/ball_clearance_v10.py",
+    "original_sha256": "11cb94c5d9dbb8744cf4a9a8e234583e43da67da726ef1a24eb61edd0e70aef0",
+    "current_sha256": "11cb94c5d9dbb8744cf4a9a8e234583e43da67da726ef1a24eb61edd0e70aef0"
+  },
+  "src/trackball_outline_v7.py": {
+    "new_path": "development/src/trackball_outline_v7.py",
+    "original_sha256": "be333c2a4616f75bf64fdd818ac41d153d130516d759a5c575f8d8194e49b086",
+    "current_sha256": "be333c2a4616f75bf64fdd818ac41d153d130516d759a5c575f8d8194e49b086"
+  },
+  "src/mesh_v11.py": {
+    "new_path": "development/src/mesh_v11.py",
+    "original_sha256": "e94439fcd397bd3123dc65d867b45bda86c93f2b7cde708bc9a746ad1ca6d98d",
+    "current_sha256": "99fab376fd6607e58dea46ff6ec2aa1883b3804f8e3d330ef501d7a3da8061c0"
+  },
+  "src/fair_envelope_v7.py": {
+    "new_path": "development/src/fair_envelope_v7.py",
+    "original_sha256": "da508d81c6a6bf13873b1e42a036bacf0aced2e9dffa51cdcbffa765496434d4",
+    "current_sha256": "da508d81c6a6bf13873b1e42a036bacf0aced2e9dffa51cdcbffa765496434d4"
+  },
+  "src/hardware_v7.py": {
+    "new_path": "development/src/hardware_v7.py",
+    "original_sha256": "1873149e0228d2f3cda6b7f7865597a72750cdca3d338ea0323673d6e24ecdc9",
+    "current_sha256": "eb9be21188340eca1d09ee85a08b94b104a924fa5a3278991b11c19466d49b88"
+  },
+  "src/generate_hardware_v7.py": {
+    "new_path": "development/src/generate_hardware_v7.py",
+    "original_sha256": "6ae94dd78104d6fc146baf199b856fae31723b416d1a0895cfb72368e169a03e",
+    "current_sha256": "d590791db1e9f338b9735fcf9cec046a8c1993550b83720105e1fed3b672c63d"
+  },
+  "src/mesh_union.py": {
+    "new_path": "development/src/mesh_union.py",
+    "original_sha256": "1e7bc50dd6ea77fb5ee0b9d1d6d2c1072dd2930ff62100a14f8047176a931dcc",
+    "current_sha256": "1e7bc50dd6ea77fb5ee0b9d1d6d2c1072dd2930ff62100a14f8047176a931dcc"
+  },
+  "src/fair_envelope_v9.py": {
+    "new_path": "development/src/fair_envelope_v9.py",
+    "original_sha256": "c5d3471b83bfbc4fda3978635338789ec862ed84a62cbefdc3900c5a22f745a5",
+    "current_sha256": "c5d3471b83bfbc4fda3978635338789ec862ed84a62cbefdc3900c5a22f745a5"
+  },
+  "src/bottoms_v7.py": {
+    "new_path": "development/src/bottoms_v7.py",
+    "original_sha256": "4674445a224919343d35b28c03ee81c3f7ae4033b0d11fec8b42a0d535542b44",
+    "current_sha256": "4674445a224919343d35b28c03ee81c3f7ae4033b0d11fec8b42a0d535542b44"
+  },
+  "src/mesh_v7.py": {
+    "new_path": "development/src/mesh_v7.py",
+    "original_sha256": "105c6b99cccbda3cf50aa5f3d996b822aea5409ceafed0815c43d00ae079ccae",
+    "current_sha256": "bf9a347f753cb69ffb2dd339d35dcdbbee26cb32407f8bbdf36148ac48a0ae87"
+  },
+  "checks/verify_hardware_v7.py": {
+    "new_path": "development/checks/verify_hardware_v7.py",
+    "original_sha256": "f28a8713ca651e5cf39eec19423b5280fa16ab9d0d1a8dc513f389c448958e83",
+    "current_sha256": "3194e41d12888a4f9ee002cbce449de015069282a10488aa529a1e6bdc9e604f"
+  },
+  "checks/verify_lower_connectivity_v7.py": {
+    "new_path": "development/checks/verify_lower_connectivity_v7.py",
+    "original_sha256": "2cf7e78585613481f59a961b224f27e2c01bb0ed6f1914bf07a3a472773787e9",
+    "current_sha256": "2cf7e78585613481f59a961b224f27e2c01bb0ed6f1914bf07a3a472773787e9"
+  },
+  "checks/verify_partition_v11.py": {
+    "new_path": "development/checks/verify_partition_v11.py",
+    "original_sha256": "c1e6c4ce1abc97e840d34c57ef76a6f6c160ae51dccc677be6835db19bf4d11a",
+    "current_sha256": "c1e6c4ce1abc97e840d34c57ef76a6f6c160ae51dccc677be6835db19bf4d11a"
+  },
+  "checks/verify_assembly.py": {
+    "new_path": "development/checks/verify_assembly.py",
+    "original_sha256": "19f5ae5f96a84cde0a61fae07b28ee485ad53808bf59ebeb3b65696e8d5018a6",
+    "current_sha256": "19f5ae5f96a84cde0a61fae07b28ee485ad53808bf59ebeb3b65696e8d5018a6"
+  },
+  "checks/verify_roof.py": {
+    "new_path": "development/checks/verify_roof.py",
+    "original_sha256": "ff7fe49cb5cc988fe1382b1bb62947fa46f137a9edf65f924f42f758015ec368",
+    "current_sha256": "ff7fe49cb5cc988fe1382b1bb62947fa46f137a9edf65f924f42f758015ec368"
+  },
+  "checks/verify_trackball_v11.py": {
+    "new_path": "development/checks/verify_trackball_v11.py",
+    "original_sha256": "2688526ab7760956f122f642001bbb0aae94d1099bca55d44d85457f37b9fe4f",
+    "current_sha256": "e0aeb425c5402320b49ebf88c015ed9b53a545276ab7386fea6788b87f36f070"
+  },
+  "checks/verify_relative_layout.py": {
+    "new_path": "development/checks/verify_relative_layout.py",
+    "original_sha256": "056380b16685fbff3c568e0cac65dbb9543785cc4778e8718093367149e0be7e",
+    "current_sha256": "f09f22ca5b88d8dfd1705db4e5f483cc25577d08a762eb4d7fba766b9faf4266"
+  },
+  "checks/verify_keys.py": {
+    "new_path": "development/checks/verify_keys.py",
+    "original_sha256": "7978723733f3778192b825631874a35cdc54d7d24658fc51d21292f83f016f67",
+    "current_sha256": "3dd861b5b570632aa661a6e005a3380385b36ac42d28960b37b31381504e49f2"
+  },
+  "checks/verify_junction_v11.py": {
+    "new_path": "development/checks/verify_junction_v11.py",
+    "original_sha256": "2b888f4bcd45282118ab1f60e3c9ea33c51ad4681bfd131604b6a17b54388661",
+    "current_sha256": "2b888f4bcd45282118ab1f60e3c9ea33c51ad4681bfd131604b6a17b54388661"
+  },
+  "checks/verify_inner_window_v11.py": {
+    "new_path": "development/checks/verify_inner_window_v11.py",
+    "original_sha256": "0526260e9aed2dd5d7a4267e88270a5b0a4290aef3df6d458e9269e0bafbb3a9",
+    "current_sha256": "0526260e9aed2dd5d7a4267e88270a5b0a4290aef3df6d458e9269e0bafbb3a9"
+  },
+  "checks/verify_ball34_v11.py": {
+    "new_path": "development/checks/verify_ball34_v11.py",
+    "original_sha256": "fa927267794d904a31a73fad9af650380a48e8867fcaa41d5045b167ae45ca6c",
+    "current_sha256": "fa927267794d904a31a73fad9af650380a48e8867fcaa41d5045b167ae45ca6c"
+  },
+  "checks/verify_ball_rim_v11.py": {
+    "new_path": "development/checks/verify_ball_rim_v11.py",
+    "original_sha256": "e280e52adadcaf9ab3b60868291130079311aaedab09e0edf37e27122524a7ae",
+    "current_sha256": "e280e52adadcaf9ab3b60868291130079311aaedab09e0edf37e27122524a7ae"
+  },
+  "scripts/render_hardware_v7.py": {
+    "new_path": "development/scripts/render_hardware_v7.py",
+    "original_sha256": "06872435a3b55f85ece72df0cb69503c8d6de5fd95a37437dcbb803d45b43f04",
+    "current_sha256": "06872435a3b55f85ece72df0cb69503c8d6de5fd95a37437dcbb803d45b43f04"
+  },
+  "scripts/render_trials.py": {
+    "new_path": "development/scripts/render_trials.py",
+    "original_sha256": "5f180fec250f0aea3a0b6cb85e6c6a133761cd9dfa64c8834a8d6ed9a1d9989a",
+    "current_sha256": "5f180fec250f0aea3a0b6cb85e6c6a133761cd9dfa64c8834a8d6ed9a1d9989a"
+  },
+  "scripts/render_detail_v7.py": {
+    "new_path": "development/scripts/render_detail_v7.py",
+    "original_sha256": "325fabb8e44a451f79378c2338f9ff2834215a19d2feb67dc0d499f543f27f85",
+    "current_sha256": "325fabb8e44a451f79378c2338f9ff2834215a19d2feb67dc0d499f543f27f85"
+  },
+  "scripts/render_blender.py": {
+    "new_path": "development/scripts/render_blender.py",
+    "original_sha256": "326b3cbc5e8bc46398f4cfb13a8d09c1fdb1780992914d99bb2092a6fed43eca",
+    "current_sha256": "326b3cbc5e8bc46398f4cfb13a8d09c1fdb1780992914d99bb2092a6fed43eca"
+  },
+  "scripts/package_delivery.py": {
+    "new_path": null,
+    "reason": "obsolete packaging tool; retained in engineering snapshot"
+  },
+  "scripts/render_trackball_v7.py": {
+    "new_path": "development/scripts/render_trackball_v7.py",
+    "original_sha256": "83928561b840e7f2c8d3e49c7ad15893e312b56541acb5850c4cd2eead625c95",
+    "current_sha256": "83928561b840e7f2c8d3e49c7ad15893e312b56541acb5850c4cd2eead625c95"
+  },
+  "scripts/render_ball_v11.py": {
+    "new_path": "development/scripts/render_ball_v11.py",
+    "original_sha256": "15dda767917bcd91f6f508da402674722bb87a1cdcb42ce71ce73e1c74331769",
+    "current_sha256": "15dda767917bcd91f6f508da402674722bb87a1cdcb42ce71ce73e1c74331769"
+  },
+  "scripts/check_all.py": {
+    "new_path": "development/scripts/check_all.py",
+    "original_sha256": "96998a28fb763b01939f9f2bb1fb9a098f0b0d7ee7bd9a7aa81b18a431446957",
+    "current_sha256": "c26fa197f39fecb6066dc1495c578da86b42b4cfa57732c19bb9be12695a5694"
+  },
+  "scripts/prepare_fdm.py": {
+    "new_path": "development/scripts/prepare_fdm.py",
+    "original_sha256": "f1c90ed14b9051b1707bdbb387668235fb54f4405c2d6b2ab813ed286adcbb92",
+    "current_sha256": "f1c90ed14b9051b1707bdbb387668235fb54f4405c2d6b2ab813ed286adcbb92"
+  },
+  "scripts/verify_delivery.py": {
+    "new_path": "development/scripts/verify_delivery.py",
+    "original_sha256": "65b32374569988eead47131641fc9dee267aa8db8c061966d1fc58baf0749166",
+    "current_sha256": "99a214d7ca3e8f1761ab8f95c2789174e5875ebe3eaf7b8b96da0416f7cf6c05"
+  },
+  "scripts/run_python.sh": {
+    "new_path": "development/scripts/run_python.sh",
+    "original_sha256": "9ca43cbe03135879a29c70ad3fb813fc5918f806bfbe34f3371eae538713f475",
+    "current_sha256": "4144a24cd1e9f0c383fca422618c312d4ae3ee5cd54faf761f266947ebd605fa"
+  },
+  "scripts/export_public_models.py": {
+    "new_path": "development/scripts/export_public_models.py",
+    "original_sha256": "4b1c0a63cb9c8ae6939fd5e3a88bb079124e4254634364be00c1766db913869e",
+    "current_sha256": "3c15ea6974c0b764f82454a628aa673359eed1f80e9774bb4dc6e8c3abbff2ee"
+  },
+  "scripts/slice_fdm_review.py": {
+    "new_path": "development/scripts/slice_fdm_review.py",
+    "original_sha256": "ac3a2ee1218e8f80452d1092263ed65c79465ed3488af85c892adb2002cb3554",
+    "current_sha256": "145794d361e0526d1fd78b22e19c329b157651ad80bc3f6aa4ad557152509878"
+  },
+  "scripts/restore_working_models.py": {
+    "new_path": "development/scripts/restore_working_models.py",
+    "original_sha256": "7113a08f673d67b0895600bdb6e60bd454c723f779c5dbd116ca0c4b1c6d9337",
+    "current_sha256": "827525c140bf66d0a0cdd411c32c5ad0ad06cef155c42f6b2f204ec2b83a2ac6"
+  },
+  "parameters/hardware-layout-v7.json": {
+    "new_path": "development/parameters/hardware-layout-v7.json",
+    "original_sha256": "e7837c35098c13ea8d9ec89f41c14fec9176ee2271a6fd7e221adeb030f3d4a7",
+    "current_sha256": "e7837c35098c13ea8d9ec89f41c14fec9176ee2271a6fd7e221adeb030f3d4a7"
+  },
+  "parameters/fdm-reference/filament.json": {
+    "new_path": "development/parameters/fdm-reference/filament.json",
+    "original_sha256": "ad8b8a2dd89a00f04318855414c76453a67e9f19faa90212a982fb94622862c9",
+    "current_sha256": "ad8b8a2dd89a00f04318855414c76453a67e9f19faa90212a982fb94622862c9"
+  },
+  "parameters/fdm-reference/process.json": {
+    "new_path": "development/parameters/fdm-reference/process.json",
+    "original_sha256": "9c3ed9b88910b1080dc76e179bac698e583e974a0401c38d17561e55f7021b01",
+    "current_sha256": "9c3ed9b88910b1080dc76e179bac698e583e974a0401c38d17561e55f7021b01"
+  },
+  "parameters/fdm-reference/machine.json": {
+    "new_path": "development/parameters/fdm-reference/machine.json",
+    "original_sha256": "65af21967f435e5b036f1b56aef53b771f12e9cb7b68e12b26e2cff2a5243707",
+    "current_sha256": "65af21967f435e5b036f1b56aef53b771f12e9cb7b68e12b26e2cff2a5243707"
+  },
+  "references/right-interior-v3.stl": {
+    "new_path": "development/references/right-interior-v3.stl",
+    "original_sha256": "ea4b2b2737c9dd537125045562ed467d290a1fe8acfd9f01d28ca845ad2742e3",
+    "current_sha256": "ea4b2b2737c9dd537125045562ed467d290a1fe8acfd9f01d28ca845ad2742e3"
+  },
+  "references/right-rounded-envelope.stl": {
+    "new_path": "development/references/right-rounded-envelope.stl",
+    "original_sha256": "5c8b3b6c4e96067f74cc14c05a1bd68579ae8e21a9f52fe048470c78b5baaf3b",
+    "current_sha256": "5c8b3b6c4e96067f74cc14c05a1bd68579ae8e21a9f52fe048470c78b5baaf3b"
+  },
+  "references/right-mount-centers.json": {
+    "new_path": "development/references/right-mount-centers.json",
+    "original_sha256": "6a2d8800a0a025e07d07946069bb5a1c81e6d32ac137d79e8f04c62babd36d5e",
+    "current_sha256": "6a2d8800a0a025e07d07946069bb5a1c81e6d32ac137d79e8f04c62babd36d5e"
+  },
+  "references/left-v3-outline.json": {
+    "new_path": "development/references/left-v3-outline.json",
+    "original_sha256": "37eaf393060aa488b0e348d2fbf799a55cb008efaf10764566bcfa562cb3a63a",
+    "current_sha256": "37eaf393060aa488b0e348d2fbf799a55cb008efaf10764566bcfa562cb3a63a"
+  },
+  "references/skeletyl-v4-v99.step": {
+    "new_path": "development/references/skeletyl-v4-v99.step",
+    "original_sha256": "f3301909ee2d96a002ec7d0d8254379d5846c98c1c38723b74a6f02bb73f344a",
+    "current_sha256": "f3301909ee2d96a002ec7d0d8254379d5846c98c1c38723b74a6f02bb73f344a"
+  },
+  "references/trackball-cover-assembly-v7.stl": {
+    "new_path": "development/references/trackball-cover-assembly-v7.stl",
+    "original_sha256": "cdddd0948f7222f8636d04c9d46206fd22c59cd5e88bdd3b48b44b83580dfa7e",
+    "current_sha256": "cdddd0948f7222f8636d04c9d46206fd22c59cd5e88bdd3b48b44b83580dfa7e"
+  },
+  "references/amoeba-royale.kicad_pcb": {
+    "new_path": "development/references/amoeba-royale.kicad_pcb",
+    "original_sha256": "127755787c57ba13a0c6d2251828938156d6a11baa0335599231fef1f78b2af0",
+    "current_sha256": "127755787c57ba13a0c6d2251828938156d6a11baa0335599231fef1f78b2af0"
+  },
+  "references/provenance.json": {
+    "new_path": "development/references/provenance.json",
+    "original_sha256": "b1dad4caaeefa78c50ee8ab763882f82008b2822be782febac7461bc862a3077",
+    "current_sha256": "b1dad4caaeefa78c50ee8ab763882f82008b2822be782febac7461bc862a3077"
+  },
+  "references/right-mount-bores-v7.stl": {
+    "new_path": "development/references/right-mount-bores-v7.stl",
+    "original_sha256": "ff8fdd6e81fb92e7d3e64bf466a44e8dbd16b64f936e68d85c97adc5a40ff940",
+    "current_sha256": "ff8fdd6e81fb92e7d3e64bf466a44e8dbd16b64f936e68d85c97adc5a40ff940"
+  },
+  "references/left-mesh-reliefs.json": {
+    "new_path": "development/references/left-mesh-reliefs.json",
+    "original_sha256": "6362c162bc73f2565bab933f509e9d956e408724cf281d69d17748bb3487d7a5",
+    "current_sha256": "6362c162bc73f2565bab933f509e9d956e408724cf281d69d17748bb3487d7a5"
+  },
+  "references/holder-panel.step": {
+    "new_path": "development/references/holder-panel.step",
+    "original_sha256": "b008c083726c0d8f7a344e49af299f3982ef2e9ecd84953179d1aaee0769dc6d",
+    "current_sha256": "b008c083726c0d8f7a344e49af299f3982ef2e9ecd84953179d1aaee0769dc6d"
+  },
+  "references/right-mount-bores-v6.stl": {
+    "new_path": "development/references/right-mount-bores-v6.stl",
+    "original_sha256": "ff8fdd6e81fb92e7d3e64bf466a44e8dbd16b64f936e68d85c97adc5a40ff940",
+    "current_sha256": "ff8fdd6e81fb92e7d3e64bf466a44e8dbd16b64f936e68d85c97adc5a40ff940"
+  },
+  "references/left-fair-field-v5.npz": {
+    "new_path": "development/references/left-fair-field-v5.npz",
+    "original_sha256": "717066742c70c88c9dd44a4905fb8d6e8f1ebe5f167d5a34b88915e8a3e6a4ef",
+    "current_sha256": "717066742c70c88c9dd44a4905fb8d6e8f1ebe5f167d5a34b88915e8a3e6a4ef"
+  },
+  "references/right-upper-features-v6.stl": {
+    "new_path": "development/references/right-upper-features-v6.stl",
+    "original_sha256": "05923c6c742bc725ecf3a14c2d5a238405e601833eed4f9c8fbc2dee424c22bd",
+    "current_sha256": "05923c6c742bc725ecf3a14c2d5a238405e601833eed4f9c8fbc2dee424c22bd"
+  },
+  "references/ball35p2-sweep-v10.step": {
+    "new_path": "development/references/ball35p2-sweep-v10.step",
+    "original_sha256": "c23f1765b0b867659a5807cf6e5e377f15ac30c99b2a930eed1c7313ec79b546",
+    "current_sha256": "c23f1765b0b867659a5807cf6e5e377f15ac30c99b2a930eed1c7313ec79b546"
+  },
+  "references/right-usb-cut-v7.stl": {
+    "new_path": "development/references/right-usb-cut-v7.stl",
+    "original_sha256": "f5c4ba6eda6408e25950034d7bfd0b588260ea7daab09f342ed9bf37f9c55338",
+    "current_sha256": "f5c4ba6eda6408e25950034d7bfd0b588260ea7daab09f342ed9bf37f9c55338"
+  },
+  "references/right-usb-cut-v6.stl": {
+    "new_path": "development/references/right-usb-cut-v6.stl",
+    "original_sha256": "f5c4ba6eda6408e25950034d7bfd0b588260ea7daab09f342ed9bf37f9c55338",
+    "current_sha256": "f5c4ba6eda6408e25950034d7bfd0b588260ea7daab09f342ed9bf37f9c55338"
+  },
+  "references/amoeba-LICENSE.txt": {
+    "new_path": "development/references/amoeba-LICENSE.txt",
+    "original_sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01",
+    "current_sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01"
+  },
+  "references/right-upper-features-v7.stl": {
+    "new_path": "development/references/right-upper-features-v7.stl",
+    "original_sha256": "1e5a3fbb4a7b187525e34a193177956a60189ff73e3469cf4ac9ee367d3bccca",
+    "current_sha256": "1e5a3fbb4a7b187525e34a193177956a60189ff73e3469cf4ac9ee367d3bccca"
+  },
+  "references/ball-opening-v11.stl": {
+    "new_path": "development/references/ball-opening-v11.stl",
+    "original_sha256": "a8bc37d87283951d2d890a3a5ec8d37db80dbe41e3b60b419fbcb9bca08cd455",
+    "current_sha256": "a8bc37d87283951d2d890a3a5ec8d37db80dbe41e3b60b419fbcb9bca08cd455"
+  },
+  "references/left-holder-support-v7.stl": {
+    "new_path": "development/references/left-holder-support-v7.stl",
+    "original_sha256": "688abd97c8dba0e6828c416059bd6b6d7700410676a4beda31a601c26c71cc4c",
+    "current_sha256": "688abd97c8dba0e6828c416059bd6b6d7700410676a4beda31a601c26c71cc4c"
+  },
+  "references/left-mount-centers.json": {
+    "new_path": "development/references/left-mount-centers.json",
+    "original_sha256": "09ff3201dd94df9ab16a30f0717258a9155855f336ed0c636a1ebd324ccc9afb",
+    "current_sha256": "09ff3201dd94df9ab16a30f0717258a9155855f336ed0c636a1ebd324ccc9afb"
+  },
+  "references/right-usb-plug-envelope-v7.stl": {
+    "new_path": "development/references/right-usb-plug-envelope-v7.stl",
+    "original_sha256": "f1c2ad8e6ac7816d986139d7664658a83a35c017e4ab02bad685b785ceac9421",
+    "current_sha256": "f1c2ad8e6ac7816d986139d7664658a83a35c017e4ab02bad685b785ceac9421"
+  },
+  "references/trackball-btu-assembly-v7.stl": {
+    "new_path": "development/references/trackball-btu-assembly-v7.stl",
+    "original_sha256": "a311978b050db86e0c3ff5d40353952d6a7dcf4655ff89ccda130cd999d2d90c",
+    "current_sha256": "a311978b050db86e0c3ff5d40353952d6a7dcf4655ff89ccda130cd999d2d90c"
+  },
+  "references/left-fair-field-v7.npz": {
+    "new_path": "development/references/left-fair-field-v7.npz",
+    "original_sha256": "da292dd2fe2c5124733a0efe9a234cc88df2b2996d638f52353d70fd0ab03fde",
+    "current_sha256": "da292dd2fe2c5124733a0efe9a234cc88df2b2996d638f52353d70fd0ab03fde"
+  },
+  "references/trackball-top-assembly-v7.stl": {
+    "new_path": "development/references/trackball-top-assembly-v7.stl",
+    "original_sha256": "6df60fcf9c67f0a7591e52c05659d65984c21fb054ed0da79e23bdd0f3e61b91",
+    "current_sha256": "6df60fcf9c67f0a7591e52c05659d65984c21fb054ed0da79e23bdd0f3e61b91"
+  },
+  "references/right-usb-plug-envelope-v6.stl": {
+    "new_path": "development/references/right-usb-plug-envelope-v6.stl",
+    "original_sha256": "f1c2ad8e6ac7816d986139d7664658a83a35c017e4ab02bad685b785ceac9421",
+    "current_sha256": "f1c2ad8e6ac7816d986139d7664658a83a35c017e4ab02bad685b785ceac9421"
+  },
+  "references/left-holder-support-v6.stl": {
+    "new_path": "development/references/left-holder-support-v6.stl",
+    "original_sha256": "67f5b146942a824a9501f137bebc7b25786067c40778772be4055c88dcefb4da",
+    "current_sha256": "67f5b146942a824a9501f137bebc7b25786067c40778772be4055c88dcefb4da"
+  },
+  "references/right-holder-pcb-v6.stl": {
+    "new_path": "development/references/right-holder-pcb-v6.stl",
+    "original_sha256": "63bfd7e0303b7ee41f933dfd42f5d9c1ce9e527be44244f5f60a2db9ab3d5d33",
+    "current_sha256": "63bfd7e0303b7ee41f933dfd42f5d9c1ce9e527be44244f5f60a2db9ab3d5d33"
+  },
+  "references/left-mount-bores-v7.stl": {
+    "new_path": "development/references/left-mount-bores-v7.stl",
+    "original_sha256": "60bd0df842ed92ae4ba57917fdf1c2740ca38079af87593734f26e9bcb4b3638",
+    "current_sha256": "60bd0df842ed92ae4ba57917fdf1c2740ca38079af87593734f26e9bcb4b3638"
+  },
+  "references/left-usb-cut-v6.stl": {
+    "new_path": "development/references/left-usb-cut-v6.stl",
+    "original_sha256": "441e8a42a7558d00ae599884dafc4ad81781ec70677c9b1475e7f2360ca8a1ec",
+    "current_sha256": "441e8a42a7558d00ae599884dafc4ad81781ec70677c9b1475e7f2360ca8a1ec"
+  },
+  "references/left-usb-cut-v7.stl": {
+    "new_path": "development/references/left-usb-cut-v7.stl",
+    "original_sha256": "441e8a42a7558d00ae599884dafc4ad81781ec70677c9b1475e7f2360ca8a1ec",
+    "current_sha256": "441e8a42a7558d00ae599884dafc4ad81781ec70677c9b1475e7f2360ca8a1ec"
+  },
+  "references/right-fair-field-v9.npz": {
+    "new_path": "development/references/right-fair-field-v9.npz",
+    "original_sha256": "69eedc2a76824e52e34d966587cedc07a47bbc9375c3b9a89c35bebc49a7459b",
+    "current_sha256": "69eedc2a76824e52e34d966587cedc07a47bbc9375c3b9a89c35bebc49a7459b"
+  },
+  "references/left-mount-bores-v6.stl": {
+    "new_path": "development/references/left-mount-bores-v6.stl",
+    "original_sha256": "60bd0df842ed92ae4ba57917fdf1c2740ca38079af87593734f26e9bcb4b3638",
+    "current_sha256": "60bd0df842ed92ae4ba57917fdf1c2740ca38079af87593734f26e9bcb4b3638"
+  },
+  "references/left-interior-v3.stl": {
+    "new_path": "development/references/left-interior-v3.stl",
+    "original_sha256": "500fd7bdacb25205f62018e2f6e34e031fc6e607203a953e05c85d00e06d386a",
+    "current_sha256": "500fd7bdacb25205f62018e2f6e34e031fc6e607203a953e05c85d00e06d386a"
+  },
+  "references/left-usb-plug-envelope-v6.stl": {
+    "new_path": "development/references/left-usb-plug-envelope-v6.stl",
+    "original_sha256": "4d5dd66029162c49af8da93e0afe73d5defc3e2f436f0961af0d0f3b885eaa71",
+    "current_sha256": "4d5dd66029162c49af8da93e0afe73d5defc3e2f436f0961af0d0f3b885eaa71"
+  },
+  "references/holder-pcb-parsed.json": {
+    "new_path": "development/references/holder-pcb-parsed.json",
+    "original_sha256": "f83f946bcf1c77e00b31d5db29df6578ab04c9ad4a590d25fbbb24aec306c835",
+    "current_sha256": "f83f946bcf1c77e00b31d5db29df6578ab04c9ad4a590d25fbbb24aec306c835"
+  },
+  "references/left-usb-plug-envelope-v7.stl": {
+    "new_path": "development/references/left-usb-plug-envelope-v7.stl",
+    "original_sha256": "4d5dd66029162c49af8da93e0afe73d5defc3e2f436f0961af0d0f3b885eaa71",
+    "current_sha256": "4d5dd66029162c49af8da93e0afe73d5defc3e2f436f0961af0d0f3b885eaa71"
+  },
+  "references/left-switch-planes.json": {
+    "new_path": "development/references/left-switch-planes.json",
+    "original_sha256": "aed53ecc209c215cb301ffd83f33bc8e66ff57ce91a235e1b84bb5d486aa1b69",
+    "current_sha256": "aed53ecc209c215cb301ffd83f33bc8e66ff57ce91a235e1b84bb5d486aa1b69"
+  },
+  "references/right-fair-field-v7.npz": {
+    "new_path": "development/references/right-fair-field-v7.npz",
+    "original_sha256": "ba3e7c628c16ccd3296006683fdf984f73612ed56413fe40dfe27d3efdec6622",
+    "current_sha256": "ba3e7c628c16ccd3296006683fdf984f73612ed56413fe40dfe27d3efdec6622"
+  },
+  "references/right-holder-pcb-v6.step": {
+    "new_path": "development/references/right-holder-pcb-v6.step",
+    "original_sha256": "178c1b3e486ff03e8551a2911846b39d5644386f09eee6732fdca8402ff2babd",
+    "current_sha256": "178c1b3e486ff03e8551a2911846b39d5644386f09eee6732fdca8402ff2babd"
+  },
+  "references/skeletyl-v4-103.stl": {
+    "new_path": "development/references/skeletyl-v4-103.stl",
+    "original_sha256": "08eb45ae4cd48fe7a7f6c71a8852e789c82c933eb65a86534269ad7300bd036c",
+    "current_sha256": "08eb45ae4cd48fe7a7f6c71a8852e789c82c933eb65a86534269ad7300bd036c"
+  },
+  "references/right-v3-outline.json": {
+    "new_path": "development/references/right-v3-outline.json",
+    "original_sha256": "446ced5e7dd11a8f2f211de64e802b81999f1a92f7893fcc81c28b83051313f2",
+    "current_sha256": "446ced5e7dd11a8f2f211de64e802b81999f1a92f7893fcc81c28b83051313f2"
+  },
+  "references/ball-mount-core.stl": {
+    "new_path": "development/references/ball-mount-core.stl",
+    "original_sha256": "3e61ca2b0cd919e9efabe5f1f844f74ced9cee09c74bccfcffe9f71846cfedf9",
+    "current_sha256": "3e61ca2b0cd919e9efabe5f1f844f74ced9cee09c74bccfcffe9f71846cfedf9"
+  },
+  "references/left-holder-pcb-v6.stl": {
+    "new_path": "development/references/left-holder-pcb-v6.stl",
+    "original_sha256": "298e5519fb44a593ed48afd9855a69d48e383c0de397fee34ca5b553a75f09fb",
+    "current_sha256": "298e5519fb44a593ed48afd9855a69d48e383c0de397fee34ca5b553a75f09fb"
+  },
+  "references/ball34-check-v10.stl": {
+    "new_path": "development/references/ball34-check-v10.stl",
+    "original_sha256": "22d04d627967233ecc1552113e7520befed8940bfd829c311aff9284f566aec1",
+    "current_sha256": "22d04d627967233ecc1552113e7520befed8940bfd829c311aff9284f566aec1"
+  },
+  "references/left-rounded-envelope.stl": {
+    "new_path": "development/references/left-rounded-envelope.stl",
+    "original_sha256": "dcc117f7d87ecb883826350ed9358f77737672607a720d94c993477a528de1e4",
+    "current_sha256": "dcc117f7d87ecb883826350ed9358f77737672607a720d94c993477a528de1e4"
+  },
+  "references/right-switch-planes.json": {
+    "new_path": "development/references/right-switch-planes.json",
+    "original_sha256": "2b77e64026632325bc26b365839ea6f592da2541c491c171e7951375a87ac28d",
+    "current_sha256": "2b77e64026632325bc26b365839ea6f592da2541c491c171e7951375a87ac28d"
+  },
+  "references/left-holder-pcb-v6.step": {
+    "new_path": "development/references/left-holder-pcb-v6.step",
+    "original_sha256": "344010ecc5a98e4bf3a93209bf551a50f89f0c755597f11017c84b2a9f03fc35",
+    "current_sha256": "344010ecc5a98e4bf3a93209bf551a50f89f0c755597f11017c84b2a9f03fc35"
+  },
+  "references/ball-surface.json": {
+    "new_path": "development/references/ball-surface.json",
+    "original_sha256": "d9909f09273006759cd09bdb0a44eccb5020d7747a741efa9d32c8ef77e09328",
+    "current_sha256": "d9909f09273006759cd09bdb0a44eccb5020d7747a741efa9d32c8ef77e09328"
+  },
+  "references/left-upper-features-v6.stl": {
+    "new_path": "development/references/left-upper-features-v6.stl",
+    "original_sha256": "990a5bbd8cb1bc9cd028c3fddb780bd0f8a6f8dbdae17fcf621311c9fed0483f",
+    "current_sha256": "990a5bbd8cb1bc9cd028c3fddb780bd0f8a6f8dbdae17fcf621311c9fed0483f"
+  },
+  "references/left-upper-features-v7.stl": {
+    "new_path": "development/references/left-upper-features-v7.stl",
+    "original_sha256": "e185604dec98c50d60926d47cae439b699ef85fa3e24f1c96fda38a61436490b",
+    "current_sha256": "e185604dec98c50d60926d47cae439b699ef85fa3e24f1c96fda38a61436490b"
+  },
+  "references/holder-panel.stl": {
+    "new_path": "development/references/holder-panel.stl",
+    "original_sha256": "a37ff661eb3c5361f264176b117fef22bc387eb885d060050247703648a5d589",
+    "current_sha256": "a37ff661eb3c5361f264176b117fef22bc387eb885d060050247703648a5d589"
+  },
+  "references/right-holder-support-v7.stl": {
+    "new_path": "development/references/right-holder-support-v7.stl",
+    "original_sha256": "560cfb17b82243189174bd71ff11decccfb525bf1821d8d0ac9f988f62d56444",
+    "current_sha256": "560cfb17b82243189174bd71ff11decccfb525bf1821d8d0ac9f988f62d56444"
+  },
+  "references/right-mesh-reliefs.json": {
+    "new_path": "development/references/right-mesh-reliefs.json",
+    "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "current_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "references/right-holder-support-v6.stl": {
+    "new_path": "development/references/right-holder-support-v6.stl",
+    "original_sha256": "fc7ac08ca4b9486287ede3b6ae6eece8ed7df7db540bb017980d982347ae5299",
+    "current_sha256": "fc7ac08ca4b9486287ede3b6ae6eece8ed7df7db540bb017980d982347ae5299"
+  },
+  "references/ball35p2-sweep-v10.stl": {
+    "new_path": "development/references/ball35p2-sweep-v10.stl",
+    "original_sha256": "79f36a9d7a557f9d61d977b5f705705a44f11d2127457afec31e3edd5bb0d909",
+    "current_sha256": "79f36a9d7a557f9d61d977b5f705705a44f11d2127457afec31e3edd5bb0d909"
+  },
+  "references/regression/right-outline-v6.json": {
+    "new_path": "development/references/regression/right-outline-v6.json",
+    "original_sha256": "138ed3918008c9aae6f4c890aedb856da7c7d43893056f6277adf69aff357d6c",
+    "current_sha256": "138ed3918008c9aae6f4c890aedb856da7c7d43893056f6277adf69aff357d6c"
+  },
+  "references/regression/right-closed-v9.stl.gz": {
+    "new_path": "development/references/regression/right-closed-v9.stl.gz",
+    "original_sha256": "d3a883bb0bd5ecf6e4f43c4b1aef16ab9d56b772e5169a35d7f62a52685732c3",
+    "current_sha256": "d3a883bb0bd5ecf6e4f43c4b1aef16ab9d56b772e5169a35d7f62a52685732c3"
+  },
+  "references/regression/right-closed-v7.stl.gz": {
+    "new_path": "development/references/regression/right-closed-v7.stl.gz",
+    "original_sha256": "576ad3a64e48d0a2e036bb9658716227395a2b00c1d1f4e1a9459ea132d98cc8",
+    "current_sha256": "576ad3a64e48d0a2e036bb9658716227395a2b00c1d1f4e1a9459ea132d98cc8"
+  },
+  "references/regression/right-closed-v10.stl.gz": {
+    "new_path": "development/references/regression/right-closed-v10.stl.gz",
+    "original_sha256": "4aa0cd8fbb5fa7d5bc7ce54928ffe93e120b63840c9a142633cf47b722cfb39c",
+    "current_sha256": "4aa0cd8fbb5fa7d5bc7ce54928ffe93e120b63840c9a142633cf47b722cfb39c"
+  },
+  "references/regression/right-closed-v8.stl.gz": {
+    "new_path": "development/references/regression/right-closed-v8.stl.gz",
+    "original_sha256": "24957e6ba3bce6e8820c0bdea05a036680274d9c82afb66e011f5d299163f7c2",
+    "current_sha256": "24957e6ba3bce6e8820c0bdea05a036680274d9c82afb66e011f5d299163f7c2"
+  },
+  "references/regression/ball-opening-v9.stl": {
+    "new_path": "development/references/regression/ball-opening-v9.stl",
+    "original_sha256": "ca5d3b67e397ac6b2c3650dd81af3931c5ea93ce05f030c61cef8d0f63a33c07",
+    "current_sha256": "ca5d3b67e397ac6b2c3650dd81af3931c5ea93ce05f030c61cef8d0f63a33c07"
+  },
+  "references/Elite-C-holder/Elite-C.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/Elite-C.kicad_mod",
+    "original_sha256": "141df9e753fa9bbb15787b899fcd13470279c61675c4ab1da1ca5fb8835bfa00",
+    "current_sha256": "141df9e753fa9bbb15787b899fcd13470279c61675c4ab1da1ca5fb8835bfa00"
+  },
+  "references/Elite-C-holder/readme.md": {
+    "new_path": "development/references/Elite-C-holder/readme.md",
+    "original_sha256": "3faadef13b1df7e62afa8c88d668e3a6ded84a40b0b1acd6b96f80dacdc4002a",
+    "current_sha256": "3faadef13b1df7e62afa8c88d668e3a6ded84a40b0b1acd6b96f80dacdc4002a"
+  },
+  "references/Elite-C-holder/.gitignore": {
+    "new_path": "development/references/Elite-C-holder/.gitignore",
+    "original_sha256": "a31fbe83d3f033f7df96844c741c6e65340944fce029715cd2acb959e71b0fce",
+    "current_sha256": "a31fbe83d3f033f7df96844c741c6e65340944fce029715cd2acb959e71b0fce"
+  },
+  "references/Elite-C-holder/promicro.lib": {
+    "new_path": "development/references/Elite-C-holder/promicro.lib",
+    "original_sha256": "eb0a49c0870adeb131ce6e57a34b0babd99e3badfd4b6f50ed024ad30d72f195",
+    "current_sha256": "eb0a49c0870adeb131ce6e57a34b0babd99e3badfd4b6f50ed024ad30d72f195"
+  },
+  "references/Elite-C-holder/pics/2.png": {
+    "new_path": "development/references/Elite-C-holder/pics/2.png",
+    "original_sha256": "5558161646ca1785a3471239ec0cb318426bb6ac1d2e763281220759db5bbb10",
+    "current_sha256": "5558161646ca1785a3471239ec0cb318426bb6ac1d2e763281220759db5bbb10"
+  },
+  "references/Elite-C-holder/pics/1.jpg": {
+    "new_path": "development/references/Elite-C-holder/pics/1.jpg",
+    "original_sha256": "f45428be9df2923e79be55685007f9a1d7e088e07e65fe7516d477b4fa6704b5",
+    "current_sha256": "f45428be9df2923e79be55685007f9a1d7e088e07e65fe7516d477b4fa6704b5"
+  },
+  "references/Elite-C-holder/adapter/adapter.kicad_sch": {
+    "new_path": "development/references/Elite-C-holder/adapter/adapter.kicad_sch",
+    "original_sha256": "9f208936d3451f89dc918e44cf73c55cc8b442310a0c56a8f632d3a527564d5a",
+    "current_sha256": "9f208936d3451f89dc918e44cf73c55cc8b442310a0c56a8f632d3a527564d5a"
+  },
+  "references/Elite-C-holder/adapter/adapter.kicad_pro": {
+    "new_path": "development/references/Elite-C-holder/adapter/adapter.kicad_pro",
+    "original_sha256": "9bf2b6d7f90f8bf15898bb29acad48cb5d17be6850950403c01fd118278eb727",
+    "current_sha256": "9bf2b6d7f90f8bf15898bb29acad48cb5d17be6850950403c01fd118278eb727"
+  },
+  "references/Elite-C-holder/adapter/fp-lib-table": {
+    "new_path": "development/references/Elite-C-holder/adapter/fp-lib-table",
+    "original_sha256": "120b0521add419c486ea286920a68574da9e359d745b3014f051118d3d7ad793",
+    "current_sha256": "120b0521add419c486ea286920a68574da9e359d745b3014f051118d3d7ad793"
+  },
+  "references/Elite-C-holder/adapter/adapter.kicad_prl": {
+    "new_path": "development/references/Elite-C-holder/adapter/adapter.kicad_prl",
+    "original_sha256": "6446b2c6abef023bbe8bf770c3699b9f33b520640c7a48440ec5b0adf3c402bc",
+    "current_sha256": "6446b2c6abef023bbe8bf770c3699b9f33b520640c7a48440ec5b0adf3c402bc"
+  },
+  "references/Elite-C-holder/adapter/adapter.round-tracks-config": {
+    "new_path": "development/references/Elite-C-holder/adapter/adapter.round-tracks-config",
+    "original_sha256": "5614a374bf3b3afc461998efaf14e929aecdfbf720613acd182f643b76b33ef9",
+    "current_sha256": "5614a374bf3b3afc461998efaf14e929aecdfbf720613acd182f643b76b33ef9"
+  },
+  "references/Elite-C-holder/adapter/sym-lib-table": {
+    "new_path": "development/references/Elite-C-holder/adapter/sym-lib-table",
+    "original_sha256": "f39439810e0e7e443f835bc28227e86f1a2deb7a9cb3a131c239d450f1dfb926",
+    "current_sha256": "f39439810e0e7e443f835bc28227e86f1a2deb7a9cb3a131c239d450f1dfb926"
+  },
+  "references/Elite-C-holder/adapter/adapter.kicad_pcb": {
+    "new_path": "development/references/Elite-C-holder/adapter/adapter.kicad_pcb",
+    "original_sha256": "f48c08c4c01c5bf56fef9aa8632880a680dd0af9d54ee613492773cf8ae95131",
+    "current_sha256": "f48c08c4c01c5bf56fef9aa8632880a680dd0af9d54ee613492773cf8ae95131"
+  },
+  "references/Elite-C-holder/adapter/jlcpcb/project.db": {
+    "new_path": "development/references/Elite-C-holder/adapter/jlcpcb/project.db",
+    "original_sha256": "688569976c5987a8e979fc5d3919355bc49d134fcbf49efdeac81eebd73fda88",
+    "current_sha256": "688569976c5987a8e979fc5d3919355bc49d134fcbf49efdeac81eebd73fda88"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/Elite-C.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/Elite-C.kicad_mod",
+    "original_sha256": "9fddf6c6a7072866cb71a2102f49ec27fd5413a38ae2335374bedc8b7a82c846",
+    "current_sha256": "9fddf6c6a7072866cb71a2102f49ec27fd5413a38ae2335374bedc8b7a82c846"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "original_sha256": "a2f9b9a091b7c5adbf3b117481a272d63523424b5aaa4057622be229c6424a28",
+    "current_sha256": "a2f9b9a091b7c5adbf3b117481a272d63523424b5aaa4057622be229c6424a28"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/FPC-SMD_FPC05012-09200-.5mm-rev.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/FPC-SMD_FPC05012-09200-.5mm-rev.kicad_mod",
+    "original_sha256": "7297a403eea9d41b42c0bfa33ad7c30bc97436cdf663271ca62faa772c89e9a5",
+    "current_sha256": "7297a403eea9d41b42c0bfa33ad7c30bc97436cdf663271ca62faa772c89e9a5"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/R_1206_handsolder.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/R_1206_handsolder.kicad_mod",
+    "original_sha256": "d4cff8674dfaba1a5027e8d6d36a23cdca9ff2b7f75b87e8c1a857a7f520e0ee",
+    "current_sha256": "d4cff8674dfaba1a5027e8d6d36a23cdca9ff2b7f75b87e8c1a857a7f520e0ee"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/SW_SPDT+H-MSK12C01_hor(7pin_SMD).kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/SW_SPDT+H-MSK12C01_hor(7pin_SMD).kicad_mod",
+    "original_sha256": "ce72762e34c70c7eccdc43bec46a69023ec726fb90d2bc866e49391689247208",
+    "current_sha256": "ce72762e34c70c7eccdc43bec46a69023ec726fb90d2bc866e49391689247208"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/PushSwitch.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/PushSwitch.kicad_mod",
+    "original_sha256": "30621b14eefd5dad3711f249924ee7a12a9dd4700b9fcf7bca93e5f4401e5d9a",
+    "current_sha256": "30621b14eefd5dad3711f249924ee7a12a9dd4700b9fcf7bca93e5f4401e5d9a"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/MountingHole_4mm_Pad_thin.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/MountingHole_4mm_Pad_thin.kicad_mod",
+    "original_sha256": "2acf81da40f8a3d7f209edee43d14473a7733c5b06cc9828e5ef9d05fcd4930a",
+    "current_sha256": "2acf81da40f8a3d7f209edee43d14473a7733c5b06cc9828e5ef9d05fcd4930a"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "original_sha256": "c547fd3fdfab04b4de0534864bf43045ecb672631b36a8551d5099560d80ff86",
+    "current_sha256": "c547fd3fdfab04b4de0534864bf43045ecb672631b36a8551d5099560d80ff86"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/6_PinHeader.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/6_PinHeader.kicad_mod",
+    "original_sha256": "e6511a5ffb7f414592507a588f1e3b3d62ab8289783ae949bad06881bf9e3beb",
+    "current_sha256": "e6511a5ffb7f414592507a588f1e3b3d62ab8289783ae949bad06881bf9e3beb"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/5_PinHeader.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/5_PinHeader.kicad_mod",
+    "original_sha256": "028489e8aacdbcfce08956769016cfa4005987e0ec3d815069feb6b3aa4b9fe7",
+    "current_sha256": "028489e8aacdbcfce08956769016cfa4005987e0ec3d815069feb6b3aa4b9fe7"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/Jack_3.5mm_PJ320E_Horizontal.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/Jack_3.5mm_PJ320E_Horizontal.kicad_mod",
+    "original_sha256": "198d881ec35ffb5b5e851864ecf19b918612a46a0cc9c81478aaa5609d9774c1",
+    "current_sha256": "198d881ec35ffb5b5e851864ecf19b918612a46a0cc9c81478aaa5609d9774c1"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm.kicad_mod",
+    "original_sha256": "2168930bb0bafab1b72745cceac1cf5f1b305381342828b32f644ee86ad937e4",
+    "current_sha256": "2168930bb0bafab1b72745cceac1cf5f1b305381342828b32f644ee86ad937e4"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/power_switch_jumper.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/power_switch_jumper.kicad_mod",
+    "original_sha256": "d843681a80e7731e1f4cc048721d44f0a2c235f0dd1f041f9c7bad3432819d70",
+    "current_sha256": "d843681a80e7731e1f4cc048721d44f0a2c235f0dd1f041f9c7bad3432819d70"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x04_P1.00mm_Vertical.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x04_P1.00mm_Vertical.kicad_mod",
+    "original_sha256": "4d09753755809b7796123f5be3883c74d4e8cb6a18de42a9b18bd01e671ce8b9",
+    "current_sha256": "4d09753755809b7796123f5be3883c74d4e8cb6a18de42a9b18bd01e671ce8b9"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/header1x03.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/header1x03.kicad_mod",
+    "original_sha256": "2759471f2119769378afc770922f931a35ad5124ca710a15bca53b7a5557f250",
+    "current_sha256": "2759471f2119769378afc770922f931a35ad5124ca710a15bca53b7a5557f250"
+  },
+  "references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x01_P2.54mm_Vertical.kicad_mod": {
+    "new_path": "development/references/Elite-C-holder/adapter/Library.pretty/PinHeader_1x01_P2.54mm_Vertical.kicad_mod",
+    "original_sha256": "c699e7942201d5c43d061dac97da5409bba08d6e8829fcc869cdbaedcc5ecd2b",
+    "current_sha256": "c699e7942201d5c43d061dac97da5409bba08d6e8829fcc869cdbaedcc5ecd2b"
+  },
+  "assembly.scad": {
+    "new_path": "development/assembly.scad",
+    "original_sha256": "21978d62dc520ca18081a6dbd217b854300f0948ccfb3dd358c1350896ef3ec6",
+    "current_sha256": "21978d62dc520ca18081a6dbd217b854300f0948ccfb3dd358c1350896ef3ec6"
+  }
+}

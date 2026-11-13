@@ -10,7 +10,7 @@ blended transitions, holder/USB accommodation and matching bottom trays.
 See [source attribution](docs/ATTRIBUTION.md).
 
 Third-party material retains its own license. In particular, the Amoeba source
-license is retained in [references/amoeba-LICENSE.txt](references/amoeba-LICENSE.txt)
+license is retained in [references/amoeba-LICENSE.txt](development/references/amoeba-LICENSE.txt)
 (CC0 1.0). Linked PCB and firmware projects are not relicensed by this notice.
 No separate software license is introduced for the project-specific modeling
 and verification scripts in this development snapshot.

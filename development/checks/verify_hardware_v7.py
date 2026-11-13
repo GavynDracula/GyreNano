@@ -12,7 +12,7 @@ for side,d in layout.items():
  board=manifold(trimesh.load(ROOT/'references'/f'{side}-holder-pcb-v6.stl'))
  plug=manifold(trimesh.load(ROOT/'references'/f'{side}-usb-plug-envelope-v6.stl'))
  mcu=mf.Manifold.cube((18.6,34.6,9)).translate((d['usb_center_x']-9.3,d['mcu_center_xy'][1]-17.3,4.25))
- source=ROOT.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
+ source=ROOT.parent.parent/'Charybdis/files/3x5 nano/charybdisnano_v2_v187.stl' if side=='right' else ROOT/'references/skeletyl-v4-103.stl'
  original=trimesh.load(source);v=original.vertices.copy();original.vertices=np.column_stack((v[:,0],(70.01831113 if side=='right' else 0)-v[:,2],v[:,1]+8))
  if side=='left':original.apply_transform(np.diag([-1,1,1,1]))
  baseline=manifold(original)
