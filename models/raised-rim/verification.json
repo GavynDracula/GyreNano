@@ -1,0 +1,441 @@
+{
+  "scope": "Exported STL versus immutable V14 and original Nano/Skeletyl key and ball datums. Functional mounting conservation, refaired roof, sampled internal-surface/thickness and added-material interference checks.",
+  "cap_proxy": "19.2 x 19.2 mm square, local normal z=+0.2..+20 mm; no claim of universal keycap or puller/finger fit.",
+  "physical_trial_complete": false,
+  "sliced": false,
+  "volume_tolerance_mm3": 0.001,
+  "sides": {
+    "left": {
+      "input_sha256": "e8d411ce466a7449e0d5026e1d5747191d813a97db38caa00f162bef44d15ea7",
+      "output_sha256": "ee51d903b1ee274b99ddd230944c1d7d1c1c20b029e7f01fe4202708d3183e42",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "removed_volume_mm3": 58.87173091851052,
+      "added_volume_mm3": 15582.870045653313,
+      "roof_checks": {
+        "samples": 2492,
+        "max_internal_exit_change_mm": 2.947356403382173e-06,
+        "minimum_sampled_normal_thickness_mm": 1.2575319583016993,
+        "requirement": "At least1.6mm along current inner-surface normal, or baseline minimum where already thinner; sampled check, not global certification"
+      },
+      "max_pairwise_key_vector_change_mm": 1.393261049582015e-06,
+      "thumb_to_main_vector_change_mm": 1.7632914040264198e-07,
+      "max_center_shift_mm": 1.229859794982704e-06,
+      "max_axis_change_deg": 1.5128907556614795e-05,
+      "max_aperture_change_mm": 6.708112003650513e-07,
+      "keys": [
+        {
+          "key": 0,
+          "center_shift_from_original_mm": 4.835717898170951e-08,
+          "axis_angle_from_original_deg": 8.537736462515939e-07,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 2.7166314493353828e-05,
+          "removed_mount_material_mm3": 1.4210855486378021e-05,
+          "new_material_in_socket_proxy_mm3": 4.146721166266207e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 1,
+          "center_shift_from_original_mm": 2.29005835924949e-07,
+          "axis_angle_from_original_deg": 1.4787793334710982e-06,
+          "aperture_size_change_mm": 3.3811261168636975e-07,
+          "new_material_in_mount_mm3": 1.0711543697701593e-05,
+          "removed_mount_material_mm3": 5.536848976286004e-06,
+          "new_material_in_socket_proxy_mm3": 8.104637314106988e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 2,
+          "center_shift_from_original_mm": 1.1822581474308504e-07,
+          "axis_angle_from_original_deg": 0.0,
+          "aperture_size_change_mm": 4.178264845222657e-08,
+          "new_material_in_mount_mm3": 7.013825330570386e-06,
+          "removed_mount_material_mm3": 3.6404407765538825e-06,
+          "new_material_in_socket_proxy_mm3": 8.716717436245826e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 3,
+          "center_shift_from_original_mm": 1.229859794982704e-06,
+          "axis_angle_from_original_deg": 1.5128907556614795e-05,
+          "aperture_size_change_mm": 1.2159900109054433e-07,
+          "new_material_in_mount_mm3": 1.0501735531278643e-05,
+          "removed_mount_material_mm3": 1.538421023190003e-05,
+          "new_material_in_socket_proxy_mm3": 1.2110037174565729e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 4,
+          "center_shift_from_original_mm": 1.3786805301404842e-07,
+          "axis_angle_from_original_deg": 8.537736462515939e-07,
+          "aperture_size_change_mm": 1.205695756567593e-07,
+          "new_material_in_mount_mm3": 3.8889433041404945e-06,
+          "removed_mount_material_mm3": 3.978827185496375e-06,
+          "new_material_in_socket_proxy_mm3": 2.769343130290895e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 5,
+          "center_shift_from_original_mm": 3.3044841949163257e-07,
+          "axis_angle_from_original_deg": 2.561320938754782e-06,
+          "aperture_size_change_mm": 2.396083509381697e-07,
+          "new_material_in_mount_mm3": 1.8636559485395163e-05,
+          "removed_mount_material_mm3": 2.021003771736461e-05,
+          "new_material_in_socket_proxy_mm3": 1.79137718830194e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 6,
+          "center_shift_from_original_mm": 1.652585426396053e-07,
+          "axis_angle_from_original_deg": 1.2074182697257333e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 3.0147262161962543e-05,
+          "removed_mount_material_mm3": 1.0801096290786556e-05,
+          "new_material_in_socket_proxy_mm3": 2.8923656247726636e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 7,
+          "center_shift_from_original_mm": 3.421536520821881e-07,
+          "axis_angle_from_original_deg": 4.517745487845102e-06,
+          "aperture_size_change_mm": 3.275245497036394e-07,
+          "new_material_in_mount_mm3": 6.720696141207835e-05,
+          "removed_mount_material_mm3": 7.383379203200154e-06,
+          "new_material_in_socket_proxy_mm3": 2.54476698232737e-05,
+          "new_material_in_cap_proxy_mm3": 5.154462734784706e-12
+        },
+        {
+          "key": 8,
+          "center_shift_from_original_mm": 8.03612516735796e-07,
+          "axis_angle_from_original_deg": 5.122641877509565e-06,
+          "aperture_size_change_mm": 1.2416287376026958e-07,
+          "new_material_in_mount_mm3": 2.3510978981355363e-05,
+          "removed_mount_material_mm3": 6.984692522542678e-06,
+          "new_material_in_socket_proxy_mm3": 8.305030786121161e-06,
+          "new_material_in_cap_proxy_mm3": 5.162656582756069e-07
+        },
+        {
+          "key": 9,
+          "center_shift_from_original_mm": 5.318802679510653e-07,
+          "axis_angle_from_original_deg": 5.122641877509565e-06,
+          "aperture_size_change_mm": 2.3280538385961336e-08,
+          "new_material_in_mount_mm3": 2.0424859129835788e-05,
+          "removed_mount_material_mm3": 3.2741550156826144e-06,
+          "new_material_in_socket_proxy_mm3": 1.516019448113318e-05,
+          "new_material_in_cap_proxy_mm3": 5.062686593447144e-07
+        },
+        {
+          "key": 10,
+          "center_shift_from_original_mm": 1.1925129023297647e-07,
+          "axis_angle_from_original_deg": 0.0,
+          "aperture_size_change_mm": 3.1040716663710555e-08,
+          "new_material_in_mount_mm3": 1.1114695978896889e-05,
+          "removed_mount_material_mm3": 8.140877537542374e-06,
+          "new_material_in_socket_proxy_mm3": 6.8703106574721075e-06,
+          "new_material_in_cap_proxy_mm3": 1.4319218971490947e-09
+        },
+        {
+          "key": 11,
+          "center_shift_from_original_mm": 2.975260670885155e-07,
+          "axis_angle_from_original_deg": 3.1945284701301985e-06,
+          "aperture_size_change_mm": 2.1145385886711665e-08,
+          "new_material_in_mount_mm3": 1.4067859635930962e-05,
+          "removed_mount_material_mm3": 2.8273552080398554e-06,
+          "new_material_in_socket_proxy_mm3": 4.78650543690653e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 12,
+          "center_shift_from_original_mm": 3.8629678002911785e-07,
+          "axis_angle_from_original_deg": 4.829673078902934e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 1.1031342847355738e-05,
+          "removed_mount_material_mm3": 1.010347968502178e-05,
+          "new_material_in_socket_proxy_mm3": 4.962791967893134e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 13,
+          "center_shift_from_original_mm": 4.515516230145776e-07,
+          "axis_angle_from_original_deg": 2.091309789151873e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 5.450820407973289e-05,
+          "removed_mount_material_mm3": 1.1703150849326016e-05,
+          "new_material_in_socket_proxy_mm3": 4.420403493345364e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 14,
+          "center_shift_from_original_mm": 6.366370805089735e-07,
+          "axis_angle_from_original_deg": 1.2074182697257333e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 4.5169545881671355e-05,
+          "removed_mount_material_mm3": 3.6156631133727234e-05,
+          "new_material_in_socket_proxy_mm3": 1.2764957285640387e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 15,
+          "center_shift_from_original_mm": 3.5358775957278756e-07,
+          "axis_angle_from_original_deg": 2.091309789151873e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 1.1436556308301807e-05,
+          "removed_mount_material_mm3": 3.427688287429454e-05,
+          "new_material_in_socket_proxy_mm3": 7.975447323487807e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 16,
+          "center_shift_from_original_mm": 3.39325349223703e-07,
+          "axis_angle_from_original_deg": 1.9090959104164224e-06,
+          "aperture_size_change_mm": 6.708112003650513e-07,
+          "new_material_in_mount_mm3": 5.961653090180812e-05,
+          "removed_mount_material_mm3": 0.00013938341973205646,
+          "new_material_in_socket_proxy_mm3": 6.893673518426665e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 17,
+          "center_shift_from_original_mm": 5.01599405259596e-07,
+          "axis_angle_from_original_deg": 6.502146373618258e-06,
+          "aperture_size_change_mm": 0.0,
+          "new_material_in_mount_mm3": 1.2277653999016647e-05,
+          "removed_mount_material_mm3": 3.3894499394697346e-05,
+          "new_material_in_socket_proxy_mm3": 1.1007047511801403e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        }
+      ],
+      "added_assembly_overlap_mm3": {
+        "left_retainer.stl": 0.0,
+        "left_thumb_retainer.stl": 4.943348453161062e-06,
+        "left_main_support": 4.638301447472516e-18,
+        "left_thumb_support": 5.744147270830565e-06,
+        "original_holder_board_reference": 0.0
+      },
+      "exterior_xy_bounds_change_mm": 0.0
+    },
+    "right": {
+      "input_sha256": "7ac02fda6f661dd728d71796be6d4cadde922f52cdeade3510e089727ed26e7d",
+      "output_sha256": "d4eae82c9b8327e2cfb8e5a2c697e12ec7b9771f537e7ee2f6b78919b9d139ee",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "removed_volume_mm3": 3070.1529636411847,
+      "added_volume_mm3": 10946.536135370889,
+      "roof_checks": {
+        "samples": 1985,
+        "max_internal_exit_change_mm": 5.81834849315959,
+        "minimum_sampled_normal_thickness_mm": 0.7077811728997724,
+        "requirement": "At least1.6mm along current inner-surface normal, or baseline minimum where already thinner; sampled check, not global certification"
+      },
+      "max_pairwise_key_vector_change_mm": 1.72444485421502e-06,
+      "thumb_to_main_vector_change_mm": 2.3057109236617165e-07,
+      "max_center_shift_mm": 1.098128849305329e-06,
+      "max_axis_change_deg": 1.1390761175093017e-05,
+      "max_aperture_change_mm": 4.7681523618336996e-07,
+      "keys": [
+        {
+          "key": 0,
+          "center_shift_from_original_mm": 1.7728302396654577e-07,
+          "axis_angle_from_original_deg": 0.0,
+          "aperture_size_change_mm": 4.038221739222081e-07,
+          "new_material_in_mount_mm3": 6.182516157113861e-06,
+          "removed_mount_material_mm3": 4.7796507781379194e-05,
+          "new_material_in_socket_proxy_mm3": 3.2472683561418948e-06,
+          "new_material_in_cap_proxy_mm3": 6.05706542745899e-14
+        },
+        {
+          "key": 1,
+          "center_shift_from_original_mm": 1.4880101356000138e-07,
+          "axis_angle_from_original_deg": 0.0,
+          "aperture_size_change_mm": 4.070506331999013e-07,
+          "new_material_in_mount_mm3": 8.93667288799483e-05,
+          "removed_mount_material_mm3": 2.8647082930341114e-05,
+          "new_material_in_socket_proxy_mm3": 3.4420418974748493e-06,
+          "new_material_in_cap_proxy_mm3": 2.3611796032497606e-07
+        },
+        {
+          "key": 2,
+          "center_shift_from_original_mm": 6.602632754372993e-07,
+          "axis_angle_from_original_deg": 2.831646840510158e-06,
+          "aperture_size_change_mm": 6.208143865649163e-08,
+          "new_material_in_mount_mm3": 9.926039203754146e-06,
+          "removed_mount_material_mm3": 1.455782094850696e-05,
+          "new_material_in_socket_proxy_mm3": 1.220115343396615e-05,
+          "new_material_in_cap_proxy_mm3": 3.327575062717081e-07
+        },
+        {
+          "key": 3,
+          "center_shift_from_original_mm": 8.120430447356374e-07,
+          "axis_angle_from_original_deg": 2.9575586669421963e-06,
+          "aperture_size_change_mm": 1.7763568394002505e-15,
+          "new_material_in_mount_mm3": 0.0001072667861777671,
+          "removed_mount_material_mm3": 1.5627497522826473e-05,
+          "new_material_in_socket_proxy_mm3": 5.44416099122011e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 4,
+          "center_shift_from_original_mm": 6.239560294437188e-07,
+          "axis_angle_from_original_deg": 1.4787793334710982e-06,
+          "aperture_size_change_mm": 1.2159900286690117e-07,
+          "new_material_in_mount_mm3": 1.1920451665215792e-05,
+          "removed_mount_material_mm3": 1.8875395652095143e-05,
+          "new_material_in_socket_proxy_mm3": 1.504950045969604e-05,
+          "new_material_in_cap_proxy_mm3": 6.938893903907228e-18
+        },
+        {
+          "key": 5,
+          "center_shift_from_original_mm": 5.666276756756096e-07,
+          "axis_angle_from_original_deg": 1.2074182697257333e-06,
+          "aperture_size_change_mm": 2.532779497244064e-07,
+          "new_material_in_mount_mm3": 7.906799135691974e-06,
+          "removed_mount_material_mm3": 8.521366931615328e-05,
+          "new_material_in_socket_proxy_mm3": 1.4394607430461956e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 6,
+          "center_shift_from_original_mm": 2.2391798955782053e-07,
+          "axis_angle_from_original_deg": 8.537736462515939e-07,
+          "aperture_size_change_mm": 3.4704556561848676e-07,
+          "new_material_in_mount_mm3": 4.619144706698536e-05,
+          "removed_mount_material_mm3": 1.1320296393262723e-05,
+          "new_material_in_socket_proxy_mm3": 1.7871632235608656e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 7,
+          "center_shift_from_original_mm": 5.514110637357561e-07,
+          "axis_angle_from_original_deg": 2.561320938754782e-06,
+          "aperture_size_change_mm": 5.329070518200751e-15,
+          "new_material_in_mount_mm3": 1.5171860572277895e-05,
+          "removed_mount_material_mm3": 1.2423681572008775e-05,
+          "new_material_in_socket_proxy_mm3": 4.223961888577531e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 8,
+          "center_shift_from_original_mm": 1.098128849305329e-06,
+          "axis_angle_from_original_deg": 1.1390761175093017e-05,
+          "aperture_size_change_mm": 1.4210854715202004e-14,
+          "new_material_in_mount_mm3": 8.372725590125381e-05,
+          "removed_mount_material_mm3": 7.224471741446943e-05,
+          "new_material_in_socket_proxy_mm3": 2.2553920629669493e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 9,
+          "center_shift_from_original_mm": 6.907852620885373e-07,
+          "axis_angle_from_original_deg": 2.091309789151873e-06,
+          "aperture_size_change_mm": 1.4210854715202004e-14,
+          "new_material_in_mount_mm3": 2.769018737633409e-05,
+          "removed_mount_material_mm3": 0.00012346706535260244,
+          "new_material_in_socket_proxy_mm3": 2.0762242658428662e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 10,
+          "center_shift_from_original_mm": 7.236018468583033e-07,
+          "axis_angle_from_original_deg": 4.00455336570039e-06,
+          "aperture_size_change_mm": 7.105427357601002e-15,
+          "new_material_in_mount_mm3": 4.5363874885182346e-05,
+          "removed_mount_material_mm3": 2.686403736283583e-05,
+          "new_material_in_socket_proxy_mm3": 1.4329407056173237e-05,
+          "new_material_in_cap_proxy_mm3": 3.86260882740461e-07
+        },
+        {
+          "key": 11,
+          "center_shift_from_original_mm": 8.812954271839642e-07,
+          "axis_angle_from_original_deg": 7.778248095798993e-06,
+          "aperture_size_change_mm": 4.7681523618336996e-07,
+          "new_material_in_mount_mm3": 2.2433152134657943e-05,
+          "removed_mount_material_mm3": 0.00010605232904855016,
+          "new_material_in_socket_proxy_mm3": 3.452912235552982e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 12,
+          "center_shift_from_original_mm": 5.686093945627344e-07,
+          "axis_angle_from_original_deg": 8.18910913293408e-06,
+          "aperture_size_change_mm": 1.4210854715202004e-14,
+          "new_material_in_mount_mm3": 4.176459117501805e-05,
+          "removed_mount_material_mm3": 8.656486044088733e-05,
+          "new_material_in_socket_proxy_mm3": 7.978037634746697e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 13,
+          "center_shift_from_original_mm": 1.9938969400524762e-07,
+          "axis_angle_from_original_deg": 2.091309789151873e-06,
+          "aperture_size_change_mm": 3.455301733623628e-07,
+          "new_material_in_mount_mm3": 9.254200407914835e-05,
+          "removed_mount_material_mm3": 1.496671636700589e-05,
+          "new_material_in_socket_proxy_mm3": 9.954989307285205e-06,
+          "new_material_in_cap_proxy_mm3": 1.2346894340264924e-15
+        },
+        {
+          "key": 14,
+          "center_shift_from_original_mm": 6.158763332276014e-07,
+          "axis_angle_from_original_deg": 1.2074182697257333e-06,
+          "aperture_size_change_mm": 2.0891327778826962e-08,
+          "new_material_in_mount_mm3": 1.9458494604051897e-05,
+          "removed_mount_material_mm3": 0.0001210338729804299,
+          "new_material_in_socket_proxy_mm3": 5.6115476949825396e-06,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 15,
+          "center_shift_from_original_mm": 6.524523825981332e-07,
+          "axis_angle_from_original_deg": 2.699869328381916e-06,
+          "aperture_size_change_mm": 3.2752455147999626e-07,
+          "new_material_in_mount_mm3": 2.877059170765501e-05,
+          "removed_mount_material_mm3": 0.0001777160997913349,
+          "new_material_in_socket_proxy_mm3": 1.5293944699484836e-05,
+          "new_material_in_cap_proxy_mm3": 0.0
+        },
+        {
+          "key": 16,
+          "center_shift_from_original_mm": 1.8531234555309445e-07,
+          "axis_angle_from_original_deg": 1.2074182697257333e-06,
+          "aperture_size_change_mm": 3.45571814719392e-07,
+          "new_material_in_mount_mm3": 9.747539173501336e-06,
+          "removed_mount_material_mm3": 4.52623105756062e-05,
+          "new_material_in_socket_proxy_mm3": 4.193104728554075e-06,
+          "new_material_in_cap_proxy_mm3": 1.608331454128198e-10
+        }
+      ],
+      "added_assembly_overlap_mm3": {
+        "right_retainer.stl": 3.451246307718045e-16,
+        "right_thumb_retainer.stl": 5.525228143648139e-06,
+        "right_main_support": 5.261158310350769e-14,
+        "right_thumb_support": 5.784398430576517e-06,
+        "original_holder_board_reference": 7.610259818634222e-15
+      },
+      "exterior_xy_bounds_change_mm": 5.684341886080802e-14,
+      "trackball": {
+        "wall_sample_count": 576,
+        "max_wall_shift_vs_V14_mm": 4.800554326162387e-06,
+        "inherited_V14_wall_ray_residual_vs_original_mm": 0.005839958747375491,
+        "inherited_residual_note": "Largest ray residual occurs at depth -2 mm on the already-published V14 mesh. The new rim/collar preserves these hits within the bounded mesh-cleanup tolerance; actual differences are reported separately. Fitted datum below is measured separately.",
+        "seat_sample_count": 432,
+        "max_seat_shift_vs_original_mm": 5.2270706523591625e-06,
+        "max_seat_shift_vs_V14_mm": 5.1030549863701935e-06,
+        "fitted_seat_center_shift_vs_original_mm": 8.59198001731471e-08,
+        "fitted_seat_normal_change_vs_original_deg": 8.537736462515939e-07,
+        "max_ball_seat_to_key_vector_change_vs_original_mm": 1.0805045815642178e-06,
+        "added_component_overlap_mm3": {
+          "top": 1.0759277957326688e-06,
+          "btu": 0.0,
+          "cover": 0.0
+        },
+        "capsule_35p2_overlap_mm3": 0.0,
+        "minimum_axis_distance_mm": 17.648667783155247,
+        "radial_margin_for_34mm_ball_mm": 0.648667783155247,
+        "installed_sphere_center_measured": false
+      }
+    }
+  },
+  "passed": true
+}

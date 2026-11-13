@@ -59,3 +59,7 @@ __MACOSX/
 !/pcb/keyfield-fr4/eda/deliverables/GyreNanoKeyfieldFR4V33-EDAProject.zip
 !/pcb/keyfield-fpc/fabrication/GyreNanoKeyfieldFPCV27-SampleED.zip
 !/pcb/keyfield-fpc/fabrication/GyreNanoKeyfieldFPCV27-QuoteOnly.zip
+
+# Exact ASCII viewing copies; dense source meshes exceed GitHub file limits.
+/models/raised-rim/GyreNanoLeftShell.stl
+/models/raised-rim/GyreNanoRightShell.stl

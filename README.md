@@ -6,16 +6,18 @@ A wireless, hot-swap split trackball keyboard enclosure derived from [BastardKB 
 
 “Gyre / 洄流” echoes the swirling water of Charybdis; Nano denotes the compact layout. This is an independent derivative project.
 
-![Gyre Nano enclosure render](docs/images/gyre-nano.png)
+![Current Gyre Nano enclosure: integrated raised shoulders and rounded ball collar](models/raised-rim/preview.png)
 
-**Earlier enclosure baseline: right upper V11; left upper and both bottom trays V7.** Current integrated PCB/retainer routes are linked below. Geometry checks and reference-profile slicing have passed. Physical printing and complete assembly validation are pending. Images are model renders.
+**Current enclosure prototype: integrated raised shoulders and a rounded forward ball collar.** The latest upper shells preserve the original key/thumb/ball mounting relationships and reuse the existing bottom trays and FR4/FPC supports. Geometry and assembly-clearance checks have passed; these shells have not been sliced or physically assembled. Images show the current model.
+
+[Latest models and checks](models/raised-rim/README.md) · [Ball-collar close-up](models/raised-rim/right-outer-seam.png) · [Top view](models/raised-rim/top.png)
 
 ## Layout and compatibility
 
 - 3×5 main keys per half; three left thumb keys, two right thumb keys and a 34 mm trackball: 35 keys total.
 - **Mounting positions and relative axes of the main keys, thumb keys and original trackball seat are preserved.** Baselines are mirrored Skeletyl V4 `case_v4_103.stl` on the left and Charybdis Nano `charybdisnano_v2_v187.stl` on the right. [Verification details](docs/geometry.md)
 - The outer skin, thumb/ball transitions, sidewalls and bottom trays are redesigned. Height above the desk is not claimed identical to the original.
-- Intended hardware: Amoeba Royale single-switch PCBs, Kailh hot-swap sockets, header-mounted nrfmicro, Elite-C-holder and ZMK.
+- Current electronics routes use FR4 or FPC keyfields, Kailh hot-swap sockets, header-mounted nrfmicro and ZMK. The original prototype used Amoeba Royale single-switch PCBs and Elite-C-holder; the new holder and support designs are linked below.
 - Original holder mounting datums, a Type-C opening and bottom screw bosses adjacent to the sidewalls.
 - Dedicated battery accommodation and a nice!view window remain planned. Ready-to-flash firmware is not included; the prototype PCB designs are linked below.
 
@@ -25,14 +27,16 @@ Print files are in [`models/`](models/) as **geometry-only 3MF**, in millimetres
 
 | Part | File |
 | --- | --- |
-| Right upper V11 | [gyre-nano-right-v11.3mf](models/3x5/gyre-nano-right-v11.3mf) |
-| Left upper V7 | [gyre-nano-left-v7.3mf](models/3x5/gyre-nano-left-v7.3mf) |
+| Current right upper shell | [GyreNanoRightShell.3mf](models/raised-rim/GyreNanoRightShell.3mf) |
+| Current left upper shell | [GyreNanoLeftShell.3mf](models/raised-rim/GyreNanoLeftShell.3mf) |
 | Right bottom V7 | [gyre-nano-right-bottom-v7.3mf](models/3x5/gyre-nano-right-bottom-v7.3mf) |
 | Left bottom V7 | [gyre-nano-left-bottom-v7.3mf](models/3x5/gyre-nano-left-bottom-v7.3mf) |
-| Holder / USB fit trial | [right-holder-usb-fit.3mf](models/trials/right-holder-usb-fit.3mf) |
-| Ball / thumb fit trial | [right-ball-thumb-fit.3mf](models/trials/right-ball-thumb-fit.3mf) |
+| FR4 supports, if using FR4 | [Main and thumb retainers](models/integrated-fr4/README.md) |
+| FPC supports, if using FPC | [Direct supports and fit coupons](models/fpc-supports/README.md) |
 
 Bottom STEP files are also in [`models/3x5/`](models/3x5/), in assembly coordinates; bottom 3MF files use bed coordinates. Upper cases are mesh models, without exact B-rep STEP exports.
+
+Choose one support set for your PCB route. The earlier [V11/V7 shells](models/3x5/) and [V14 integrated shells](models/integrated-fr4/README.md) remain available as references. The current 3MFs preserve the checked STL coordinates and triangles exactly; large ASCII STL viewing copies remain local and are excluded from Git.
 
 Use the original upstream trackball components below. Their final installed positions have been checked for static fit:
 
@@ -44,13 +48,13 @@ Use the original upstream trackball components below. Their final installed posi
 
 ## FDM printing and assembly
 
-Print the two trials first to check controller header height, USB access, insert fit and the thin ball-opening skirt. Full cases and trays have passed reference slicing, but the complete adapter installation motion, support removal and manufacturing tolerances still need a physical trial. A local lower edge near the ball opening has a radial material chord of about 0.60 mm and deserves particular attention.
+Target trial printer: Creality K1C, 0.4 mm nozzle, PLA/PETG. Slice the current models using your own profile. Start with the support fit coupons for your PCB route; the [earlier holder/USB and ball/thumb samples](models/trials/) can check inherited interfaces but do not reproduce the new shoulder or collar. Keycap travel, tool access, adapter installation motion, support removal and manufacturing tolerances still need physical trials. Local thin features inherited from the ball opening are documented in the [current checks](models/raised-rim/README.md).
 
 [FDM printing notes](docs/printing.md) · [Geometry checks and limits](docs/geometry.md) · [Build guide (TBD)](docs/build-guide.md)
 
 ## Electronics and integrated prints
 
-**Current snapshot: v0.2.0-prototype.1 — waiting for PCB samples and physical assembly.** The earlier enclosure prints above remain available for the existing Amoeba build. The new column-PCB routes use the integrated shells and their matching retainers.
+**Electronics baseline: v0.2.0-prototype.1 — waiting for PCB samples and physical assembly.** The current enclosure update adds no PCB changes. Both column-PCB routes can use the latest upper shells with their matching supports; the earlier release archives retain their original models.
 
 | Route / part | Files |
 | --- | --- |
@@ -59,7 +63,8 @@ Print the two trials first to check controller header height, USB access, insert
 | FPC keyfield, 0.11 mm, 97.18 × 96.47 mm | [V27 KiCad / sample Gerber](pcb/keyfield-fpc/README.md) |
 | Left/right controller holders | [Corrected native EDA projects](pcb/holders/README.md) |
 | PMW3610 sensor with FFC | [Corrected native EDA project](pcb/sensor/README.md) |
-| Integrated upper shells + FR4 retainers | [STL / STEP](models/integrated-fr4/README.md) |
+| Current upper shells | [3MF / previews / checks](models/raised-rim/README.md) |
+| Matching FR4 retainers and V14 reference shells | [STL / STEP](models/integrated-fr4/README.md) |
 | Bare-FPC direct supports | [STL / 3MF / STEP](models/fpc-supports/README.md) |
 
 Existing holder interfaces and key/ball mounting poses are retained. Six keyfield FFCs are still required per hand. Cross-region FR4 bridges must be removed before curved installation. Thin-FR4 forming, FPC durability, complete cable paths and printed fit remain trial items. No 0.4 mm thickness change is included.

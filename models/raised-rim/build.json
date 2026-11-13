@@ -1,0 +1,131 @@
+{
+  "parameters": {
+    "main_rise_normal_mm": 4.5,
+    "thumb_rise_normal_mm": 1.8,
+    "keycap_guard_width_mm": 19.2,
+    "keycap_guard_normal_range_mm": [
+      0.2,
+      20.0
+    ],
+    "inner_round_transition_mm": 2.8,
+    "outer_top_radius_mm": 1.5,
+    "attachment_overlap_mm": 0.65,
+    "triangle_edge_target_mm": 0.22,
+    "ball_fade_mm": 5.0,
+    "ball_preserve_offset_mm": 12.5,
+    "outer_outline_inset_mm": 0.0,
+    "fair_surface_smoothing": 12.0,
+    "fair_surface_gradient_sample_mm": 4.0,
+    "minimum_roof_normal_thickness_mm": 2.0,
+    "outline_cleanup_tolerance_mm": 0.001,
+    "coplanar_cleanup_tolerance_mm": 1e-05,
+    "seam_band_width_mm": 1.5,
+    "seam_clean_band_mm": 0.55,
+    "seam_arc_sample_mm": 0.15,
+    "seam_arc_smoothing_mm": 0.65,
+    "seam_mesh_edge_mm": 0.18,
+    "ball_collar_target_radius_mm": 27.5,
+    "ball_collar_fixed_radius_mm": 23.5,
+    "ball_collar_refine_mm": 0.65
+  },
+  "sides": {
+    "left": {
+      "source": "models/integrated-fr4/left-shell.stl",
+      "source_sha256": "e8d411ce466a7449e0d5026e1d5747191d813a97db38caa00f162bef44d15ea7",
+      "output": "development/exports/raised-rim/left-shell.stl",
+      "output_sha256": "ee51d903b1ee274b99ddd230944c1d7d1c1c20b029e7f01fe4202708d3183e42",
+      "shoulder": {
+        "vertices": 279442,
+        "unique_xy": 181260,
+        "max_vertical_addition_mm": 13.284415029279188,
+        "max_roof_vs_source_mm": 1.0945329139316087,
+        "silhouette_ray_fallbacks": 16800,
+        "exterior_drop_to_old_roof": false,
+        "maximum_lowering_mm": 2.4911761537825576,
+        "thickness_limit_candidates": 2334,
+        "thickness_constraint_vertices": 2334,
+        "interior_roof_rebuilt": false,
+        "construction_extrema_include_outside_trimmed_silhouette": true,
+        "surface_method": "single global thin-plate height-and-slope fit",
+        "outer_seam": {
+          "band_width_mm": 1.5,
+          "arc_samples": 2839,
+          "added_mm3": 21.140923305443028,
+          "removed_mm3": 73.51155941231929
+        },
+        "discarded_zero_volume_degenerate_remnants": 31
+      },
+      "base_volume_mm3": 52674.48843392164,
+      "output_volume_mm3": 68198.48674867341,
+      "removed_mm3": 58.87173091851052,
+      "added_mm3": 15582.870045653313,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -12.9385404586792,
+          -50.40800857543945,
+          0.0
+        ],
+        [
+          114.2040023803711,
+          69.9601058959961,
+          42.656673431396484
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "right": {
+      "source": "models/integrated-fr4/right-shell.stl",
+      "source_sha256": "7ac02fda6f661dd728d71796be6d4cadde922f52cdeade3510e089727ed26e7d",
+      "output": "development/exports/raised-rim/right-shell.stl",
+      "output_sha256": "d4eae82c9b8327e2cfb8e5a2c697e12ec7b9771f537e7ee2f6b78919b9d139ee",
+      "shoulder": {
+        "vertices": 234166,
+        "unique_xy": 150243,
+        "max_vertical_addition_mm": 12.93049804011942,
+        "max_roof_vs_source_mm": 6.789558688602725,
+        "silhouette_ray_fallbacks": 13900,
+        "exterior_drop_to_old_roof": false,
+        "maximum_lowering_mm": 8.785997538958398,
+        "thickness_limit_candidates": 11432,
+        "thickness_constraint_vertices": 0,
+        "interior_roof_rebuilt": true,
+        "construction_extrema_include_outside_trimmed_silhouette": true,
+        "surface_method": "single global thin-plate height-and-slope fit",
+        "outer_seam": {
+          "band_width_mm": 1.5,
+          "arc_samples": 2907,
+          "added_mm3": 46.401099044739496,
+          "removed_mm3": 90.94651912872327
+        },
+        "discarded_zero_volume_degenerate_remnants": 19,
+        "pre_collar_sha256": "4642fe31b89632242f52ff6d4c106d163a4ed23f45dfca46be5d1d5ddb2f56c2",
+        "circular_ball_collar": {
+          "max_inward_displacement_mm": 6.701736749253165,
+          "affected_vertices": 60429,
+          "minimum_sampled_radial_derivative": 0.1461782174235981
+        }
+      },
+      "base_volume_mm3": 62741.907603230364,
+      "output_volume_mm3": 70618.29077996389,
+      "removed_mm3": 3070.1529636411847,
+      "added_mm3": 10946.536135370889,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -114.19622802734376,
+          -59.25251388549806,
+          -1.4210854715202004e-14
+        ],
+        [
+          12.919916152954109,
+          69.9579696655274,
+          46.287336137316856
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true
+    }
+  }
+}

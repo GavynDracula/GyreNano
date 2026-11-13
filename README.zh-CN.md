@@ -6,16 +6,18 @@
 
 “洄流 / Gyre”呼应 Charybdis 的漩涡意象，Nano 代表紧凑布局。这是独立派生项目。
 
-![Gyre Nano 外壳模型渲染](docs/images/gyre-nano.png)
+![当前 Gyre Nano 外壳：一体式加高肩部与收圆球仓外沿](models/raised-rim/preview.png)
 
-**基础外壳快照：右上壳 V11；左上壳及左右底板 V7。** 当前列板与承托整合版本见下方入口。 几何检查和参考配置切片已通过，尚未完成实物打印及整机试装。图片为模型渲染。
+**当前外壳试制版：一体式加高肩部，球仓靠主键区的外沿已收圆。** 最新上壳保留原键位、拇指及球座的安装关系，沿用现有底板和 FR4/FPC 承托。几何与装配间隙检查通过；这一版尚未切片或实物试装。图片展示当前模型。
+
+[最新模型与检查记录](models/raised-rim/README.md) · [球仓局部近照](models/raised-rim/right-outer-seam.png) · [俯视图](models/raised-rim/top.png)
 
 ## 布局与兼容性
 
 - 每侧 3×5 主键区；左侧 3 个拇指键，右侧 2 个拇指键及 34 mm 轨迹球，共 35 键。
 - 主键区、拇指键和原轨迹球座的**安装位置与轴线关系保留**。左右基准分别为镜像 Skeletyl V4 `case_v4_103.stl` 和 Charybdis Nano `charybdisnano_v2_v187.stl`。[校验说明](docs/geometry.md)
 - 新外皮、拇指/球口之间的过渡、侧壁和底板是重新设计的；桌面以上高度不承诺与原版一致。
-- 目标硬件：Amoeba Royale 单轴 PCB、Kailh 热插拔座、通过排针安装的 nrfmicro、Elite-C-holder、ZMK。
+- 当前电路路线使用 FR4 或 FPC 键区、Kailh 热插拔座、通过排针安装的 nrfmicro 和 ZMK。最初原型使用 Amoeba Royale 单轴 PCB 与 Elite-C-holder；新的 holder 及承托设计见下方入口。
 - 保留原 holder 安装基准，预留 Type-C 开口；底板螺丝座贴近外壁。
 - 电池仓专门优化和 nice!view 开窗待完成；本快照不包含可直接刷写的固件；下方提供当前电路试样工程。
 
@@ -25,14 +27,16 @@
 
 | 零件 | 文件 |
 | --- | --- |
-| 右上壳 V11 | [gyre-nano-right-v11.3mf](models/3x5/gyre-nano-right-v11.3mf) |
-| 左上壳 V7 | [gyre-nano-left-v7.3mf](models/3x5/gyre-nano-left-v7.3mf) |
+| 当前右上壳 | [GyreNanoRightShell.3mf](models/raised-rim/GyreNanoRightShell.3mf) |
+| 当前左上壳 | [GyreNanoLeftShell.3mf](models/raised-rim/GyreNanoLeftShell.3mf) |
 | 右底板 V7 | [gyre-nano-right-bottom-v7.3mf](models/3x5/gyre-nano-right-bottom-v7.3mf) |
 | 左底板 V7 | [gyre-nano-left-bottom-v7.3mf](models/3x5/gyre-nano-left-bottom-v7.3mf) |
-| holder / USB 试装小样 | [right-holder-usb-fit.3mf](models/trials/right-holder-usb-fit.3mf) |
-| 球口 / 拇指试装小样 | [right-ball-thumb-fit.3mf](models/trials/right-ball-thumb-fit.3mf) |
+| FR4 路线承托 | [主区与拇指承托](models/integrated-fr4/README.md) |
+| FPC 路线承托 | [直接承托与间隙小样](models/fpc-supports/README.md) |
 
 底板 STEP 也在 [`models/3x5/`](models/3x5/)，使用装配坐标；底板 3MF 使用贴床坐标。上壳目前提供网格模型，没有精确 B-rep STEP。
+
+按 PCB 路线选择一套承托。[V11/V7 基础外壳](models/3x5/)及 [V14 整合上壳](models/integrated-fr4/README.md)仍保留供对照。当前 3MF 与已校验 STL 的坐标、三角面完全一致；体积较大的 ASCII STL 查看副本保留在本地，不纳入 Git。
 
 轨迹球组件使用上游原件，以下版本已检查最终安装位置的静态配合：
 
@@ -44,13 +48,13 @@
 
 ## FDM 打印与装配
 
-建议先打印两个小样，确认主控排针高度、USB 插头、嵌件孔及球口薄边。完整外壳与底板已有参考切片结果，但完整 adapter 的装入动作、拆支撑和实际制造公差仍需试装。球口局部下缘的径向材料弦长约 0.60 mm，是优先检查的薄处。
+计划使用创想三维 K1C、0.4 mm 喷嘴及 PLA/PETG，当前模型请自行切片。先试打所选 PCB 路线的承托间隙小样；[早期 holder/USB、球口/拇指小样](models/trials/)可检查继承的接口，但不代表新版肩部和球仓外形。键帽全行程、工具空间、adapter 装入动作、拆支撑和制造公差仍需实物验证。球口继承的局部薄处见[当前检查说明](models/raised-rim/README.md)。
 
 [FDM 打印说明](docs/FDM-PRINTING.md) · [几何验证与限制](docs/geometry.md) · [装配指南（待补充）](docs/build-guide.md)
 
 ## 电路与整合打印件
 
-**当前快照：v0.2.0-prototype.1，等待 PCB 到货和实物装配验证。** 上面的基础外壳仍供现有 Amoeba 方案使用；新列板方案请使用整合上壳及对应承托。
+**电路基线：v0.2.0-prototype.1，等待 PCB 到货和实物装配验证。** 此次外壳更新没有改动 PCB。两种列板路线均可使用最新上壳及对应承托；早期发布附件仍保留当时的模型。
 
 | 部件／路线 | 文件入口 |
 | --- | --- |
@@ -59,7 +63,8 @@
 | 0.11 mm FPC 键区，97.18 × 96.47 mm | [V27 KiCad / 试样包](pcb/keyfield-fpc/README.zh-CN.md) |
 | 左右主控 holder | [已修正阻焊的 EDA 工程](pcb/holders/README.md) |
 | PMW3610 插座 sensor | [已修正的 EDA 工程](pcb/sensor/README.md) |
-| 整合上壳与 FR4 承托 | [STL / STEP](models/integrated-fr4/README.md) |
+| 当前上壳 | [3MF / 预览 / 检查记录](models/raised-rim/README.md) |
+| 配套 FR4 承托及 V14 参考上壳 | [STL / STEP](models/integrated-fr4/README.md) |
 | FPC 直接承托 | [STL / 3MF / STEP](models/fpc-supports/README.md) |
 
 保留原键位、拇指、轨迹球安装基准及已打板 holder 接口；每侧仍用六根键区 FFC。FR4 跨区域桥必须在曲面安装前剪掉。薄板折弯、焊接、排线和打印配合待试装；当前没有应用 0.4 mm 改型。

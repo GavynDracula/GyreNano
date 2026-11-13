@@ -1,0 +1,57 @@
+{
+  "status": "Candidate upper shells; physical fit pending",
+  "units": "millimeter",
+  "geometry_only": true,
+  "sliced": false,
+  "coordinates": "Original assembly datums, no translation/rotation/scaling",
+  "models": [
+    {
+      "file": "models/raised-rim/GyreNanoLeftShell.3mf",
+      "sha256": "7fe85ca93b750b3f2db5bb886dfad64819b8c6206a0d65024e26f9145a6e675d",
+      "source_stl_sha256": "ee51d903b1ee274b99ddd230944c1d7d1c1c20b029e7f01fe4202708d3183e42",
+      "bytes": 9514027,
+      "vertices": 277928,
+      "triangles": 555940,
+      "bounds_mm": [
+        [
+          -12.9385404586792,
+          -50.40800857543945,
+          0.0
+        ],
+        [
+          114.2040023803711,
+          69.9601058959961,
+          42.656673431396484
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "models/raised-rim/GyreNanoRightShell.3mf",
+      "sha256": "f346a80f9d6ff18582b9aa5a64462f9447fec7761511b2b6c23cb3f7b4ad96ed",
+      "source_stl_sha256": "d4eae82c9b8327e2cfb8e5a2c697e12ec7b9771f537e7ee2f6b78919b9d139ee",
+      "bytes": 11521973,
+      "vertices": 318892,
+      "triangles": 637872,
+      "bounds_mm": [
+        [
+          -114.19622802734376,
+          -59.25251388549806,
+          -1.4210854715202004e-14
+        ],
+        [
+          12.919916152954109,
+          69.9579696655274,
+          46.287336137316856
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    }
+  ]
+}
