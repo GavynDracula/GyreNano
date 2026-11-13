@@ -4,7 +4,7 @@ The repository has four public entry directories:
 
 | Directory | Purpose |
 | --- | --- |
-| `files/` | Printable geometry and supporting checks |
+| `models/` | Printable geometry and supporting checks |
 | `pcb/` | Current editable PCB projects and sample packages |
 | `docs/` | Documentation, images and release evidence |
 | `development/` | Enclosure sources, parameters, reference geometry and tools |
@@ -32,7 +32,7 @@ bash development/scripts/run_python.sh scripts/restore_working_models.py
 bash development/scripts/run_python.sh checks/verify_relative_layout.py
 ```
 
-Restoration reads six published baseline 3MF files from `files/`, creates ignored working STLs in `development/exports/`, preserves existing files and restores bottom STEP files. Coordinates remain unchanged, but ASCII STL serialization may differ from historical hashes.
+Restoration reads six published baseline 3MF files from `models/`, creates ignored working STLs in `development/exports/`, preserves existing files and restores bottom STEP files. Coordinates remain unchanged, but ASCII STL serialization may differ from historical hashes.
 
 Place the [Charybdis checkout](https://github.com/Bastardkb/Charybdis/tree/47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a) at `../Charybdis` relative to this repository, pinned to commit `47af70b9cd9b8d1d3a055ea88ab95c724bd3c02a`. Skeletyl geometry is under `development/references/`; see [attribution](ATTRIBUTION.md).
 
@@ -52,7 +52,7 @@ The following paths are relative to `development/`:
 - Right upper baseline: `src/fair_envelope_v9.py right`, then `src/mesh_v11.py`.
 - Left upper baseline: `src/fair_envelope_v7.py left`, then `src/mesh_v7.py`.
 - Hardware/bottoms: `src/generate_hardware_v7.py` prepares the `src/hardware_v7.py` and `src/bottoms_v7.py` build123d programs.
-- `scripts/export_public_models.py` publishes baseline 3MF files to the repository's `files/` directory and verifies coordinate/triangle equality. It overwrites those files; use only after a reviewed model change.
+- `scripts/export_public_models.py` publishes baseline 3MF files to the repository's `models/` directory and verifies coordinate/triangle equality. It overwrites those files; use only after a reviewed model change.
 - For backends executing source without `__file__`, set `GYRE_PROJECT_ROOT` to the absolute **development directory**, or use that as their working directory. Inspect the model before export.
 
 Working exports, reports, previews and regenerated dense envelopes stay under `development/` and are ignored. Renders do not validate manufacturing fit. The archive-dependent `package_delivery.py` was removed from active tools and is retained only in the historical snapshot.
@@ -84,3 +84,5 @@ python3 development/scripts/restore_snapshot.py --output /tmp/GyreNano-Engineeri
 ```
 
 The helper caches verified parts in the system temporary directory and does not extract the archive. If parts were downloaded manually, add `--parts-dir /path/to/parts`. The original complete archive hash is unchanged. [Part manifest](releases/snapshot-parts.json). Daily printing and PCB ordering do not need this snapshot.
+
+The current checkout uses `models/`. Published v0.2.0-prototype.1 archives and the historical engineering snapshot retain `files/`; their bytes, tags and checksums are unchanged. The active delivery hash manifest uses the new checkout paths.

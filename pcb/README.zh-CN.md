@@ -12,7 +12,7 @@
 | [左右 holder](holders/README.md) | V22 原生嘉立创 EDA | 每侧七个 FFC 插座；用户已打板 |
 | [PMW3610 sensor](sensor/README.md) | V22 原生嘉立创 EDA | 插座连接，保留原传感器光学结构 |
 
-[采购 BOM](keyfield-fpc/BOM.zh-CN.md) · [可填写 CSV](keyfield-fpc/BOM.csv) · [打印文件入口](../files/README.md)
+[采购 BOM](keyfield-fpc/BOM.zh-CN.md) · [可填写 CSV](keyfield-fpc/BOM.csv) · [打印文件入口](../models/README.md)
 
 holder/sensor 的 `reference-kicad/` 仅保留旧设计来源；其中部分通孔缺阻焊开窗，EDA 版本已修正。重新下单请使用 EDA 工程，不要混用旧 Gerber。详见 [EDA 检查记录](eda-validation/README.md)。
 

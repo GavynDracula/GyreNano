@@ -12,3 +12,7 @@ All dimensions are millimetres; use 100% scale. 3MF files contain geometry only,
 Both integrated routes reuse the V7 bottom trays in `3x5/`. Do not print both FR4 and FPC retainers for the same build. Assembly motion, controller height, full cable routing, material durability and print tolerances are still awaiting physical trials.
 
 中文：按实际使用 FR4 或 FPC 选择一套承托；整合外壳使用 integrated-fr4 中的左右上壳，底板继续用 3x5 中 V7。文件只是模型，用户自行切片。外壳与电路已做数字检查，尚未完成实际打印装配验证。
+
+Repository naming: `models/` replaces `files/`. Already-published v0.2.0-prototype.1 archives and the historical engineering snapshot retain their original `files/` paths and checksums.
+
+目录名称已改为 `models/`；已发布压缩包保留原 `files/` 路径，模型内容相同。

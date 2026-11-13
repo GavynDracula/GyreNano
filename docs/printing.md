@@ -2,11 +2,11 @@
 
 [中文](FDM-PRINTING.md)
 
-Start with the [two fit trials](../files/trials/) before printing the complete
+Start with the [two fit trials](../models/trials/) before printing the complete
 enclosure. Current meshes are closed, consistently wound single components.
 The 3MF files preserve every vertex coordinate and triangle index from the
 working STL meshes; no global smoothing, resizing or hole enlargement was applied
-for publication. [File manifest](../files/manifest.json)
+for publication. [File manifest](../models/manifest.json)
 
 ![Trial geometry; orange marks cropped faces](images/fdm-trials.png)
 

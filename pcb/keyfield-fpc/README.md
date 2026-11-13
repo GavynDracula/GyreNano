@@ -10,4 +10,4 @@ The sample package requests adhesiveless electrodeposited copper, yellow coverla
 
 JP1: bridge 1–2 for left, 2–3 for right; never both. Remove optional inter-region bridges for the screened installation. [DRC/ERC, 64 cut/hand cases, CAM and folded geometry evidence](checks/) is retained unchanged.
 
-The original sample notes describe separately bonded FR4 backers. An alternative [printed direct-support set](../../files/fpc-supports/README.md) is now available; it replaces those backers in its modeled stack. Do not stack both support schemes without a fit review. FPC bending, soldering, hot-swap loads and complete cable/latch assembly remain to be tested.
+The original sample notes describe separately bonded FR4 backers. An alternative [printed direct-support set](../../models/fpc-supports/README.md) is now available; it replaces those backers in its modeled stack. Do not stack both support schemes without a fit review. FPC bending, soldering, hot-swap loads and complete cable/latch assembly remain to be tested.

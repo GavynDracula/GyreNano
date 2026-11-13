@@ -13,7 +13,7 @@ for name, destination in MODELS.items():
     if target.exists():
         print('Keeping', target.relative_to(ROOT))
         continue
-    mesh = read_mesh(ROOT.parent/'files'/(name+'.3mf'))
+    mesh = read_mesh(ROOT.parent/'models'/(name+'.3mf'))
     # ASCII retains double-precision coordinates; binary STL would round them.
     target.write_text(trimesh.exchange.stl.export_stl_ascii(mesh))
     restored = trimesh.load(target)
@@ -29,4 +29,4 @@ if not versioned.exists():
 for side in ['left', 'right']:
     target = ROOT/'exports'/f'{side}-bottom-development.step'
     if not target.exists():
-        shutil.copy2(ROOT.parent/'files/3x5'/f'gyre-nano-{side}-bottom-v7.step', target)
+        shutil.copy2(ROOT.parent/'models/3x5'/f'gyre-nano-{side}-bottom-v7.step', target)

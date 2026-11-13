@@ -3,7 +3,7 @@
   "scope": "Geometry-only development snapshot. No printer configuration.",
   "models": [
     {
-      "file": "files/3x5/gyre-nano-right-v11.3mf",
+      "file": "models/3x5/gyre-nano-right-v11.3mf",
       "sha256": "19e995101712373ce0b8aaf6153958be45483dc810af5760e4c0535924f75bb6",
       "source_stl_sha256": "eb9ab970f6a22f989b5c1f83cfa2a59862f11282c7e084e6eb8e12905cc077cb",
       "bytes": 5389334,
@@ -27,7 +27,7 @@
       "triangle_indices_roundtrip_exact": true
     },
     {
-      "file": "files/3x5/gyre-nano-left-v7.3mf",
+      "file": "models/3x5/gyre-nano-left-v7.3mf",
       "sha256": "a2276f6e3a77c801185b1a01672c76eecce647b614ca5c6a6c4ed312cb2350e0",
       "source_stl_sha256": "7547c8eba8924dc4755426f5b0035958966d75fb4eaaeeff0fcff8fee40f7209",
       "bytes": 5152786,
@@ -51,7 +51,7 @@
       "triangle_indices_roundtrip_exact": true
     },
     {
-      "file": "files/3x5/gyre-nano-right-bottom-v7.3mf",
+      "file": "models/3x5/gyre-nano-right-bottom-v7.3mf",
       "sha256": "ca170c62647d9d0bf87acd0f6863e68932632d583f4de236c6afdb795fdd7a9e",
       "source_stl_sha256": "24a71db1c9d74a981239432b95e44f6235cefe0ccea241f5bd65bfcc8268c8c6",
       "bytes": 95653,
@@ -75,7 +75,7 @@
       "triangle_indices_roundtrip_exact": true
     },
     {
-      "file": "files/3x5/gyre-nano-left-bottom-v7.3mf",
+      "file": "models/3x5/gyre-nano-left-bottom-v7.3mf",
       "sha256": "f777f69e3dc97cc71da9ad18b98ffa254d50d4169003fa5312bb2ef53983dc73",
       "source_stl_sha256": "7669ce1f0f6bb32be6dbfa3413c8ff193307d129093e0852358f1ea1ae153d22",
       "bytes": 101076,
@@ -99,7 +99,7 @@
       "triangle_indices_roundtrip_exact": true
     },
     {
-      "file": "files/trials/right-ball-thumb-fit.3mf",
+      "file": "models/trials/right-ball-thumb-fit.3mf",
       "sha256": "8e2b45df33ea89b4b57f53d81eaa8848a171d79690c442919b5b363c0e087b4b",
       "source_stl_sha256": "7d76a5bf411367e7adeaf0d5b75ca1b1e154774a55d5f3dd13c519e4d5070933",
       "bytes": 1378330,
@@ -123,7 +123,7 @@
       "triangle_indices_roundtrip_exact": true
     },
     {
-      "file": "files/trials/right-holder-usb-fit.3mf",
+      "file": "models/trials/right-holder-usb-fit.3mf",
       "sha256": "405a6bcf785b55e4a1970cb69a47067551dfff2aabfbb5d9e46f2f92d316e32c",
       "source_stl_sha256": "f8cc8361699882ad5f4e12e47035d1c8ee68115e3343e3746c6c2b924689d2f2",
       "bytes": 127461,

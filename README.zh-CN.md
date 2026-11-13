@@ -21,18 +21,18 @@
 
 ## 所需打印件
 
-打印文件位于 [`files/`](files/)，采用仅含几何的 **3MF**，单位为毫米，以 **100%** 比例导入切片器，不附带打印机配置或 G-code。左壳已镜像，无需再次镜像。
+打印文件位于 [`models/`](models/)，采用仅含几何的 **3MF**，单位为毫米，以 **100%** 比例导入切片器，不附带打印机配置或 G-code。左壳已镜像，无需再次镜像。
 
 | 零件 | 文件 |
 | --- | --- |
-| 右上壳 V11 | [gyre-nano-right-v11.3mf](files/3x5/gyre-nano-right-v11.3mf) |
-| 左上壳 V7 | [gyre-nano-left-v7.3mf](files/3x5/gyre-nano-left-v7.3mf) |
-| 右底板 V7 | [gyre-nano-right-bottom-v7.3mf](files/3x5/gyre-nano-right-bottom-v7.3mf) |
-| 左底板 V7 | [gyre-nano-left-bottom-v7.3mf](files/3x5/gyre-nano-left-bottom-v7.3mf) |
-| holder / USB 试装小样 | [right-holder-usb-fit.3mf](files/trials/right-holder-usb-fit.3mf) |
-| 球口 / 拇指试装小样 | [right-ball-thumb-fit.3mf](files/trials/right-ball-thumb-fit.3mf) |
+| 右上壳 V11 | [gyre-nano-right-v11.3mf](models/3x5/gyre-nano-right-v11.3mf) |
+| 左上壳 V7 | [gyre-nano-left-v7.3mf](models/3x5/gyre-nano-left-v7.3mf) |
+| 右底板 V7 | [gyre-nano-right-bottom-v7.3mf](models/3x5/gyre-nano-right-bottom-v7.3mf) |
+| 左底板 V7 | [gyre-nano-left-bottom-v7.3mf](models/3x5/gyre-nano-left-bottom-v7.3mf) |
+| holder / USB 试装小样 | [right-holder-usb-fit.3mf](models/trials/right-holder-usb-fit.3mf) |
+| 球口 / 拇指试装小样 | [right-ball-thumb-fit.3mf](models/trials/right-ball-thumb-fit.3mf) |
 
-底板 STEP 也在 [`files/3x5/`](files/3x5/)，使用装配坐标；底板 3MF 使用贴床坐标。上壳目前提供网格模型，没有精确 B-rep STEP。
+底板 STEP 也在 [`models/3x5/`](models/3x5/)，使用装配坐标；底板 3MF 使用贴床坐标。上壳目前提供网格模型，没有精确 B-rep STEP。
 
 轨迹球组件使用上游原件，以下版本已检查最终安装位置的静态配合：
 
@@ -59,18 +59,18 @@
 | 0.11 mm FPC 键区，97.18 × 96.47 mm | [V27 KiCad / 试样包](pcb/keyfield-fpc/README.zh-CN.md) |
 | 左右主控 holder | [已修正阻焊的 EDA 工程](pcb/holders/README.md) |
 | PMW3610 插座 sensor | [已修正的 EDA 工程](pcb/sensor/README.md) |
-| 整合上壳与 FR4 承托 | [STL / STEP](files/integrated-fr4/README.md) |
-| FPC 直接承托 | [STL / 3MF / STEP](files/fpc-supports/README.md) |
+| 整合上壳与 FR4 承托 | [STL / STEP](models/integrated-fr4/README.md) |
+| FPC 直接承托 | [STL / 3MF / STEP](models/fpc-supports/README.md) |
 
 保留原键位、拇指、轨迹球安装基准及已打板 holder 接口；每侧仍用六根键区 FFC。FR4 跨区域桥必须在曲面安装前剪掉。薄板折弯、焊接、排线和打印配合待试装；当前没有应用 0.4 mm 改型。
 
-[电路总览](pcb/README.zh-CN.md) · [采购 BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [全部打印件](files/README.md)
+[电路总览](pcb/README.zh-CN.md) · [采购 BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [全部打印件](models/README.md)
 
 ## 仓库结构
 
 | 路径 | 内容 |
 | --- | --- |
-| `files/` | 打印模型、整合上壳与 FR4/FPC 承托 |
+| `models/` | 打印模型、整合上壳与 FR4/FPC 承托 |
 | `pcb/` | 当前 KiCad/EDA 工程、打样包、BOM 与检查记录 |
 | `docs/` | 装配与打印说明、图片、验证及发布记录 |
 | `development/` | 建模源码、参数、参考模型和工程工具 |

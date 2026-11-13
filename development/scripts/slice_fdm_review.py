@@ -15,7 +15,7 @@ def sha(path):
  return h.hexdigest()
 inputs=[R/'exports'/f'{side}-{part}-development.stl' for side in ['left','right'] for part in ['closed','bottom']]
 inputs += [R/'exports/trials'/f'{name}.stl' for name in ['right-ball-thumb-fit','right-holder-usb-fit']]
-if options.public_3mf:inputs=sorted((R.parent/'files/3x5').glob('*.3mf'))+sorted((R.parent/'files/trials').glob('*.3mf'))
+if options.public_3mf:inputs=sorted((R.parent/'models/3x5').glob('*.3mf'))+sorted((R.parent/'models/trials').glob('*.3mf'))
 if options.model:inputs=[p for p in inputs if p.stem in options.model]
 assert inputs
 def run(path):

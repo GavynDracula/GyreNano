@@ -8,7 +8,7 @@
 
 参考检查使用 Bambu Studio 02.09.01.70、A1 0.4 mm / Generic PLA 配置；这不是已确认的实际设备或材料。六件原 STL 和发布的六件 3MF 均成功生成刀路，进程正常退出，见 [3MF 切片摘要](verification/public-model-slicing.json)。估时仅用于比较试打成本。
 
-公开打印文件采用仅含几何的 3MF，所有顶点坐标和三角面索引经回读验证与原 STL 完全相同；简单 float32 二进制 STL 转换可能使近重合网格退化，因此未采用。原始工作 STL 仍保存在本地。文件哈希见 [manifest](../files/manifest.json)。
+公开打印文件采用仅含几何的 3MF，所有顶点坐标和三角面索引经回读验证与原 STL 完全相同；简单 float32 二进制 STL 转换可能使近重合网格退化，因此未采用。原始工作 STL 仍保存在本地。文件哈希见 [manifest](../models/manifest.json)。
 
 ## 优先试打两个小样
 
@@ -18,8 +18,8 @@
 
 | 顺序 | 文件 | 尺寸（mm） | Classic 参考估时/用料 | 核对事项 |
 | --- | --- | --- | --- | --- |
-| 1 | [holder / USB 小样](../files/trials/right-holder-usb-fit.3mf) | 54 × 45.96 × 13 | 约 19 分钟 / 5.42 g | holder 原孔距、排针架高后的主控、实际 USB 插头、嵌件孔适配及拆支撑空间 |
-| 2 | [球口 / 拇指小样](../files/trials/right-ball-thumb-fit.3mf) | 77 × 59.25 × 47.52 | 约 1 小时 56 分钟 / 30.63 g | 薄边能否连续成形且不被拆支撑扯坏、原 adapter 静态配合、34 mm 球、邻近轴和 PCB |
+| 1 | [holder / USB 小样](../models/trials/right-holder-usb-fit.3mf) | 54 × 45.96 × 13 | 约 19 分钟 / 5.42 g | holder 原孔距、排针架高后的主控、实际 USB 插头、嵌件孔适配及拆支撑空间 |
+| 2 | [球口 / 拇指小样](../models/trials/right-ball-thumb-fit.3mf) | 77 × 59.25 × 47.52 | 约 1 小时 56 分钟 / 30.63 g | 薄边能否连续成形且不被拆支撑扯坏、原 adapter 静态配合、34 mm 球、邻近轴和 PCB |
 
 小样与整壳应使用同一材料、喷嘴和主要工艺参数。先检查成形和去支撑后的完整性，再装配。球口试件侧面被裁开，adapter 在小样中容易装入不代表完整封闭壳也能按同一路径装入。
 

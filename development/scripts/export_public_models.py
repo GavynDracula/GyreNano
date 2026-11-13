@@ -40,7 +40,7 @@ def export(name, source):
     mesh = trimesh.load(source)
     assert mesh.is_watertight and mesh.is_winding_consistent
     assert len(mesh.split(only_watertight=False)) == 1
-    target = ROOT.parent / 'files' / (name + '.3mf')
+    target = ROOT.parent / 'models' / (name + '.3mf')
     target.parent.mkdir(parents=True, exist_ok=True)
     xml = StringIO()
     xml.write(f'<?xml version="1.0" encoding="UTF-8"?>\n<model unit="millimeter" xml:lang="en-US" xmlns="{NS}">\n')
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     rows = [export(name, ROOT/'exports'/source) for name, source in MODELS.items()]
     for side in ['left', 'right']:
         shutil.copy2(ROOT/'exports'/f'{side}-bottom-development.step',
-                     ROOT.parent/'files/3x5'/f'gyre-nano-{side}-bottom-v7.step')
-    (ROOT.parent/'files/manifest.json').write_text(json.dumps({
+                     ROOT.parent/'models/3x5'/f'gyre-nano-{side}-bottom-v7.step')
+    (ROOT.parent/'models/manifest.json').write_text(json.dumps({
         'units': 'millimeter', 'scope': 'Geometry-only development snapshot. No printer configuration.',
         'models': rows}, indent=2) + '\n')

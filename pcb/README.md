@@ -12,7 +12,7 @@ Current engineering samples, grouped by function. Hardware revisions remain in t
 | [Left/right holders](holders/README.md) | V22 native JLCEDA | Seven FFC sockets per side; user reports boards already ordered |
 | [PMW3610 sensor](sensor/README.md) | V22 native JLCEDA | FFC interface; use with the original optical stack |
 
-[BOM / 采购清单](keyfield-fpc/BOM.zh-CN.md) · [CSV](keyfield-fpc/BOM.csv) · [Print files](../files/README.md)
+[BOM / 采购清单](keyfield-fpc/BOM.zh-CN.md) · [CSV](keyfield-fpc/BOM.csv) · [Print files](../models/README.md)
 
 Holder/sensor `reference-kicad/` directories retain the older artwork for traceability. Their missing PTH mask openings were corrected in the EDA designs; **do not substitute the old KiCad exports for the EDA projects**. See [EDA verification](eda-validation/README.md).
 
