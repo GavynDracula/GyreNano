@@ -1,0 +1,111 @@
+{
+  "pcb": "aa4c23aa4137e36f",
+  "sch": "17fa354782fdfff8",
+  "components": [
+    {
+      "ref": "C1",
+      "cid": "09344297cb6368ee",
+      "fid": "1f2e68deff745356",
+      "sid": "ee58da897d04a60f",
+      "did": "90fca52389abe291"
+    },
+    {
+      "ref": "C2",
+      "cid": "e0c20b24afa574e4",
+      "fid": "ad50677bed65a497",
+      "sid": "feb9da2cf50a6575",
+      "did": "f27fdbc77b06561d"
+    },
+    {
+      "ref": "C3",
+      "cid": "a294e5277797f3cb",
+      "fid": "9e82c1391d5f2638",
+      "sid": "82d82727c638eeaf",
+      "did": "de45f3754ec13bd5"
+    },
+    {
+      "ref": "C4",
+      "cid": "2ee57286d6028ce2",
+      "fid": "d0c7ef1f5dd9a5f7",
+      "sid": "ca1034fd26f2004f",
+      "did": "79e154f34fdc7b17"
+    },
+    {
+      "ref": "C5",
+      "cid": "89d7624760a0ed87",
+      "fid": "826a9ace85e244f1",
+      "sid": "512990ebb07a7036",
+      "did": "f4555d0e85b07f64"
+    },
+    {
+      "ref": "C6",
+      "cid": "9b2aaf3b4f1f3f16",
+      "fid": "309aae3d75439769",
+      "sid": "c117f28bf5e4537d",
+      "did": "64193919dd986cec"
+    },
+    {
+      "ref": "C7",
+      "cid": "5e4a20808a515895",
+      "fid": "ca0253223bf92446",
+      "sid": "c7338ae18a048586",
+      "did": "f90e76c8f3b2b3e8"
+    },
+    {
+      "ref": "C8",
+      "cid": "50d7b813f7277b58",
+      "fid": "a6f05d28566a3098",
+      "sid": "562ce9d16041995d",
+      "did": "839742a8de6899b1"
+    },
+    {
+      "ref": "C9",
+      "cid": "bc6edcaaf38236d0",
+      "fid": "e8a1b289782a878b",
+      "sid": "c3b4ba33a1705fc1",
+      "did": "4d85ccdec7ed7a3b"
+    },
+    {
+      "ref": "H1",
+      "cid": "6c5b201261795d2a",
+      "fid": "ad5746898aeb5e9c",
+      "sid": "69c4af48648db883",
+      "did": "f6edadb385ceea28"
+    },
+    {
+      "ref": "H2",
+      "cid": "32dc6dddbec601c7",
+      "fid": "5691ee29289575d4",
+      "sid": "06481b443ebacf2e",
+      "did": "2b3df16e27734c3e"
+    },
+    {
+      "ref": "J1",
+      "cid": "80c02e488dcc9dd0",
+      "fid": "47ed2a721c5c3763",
+      "sid": "9bec57223a0e3611",
+      "did": "e3571fd82979e593"
+    },
+    {
+      "ref": "R1",
+      "cid": "797cfd2402a346b0",
+      "fid": "7183821a26b73d61",
+      "sid": "8c8addac13d8bc49",
+      "did": "7d9258f40e52fc36"
+    },
+    {
+      "ref": "U1",
+      "cid": "78315402fef35e55",
+      "fid": "9339be9d2db47c84",
+      "sid": "fba719b10f4f3ec2",
+      "did": "f0f98ff4279701fb"
+    },
+    {
+      "ref": "U2",
+      "cid": "b434487a5ef4590e",
+      "fid": "04694f1de12e2752",
+      "sid": "5318423c1ae32402",
+      "did": "6ecfaedd1de78f03"
+    }
+  ]
+}

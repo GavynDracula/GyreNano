@@ -1,0 +1,11 @@
+GyreNanoKeyfieldFPCV27 — ELECTRICAL DRAFT ONLY; NOT RELEASED FOR ORDER
+Compact common 18-key half blank, 97.176 x 96.472 mm approximately.
+2-layer PI FPC, nominal .11 mm flex, 12 um (1/3 oz) copper, yellow coverlay, ENIG 1 microinch.
+NO factory stiffeners. Separate .4 mm insulating FR4 backers on F.Cu plus qualified adhesive are REQUIRED.
+All components on B.Cu. Existing holder interfaces and six independent keyboard FFCs retained.
+Do not fabricate until the new thumb folding, material, glue and assembly checks are approved.
+The new TA arm carries R3 / COL_G0 / COL3. A physical curve fit alone is not material qualification.
+Coverlay: six shared FFC windows and one JP1 selector opening are intentional.
+User.1 backing drawings / manual trim marks / misleading inferred FR4 gbrjob excluded.
+No coupon or detachable-board classification is promised. No SMT, shield or edge gold fingers.
+Only Edge.Cuts and NC drills describe factory routing; manual trim operations are separate.

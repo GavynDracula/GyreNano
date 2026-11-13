@@ -1,0 +1,37 @@
+{
+  "rule_source": "https://www.jlc-fpc.com/promotional",
+  "checked_date": "2026-11-12",
+  "layer_exposure": {
+    "F_Mask.gts": {
+      "flashes": 75,
+      "regions": 0,
+      "nominal_exposed_copper_mm2": 0.0
+    },
+    "B_Mask.gbs": {
+      "flashes": 198,
+      "regions": 7,
+      "nominal_exposed_copper_mm2": 313.74780580824046
+    }
+  },
+  "substrate_area_after_NPTH_PTH_mm2": 5555.790409516333,
+  "exposed_planar_copper_total_mm2": 313.74780580824046,
+  "all_via_barrels_extra_allowance_mm2": 5.390972993560085,
+  "conservative_ratio_to_single_side_actual_material_area": 0.05744255187437562,
+  "below_20_percent_on_this_screen": true,
+  "supplier_denominator_confirmed": false,
+  "supplier_final_CAM_approved": false,
+  "quantity_requirement": 5,
+  "shipping_format": "single pieces",
+  "yellow_coverlay_required": true,
+  "electrodeposited_copper_required": true,
+  "rolled_annealed_not_in_published_free_conditions": true,
+  "detachable_board_classification_pending": true,
+  "coupon_eligibility_guaranteed": false,
+  "method": "Actual exported mask apertures/regions intersect audited layout copper; subtract drill holes; approximate circles at 256 segments. Count two faces plus all via barrels against one-side remaining material area.",
+  "file_sha256": {
+    "draft-cam/GyreNanoKeyfieldFPCV27-F_Mask.gts": "2c99835d9f65b37cad59f9cee7cb803480e2d638bb8053e0dfa6232803eb65e5",
+    "draft-cam/GyreNanoKeyfieldFPCV27-B_Mask.gbs": "2d4dd922aeb5a408cd4f00f74f6bda955c24ab656279e445fd39c2f1bb7152d1"
+  },
+  "layout_sha256": "b9775b325e4465b6cd413783b3a276ab9908d9dd72f82d8bb31b77a1996c3449",
+  "routes_sha256": "23e19b7e0c6af47dfdb4b6fbb169bb7fe9aa956f5e9ac5885f41c050238117b2"
+}

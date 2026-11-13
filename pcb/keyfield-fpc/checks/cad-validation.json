@@ -1,0 +1,90 @@
+{
+  "rigid": {
+    "left_thumb_rigid_regions": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS (warning: 7 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 7,\n  \"volume\": 491.2934,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"7 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS (warning: 7 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 7,\n  \"volume\": 491.2934,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"7 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    },
+    "right_thumb_rigid_regions": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS (warning: 5 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 5,\n  \"volume\": 327.4896,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"5 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS (warning: 5 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 5,\n  \"volume\": 327.4896,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"5 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    },
+    "left_thumb_stiffeners": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS (warning: 3 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 3,\n  \"volume\": 388.4289,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"3 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS (warning: 3 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 3,\n  \"volume\": 388.4289,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"3 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    },
+    "right_thumb_stiffeners": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS (warning: 2 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 2,\n  \"volume\": 258.4691,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"2 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS (warning: 2 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 2,\n  \"volume\": 258.4691,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"2 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    }
+  },
+  "flex": {
+    "left_TA_flex": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 8.6599,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 8.6599,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    },
+    "right_TA_flex": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 8.6474,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 8.6474,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    },
+    "left_TE_flex": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 2.9175,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+        }
+      ],
+      "structuredContent": {
+        "result": "Validity gate: PASS\n{\n  \"passes_gate\": true,\n  \"n_solids\": 1,\n  \"volume\": 2.9175,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact\",\n  \"brep_valid\": true,\n  \"warnings\": [],\n  \"reasons\": []\n}"
+      },
+      "isError": false
+    }
+  }
+}

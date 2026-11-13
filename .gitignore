@@ -44,3 +44,18 @@ __MACOSX/
 *.swp
 *.swo
 *~
+
+# KiCad local UI state and automatic backups; retain all editable design sources.
+*.kicad_prl
+*.lck
+*-backups/
+
+# Local dependency snapshot, progress journal and release-upload staging.
+/.local/
+
+# Only reviewed delivery packages are versioned; arbitrary ZIPs remain ignored.
+!/pcb/keyfield-fr4/fabrication/GyreNanoKeyfieldFR4V33-Gerber.zip
+!/pcb/keyfield-fr4/alternative-isolated/fabrication/GyreNanoKeyfieldFR4V32-Gerber.zip
+!/pcb/keyfield-fr4/eda/deliverables/GyreNanoKeyfieldFR4V33-EDAProject.zip
+!/pcb/keyfield-fpc/fabrication/GyreNanoKeyfieldFPCV27-SampleED.zip
+!/pcb/keyfield-fpc/fabrication/GyreNanoKeyfieldFPCV27-QuoteOnly.zip

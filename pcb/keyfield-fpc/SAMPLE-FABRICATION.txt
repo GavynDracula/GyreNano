@@ -1,0 +1,30 @@
+GyreNano V27 — FIVE-PIECE ENGINEERING SAMPLE / 五片工程试样
+This package specifies ED copper for prototype testing, not a qualified production design.
+本包用于电解铜实物折弯、导通、焊接与装配试验；不是已验证的量产设计。
+
+Quantity: 5 identical single blanks, each 97.176 x 96.472 mm.
+2-layer PI FPC; nominal total flex thickness 0.11 mm.
+Adhesiveless ELECTRODEPOSITED copper, 1/3 oz (nominal 12 um) per copper layer.
+Yellow coverlay; ENIG 1 microinch; white silkscreen; no controlled impedance.
+No factory stiffeners, no factory adhesive, no shielding film, no SMT, no edge gold fingers.
+AOI and flying-probe testing; laser profile to Edge.Cuts, PTH and NPTH per separate drill files.
+Other EDA: KiCad. Do not infer an FR4 stack from this design.
+五片同款单片；双层PI，成品软板厚0.11mm，无胶电解铜，外层1/3oz，黄色覆盖膜，沉金1u英寸。
+不做厂家补强、背胶、屏蔽膜、SMT或插拔金手指；白色字符，无阻抗要求。
+
+CAM review: F_Mask/B_Mask specify coverlay openings, not solder paste.
+Six shared FFC windows and the JP1 selector window are intentional; do not separate/remove them silently.
+Only Edge.Cuts and drill files define factory machining; NO additional separation cuts.
+The circuit has detachable regions with real R1_LINK/COL3_LINK copper connections.
+Please confirm classification and processing of 1.0 mm slots, 1.3 mm arms and 1.6 mm bridges,
+including transport support. Contact customer before any geometry/copper/opening change.
+可分离功能区之间有真实电气连接；请审查计价分类、窄槽/窄臂加工及运输保护。
+不要增加工厂分割切线；任何线路、板框或开窗改动请先联系客户确认。
+
+Assembly by customer: all components on B.Cu; separate insulating 0.4 mm FR4 backers
+are installed on F.Cu later. No stiffener Gerber is supplied or requested.
+The backing adhesive is provisionally 0.05 mm and remains to be validated.
+Installed geometry was screened with optional bridges removed and trimmed flush.
+ED-copper folding, especially right-thumb bend/twist, remains unqualified.
+Complete FFC/latch fit, glue, soldering and hot-swap mechanical loading require sample tests.
+用户后装0.4mm绝缘FR4背衬；电解铜折弯/扭转、胶材及热插拔承托待本次样板验证。

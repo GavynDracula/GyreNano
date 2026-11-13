@@ -1,0 +1,19 @@
+{
+  "board_sha256": "f6844e80c169a14a60cf6e302944ffe366e7bf97544ad64634405a3ef12ad85e",
+  "files_sha256": {
+    "GyreNanoKeyfieldFR4V33-B_Cu.gbl": "49fbd9649f224fc3951219ef24193cea9e5a4fad847c19b3d7521d2ca930c798",
+    "GyreNanoKeyfieldFR4V33-B_Mask.gbs": "d39d620076a85d27fad39f503aad1bc13180f35da35b1823fbf6848e72eb00dc",
+    "GyreNanoKeyfieldFR4V33-B_Silkscreen.gbo": "43d08c56e2ba384431a6608e0f1f4313b8f3f63f778cba06c933728fc3931e04",
+    "GyreNanoKeyfieldFR4V33-Edge_Cuts.gm1": "cac353cef8ded7f23abd4cd73a101a48b2961355f63809dbbbea150742fe962c",
+    "GyreNanoKeyfieldFR4V33-F_Cu.gtl": "b2fe6bbd5e3a690e4baa868cfd71e31a6e2c642ac54541542a4ba646da3e629e",
+    "GyreNanoKeyfieldFR4V33-F_Mask.gts": "3a9141d64e1c85646ce599831e3ee18e6613ac9d65489e41deae0cdce680b7c7",
+    "GyreNanoKeyfieldFR4V33-F_Silkscreen.gto": "5de16da2aa3edb6458480beeb63a4e537e559df0aa769ab5aa5abfa3af5fd973",
+    "GyreNanoKeyfieldFR4V33-NPTH.drl": "79760bba5fa77fa91b1e531c1d014feb1f0defa5fb006bb7f1ea03654556d7e4",
+    "GyreNanoKeyfieldFR4V33-PTH.drl": "9bd14535af5092fe20ab238fe08f0731b65ebea76fbbaf2d86883cddf40cad1a",
+    "GyreNanoKeyfieldFR4V33-job.gbrjob": "386c63ac5e9497ee687f017168930937215952e513d70ce00fbf5a94034e1980",
+    "REVIEW-ONLY.txt": "9708c5bec68963c0c7ee8df08e7ab990638135207587a171be5346df87aaba71"
+  },
+  "electrical_draft_only": true,
+  "order_archive_created": false,
+  "manufacturing_released": false
+}

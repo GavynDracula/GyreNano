@@ -1,0 +1,14 @@
+side,holder_port,mouth_to_mouth_reference_mm,trial_slack_mm,free_span_trial_budget_mm,end_insertion_total_mm,basis
+left,J1,207.54,20,227.54,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+left,J2,104.36,20,124.36,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+left,J3,83.52,20,103.52,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+left,J4,77.8,20,97.8,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+left,J5,50.67,20,70.67,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+left,J6,,20,,TBD from selected cable/socket,Flexible installation trial; no accepted complete V11 path
+right,J1,207.54,20,227.54,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+right,J2,104.36,20,124.36,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+right,J3,83.52,20,103.52,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+right,J4,77.8,20,97.8,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+right,J5,50.67,20,70.67,TBD from selected cable/socket,Earlier static route; manual routing may shorten it
+right,J6,,20,,TBD from selected cable/socket,Flexible installation trial; no accepted complete V11 path
+right,J7,99.44,20,119.44,TBD from selected cable/socket,Existing sensor route; reroute locally if necessary

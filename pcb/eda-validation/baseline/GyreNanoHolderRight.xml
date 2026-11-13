@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/minimax/Projects/Keyboards/GyreNano/pcb/assembly-v12/GyreNanoHolderRightV12.kicad_sch</source>
+    <date>2026-11-11T19:53:41</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>GyreNano right holder</title>
+        <company/>
+        <rev>V12 PROTOTYPE</rev>
+        <date>2026-11-11</date>
+        <source>GyreNanoHolderRightV12.kicad_sch</source>
+        <comment number="1" value="24-pin project numbering; nrfmicro 1.4 reference; NOT a fabrication release"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>Original holder mount</value>
+      <footprint>GyreNanoHolder:Mount4</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:Mount4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="GyreNanoHolder:Mount4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58a3564c-ddb3-52a2-bc48-d070b3ef0e48</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>Original holder mount</value>
+      <footprint>GyreNanoHolder:Mount4</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:Mount4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="GyreNanoHolder:Mount4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f53366ed-e08e-55a6-a939-d29b0071afc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J1</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ebc73be-3875-561e-b81f-7ec57b357bca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J2</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bf29a34-d325-5221-ac56-f50876f498c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J3</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3a951e-0ffb-57fa-b79f-2c6fd5b46934</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J4</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73436e94-30a1-5f62-8605-3a4dada8ac2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J5</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c71a284f-b370-52c8-922c-cfae9c5257a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>2005280060</value>
+      <footprint>Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc6d242-46a8-5bdc-a19e-e697ab27f40c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>2005280060</value>
+      <footprint>GyreNanoHolder:FFC6_right_J7</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:FFC6_right_J7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="FFC6" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal* GyreNanoHolder:FFC6*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2443d0c-579a-5499-97e9-da44127c219c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>PH2 battery: 1+ 2-</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="Battery2" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9c40b34-dbbb-50c7-9396-c7449470a50e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>JS102011SAQN</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd58308b-068e-59c1-b18a-26590c50ad4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>nrfmicro1.4</value>
+      <footprint>GyreNanoHolder:Controller24_right</footprint>
+      <fields>
+        <field name="Footprint">GyreNanoHolder:Controller24_right</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GyreNanoHolder" part="Controller24" description=""/>
+      <property name="Sheetname" value="GyreNanoHolderRightV12"/>
+      <property name="Sheetfile" value="GyreNanoHolderRightV12.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed0bfe05-f370-5446-9b21-1b3d4dcc914a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="GyreNanoHolder" part="Battery2">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Battery2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GyreNanoHolder" part="Controller24">
+      <docs>https://github.com/joric/nrfmicro/wiki/Pinout</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nrfmicro1.4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://github.com/joric/nrfmicro/wiki/Pinout</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RST" type="input"/>
+        <pin num="4" name="VCC" type="power_out"/>
+        <pin num="5" name="RESERVED_D21" type="bidirectional"/>
+        <pin num="6" name="COL_G0" type="bidirectional"/>
+        <pin num="7" name="RESERVED_D19" type="bidirectional"/>
+        <pin num="8" name="R0" type="bidirectional"/>
+        <pin num="9" name="RESERVED_D15" type="bidirectional"/>
+        <pin num="10" name="RESERVED_D14" type="bidirectional"/>
+        <pin num="11" name="RESERVED_D16" type="bidirectional"/>
+        <pin num="12" name="COL_G1" type="bidirectional"/>
+        <pin num="13" name="IRQ" type="bidirectional"/>
+        <pin num="14" name="SCK" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="SDIO" type="bidirectional"/>
+        <pin num="18" name="CS" type="bidirectional"/>
+        <pin num="19" name="R2" type="bidirectional"/>
+        <pin num="20" name="R1" type="bidirectional"/>
+        <pin num="21" name="COL_G2" type="bidirectional"/>
+        <pin num="22" name="COL_G3" type="bidirectional"/>
+        <pin num="23" name="COL_G4" type="bidirectional"/>
+        <pin num="24" name="R3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="GyreNanoHolder" part="FFC6">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal*</fp>
+        <fp>GyreNanoHolder:FFC6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FFC6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GyreNanoHolder" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>GyreNanoHolder:Mount4</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="GyreNanoHolder" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="GyreNanoHolder">
+      <uri>${KIPRJMOD}/GyreNanoHolder.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BAT+" class="Power">
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/COL_G0" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="COL_G0_6" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/COL_G1" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="COL_G1_12" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/COL_G2" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="COL_G2_21" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/COL_G3" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="COL_G3_22" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/COL_G4" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="COL_G4_23" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CS" class="Default">
+      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="CS_18" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GND" class="Power">
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="GND_16" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="9" name="/IRQ" class="Default">
+      <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IRQ_13" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/R0" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="R0_8" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/R1" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="R1_20" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/R2" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="R2_19" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/R3" class="Default">
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="R3_24" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/SCK" class="Default">
+      <node ref="J7" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SCK_14" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/SDIO" class="Default">
+      <node ref="J7" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SDIO_17" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/VBAT" class="Power">
+      <node ref="SW1" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT_1" pintype="power_in"/>
+    </net>
+    <net code="17" name="/VCC" class="Power">
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC_4" pintype="power_out"/>
+    </net>
+    <net code="18" name="unconnected-(J1-Pin_1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J3-Pin_1-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J3-Pin_2-Pad2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J4-Pin_1-Pad1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J4-Pin_2-Pad2)" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J5-Pin_1-Pad1)" class="Default">
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J5-Pin_2-Pad2)" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J6-Pin_5-Pad5)" class="Default">
+      <node ref="J6" pin="5" pinfunction="Pin_5_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J6-Pin_6-Pad6)" class="Default">
+      <node ref="J6" pin="6" pinfunction="Pin_6_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(SW1-C-Pad3)" class="Default">
+      <node ref="SW1" pin="3" pinfunction="C_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-RESERVED_D14-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="RESERVED_D14_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-RESERVED_D15-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="RESERVED_D15_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-RESERVED_D16-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="RESERVED_D16_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-RESERVED_D19-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="RESERVED_D19_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-RESERVED_D21-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="RESERVED_D21_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-RST-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="RST_3" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

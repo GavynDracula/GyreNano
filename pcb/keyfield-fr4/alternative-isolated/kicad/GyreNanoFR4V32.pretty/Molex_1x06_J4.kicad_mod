@@ -1,0 +1,450 @@
+(footprint "Molex_1x06_J4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0060, 6 Circuits (https://www.molex.com/pdm_docs/sd/2005280060_sd.pdf)")
+	(tags "connector Molex  horizontal")
+	(property "Reference" "J4"
+		(at 0 -2.61 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a085a7a7-ea2e-486e-b91a-70aa667499b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2005280060"
+		(at 0 5.39 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "053c1963-6155-4766-be70-14122ff51582")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ba1ec0e-fe34-48e4-a2c5-6fd7f3f88c3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18fce110-2278-42ca-ae6a-95d4b468ebb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "52f49e38-b126-4abc-b1d4-0d4607dc32d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.71 -1.17)
+		(end -5.71 0.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a371e383-7eb1-4e49-b476-d02eb4c0e1ee")
+	)
+	(fp_line
+		(start -5.71 2.7)
+		(end -5.71 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b96f024e-c170-431f-8cb8-b754107f8473")
+	)
+	(fp_line
+		(start -5.71 3)
+		(end -4.91 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9827f8ea-6744-458a-a08b-79b9d4538e08")
+	)
+	(fp_line
+		(start -4.94 -1.17)
+		(end -5.71 -1.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87d8e66d-fe6d-4ba8-aee8-8e5b1f657633")
+	)
+	(fp_line
+		(start -4.94 -0.82)
+		(end -4.94 -1.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4985761d-5628-4ba0-8c13-f7d1e7ce59fb")
+	)
+	(fp_line
+		(start -4.91 3)
+		(end -4.91 4.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b560307-a9b3-4d1c-ab79-eb1972c89cae")
+	)
+	(fp_line
+		(start -4.91 4.3)
+		(end 4.91 4.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cbfa982-05cb-4287-9468-53797b1fbc2d")
+	)
+	(fp_line
+		(start -2.96 -1.41)
+		(end -2.96 -0.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d39c18c-d189-4787-bfc1-75d897810745")
+	)
+	(fp_line
+		(start -2.96 -0.82)
+		(end -4.94 -0.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9145db4d-ae93-415b-9ce4-1e423493154f")
+	)
+	(fp_line
+		(start 4.91 3)
+		(end 5.71 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf73ce22-ef3a-4956-9f92-2d915fa0095f")
+	)
+	(fp_line
+		(start 4.91 4.3)
+		(end 4.91 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f677f72-5564-4a58-9948-8f5e27329d50")
+	)
+	(fp_line
+		(start 4.94 -1.17)
+		(end 4.94 -0.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59ec6706-9c01-464e-9d58-3c542c90e581")
+	)
+	(fp_line
+		(start 4.94 -0.82)
+		(end 2.96 -0.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ade334d-9530-4fcf-a07a-b3ca408d0e03")
+	)
+	(fp_line
+		(start 5.71 -1.17)
+		(end 4.94 -1.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74105030-d907-4a34-8900-4613bc286459")
+	)
+	(fp_line
+		(start 5.71 0.88)
+		(end 5.71 -1.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba5362f-0d46-4641-bb38-5b5593261724")
+	)
+	(fp_line
+		(start 5.71 3)
+		(end 5.71 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebcdc816-df9d-4c43-9845-b3721a333557")
+	)
+	(fp_rect
+		(start -6.8 -1.66)
+		(end 6.8 4.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6762732-03b0-487f-bf74-dbe4791dbf44")
+	)
+	(fp_line
+		(start -5.6 -1.06)
+		(end -5.6 2.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0606a45f-9eaa-42af-8a7a-37050a6e8a34")
+	)
+	(fp_line
+		(start -5.6 2.89)
+		(end 5.6 2.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab1b8e38-8c35-43ac-82c4-225189236406")
+	)
+	(fp_line
+		(start -5.05 -1.06)
+		(end -5.6 -1.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05d638fe-e52f-4554-975f-c32dacfdfc63")
+	)
+	(fp_line
+		(start -5.05 -0.71)
+		(end -5.05 -1.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff170695-9309-459b-8398-b40321045aad")
+	)
+	(fp_line
+		(start -4.8 0.19)
+		(end -4.8 4.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2cbb6da-c671-43e0-bcf1-647ac06d9a9f")
+	)
+	(fp_line
+		(start -4.8 4.19)
+		(end 4.8 4.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15ec01ad-955c-46dc-a7da-0cd1618eaaeb")
+	)
+	(fp_line
+		(start -3 -0.71)
+		(end -2.5 0.04)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ee4f3b8-80c0-4971-a7c3-947fa5ff962e")
+	)
+	(fp_line
+		(start -2.5 0.04)
+		(end -2 -0.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "866032f5-ff1e-4e91-88d0-63c02bf78925")
+	)
+	(fp_line
+		(start 4.8 0.19)
+		(end -4.8 0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f080901a-e153-4a62-8048-7dedf45defdb")
+	)
+	(fp_line
+		(start 4.8 4.19)
+		(end 4.8 0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9638ad4b-615d-415f-94e7-218b86d50214")
+	)
+	(fp_line
+		(start 5.05 -1.06)
+		(end 5.05 -0.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "914208ab-8146-4c15-b988-7fec0a11f320")
+	)
+	(fp_line
+		(start 5.05 -0.71)
+		(end -5.05 -0.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52b2afcc-e9fb-4866-8b2f-39db96eda53c")
+	)
+	(fp_line
+		(start 5.6 -1.06)
+		(end 5.05 -1.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8f28f19-16b1-4172-87a1-1506235d8970")
+	)
+	(fp_line
+		(start 5.6 2.89)
+		(end 5.6 -1.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c14794b-9492-4a75-b45c-3adca258adc7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.39 0)
+		(layer "F.Fab")
+		(uuid "df13d172-42ec-414f-8a96-b4bfc862887b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f207d21a-f1bb-4694-9254-2b130ae215c4")
+	)
+	(pad "2" smd rect
+		(at -1.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19852291-5569-4f7a-914d-3cc580aab37d")
+	)
+	(pad "3" smd rect
+		(at -0.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09b90aea-2222-4869-bf5a-2296512c1574")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c49cc250-958a-49dd-9993-d4a551b6d427")
+	)
+	(pad "5" smd rect
+		(at 1.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da7ae242-6d50-49ec-a28e-f2f7a3b71d8d")
+	)
+	(pad "6" smd rect
+		(at 2.5 -0.91)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d132249-7b46-4b5f-b38a-b91f8ad6a825")
+	)
+	(pad "MP" smd rect
+		(at -5.3 1.79)
+		(size 2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cce676c7-ec9a-4380-bc7c-2e1a0836abf3")
+	)
+	(pad "MP" smd rect
+		(at 5.3 1.79)
+		(size 2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6c4d534-f145-45e6-b7b1-c2241fd237c1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

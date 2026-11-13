@@ -1,0 +1,74 @@
+{
+  "left": {
+    "before": {
+      "vertices": 180815,
+      "faces": 361714,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 52030.34625153183
+    },
+    "additions": [
+      {
+        "vertices": 2496,
+        "faces": 4736,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 607.8422910482439
+      },
+      {
+        "vertices": 1104,
+        "faces": 2152,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 298.1309613159625
+      }
+    ],
+    "union": {
+      "vertices": 185618,
+      "faces": 365258,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 52677.471430771344
+    },
+    "after": {
+      "vertices": 187043,
+      "faces": 374170,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 52674.48843389906
+    },
+    "net_added_mm3": 644.1421823672281,
+    "pilot_reopen_removed_mm3": 2.982996872284275
+  },
+  "right": {
+    "before": {
+      "vertices": 185274,
+      "faces": 370636,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 62063.47007342032
+    },
+    "additions": [
+      {
+        "vertices": 2496,
+        "faces": 4736,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 657.6923272830202
+      },
+      {
+        "vertices": 1079,
+        "faces": 2118,
+        "nonmanifold_edges": 0,
+        "volume_mm3": 316.1682519142986
+      }
+    ],
+    "union": {
+      "vertices": 189789,
+      "faces": 374453,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 62743.09622857295
+    },
+    "after": {
+      "vertices": 191450,
+      "faces": 382988,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 62741.907603145395
+    },
+    "net_added_mm3": 678.4375297250735,
+    "pilot_reopen_removed_mm3": 1.1886254275523243
+  }
+}

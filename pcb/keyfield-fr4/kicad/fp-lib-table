@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "GyreNanoFR4V33") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoFR4V33.pretty") (options "") (descr "V33 source geometry snapshots"))(lib (name "Connector_GyreNanoFR4V33") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoFR4V33.pretty") (options "") (descr "V33 source geometry snapshots")))

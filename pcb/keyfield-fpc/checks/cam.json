@@ -1,0 +1,9 @@
+{
+  "board_outline_exact": true,
+  "pth_count": 52,
+  "npth_count": 90,
+  "drills_match_at_export_precision_mm": 0.001,
+  "draft_CAM_verified": true,
+  "manufacturer_coverlay_approved": false,
+  "manufacturer_stack_approved": false
+}

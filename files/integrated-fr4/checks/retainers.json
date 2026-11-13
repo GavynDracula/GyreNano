@@ -1,0 +1,22 @@
+{
+  "left": {
+    "original_volume_mm3": 4900.924538766947,
+    "new_volume_mm3": 4900.536364417106,
+    "removed_mm3": 0.3881782678244211,
+    "solids": 1,
+    "support_probes": 75,
+    "max_probe_loss_mm3": 0,
+    "shaft_holes_unchanged": true,
+    "head_seat_height_unchanged": true
+  },
+  "right": {
+    "original_volume_mm3": 4894.81613596717,
+    "new_volume_mm3": 4894.427957624657,
+    "removed_mm3": 0.3881782306789388,
+    "solids": 1,
+    "support_probes": 75,
+    "max_probe_loss_mm3": 0,
+    "shaft_holes_unchanged": true,
+    "head_seat_height_unchanged": true
+  }
+}

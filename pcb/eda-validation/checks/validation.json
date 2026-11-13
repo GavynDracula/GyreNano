@@ -1,0 +1,169 @@
+{
+  "GyreNanoHolderLeft": {
+    "source_sha256_unchanged": true,
+    "sch_drc": [],
+    "pcb_drc": [],
+    "stack_mm": 1.6,
+    "electrical_clean": true,
+    "netlist_nodes_verified": 71,
+    "sync_preserves_all_placements": true,
+    "PTH": {
+      "count": 40,
+      "max_coordinate_or_diameter_error_mm": 5.000000001587068e-06
+    },
+    "NPTH": {
+      "count": 4,
+      "max_coordinate_or_diameter_error_mm": 2.999999992425728e-06
+    },
+    "outline": {
+      "segments": 204,
+      "max_hausdorff_mm": 7.071067804061337e-06,
+      "bounds_mm": [
+        206.42644,
+        -88.06466,
+        248.05287,
+        -37.02611
+      ]
+    },
+    "F_Cu.gtl": {
+      "source_area_mm2": 196.42196666560523,
+      "eda_area_mm2": 196.42044225778605,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 3.141277250924818e-06
+    },
+    "B_Cu.gbl": {
+      "source_area_mm2": 173.00476137201318,
+      "eda_area_mm2": 173.00868416858816,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 3.141277250924818e-06
+    },
+    "F_Mask.gts": {
+      "source_area_mm2": 45.88107138250817,
+      "eda_area_mm2": 100.3520513851966,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 54.46974910181294,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.570638625462104e-06
+    },
+    "B_Mask.gbs": {
+      "source_area_mm2": 39.74835404013372,
+      "eda_area_mm2": 94.22492641033536,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 54.46974910181293,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.5706386254621048e-06
+    }
+  },
+  "GyreNanoHolderRight": {
+    "source_sha256_unchanged": true,
+    "sch_drc": [],
+    "pcb_drc": [],
+    "stack_mm": 1.6,
+    "electrical_clean": true,
+    "netlist_nodes_verified": 71,
+    "sync_preserves_all_placements": true,
+    "PTH": {
+      "count": 40,
+      "max_coordinate_or_diameter_error_mm": 5.000000001587068e-06
+    },
+    "NPTH": {
+      "count": 4,
+      "max_coordinate_or_diameter_error_mm": 5.000000001587068e-06
+    },
+    "outline": {
+      "segments": 206,
+      "max_hausdorff_mm": 6.4031242412407775e-06,
+      "bounds_mm": [
+        52.34291,
+        -88.03614,
+        94.10579,
+        -36.99598
+      ]
+    },
+    "F_Cu.gtl": {
+      "source_area_mm2": 204.4866017354974,
+      "eda_area_mm2": 204.48810695859433,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 3.141277250936283e-06
+    },
+    "B_Cu.gbl": {
+      "source_area_mm2": 163.9840064505118,
+      "eda_area_mm2": 163.97969656396478,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 3.1412772509362824e-06
+    },
+    "F_Mask.gts": {
+      "source_area_mm2": 46.3196657876222,
+      "eda_area_mm2": 100.79376903416971,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 54.469749101812816,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.5706386254678354e-06
+    },
+    "B_Mask.gbs": {
+      "source_area_mm2": 38.79608053312224,
+      "eda_area_mm2": 93.2646638068755,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 54.46974910181282,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.5706386254678354e-06
+    }
+  },
+  "GyreNanoSensor": {
+    "source_sha256_unchanged": true,
+    "sch_drc": [],
+    "pcb_drc": [],
+    "stack_mm": 1.29,
+    "electrical_clean": true,
+    "netlist_nodes_verified": 47,
+    "sync_preserves_all_placements": true,
+    "PTH": {
+      "count": 22,
+      "max_coordinate_or_diameter_error_mm": 0
+    },
+    "NPTH": {
+      "count": 2,
+      "max_coordinate_or_diameter_error_mm": 0
+    },
+    "outline": {
+      "segments": 8,
+      "max_hausdorff_mm": 7.999999994012796e-06,
+      "bounds_mm": [
+        64.1,
+        -131.95660421882604,
+        102.83459449513502,
+        -89.19705609843652
+      ]
+    },
+    "F_Cu.gtl": {
+      "source_area_mm2": 915.7919495102768,
+      "eda_area_mm2": 903.9150182521178,
+      "missing_beyond_5um_mm2": 11.726879008354423,
+      "extra_beyond_5um_mm2": 0.108711233804586,
+      "missing_outside_mount_clearance_mm2": 5.457842004286966e-05
+    },
+    "B_Cu.gbl": {
+      "source_area_mm2": 959.7528604577517,
+      "eda_area_mm2": 947.5057431238175,
+      "missing_beyond_5um_mm2": 11.80977035571253,
+      "extra_beyond_5um_mm2": 0.0022636783947507797,
+      "missing_outside_mount_clearance_mm2": 0.08294592577810067
+    },
+    "F_Mask.gts": {
+      "source_area_mm2": 7.60000000000008,
+      "eda_area_mm2": 26.002898725675717,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 18.40289872567563,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.5706386254640507e-06
+    },
+    "B_Mask.gbs": {
+      "source_area_mm2": 19.937184765716882,
+      "eda_area_mm2": 38.34008349139247,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 18.402898725675623,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.5706386254640509e-06
+    }
+  }
+}

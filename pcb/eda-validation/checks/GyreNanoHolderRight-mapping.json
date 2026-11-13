@@ -1,0 +1,90 @@
+{
+  "pcb": "140156e793f74950",
+  "sch": "d9542f7430887a26",
+  "components": [
+    {
+      "ref": "H1",
+      "cid": "74aca3244518f0ab",
+      "fid": "36695232eef550c5",
+      "sid": "14e02343510fe22b",
+      "did": "9aefbc868844400d"
+    },
+    {
+      "ref": "H2",
+      "cid": "574d62d3f2e64b05",
+      "fid": "e553a8befab2fc49",
+      "sid": "623b323dbbfbb8a3",
+      "did": "5286d73f8fdd7b09"
+    },
+    {
+      "ref": "J1",
+      "cid": "61dd011ba9f97e7d",
+      "fid": "58b407655b9dffb5",
+      "sid": "ffca89d831c3a4a7",
+      "did": "eaf28b1db69e7ccd"
+    },
+    {
+      "ref": "J2",
+      "cid": "a7c5d49f24aee97f",
+      "fid": "bf8eca2068f2f4ce",
+      "sid": "9e26aa5eddc60b13",
+      "did": "9b4b05c6378359a7"
+    },
+    {
+      "ref": "J3",
+      "cid": "67d1813e4952e81a",
+      "fid": "ba41c4f1bef7c625",
+      "sid": "1c1aa424b9c086c9",
+      "did": "7885d9582ea2280b"
+    },
+    {
+      "ref": "J4",
+      "cid": "5867967b67487963",
+      "fid": "51d8276e6adff492",
+      "sid": "53dbd2c6881618cd",
+      "did": "88da237659068120"
+    },
+    {
+      "ref": "J5",
+      "cid": "e1e2668344e6f79f",
+      "fid": "b0db46a727230baf",
+      "sid": "de2eea2a6b61d52d",
+      "did": "b80298694a7c45b8"
+    },
+    {
+      "ref": "J6",
+      "cid": "e02ce4b28432d15a",
+      "fid": "b245d896e067a88e",
+      "sid": "e88c5af02919d4c7",
+      "did": "ae39e63a13b2f70b"
+    },
+    {
+      "ref": "J7",
+      "cid": "eabedf51130d5b99",
+      "fid": "6b14b1159a13159a",
+      "sid": "65addce65eebb96f",
+      "did": "3aad3197ef6dd2ed"
+    },
+    {
+      "ref": "J8",
+      "cid": "777177f79f4e1ecf",
+      "fid": "976702e43f1c0e43",
+      "sid": "c097834ebe9a636e",
+      "did": "ba6ebdf576b80caa"
+    },
+    {
+      "ref": "SW1",
+      "cid": "3c37a050f647d2da",
+      "fid": "cd5791ee1bb1bf08",
+      "sid": "aa1cb7e1bdeb1fc0",
+      "did": "4fb67f1ba88c9ad0"
+    },
+    {
+      "ref": "U1",
+      "cid": "7f63468970b28cce",
+      "fid": "014e48e5d81eb663",
+      "sid": "f857a231af962d1a",
+      "did": "f7ee5de7005961fc"
+    }
+  ]
+}

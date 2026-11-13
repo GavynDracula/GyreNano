@@ -1,0 +1,7 @@
+GyreNano FR4 V32 - fabrication review only, not a material/assembly release.
+One artwork with seven electrically independent regions: five main columns, TL and TR alternatives.
+99.700 x 99.804 mm, 2-layer 0.6 mm FR4, target 1 oz copper. Within 100 x 100 mm artwork size; coupon eligibility is NOT established.
+Mechanical transport tabs contain no electrical links. Declare panel structure to vendor.
+Use C0-C4 and TL for left, C0-C4 and TR for right; populate only selected regions. Six FFCs per installed half.
+Trim tabs flush to V32 region outlines before forming; physical trim tolerance and FR4 life unqualified.
+Original key frames, copper and arm geometry retained. Main blank ends trimmed by 0.60 mm each; nominal bearing patches preserved. Existing holder and FPC order unchanged.

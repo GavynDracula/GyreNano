@@ -8,7 +8,7 @@ A wireless, hot-swap split trackball keyboard enclosure derived from [BastardKB 
 
 ![Gyre Nano enclosure render](pics/gyre-nano.png)
 
-**Development snapshot: right upper V11; left upper and both bottom trays V7.** Geometry checks and reference-profile slicing have passed. Physical printing and complete assembly validation are pending. Images are model renders.
+**Earlier enclosure baseline: right upper V11; left upper and both bottom trays V7.** Current integrated PCB/retainer routes are linked below. Geometry checks and reference-profile slicing have passed. Physical printing and complete assembly validation are pending. Images are model renders.
 
 ## Layout and compatibility
 
@@ -17,7 +17,7 @@ A wireless, hot-swap split trackball keyboard enclosure derived from [BastardKB 
 - The outer skin, thumb/ball transitions, sidewalls and bottom trays are redesigned. Height above the desk is not claimed identical to the original.
 - Intended hardware: Amoeba Royale single-switch PCBs, Kailh hot-swap sockets, header-mounted nrfmicro, Elite-C-holder and ZMK.
 - Original holder mounting datums, a Type-C opening and bottom screw bosses adjacent to the sidewalls.
-- Dedicated battery accommodation and a nice!view window remain planned. This snapshot does not include ready-to-flash firmware or a complete circuit design.
+- Dedicated battery accommodation and a nice!view window remain planned. Ready-to-flash firmware is not included; the prototype PCB designs are linked below.
 
 ## Required prints
 
@@ -48,9 +48,23 @@ Print the two trials first to check controller header height, USB access, insert
 
 [FDM printing notes](docs/printing.md) · [Geometry checks and limits](docs/geometry.md) · [Build guide (TBD)](docs/build-guide.md)
 
-## Electronics, PCB and firmware
+## Electronics and integrated prints
 
-The [electronics BOM](electronics_bom.md) lists selected components; quantities, wiring and the power circuit remain to be documented. [PCB](pcb/README.md) and [firmware](firmware/README.md) directories are placeholders.
+**Current snapshot: v0.2.0-prototype.1 — waiting for PCB samples and physical assembly.** The earlier enclosure prints above remain available for the existing Amoeba build. The new column-PCB routes use the integrated shells and their matching retainers.
+
+| Route / part | Files |
+| --- | --- |
+| FR4 keyfield, 0.6 mm, 99.70 × 99.80 mm | [V33 KiCad / EDA / Gerber](pcb/keyfield-fr4/README.md) |
+| Retained electrically isolated FR4 alternative | [V32](pcb/keyfield-fr4/alternative-isolated/README.md) |
+| FPC keyfield, 0.11 mm, 97.18 × 96.47 mm | [V27 KiCad / sample Gerber](pcb/keyfield-fpc/README.md) |
+| Left/right controller holders | [Corrected native EDA projects](pcb/holders/README.md) |
+| PMW3610 sensor with FFC | [Corrected native EDA project](pcb/sensor/README.md) |
+| Integrated upper shells + FR4 retainers | [STL / STEP](files/integrated-fr4/README.md) |
+| Bare-FPC direct supports | [STL / 3MF / STEP](files/fpc-supports/README.md) |
+
+Existing holder interfaces and key/ball mounting poses are retained. Six keyfield FFCs are still required per hand. Cross-region FR4 bridges must be removed before curved installation. Thin-FR4 forming, FPC durability, complete cable paths and printed fit remain trial items. No 0.4 mm thickness change is included.
+
+[Electronics index](pcb/README.md) · [BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [All prints](files/README.md) · [Firmware placeholder](firmware/README.md)
 
 ## Repository layout
 
@@ -62,9 +76,9 @@ The [electronics BOM](electronics_bom.md) lists selected components; quantities,
 | `src/`, `parameters/` | Editable modeling sources and hardware parameters |
 | `checks/`, `scripts/` | Geometry checks, model export and development tools |
 | `references/` | Upstream measurement datums and required reference geometry |
-| `pcb/`, `firmware/` | Placeholders for future electronics and firmware documentation |
+| `pcb/`, `firmware/` | Current PCB projects, sample packages and checks; firmware placeholder |
 
-See [development notes](docs/DEVELOPMENT.md) for dependencies and coordinate conventions. Historical archives, working STL exports, caches and machine logs stay local and are excluded from Git.
+See [development notes](docs/DEVELOPMENT.md) for dependencies and coordinate conventions. Old cross-version pipelines are preserved as a checksummed engineering snapshot attached to the pre-release; disposable exports and local caches are excluded from Git.
 
 ## Attribution and license
 

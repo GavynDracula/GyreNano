@@ -1,0 +1,20 @@
+{
+  "sessions": [
+    {
+      "id": "5358a5c5-f37e-4232-9470-19a0b9a834a0",
+      "purpose": "initial import/sync/review",
+      "closed": true
+    },
+    {
+      "id": "0e0d8626-f940-480b-8195-8f9b36a8cfb6",
+      "purpose": "saved project reopen",
+      "closed": true
+    },
+    {
+      "id": "ea68f04b-b51e-4b96-9378-f6005e78df44",
+      "purpose": "export final CAM from serialized project",
+      "closed": true
+    }
+  ],
+  "all_owned_sessions_closed": true
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-13",
+  "checks_rerun": "KiCad CLI DRC, including schematic parity and all severities",
+  "results": {
+    "fr4-v33": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    },
+    "fr4-v32": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    },
+    "fpc-v27": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    }
+  },
+  "no_geometry_changes": true,
+  "no_slicing_performed": true,
+  "physical_validation_pending": true,
+  "historical_eda_checks_not_rerun": true,
+  "native_project_hashes_preserved": true
+}

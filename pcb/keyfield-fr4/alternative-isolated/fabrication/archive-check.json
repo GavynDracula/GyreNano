@@ -1,0 +1,24 @@
+{
+  "archive": "fabrication/GyreNanoKeyfieldFR4V32-Gerber.zip",
+  "sha256": "436b196d06ca087ce7e0dbe29a018ee7c4838998df0b663173d91c3615b7ebb3",
+  "source_state_sha256": "2f1051b2c8651581f9b2b5b209df8459ca96327664b0768c9d5acd9017b49741",
+  "files": [
+    "GyreNanoKeyfieldFR4V32-B_Cu.gbl",
+    "GyreNanoKeyfieldFR4V32-B_Mask.gbs",
+    "GyreNanoKeyfieldFR4V32-B_Silkscreen.gbo",
+    "GyreNanoKeyfieldFR4V32-Edge_Cuts.gm1",
+    "GyreNanoKeyfieldFR4V32-F_Cu.gtl",
+    "GyreNanoKeyfieldFR4V32-F_Mask.gts",
+    "GyreNanoKeyfieldFR4V32-F_Silkscreen.gto",
+    "GyreNanoKeyfieldFR4V32-NPTH.drl",
+    "GyreNanoKeyfieldFR4V32-PTH.drl",
+    "GyreNanoKeyfieldFR4V32-job.gbrjob",
+    "REVIEW-ONLY.txt"
+  ],
+  "dimensions_mm": [
+    99.69997,
+    99.803906
+  ],
+  "physical_assembly_verified": false,
+  "manufacturer_panel_review_required": true
+}

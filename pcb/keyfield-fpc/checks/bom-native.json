@@ -1,0 +1,518 @@
+{
+  "fpc_blank": {
+    "source": "pcb/keyfield-fpc-v27/GyreNanoKeyfieldFPCV27.kicad_pcb",
+    "sha256": "e895a0598ff0fc0c464907dceae1233922db1a2a72bce3db6defb935423a8eb5",
+    "parts": [
+      {
+        "reference": "C0_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C0_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C0_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C0_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C0_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C0_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C0_SW1",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C0_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C0_SW2",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C0_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C0_SW3",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C0_SW3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C1_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C1_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C1_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_SW1",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C1_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_SW2",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C1_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C1_SW3",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C1_SW3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C2_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C2_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C2_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_SW1",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C2_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_SW2",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C2_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2_SW3",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C2_SW3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C3_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C3_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C3_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_SW1",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C3_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_SW2",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C3_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3_SW3",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C3_SW3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C4_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C4_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_C4_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_SW1",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C4_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_SW2",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C4_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4_SW3",
+        "value": "CPG151101S11-16",
+        "footprint": "SW_C4_SW3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J1",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J2",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J3",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J4",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J4",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J5",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J5",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J6",
+        "value": "2005280060",
+        "footprint": "Molex_1x06_J6",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "JP1",
+        "value": "L:1-2 / R:2-3",
+        "footprint": "Jumper_3_Open_JP1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_D1",
+        "value": "1N4148W-7-F",
+        "footprint": "D_T_D1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_D2",
+        "value": "1N4148W-7-F",
+        "footprint": "D_T_D2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_D3",
+        "value": "1N4148W-7-F",
+        "footprint": "D_T_D3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_SW1",
+        "value": "MX hot-swap",
+        "footprint": "SW_T_SW1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_SW2",
+        "value": "MX hot-swap",
+        "footprint": "SW_T_SW2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "T_SW3",
+        "value": "MX hot-swap",
+        "footprint": "SW_T_SW3",
+        "side": "B.Cu"
+      }
+    ]
+  },
+  "holder_left": {
+    "source": "pcb/assembly-v12/GyreNanoHolderLeftV12.kicad_pcb",
+    "sha256": "6502bdcb6475d5ec1ae8b15128587eb6c994f3857216a9fab2ac7ed0e73e5155",
+    "parts": [
+      {
+        "reference": "H1",
+        "value": "Original holder mount",
+        "footprint": "Mount4",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "H2",
+        "value": "Original holder mount",
+        "footprint": "Mount4",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J1",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J2",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J3",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J4",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J4",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J5",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J5",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J6",
+        "value": "2005280060",
+        "footprint": "Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J7",
+        "value": "2005280060",
+        "footprint": "FFC6_left_J7",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J8",
+        "value": "PH2 battery: 1+ 2-",
+        "footprint": "JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "SW1",
+        "value": "JS102011SAQN",
+        "footprint": "SW_SPDT_CK_JS102011SAQN",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "U1",
+        "value": "nrfmicro1.4",
+        "footprint": "Controller24_left",
+        "side": "F.Cu"
+      }
+    ]
+  },
+  "holder_right": {
+    "source": "pcb/assembly-v12/GyreNanoHolderRightV12.kicad_pcb",
+    "sha256": "a1e85c0f5ba25faa0f7b671ee576feac411e09c37b8e1f255fcc48b0366858a9",
+    "parts": [
+      {
+        "reference": "H1",
+        "value": "Original holder mount",
+        "footprint": "Mount4",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "H2",
+        "value": "Original holder mount",
+        "footprint": "Mount4",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J1",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J1",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J2",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J2",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J3",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J3",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J4",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J4",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J5",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J5",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "J6",
+        "value": "2005280060",
+        "footprint": "Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J7",
+        "value": "2005280060",
+        "footprint": "FFC6_right_J7",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J8",
+        "value": "PH2 battery: 1+ 2-",
+        "footprint": "JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "SW1",
+        "value": "JS102011SAQN",
+        "footprint": "SW_SPDT_CK_JS102011SAQN",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "U1",
+        "value": "nrfmicro1.4",
+        "footprint": "Controller24_right",
+        "side": "F.Cu"
+      }
+    ]
+  },
+  "sensor": {
+    "source": "pcb/sensor-v5/GyreNanoSensor.kicad_pcb",
+    "sha256": "3bb1a96942aa482b1e92a608a84844a753748790e4b14b1b1f31d8187bba2933",
+    "parts": [
+      {
+        "reference": "C1",
+        "value": "10n",
+        "footprint": "C1_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C2",
+        "value": "100n",
+        "footprint": "C2_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C3",
+        "value": "3.3u/16V",
+        "footprint": "C3_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C4",
+        "value": "0.1u",
+        "footprint": "C4_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C5",
+        "value": "1u",
+        "footprint": "C5_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C6",
+        "value": "100n (X7R)",
+        "footprint": "C6_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C7",
+        "value": "100n",
+        "footprint": "C7_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C8",
+        "value": "10u (X7R)",
+        "footprint": "C8_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "C9",
+        "value": "10n (X7R)",
+        "footprint": "C9_C_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "H1",
+        "value": "MountingHole",
+        "footprint": "H1_MountingHole_3.2mm_M3_ISO7380_Pad",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "H2",
+        "value": "MountingHole",
+        "footprint": "H2_",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "J1",
+        "value": "2005280060",
+        "footprint": "Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal",
+        "side": "F.Cu"
+      },
+      {
+        "reference": "R1",
+        "value": "2M",
+        "footprint": "R1_R_0603_1608Metric",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "U1",
+        "value": "TCR2EF19",
+        "footprint": "U1_SOT-23-5",
+        "side": "B.Cu"
+      },
+      {
+        "reference": "U2",
+        "value": "PMW3610",
+        "footprint": "U2_PMW3610",
+        "side": "B.Cu"
+      }
+    ]
+  }
+}

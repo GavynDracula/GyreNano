@@ -1,0 +1,4 @@
+{"type":"DOCHEAD","ticket":10004}||{"docType":"SCH","client":"911477ee20338065","uuid":"a7605e1955bf8b1f","updateTime":1794398564215,"version":"1794398564215","editVersion":"4.1.99","user":{}}|
+{"type":"META","ticket":10000,"id":"META"}||{"title":"Circuit","source":"","board":"0e83b338cd4234c6"}|
+{"type":"RULE","ticket":10002,"id":"[\"RULE\",\"TRACK\",\"copperThickness1oz\"]"}||{"ruleState":"DEFAULT","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.127}]}}}|
+{"type":"RULE","ticket":10003,"id":"[\"RULE\",\"TRACK\",\"copperThickness2oz\"]"}||{"ruleState":"NORMAL","ruleContext":{"unit":"mm","track":{"isOpen":true,"content":[{"layerId":1,"stroDef":0.254,"stroMax":2.54,"stroMin":0.203}]}}}

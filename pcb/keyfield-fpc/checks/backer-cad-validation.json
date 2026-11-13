@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Validity gate: PASS (warning: 18 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 18,\n  \"volume\": 1915.9248,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact-subprocess\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"18 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+    }
+  ],
+  "structuredContent": {
+    "result": "Validity gate: PASS (warning: 18 disjoint solid bodies — a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers)\n{\n  \"passes_gate\": true,\n  \"n_solids\": 18,\n  \"volume\": 1915.9248,\n  \"overlap_check\": \"exact\",\n  \"overlapping_pairs\": 0,\n  \"pairwise_overlap_volume\": 0.0,\n  \"watertight_manifold\": true,\n  \"open_edges\": 0,\n  \"nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_edges\": 0,\n  \"mesh_nonmanifold_vertices\": 0,\n  \"mesh_open_edges\": 0,\n  \"mesh_vertex_deflection_defects\": 0,\n  \"untriangulated_faces\": 0,\n  \"refined_untriangulated_faces\": 0,\n  \"refined_untriangulated_faces_verified\": true,\n  \"mesh_check\": \"exact-subprocess\",\n  \"brep_valid\": true,\n  \"warnings\": [\n    \"18 disjoint solid bodies \\u2014 a single-part task expects one fused solid; fuse them (Part() + ... or a.fuse(b)) or the topology score suffers\"\n  ],\n  \"reasons\": []\n}"
+  },
+  "isError": false
+}

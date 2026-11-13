@@ -1,0 +1,171 @@
+{
+  "end_trim_mm": 0.6,
+  "main_source_dimensions_mm": [
+    18.400000005960464,
+    64.30155425518751
+  ],
+  "main_trimmed_dimensions_mm": [
+    18.400000005960464,
+    63.10155425518752
+  ],
+  "removed_area_per_column_mm2": 21.8641371244355,
+  "support_patches_per_column": [
+    {
+      "center": [
+        91.85,
+        92.3
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.15000000298023508,
+      "source_edge_margin_mm": 0.30000000298022655
+    },
+    {
+      "center": [
+        91.85,
+        107.7
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052290991531957695,
+      "source_edge_margin_mm": 0.052290991531957695
+    },
+    {
+      "center": [
+        108.15,
+        92.3
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.15000000298023508,
+      "source_edge_margin_mm": 0.30000000298022655
+    },
+    {
+      "center": [
+        108.15,
+        107.7
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052290991531957695,
+      "source_edge_margin_mm": 0.052290991531957695
+    },
+    {
+      "center": [
+        91.85,
+        115.250777
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052290880224547746,
+      "source_edge_margin_mm": 0.05229088022454773
+    },
+    {
+      "center": [
+        91.85,
+        130.650777
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052291105523114056,
+      "source_edge_margin_mm": 0.052291105523114056
+    },
+    {
+      "center": [
+        108.15,
+        115.250777
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.05229088022454773,
+      "source_edge_margin_mm": 0.052290880224547746
+    },
+    {
+      "center": [
+        108.15,
+        130.650777
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052291105523114056,
+      "source_edge_margin_mm": 0.052291105523114056
+    },
+    {
+      "center": [
+        91.85,
+        138.20155400000002
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052290764207655056,
+      "source_edge_margin_mm": 0.052290764207655056
+    },
+    {
+      "center": [
+        91.85,
+        153.601554
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.15000025220729182,
+      "source_edge_margin_mm": 0.30000000298022655
+    },
+    {
+      "center": [
+        108.15,
+        138.20155400000002
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.052290764207655056,
+      "source_edge_margin_mm": 0.052290764207655056
+    },
+    {
+      "center": [
+        108.15,
+        153.601554
+      ],
+      "area_mm2": 2.25,
+      "lost_area_mm2": 0.0,
+      "nominal_edge_margin_mm": 0.15000025220729182,
+      "source_edge_margin_mm": 0.30000000298022655
+    }
+  ],
+  "full_keyboard_patch_count": 120,
+  "full_patch_coverage": true,
+  "min_nominal_support_edge_margin_mm": 0.052290764207655056,
+  "trimmed_end_support_margin_mm": 0.15000000298023508,
+  "electrical_clearance": {
+    "column": {
+      "copper_edge_min_mm": 0.3240693451243105,
+      "hole_edge_min_mm": 1.970069827222546
+    },
+    "front": {
+      "copper_edge_min_mm": 0.3240693451243105,
+      "hole_edge_min_mm": 1.970069827222546
+    }
+  },
+  "original_arms_unchanged": true,
+  "installed_key_frames_unchanged": true,
+  "main_outline_subset": true,
+  "thumb_outlines_identical": true,
+  "previous_static_fit": {
+    "main-fit": {
+      "report_path": "pcb/keyfield-fr4-v30/checks/main-fit.json",
+      "report_sha256": "4f471c451f445f01ef2f43453e4b987bce9c3dad20e97465e18abd059a9cdc8b",
+      "input_count": 129,
+      "input_hashes_unchanged": true
+    },
+    "thumb-fit": {
+      "report_path": "pcb/keyfield-fr4-v30/checks/thumb-fit.json",
+      "report_sha256": "2dd0559e5768d1fec6e5769ac9c8cda8f0ce1a9d52ae3089c97d2434cdbd9353",
+      "input_count": 135,
+      "input_hashes_unchanged": true
+    }
+  },
+  "collision_argument": "Removing material from rigid end islands cannot create new static intersections; arm and component geometry unchanged. Tabs must be fully trimmed to V32 outlines.",
+  "retainer_change_required": false,
+  "physical_assembly_verified": false,
+  "material_qualified": false,
+  "tolerance_note": "Nominal full contact retained; 0.15 mm margin at trimmed ends requires actual edge tolerance and assembly trial. Not a tolerance-stack certification."
+}

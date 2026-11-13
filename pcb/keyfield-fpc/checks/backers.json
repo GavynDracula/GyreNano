@@ -1,0 +1,65 @@
+{
+  "parts": 18,
+  "holes": 90,
+  "DXF_units": "mm",
+  "cut_lines_match_current_layout_at_1um": true,
+  "holes_match_at_1um": true,
+  "all_holes_inside_backers": true,
+  "expected_FR4_volume_mm3": 1915.9247628874973,
+  "unchanged_xy_footprint": true,
+  "unchanged_component_solder_plane_mm": -5.6,
+  "v25_stack": {
+    "flex": [
+      -5.6,
+      -5.48
+    ],
+    "glue_budget": [
+      -5.48,
+      -5.43
+    ],
+    "FR4": [
+      -5.43,
+      -5.03
+    ]
+  },
+  "v26_stack": {
+    "flex": [
+      -5.6,
+      -5.49
+    ],
+    "glue_budget": [
+      -5.49,
+      -5.44
+    ],
+    "FR4": [
+      -5.44,
+      -5.04
+    ]
+  },
+  "nominal_upper_stop_gap_mm": 0.04,
+  "unchanged_retainer_bearing_gap_mm": 0.15,
+  "extra_backer_lower_envelope_mm": 0.01,
+  "thumb_installed_CAD_recheck_performed": true,
+  "adhesive_and_hot_swap_qualified": false,
+  "limitation": "Nominal geometry checked; full FFC / main assembly / tolerance / adhesive and load qualification pending.",
+  "files_sha256": {
+    "left_TE_flex.stl": "0e340fcb189de9a1d89228bbc473a141a537a5e738e59fc5dc39d94b18a16eaa",
+    "right_thumb_stiffeners.stl": "54897c2d796b38807707fe2042f11b3babe0d20b0a0c63ee54b5e944cac89d3f",
+    "right_TA_flex.step": "b7252666c2350dd677d2054c74dadfbb2ca037c94dd7ded1dc921fa4951813fc",
+    "left_TE_flex.step": "bf4c29ccd7a570c6daa34edfd367e8a83ded9c1ce963d9ec61be6da4896d6ee0",
+    "GyreNanoV27SeparateFR4Backers.dxf": "d1977874c9c6190888deaec9a6f44155274d8fc0ae33978f90b2daf82f269020",
+    "right_thumb_rigid_regions.stl": "99b67202e94402d0bad5238f376cbd24a29f40191399b9c84cbd7e354d1d2c85",
+    "left_thumb_rigid_regions.step": "8d9d16ab69734b19bfea8ed951a67e0b473eff23f29bcba5c62e56ea3010291b",
+    "backers.json": "7596cd1e40ff5ef0773050ae5d27be62458e3170c1cc7e7f807519992b44e0bd",
+    "right_thumb_stiffeners.step": "a4c68ad8fa3ebd7385200ef922b1453bcec69f9cd95f6ce75687e1c8dbec9509",
+    "right_TA_flex.stl": "b86e462552f85187aa260c8b5e455bb0480b77074b153fc3ddfb9d7b6aeacd65",
+    "GyreNanoV27SeparateFR4Backers.step": "d80d77029756591d556b8500ee43da400f167b40dd6e42382682980f8b53de95",
+    "left_TA_flex.step": "fe38dea5b7491cd2b6d201df77b2a4ea82f55c964ed873514ce4c1f42b727269",
+    "left_thumb_rigid_regions.stl": "e8912dc2c923957a93fb90a4ac63cdcbdaf8193b347e99e4e6c8be957a280e95",
+    "right_thumb_rigid_regions.step": "cc0bd047475faa7e0713c925915cc738b8719745c7eeec3059e7c27e27b06b88",
+    "GyreNanoV27SeparateFR4Backers.svg": "5d8bd5bb1e820700f219f0556ab1556f2ceb4dcaf17efb7884f6124ede523edf",
+    "left_thumb_stiffeners.stl": "171c964362b51655dc287cd83883ca1d54f0b1876452a91b55cbdc998951a64c",
+    "left_TA_flex.stl": "3776ed3d0b91d4dbc56aaaf52bb868fee96a88a62458569cd914692f47c00126",
+    "left_thumb_stiffeners.step": "5921ce13595da0f469c75cb9e688a0a42f8ba53e55eb30f838f3e403eeb737f3"
+  }
+}

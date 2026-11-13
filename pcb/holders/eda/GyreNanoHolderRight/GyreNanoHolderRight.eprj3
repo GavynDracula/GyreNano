@@ -1,0 +1,61 @@
+{
+  "name": "GyreNanoHolderRight",
+  "content": "Editable EDA rebuild of pcb/assembly-v12/GyreNanoHolderRightV12; KiCad-derived geometry and nets. Coupon eligibility unconfirmed.",
+  "format": "folder",
+  "boards": [],
+  "ticket": 1,
+  "g_ticket": 1,
+  "pcb_count": 0,
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "block_symbol_attrs_groups": {},
+  "branch_uuid": "",
+  "default_sheet": "d9542f7430887a26",
+  "profile": {
+    "boards": {
+      "fa7d0843649efd79": {
+        "uuid": "fa7d0843649efd79",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "b034cb525b7b3e37": {
+        "uuid": "b034cb525b7b3e37",
+        "name": "Circuit",
+        "board": "fa7d0843649efd79",
+        "source": "",
+        "version": "1794398570257",
+        "updateTime": 1794398570257
+      }
+    },
+    "sheets": {
+      "d9542f7430887a26": {
+        "uuid": "d9542f7430887a26",
+        "title": "Connections",
+        "schematic_uuid": "b034cb525b7b3e37",
+        "zIndex": 1,
+        "source": "",
+        "version": "1794398560578",
+        "updateTime": 1794398560578
+      }
+    },
+    "pcbs": {
+      "140156e793f74950": {
+        "uuid": "140156e793f74950",
+        "title": "GyreNanoHolderRight",
+        "board": "fa7d0843649efd79",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1794398572063",
+        "updateTime": 1794398572063
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {},
+    "simSchematics": {},
+    "simulations": {}
+  }
+}

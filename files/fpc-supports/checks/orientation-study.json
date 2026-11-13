@@ -1,0 +1,118 @@
+{
+  "left_main_support": {
+    "rotation": [
+      [
+        0.9655144269268894,
+        -0.0007428410441724812,
+        0.2603484964105294
+      ],
+      [
+        1.0842021724855044e-19,
+        0.9999959294884767,
+        0.0028532449031628353
+      ],
+      [
+        -0.2603495561663979,
+        -0.002754849117559333,
+        0.9655104967892887
+      ]
+    ],
+    "rx": 0,
+    "ry": 0,
+    "support_volume_proxy_mm3": 24075.956466301774,
+    "height_mm": 25.352624383143244,
+    "min_key_up": 0.9510433207206815,
+    "score": 24456.245832048924,
+    "source": "pcb/fpc-support-v29/mechanical/left_main_support.stl",
+    "source_sha256": "e7c8b31d205087f4d5b62d74213df862b6f81742b200c0b195757c6f51c0efcd",
+    "candidates": 81,
+    "orientation_only": true
+  },
+  "left_thumb_support": {
+    "rotation": [
+      [
+        0.9374885480415821,
+        0.12348365744496448,
+        -0.32537210795472465
+      ],
+      [
+        0.0,
+        0.934934004154238,
+        0.3548216564361922
+      ],
+      [
+        0.34801612360763734,
+        -0.3326412395060748,
+        0.876489922069259
+      ]
+    ],
+    "rx": 0,
+    "ry": 0,
+    "support_volume_proxy_mm3": 976.8046250022016,
+    "height_mm": 7.422601389148717,
+    "min_key_up": 0.9976033272225358,
+    "score": 1088.1436458394323,
+    "source": "pcb/fpc-support-v29/mechanical/left_thumb_support.stl",
+    "source_sha256": "2059ab0986a9ecb8187b8f0feaf4b4631a256d8fe8d85b30e43598c0a7af36c4",
+    "candidates": 81,
+    "orientation_only": true
+  },
+  "right_main_support": {
+    "rotation": [
+      [
+        0.9655144269268894,
+        0.0007428410441724812,
+        -0.2603484964105294
+      ],
+      [
+        -1.0842021724855044e-19,
+        0.9999959294884767,
+        0.0028532449031628353
+      ],
+      [
+        0.2603495561663979,
+        -0.002754849117559333,
+        0.9655104967892887
+      ]
+    ],
+    "rx": 0,
+    "ry": 0,
+    "support_volume_proxy_mm3": 24074.785902783704,
+    "height_mm": 25.352624383143244,
+    "min_key_up": 0.9510433207206815,
+    "score": 24455.075268530854,
+    "source": "pcb/fpc-support-v29/mechanical/right_main_support.stl",
+    "source_sha256": "a7b9387fa396294cefdc45758e8554d91b2d28142e11bada4ae74c92eff25dac",
+    "candidates": 81,
+    "orientation_only": true
+  },
+  "right_thumb_support": {
+    "rotation": [
+      [
+        0.9264531739357282,
+        -0.1380234081254355,
+        0.3501914552267869
+      ],
+      [
+        0.0,
+        0.9303456872139619,
+        0.36668365423397437
+      ],
+      [
+        -0.3764100377306844,
+        -0.3397152352954167,
+        0.8619217147767914
+      ]
+    ],
+    "rx": 0,
+    "ry": 0,
+    "support_volume_proxy_mm3": 424.9633340490308,
+    "height_mm": 6.429752527256774,
+    "min_key_up": 0.9993123044386556,
+    "score": 521.4096219578823,
+    "source": "pcb/fpc-support-v29/mechanical/right_thumb_support.stl",
+    "source_sha256": "1baea2d0b266acd68dff86e8204a6e13c2f5531d4f123aa13ec77a2e2c2dcecf",
+    "candidates": 81,
+    "orientation_only": true
+  }
+}

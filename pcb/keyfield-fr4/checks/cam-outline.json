@@ -1,0 +1,15 @@
+{
+  "file": "draft-cam/GyreNanoKeyfieldFR4V33-Edge_Cuts.gm1",
+  "sha256": "cac353cef8ded7f23abd4cd73a101a48b2961355f63809dbbbea150742fe962c",
+  "outline_dimensions_mm": [
+    99.69997,
+    99.803906
+  ],
+  "under_100mm": true,
+  "centerline_deviation_mm": 1.3399069013943313e-06,
+  "edge_draw_width_mm": 0.05,
+  "stroke_inclusive_dimensions_mm": [
+    99.74996999999999,
+    99.853906
+  ]
+}

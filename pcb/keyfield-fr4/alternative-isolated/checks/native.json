@@ -1,0 +1,22 @@
+{
+  "layout_sha256": "730d101ba60b277fd3df243e3e7cc60dd116be89bf49c8eb1be7a986aba09819",
+  "schematic_sha256": "f73b4b38280e1c24ccec948850a830c6e2080d76e99f45756e1807cdbb9df951",
+  "board_sha256": "458301e3f4f9fd923284c1c946d071881603c9cbef21a14930138abb275825dc",
+  "source_derived_copper_items": 5982,
+  "removed_thumb_source_copper_items": null,
+  "new_thumb_arm_copper_items": 0,
+  "new_selector_and_bridge_copper_items": 0,
+  "source_pad_geometry_preserved": true,
+  "source_copper_geometry_preserved": true,
+  "all_components_B_Cu": true,
+  "external_backers": false,
+  "component_faces_preserved": true,
+  "max_numeric_track_error_mm": 9.999999996956888e-07,
+  "max_numeric_pad_error_mm": 2.285459416384583e-06,
+  "source_files_unchanged": true,
+  "no_drc_exclusions": true,
+  "footprints": 47,
+  "selectors_present": false,
+  "original_thumb_copper_preserved": true,
+  "holder_files_modified": false
+}

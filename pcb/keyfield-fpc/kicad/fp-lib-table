@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "GyreNanoFPCV27") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoFPCV27.pretty") (options "") (descr "V27 source geometry snapshots"))(lib (name "Connector_GyreNanoFPCV27") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoFPCV27.pretty") (options "") (descr "V27 source geometry snapshots")))

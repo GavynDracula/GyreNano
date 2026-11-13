@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "GyreNanoSensor") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoSensor.kicad_sym") (options "") (descr "Pinned and reviewed sensor symbols")))

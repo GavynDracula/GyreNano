@@ -8,7 +8,7 @@
 
 ![Gyre Nano 外壳模型渲染](pics/gyre-nano.png)
 
-**当前为开发快照：右上壳 V11；左上壳及左右底板 V7。** 几何检查和参考配置切片已通过，尚未完成实物打印及整机试装。图片为模型渲染。
+**基础外壳快照：右上壳 V11；左上壳及左右底板 V7。** 当前列板与承托整合版本见下方入口。 几何检查和参考配置切片已通过，尚未完成实物打印及整机试装。图片为模型渲染。
 
 ## 布局与兼容性
 
@@ -17,7 +17,7 @@
 - 新外皮、拇指/球口之间的过渡、侧壁和底板是重新设计的；桌面以上高度不承诺与原版一致。
 - 目标硬件：Amoeba Royale 单轴 PCB、Kailh 热插拔座、通过排针安装的 nrfmicro、Elite-C-holder、ZMK。
 - 保留原 holder 安装基准，预留 Type-C 开口；底板螺丝座贴近外壁。
-- 电池仓专门优化和 nice!view 开窗待完成；本快照不包含可直接刷写的固件或完整电路方案。
+- 电池仓专门优化和 nice!view 开窗待完成；本快照不包含可直接刷写的固件；下方提供当前电路试样工程。
 
 ## 所需打印件
 
@@ -48,9 +48,23 @@
 
 [FDM 打印说明](docs/FDM-PRINTING.md) · [几何验证与限制](docs/geometry.md) · [装配指南（待补充）](docs/build-guide.md)
 
-## 电路、PCB 与固件
+## 电路与整合打印件
 
-[电子元件清单](electronics_bom.md)记录已选组件；数量、接线和电源方案待补充。[PCB](pcb/README.md) 与 [固件](firmware/README.md)目录先保留占位。
+**当前快照：v0.2.0-prototype.1，等待 PCB 到货和实物装配验证。** 上面的基础外壳仍供现有 Amoeba 方案使用；新列板方案请使用整合上壳及对应承托。
+
+| 部件／路线 | 文件入口 |
+| --- | --- |
+| 0.6 mm FR4 键区，99.70 × 99.80 mm | [V33 KiCad / EDA / Gerber](pcb/keyfield-fr4/README.zh-CN.md) |
+| 独立区域 FR4 备选 | [V32](pcb/keyfield-fr4/alternative-isolated/README.md) |
+| 0.11 mm FPC 键区，97.18 × 96.47 mm | [V27 KiCad / 试样包](pcb/keyfield-fpc/README.zh-CN.md) |
+| 左右主控 holder | [已修正阻焊的 EDA 工程](pcb/holders/README.md) |
+| PMW3610 插座 sensor | [已修正的 EDA 工程](pcb/sensor/README.md) |
+| 整合上壳与 FR4 承托 | [STL / STEP](files/integrated-fr4/README.md) |
+| FPC 直接承托 | [STL / 3MF / STEP](files/fpc-supports/README.md) |
+
+保留原键位、拇指、轨迹球安装基准及已打板 holder 接口；每侧仍用六根键区 FFC。FR4 跨区域桥必须在曲面安装前剪掉。薄板折弯、焊接、排线和打印配合待试装；当前没有应用 0.4 mm 改型。
+
+[电路总览](pcb/README.zh-CN.md) · [采购 BOM](pcb/keyfield-fpc/BOM.zh-CN.md) · [CSV](pcb/keyfield-fpc/BOM.csv) · [全部打印件](files/README.md)
 
 ## 仓库结构
 
@@ -62,9 +76,9 @@
 | `src/`、`parameters/` | 可编辑建模源和安装参数 |
 | `checks/`、`scripts/` | 几何校验、模型导出及开发工具 |
 | `references/` | 上游测量基准与必要的参考几何 |
-| `pcb/`、`firmware/` | 后续电路、PCB 与固件资料占位 |
+| `pcb/`、`firmware/` | 当前电路工程、打样包与检查记录；固件资料占位 |
 
-重建依赖和坐标约定见 [开发说明](docs/DEVELOPMENT.md)。历史归档、工作 STL、缓存和本机日志保留在本地，不纳入 Git。
+重建依赖和坐标约定见 [开发说明](docs/DEVELOPMENT.md)。旧版跨版本脚本与依赖已封存为预发布附件中的工程快照；重复导出和临时日志已清理，缓存不纳入 Git。
 
 ## 来源与许可
 

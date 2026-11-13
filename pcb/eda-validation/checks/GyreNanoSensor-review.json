@@ -1,0 +1,3557 @@
+{
+  "sch": {
+    "netlist": "{\n    \"version\": \"2.0.0\",\n    \"projectId\": \"8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b\",\n    \"components\": {\n        \"09344297cb6368ee\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C1\",\n                \"Device\": \"90fca52389abe291\",\n                \"Footprint\": \"1f2e68deff745356\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"ee58da897d04a60f\",\n                \"Unique ID\": \"09344297cb6368ee\",\n                \"Value\": \"10n\",\n                \"Name\": \"10n\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I1\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"10n\",\n                \"FootprintName\": \"GyreNanoSensor_C1_C1_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-+VCSEL)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"2ee57286d6028ce2\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C4\",\n                \"Device\": \"79e154f34fdc7b17\",\n                \"Footprint\": \"d0c7ef1f5dd9a5f7\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"ca1034fd26f2004f\",\n                \"Unique ID\": \"2ee57286d6028ce2\",\n                \"Value\": \"0.1u\",\n                \"Name\": \"0.1u\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I2\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"0.1u\",\n                \"FootprintName\": \"GyreNanoSensor_C4_C4_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"32dc6dddbec601c7\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"H2\",\n                \"Device\": \"2b3df16e27734c3e\",\n                \"Footprint\": \"5691ee29289575d4\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"06481b443ebacf2e\",\n                \"Unique ID\": \"32dc6dddbec601c7\",\n                \"Value\": \"MountingHole\",\n                \"Name\": \"MountingHole\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I3\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"MountingHole\",\n                \"FootprintName\": \"GyreNanoSensor_H2_H2_\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {}\n        },\n        \"50d7b813f7277b58\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C8\",\n                \"Device\": \"839742a8de6899b1\",\n                \"Footprint\": \"a6f05d28566a3098\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"562ce9d16041995d\",\n                \"Unique ID\": \"50d7b813f7277b58\",\n                \"Value\": \"10u (X7R)\",\n                \"Name\": \"10u (X7R)\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I4\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"10u (X7R)\",\n                \"FootprintName\": \"GyreNanoSensor_C8_C8_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-VCP)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"5e4a20808a515895\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C7\",\n                \"Device\": \"f90e76c8f3b2b3e8\",\n                \"Footprint\": \"ca0253223bf92446\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"c7338ae18a048586\",\n                \"Unique ID\": \"5e4a20808a515895\",\n                \"Value\": \"100n\",\n                \"Name\": \"100n\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I5\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"100n\",\n                \"FootprintName\": \"GyreNanoSensor_C7_C7_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"6c5b201261795d2a\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"H1\",\n                \"Device\": \"f6edadb385ceea28\",\n                \"Footprint\": \"ad5746898aeb5e9c\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"69c4af48648db883\",\n                \"Unique ID\": \"6c5b201261795d2a\",\n                \"Value\": \"MountingHole\",\n                \"Name\": \"MountingHole\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I6\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"MountingHole\",\n                \"FootprintName\": \"GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {}\n        },\n        \"78315402fef35e55\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"U1\",\n                \"Device\": \"f0f98ff4279701fb\",\n                \"Footprint\": \"9339be9d2db47c84\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"fba719b10f4f3ec2\",\n                \"Unique ID\": \"78315402fef35e55\",\n                \"Value\": \"TCR2EF19\",\n                \"Name\": \"TCR2EF19\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I7\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"TCR2EF19\",\n                \"FootprintName\": \"GyreNanoSensor_U1_U1_SOT-23-5\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"IN\",\n                    \"number\": \"1\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"GND\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                },\n                \"3\": {\n                    \"name\": \"CONTROL\",\n                    \"number\": \"3\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"3\"\n                    }\n                },\n                \"4\": {\n                    \"name\": \"NC\",\n                    \"number\": \"4\",\n                    \"net\": \"\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"4\"\n                    }\n                },\n                \"5\": {\n                    \"name\": \"OUT\",\n                    \"number\": \"5\",\n                    \"net\": \"+1V9\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"5\"\n                    }\n                }\n            }\n        },\n        \"797cfd2402a346b0\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"R1\",\n                \"Device\": \"7d9258f40e52fc36\",\n                \"Footprint\": \"7183821a26b73d61\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"8c8addac13d8bc49\",\n                \"Unique ID\": \"797cfd2402a346b0\",\n                \"Value\": \"2M\",\n                \"Name\": \"2M\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I8\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"2M\",\n                \"FootprintName\": \"GyreNanoSensor_R1_R1_R_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-NRESET)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"80c02e488dcc9dd0\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"J1\",\n                \"Device\": \"e3571fd82979e593\",\n                \"Footprint\": \"47ed2a721c5c3763\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"9bec57223a0e3611\",\n                \"Unique ID\": \"80c02e488dcc9dd0\",\n                \"Value\": \"2005280060\",\n                \"Name\": \"2005280060\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I9\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"2005280060\",\n                \"FootprintName\": \"GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"Pin_1\",\n                    \"number\": \"1\",\n                    \"net\": \"SCLK_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"Pin_2\",\n                    \"number\": \"2\",\n                    \"net\": \"SDIO_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                },\n                \"3\": {\n                    \"name\": \"Pin_3\",\n                    \"number\": \"3\",\n                    \"net\": \"NCS_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"3\"\n                    }\n                },\n                \"4\": {\n                    \"name\": \"Pin_4\",\n                    \"number\": \"4\",\n                    \"net\": \"MOTION_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"4\"\n                    }\n                },\n                \"5\": {\n                    \"name\": \"Pin_5\",\n                    \"number\": \"5\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"5\"\n                    }\n                },\n                \"6\": {\n                    \"name\": \"Pin_6\",\n                    \"number\": \"6\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"6\"\n                    }\n                }\n            }\n        },\n        \"89d7624760a0ed87\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C5\",\n                \"Device\": \"f4555d0e85b07f64\",\n                \"Footprint\": \"826a9ace85e244f1\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"512990ebb07a7036\",\n                \"Unique ID\": \"89d7624760a0ed87\",\n                \"Value\": \"1u\",\n                \"Name\": \"1u\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I10\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"1u\",\n                \"FootprintName\": \"GyreNanoSensor_C5_C5_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"+1V9\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"9b2aaf3b4f1f3f16\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C6\",\n                \"Device\": \"64193919dd986cec\",\n                \"Footprint\": \"309aae3d75439769\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"c117f28bf5e4537d\",\n                \"Unique ID\": \"9b2aaf3b4f1f3f16\",\n                \"Value\": \"100n (X7R)\",\n                \"Name\": \"100n (X7R)\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I11\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"100n (X7R)\",\n                \"FootprintName\": \"GyreNanoSensor_C6_C6_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-CN)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"Net-(U2-CP)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"a294e5277797f3cb\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C3\",\n                \"Device\": \"de45f3754ec13bd5\",\n                \"Footprint\": \"9e82c1391d5f2638\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"82d82727c638eeaf\",\n                \"Unique ID\": \"a294e5277797f3cb\",\n                \"Value\": \"3.3u/16V\",\n                \"Name\": \"3.3u/16V\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I12\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"3.3u/16V\",\n                \"FootprintName\": \"GyreNanoSensor_C3_C3_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"+1V9\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"b434487a5ef4590e\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"U2\",\n                \"Device\": \"6ecfaedd1de78f03\",\n                \"Footprint\": \"04694f1de12e2752\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"5318423c1ae32402\",\n                \"Unique ID\": \"b434487a5ef4590e\",\n                \"Value\": \"PMW3610\",\n                \"Name\": \"PMW3610\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I13\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"PMW3610\",\n                \"FootprintName\": \"GyreNanoSensor_U2_U2_PMW3610\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"+VCSEL\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-+VCSEL)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"SDIO\",\n                    \"number\": \"2\",\n                    \"net\": \"SDIO_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                },\n                \"3\": {\n                    \"name\": \"SCLK\",\n                    \"number\": \"3\",\n                    \"net\": \"SCLK_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"3\"\n                    }\n                },\n                \"4\": {\n                    \"name\": \"NC\",\n                    \"number\": \"4\",\n                    \"net\": \"\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"4\"\n                    }\n                },\n                \"5\": {\n                    \"name\": \"NCS\",\n                    \"number\": \"5\",\n                    \"net\": \"NCS_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"5\"\n                    }\n                },\n                \"6\": {\n                    \"name\": \"VDDIO\",\n                    \"number\": \"6\",\n                    \"net\": \"VCC\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"6\"\n                    }\n                },\n                \"7\": {\n                    \"name\": \"NRESET\",\n                    \"number\": \"7\",\n                    \"net\": \"Net-(U2-NRESET)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"7\"\n                    }\n                },\n                \"8\": {\n                    \"name\": \"MOTION\",\n                    \"number\": \"8\",\n                    \"net\": \"MOTION_2\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"8\"\n                    }\n                },\n                \"9\": {\n                    \"name\": \"VCP\",\n                    \"number\": \"9\",\n                    \"net\": \"Net-(U2-VCP)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"9\"\n                    }\n                },\n                \"10\": {\n                    \"name\": \"PASS_T\",\n                    \"number\": \"10\",\n                    \"net\": \"Net-(U2-+VCSEL)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"10\"\n                    }\n                },\n                \"11\": {\n                    \"name\": \"GND\",\n                    \"number\": \"11\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"11\"\n                    }\n                },\n                \"12\": {\n                    \"name\": \"CP\",\n                    \"number\": \"12\",\n                    \"net\": \"Net-(U2-CP)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"12\"\n                    }\n                },\n                \"13\": {\n                    \"name\": \"CN\",\n                    \"number\": \"13\",\n                    \"net\": \"Net-(U2-CN)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"13\"\n                    }\n                },\n                \"14\": {\n                    \"name\": \"VDD\",\n                    \"number\": \"14\",\n                    \"net\": \"+1V9\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"14\"\n                    }\n                },\n                \"15\": {\n                    \"name\": \"XYLASER\",\n                    \"number\": \"15\",\n                    \"net\": \"Net-(U2--VCSEL)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"15\"\n                    }\n                },\n                \"16\": {\n                    \"name\": \"-VCSEL\",\n                    \"number\": \"16\",\n                    \"net\": \"Net-(U2--VCSEL)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"16\"\n                    }\n                }\n            }\n        },\n        \"bc6edcaaf38236d0\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C9\",\n                \"Device\": \"4d85ccdec7ed7a3b\",\n                \"Footprint\": \"e8a1b289782a878b\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"c3b4ba33a1705fc1\",\n                \"Unique ID\": \"bc6edcaaf38236d0\",\n                \"Value\": \"10n (X7R)\",\n                \"Name\": \"10n (X7R)\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I14\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"10n (X7R)\",\n                \"FootprintName\": \"GyreNanoSensor_C9_C9_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"Net-(U2-VCP)\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        },\n        \"e0c20b24afa574e4\": {\n            \"props\": {\n                \"Add into BOM\": \"yes\",\n                \"Convert to PCB\": \"yes\",\n                \"Designator\": \"C2\",\n                \"Device\": \"f27fdbc77b06561d\",\n                \"Footprint\": \"ad50677bed65a497\",\n                \"PCB Layer\": \"Default\",\n                \"Symbol\": \"feb9da2cf50a6575\",\n                \"Unique ID\": \"e0c20b24afa574e4\",\n                \"Value\": \"100n\",\n                \"Name\": \"100n\",\n                \"Group ID\": \"\",\n                \"Channel ID\": \"$1I15\",\n                \"Reuse Block\": \"\",\n                \"DeviceName\": \"100n\",\n                \"FootprintName\": \"GyreNanoSensor_C2_C2_C_0603_1608Metric\"\n            },\n            \"altLibs\": {\n                \"devices\": [],\n                \"footprints\": []\n            },\n            \"pinInfoMap\": {\n                \"1\": {\n                    \"name\": \"\",\n                    \"number\": \"1\",\n                    \"net\": \"+1V9\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"1\"\n                    }\n                },\n                \"2\": {\n                    \"name\": \"\",\n                    \"number\": \"2\",\n                    \"net\": \"GND\",\n                    \"pinClass\": \"\",\n                    \"pinDifferentialPairClass\": \"\",\n                    \"props\": {\n                        \"Pin Number\": \"2\"\n                    }\n                }\n            }\n        }\n    },\n    \"designRule\": {\n        \"trackPhysics\": {\n            \"copperThickness1oz\": {\n                \"name\": \"copperThickness1oz\",\n                \"isDefault\": true,\n                \"unit\": \"mm\",\n                \"strokeValue\": {\n                    \"common\": {\n                        \"min\": 0.127,\n                        \"max\": 2.54,\n                        \"default\": 0.254\n                    }\n                }\n            },\n            \"copperThickness2oz\": {\n                \"name\": \"copperThickness2oz\",\n                \"isDefault\": false,\n                \"unit\": \"mm\",\n                \"strokeValue\": {\n                    \"common\": {\n                        \"min\": 0.203,\n                        \"max\": 2.54,\n                        \"default\": 0.254\n                    }\n                }\n            }\n        },\n        \"netRule\": {\n            \"Net-(U2--VCSEL)\": {\n                \"net\": \"Net-(U2--VCSEL)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"+1V9\": {\n                \"net\": \"+1V9\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"Net-(U2-CN)\": {\n                \"net\": \"Net-(U2-CN)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"Net-(U2-CP)\": {\n                \"net\": \"Net-(U2-CP)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"GND\": {\n                \"net\": \"GND\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"Net-(U2-+VCSEL)\": {\n                \"net\": \"Net-(U2-+VCSEL)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"Net-(U2-VCP)\": {\n                \"net\": \"Net-(U2-VCP)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"MOTION_2\": {\n                \"net\": \"MOTION_2\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"Net-(U2-NRESET)\": {\n                \"net\": \"Net-(U2-NRESET)\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"VCC\": {\n                \"net\": \"VCC\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"NCS_2\": {\n                \"net\": \"NCS_2\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"SCLK_2\": {\n                \"net\": \"SCLK_2\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            },\n            \"SDIO_2\": {\n                \"net\": \"SDIO_2\",\n                \"ruleMap\": {\n                    \"TrackPhysics\": \"\"\n                }\n            }\n        }\n    },\n    \"differentialPair\": {},\n    \"netClass\": {},\n    \"equalLengthNetGroup\": {},\n    \"differentialPairGroups\": {}\n}",
+    "drc": []
+  },
+  "before": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3000.3937007874015,
+      "y": -4499.212598425197,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "PMW3610",
+          "source": "",
+          "uuid": "6ecfaedd1de78f03"
+        }
+      },
+      "primitiveId": "b434487a5ef4590e",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "04694f1de12e2752",
+        "name": "GyreNanoSensor_U2_U2_PMW3610"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "U2",
+      "pads": [
+        {
+          "primitiveId": "b2ad75bb0ebbf861",
+          "net": "Net-(U2--VCSEL)",
+          "padNumber": "16"
+        },
+        {
+          "primitiveId": "bf92c546a814622b",
+          "net": "Net-(U2--VCSEL)",
+          "padNumber": "15"
+        },
+        {
+          "primitiveId": "101fe59a4c408114",
+          "net": "+1V9",
+          "padNumber": "14"
+        },
+        {
+          "primitiveId": "143750fd707b7318",
+          "net": "Net-(U2-CN)",
+          "padNumber": "13"
+        },
+        {
+          "primitiveId": "0d46851164c82a40",
+          "net": "Net-(U2-CP)",
+          "padNumber": "12"
+        },
+        {
+          "primitiveId": "a7aa58a2e040ec80",
+          "net": "GND",
+          "padNumber": "11"
+        },
+        {
+          "primitiveId": "7b222107dae14c97",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "10"
+        },
+        {
+          "primitiveId": "1ad36a3097f877d3",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "9"
+        },
+        {
+          "primitiveId": "c503ee1ac2263f07",
+          "net": "MOTION_2",
+          "padNumber": "8"
+        },
+        {
+          "primitiveId": "094326ad7870c7f4",
+          "net": "Net-(U2-NRESET)",
+          "padNumber": "7"
+        },
+        {
+          "primitiveId": "e910baf9a37429f1",
+          "net": "VCC",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "4453f1cb9c5cd56b",
+          "net": "NCS_2",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "950bf52b722b29bc",
+          "net": "",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "c057ee6ad5eaf8ae",
+          "net": "SCLK_2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "4ad5d2d9dcfa5f86",
+          "net": "SDIO_2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ee2c17a0d0e5ef4b",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "PMW3610",
+      "uniqueId": "b434487a5ef4590e",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_U2_U2_PMW3610",
+        "Value": "PMW3610"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3097.4015748031497,
+      "y": -4761.318897637795,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "TCR2EF19",
+          "source": "",
+          "uuid": "f0f98ff4279701fb"
+        }
+      },
+      "primitiveId": "78315402fef35e55",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "9339be9d2db47c84",
+        "name": "GyreNanoSensor_U1_U1_SOT-23-5"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "U1",
+      "pads": [
+        {
+          "primitiveId": "11be625845732c1a",
+          "net": "+1V9",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "e92b0fee37c78d86",
+          "net": "",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "2411ab0fedcd3434",
+          "net": "VCC",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "b7506e0d47f1ec57",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ba0e09bdf8d84154",
+          "net": "VCC",
+          "padNumber": "1"
+        }
+      ],
+      "name": "TCR2EF19",
+      "uniqueId": "78315402fef35e55",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_U1_U1_SOT-23-5",
+        "Value": "TCR2EF19"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2927.5590551181103,
+      "y": -4053.9370078740158,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "2M",
+          "source": "",
+          "uuid": "7d9258f40e52fc36"
+        }
+      },
+      "primitiveId": "797cfd2402a346b0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "7183821a26b73d61",
+        "name": "GyreNanoSensor_R1_R1_R_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "R1",
+      "pads": [
+        {
+          "primitiveId": "752ed2fa11f01093",
+          "net": "VCC",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "83c671f38df81dc8",
+          "net": "Net-(U2-NRESET)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2M",
+      "uniqueId": "797cfd2402a346b0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_R1_R1_R_0603_1608Metric",
+        "Value": "2M"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3791.3385826771655,
+      "y": -4348.425196850394,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "e3571fd82979e593"
+        }
+      },
+      "primitiveId": "80c02e488dcc9dd0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "47ed2a721c5c3763",
+        "name": "GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J1",
+      "pads": [
+        {
+          "primitiveId": "de7f46d94a3c6e33",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "123415d93b34f26e",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "50f8462ec3636b79",
+          "net": "GND",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "86af0e5cfc7df5f5",
+          "net": "VCC",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "285bd91162f83b19",
+          "net": "MOTION_2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "dcc1c795e6603c92",
+          "net": "NCS_2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "06b4734950a44e83",
+          "net": "SDIO_2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d0b7d2dd0dfba2ba",
+          "net": "SCLK_2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "80c02e488dcc9dd0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3212.1259842519685,
+      "y": -5086.220472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "MountingHole",
+          "source": "",
+          "uuid": "2b3df16e27734c3e"
+        }
+      },
+      "primitiveId": "32dc6dddbec601c7",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "5691ee29289575d4",
+        "name": "GyreNanoSensor_H2_H2_"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "H2",
+      "pads": [
+        {
+          "primitiveId": "d74d77fef49a40ac",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MountingHole",
+      "uniqueId": "32dc6dddbec601c7",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_H2_H2_",
+        "Value": "MountingHole"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3212.51968503937,
+      "y": -3629.9212598425197,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "MountingHole",
+          "source": "",
+          "uuid": "f6edadb385ceea28"
+        }
+      },
+      "primitiveId": "6c5b201261795d2a",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ad5746898aeb5e9c",
+        "name": "GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "H1",
+      "pads": [
+        {
+          "primitiveId": "fc84caf1955d978f",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MountingHole",
+      "uniqueId": "6c5b201261795d2a",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad",
+        "Value": "MountingHole"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3348.1889763779527,
+      "y": -3824.251968503937,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10n (X7R)",
+          "source": "",
+          "uuid": "4d85ccdec7ed7a3b"
+        }
+      },
+      "primitiveId": "bc6edcaaf38236d0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "e8a1b289782a878b",
+        "name": "GyreNanoSensor_C9_C9_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C9",
+      "pads": [
+        {
+          "primitiveId": "e7c204c5ab0de7b7",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "4bad833288997dfa",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10n (X7R)",
+      "uniqueId": "bc6edcaaf38236d0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C9_C9_C_0603_1608Metric",
+        "Value": "10n (X7R)"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3360,
+      "y": -3891.3385826771655,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10u (X7R)",
+          "source": "",
+          "uuid": "839742a8de6899b1"
+        }
+      },
+      "primitiveId": "50d7b813f7277b58",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "a6f05d28566a3098",
+        "name": "GyreNanoSensor_C8_C8_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C8",
+      "pads": [
+        {
+          "primitiveId": "b7269d4712127127",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "0b772b77de3abb5d",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10u (X7R)",
+      "uniqueId": "50d7b813f7277b58",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C8_C8_C_0603_1608Metric",
+        "Value": "10u (X7R)"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2895.6692913385823,
+      "y": -4153.543307086615,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n",
+          "source": "",
+          "uuid": "f90e76c8f3b2b3e8"
+        }
+      },
+      "primitiveId": "5e4a20808a515895",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ca0253223bf92446",
+        "name": "GyreNanoSensor_C7_C7_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C7",
+      "pads": [
+        {
+          "primitiveId": "f351755ae76c1b78",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "26fc69dc304c602f",
+          "net": "VCC",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n",
+      "uniqueId": "5e4a20808a515895",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C7_C7_C_0603_1608Metric",
+        "Value": "100n"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3502.9133858267724,
+      "y": -4213.385826771653,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n (X7R)",
+          "source": "",
+          "uuid": "64193919dd986cec"
+        }
+      },
+      "primitiveId": "9b2aaf3b4f1f3f16",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "309aae3d75439769",
+        "name": "GyreNanoSensor_C6_C6_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C6",
+      "pads": [
+        {
+          "primitiveId": "376b9333421d92d4",
+          "net": "Net-(U2-CP)",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "696c8b406c689306",
+          "net": "Net-(U2-CN)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n (X7R)",
+      "uniqueId": "9b2aaf3b4f1f3f16",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C6_C6_C_0603_1608Metric",
+        "Value": "100n (X7R)"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3098.188976377953,
+      "y": -4871.948818897638,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "1u",
+          "source": "",
+          "uuid": "f4555d0e85b07f64"
+        }
+      },
+      "primitiveId": "89d7624760a0ed87",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "826a9ace85e244f1",
+        "name": "GyreNanoSensor_C5_C5_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C5",
+      "pads": [
+        {
+          "primitiveId": "7d86cf83423f64c0",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9cf7ce709d80ee81",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1u",
+      "uniqueId": "89d7624760a0ed87",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C5_C5_C_0603_1608Metric",
+        "Value": "1u"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3194.645669291339,
+      "y": -4712.3031496062995,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "0.1u",
+          "source": "",
+          "uuid": "79e154f34fdc7b17"
+        }
+      },
+      "primitiveId": "2ee57286d6028ce2",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "d0c7ef1f5dd9a5f7",
+        "name": "GyreNanoSensor_C4_C4_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4",
+      "pads": [
+        {
+          "primitiveId": "bcb6351754db9166",
+          "net": "VCC",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "b91642b10704eb69",
+          "net": "GND",
+          "padNumber": "1"
+        }
+      ],
+      "name": "0.1u",
+      "uniqueId": "2ee57286d6028ce2",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C4_C4_C_0603_1608Metric",
+        "Value": "0.1u"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3504.0944881889764,
+      "y": -4456.299212598426,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "3.3u/16V",
+          "source": "",
+          "uuid": "de45f3754ec13bd5"
+        }
+      },
+      "primitiveId": "a294e5277797f3cb",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "9e82c1391d5f2638",
+        "name": "GyreNanoSensor_C3_C3_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3",
+      "pads": [
+        {
+          "primitiveId": "ba38c8b3553dabdf",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "23dfdad0dca9a25c",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "3.3u/16V",
+      "uniqueId": "a294e5277797f3cb",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C3_C3_C_0603_1608Metric",
+        "Value": "3.3u/16V"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3503.7007874015753,
+      "y": -4337.204724409449,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n",
+          "source": "",
+          "uuid": "f27fdbc77b06561d"
+        }
+      },
+      "primitiveId": "e0c20b24afa574e4",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ad50677bed65a497",
+        "name": "GyreNanoSensor_C2_C2_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2",
+      "pads": [
+        {
+          "primitiveId": "c00d33ac68031100",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "8d25da39b8c3c374",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n",
+      "uniqueId": "e0c20b24afa574e4",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C2_C2_C_0603_1608Metric",
+        "Value": "100n"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3503.307086614173,
+      "y": -4077.952755905512,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10n",
+          "source": "",
+          "uuid": "90fca52389abe291"
+        }
+      },
+      "primitiveId": "09344297cb6368ee",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "1f2e68deff745356",
+        "name": "GyreNanoSensor_C1_C1_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1",
+      "pads": [
+        {
+          "primitiveId": "e75638b1fcade917",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d6724db15d913aca",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10n",
+      "uniqueId": "09344297cb6368ee",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C1_C1_C_0603_1608Metric",
+        "Value": "10n"
+      }
+    }
+  ],
+  "after": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3000.3937007874015,
+      "y": -4499.212598425197,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "PMW3610",
+          "source": "",
+          "uuid": "6ecfaedd1de78f03"
+        }
+      },
+      "primitiveId": "b434487a5ef4590e",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "04694f1de12e2752",
+        "name": "GyreNanoSensor_U2_U2_PMW3610"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "U2",
+      "pads": [
+        {
+          "primitiveId": "b2ad75bb0ebbf861",
+          "net": "Net-(U2--VCSEL)",
+          "padNumber": "16"
+        },
+        {
+          "primitiveId": "bf92c546a814622b",
+          "net": "Net-(U2--VCSEL)",
+          "padNumber": "15"
+        },
+        {
+          "primitiveId": "101fe59a4c408114",
+          "net": "+1V9",
+          "padNumber": "14"
+        },
+        {
+          "primitiveId": "143750fd707b7318",
+          "net": "Net-(U2-CN)",
+          "padNumber": "13"
+        },
+        {
+          "primitiveId": "0d46851164c82a40",
+          "net": "Net-(U2-CP)",
+          "padNumber": "12"
+        },
+        {
+          "primitiveId": "a7aa58a2e040ec80",
+          "net": "GND",
+          "padNumber": "11"
+        },
+        {
+          "primitiveId": "7b222107dae14c97",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "10"
+        },
+        {
+          "primitiveId": "1ad36a3097f877d3",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "9"
+        },
+        {
+          "primitiveId": "c503ee1ac2263f07",
+          "net": "MOTION_2",
+          "padNumber": "8"
+        },
+        {
+          "primitiveId": "094326ad7870c7f4",
+          "net": "Net-(U2-NRESET)",
+          "padNumber": "7"
+        },
+        {
+          "primitiveId": "e910baf9a37429f1",
+          "net": "VCC",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "4453f1cb9c5cd56b",
+          "net": "NCS_2",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "950bf52b722b29bc",
+          "net": "",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "c057ee6ad5eaf8ae",
+          "net": "SCLK_2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "4ad5d2d9dcfa5f86",
+          "net": "SDIO_2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ee2c17a0d0e5ef4b",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "PMW3610",
+      "uniqueId": "b434487a5ef4590e",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_U2_U2_PMW3610",
+        "Value": "PMW3610",
+        "Channel ID": "$1I13"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3097.4015748031497,
+      "y": -4761.318897637795,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "TCR2EF19",
+          "source": "",
+          "uuid": "f0f98ff4279701fb"
+        }
+      },
+      "primitiveId": "78315402fef35e55",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "9339be9d2db47c84",
+        "name": "GyreNanoSensor_U1_U1_SOT-23-5"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "U1",
+      "pads": [
+        {
+          "primitiveId": "11be625845732c1a",
+          "net": "+1V9",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "e92b0fee37c78d86",
+          "net": "",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "2411ab0fedcd3434",
+          "net": "VCC",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "b7506e0d47f1ec57",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ba0e09bdf8d84154",
+          "net": "VCC",
+          "padNumber": "1"
+        }
+      ],
+      "name": "TCR2EF19",
+      "uniqueId": "78315402fef35e55",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_U1_U1_SOT-23-5",
+        "Value": "TCR2EF19",
+        "Channel ID": "$1I7"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2927.5590551181103,
+      "y": -4053.9370078740158,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "2M",
+          "source": "",
+          "uuid": "7d9258f40e52fc36"
+        }
+      },
+      "primitiveId": "797cfd2402a346b0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "7183821a26b73d61",
+        "name": "GyreNanoSensor_R1_R1_R_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "R1",
+      "pads": [
+        {
+          "primitiveId": "752ed2fa11f01093",
+          "net": "VCC",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "83c671f38df81dc8",
+          "net": "Net-(U2-NRESET)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2M",
+      "uniqueId": "797cfd2402a346b0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_R1_R1_R_0603_1608Metric",
+        "Value": "2M",
+        "Channel ID": "$1I8"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3791.3385826771655,
+      "y": -4348.425196850394,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "e3571fd82979e593"
+        }
+      },
+      "primitiveId": "80c02e488dcc9dd0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "47ed2a721c5c3763",
+        "name": "GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J1",
+      "pads": [
+        {
+          "primitiveId": "de7f46d94a3c6e33",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "123415d93b34f26e",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "50f8462ec3636b79",
+          "net": "GND",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "86af0e5cfc7df5f5",
+          "net": "VCC",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "285bd91162f83b19",
+          "net": "MOTION_2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "dcc1c795e6603c92",
+          "net": "NCS_2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "06b4734950a44e83",
+          "net": "SDIO_2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d0b7d2dd0dfba2ba",
+          "net": "SCLK_2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "80c02e488dcc9dd0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal",
+        "Value": "2005280060",
+        "Channel ID": "$1I9"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3212.1259842519685,
+      "y": -5086.220472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "MountingHole",
+          "source": "",
+          "uuid": "2b3df16e27734c3e"
+        }
+      },
+      "primitiveId": "32dc6dddbec601c7",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "5691ee29289575d4",
+        "name": "GyreNanoSensor_H2_H2_"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "H2",
+      "pads": [
+        {
+          "primitiveId": "d74d77fef49a40ac",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MountingHole",
+      "uniqueId": "32dc6dddbec601c7",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_H2_H2_",
+        "Value": "MountingHole",
+        "Channel ID": "$1I3"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3212.51968503937,
+      "y": -3629.9212598425197,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "MountingHole",
+          "source": "",
+          "uuid": "f6edadb385ceea28"
+        }
+      },
+      "primitiveId": "6c5b201261795d2a",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ad5746898aeb5e9c",
+        "name": "GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "H1",
+      "pads": [
+        {
+          "primitiveId": "fc84caf1955d978f",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MountingHole",
+      "uniqueId": "6c5b201261795d2a",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad",
+        "Value": "MountingHole",
+        "Channel ID": "$1I6"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3348.1889763779527,
+      "y": -3824.251968503937,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10n (X7R)",
+          "source": "",
+          "uuid": "4d85ccdec7ed7a3b"
+        }
+      },
+      "primitiveId": "bc6edcaaf38236d0",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "e8a1b289782a878b",
+        "name": "GyreNanoSensor_C9_C9_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C9",
+      "pads": [
+        {
+          "primitiveId": "e7c204c5ab0de7b7",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "4bad833288997dfa",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10n (X7R)",
+      "uniqueId": "bc6edcaaf38236d0",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C9_C9_C_0603_1608Metric",
+        "Value": "10n (X7R)",
+        "Channel ID": "$1I14"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3360,
+      "y": -3891.3385826771655,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10u (X7R)",
+          "source": "",
+          "uuid": "839742a8de6899b1"
+        }
+      },
+      "primitiveId": "50d7b813f7277b58",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "a6f05d28566a3098",
+        "name": "GyreNanoSensor_C8_C8_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C8",
+      "pads": [
+        {
+          "primitiveId": "b7269d4712127127",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "0b772b77de3abb5d",
+          "net": "Net-(U2-VCP)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10u (X7R)",
+      "uniqueId": "50d7b813f7277b58",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C8_C8_C_0603_1608Metric",
+        "Value": "10u (X7R)",
+        "Channel ID": "$1I4"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2895.6692913385823,
+      "y": -4153.543307086615,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n",
+          "source": "",
+          "uuid": "f90e76c8f3b2b3e8"
+        }
+      },
+      "primitiveId": "5e4a20808a515895",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ca0253223bf92446",
+        "name": "GyreNanoSensor_C7_C7_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C7",
+      "pads": [
+        {
+          "primitiveId": "f351755ae76c1b78",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "26fc69dc304c602f",
+          "net": "VCC",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n",
+      "uniqueId": "5e4a20808a515895",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C7_C7_C_0603_1608Metric",
+        "Value": "100n",
+        "Channel ID": "$1I5"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3502.9133858267724,
+      "y": -4213.385826771653,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n (X7R)",
+          "source": "",
+          "uuid": "64193919dd986cec"
+        }
+      },
+      "primitiveId": "9b2aaf3b4f1f3f16",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "309aae3d75439769",
+        "name": "GyreNanoSensor_C6_C6_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C6",
+      "pads": [
+        {
+          "primitiveId": "376b9333421d92d4",
+          "net": "Net-(U2-CP)",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "696c8b406c689306",
+          "net": "Net-(U2-CN)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n (X7R)",
+      "uniqueId": "9b2aaf3b4f1f3f16",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C6_C6_C_0603_1608Metric",
+        "Value": "100n (X7R)",
+        "Channel ID": "$1I11"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3098.188976377953,
+      "y": -4871.948818897638,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "1u",
+          "source": "",
+          "uuid": "f4555d0e85b07f64"
+        }
+      },
+      "primitiveId": "89d7624760a0ed87",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "826a9ace85e244f1",
+        "name": "GyreNanoSensor_C5_C5_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C5",
+      "pads": [
+        {
+          "primitiveId": "7d86cf83423f64c0",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9cf7ce709d80ee81",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1u",
+      "uniqueId": "89d7624760a0ed87",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C5_C5_C_0603_1608Metric",
+        "Value": "1u",
+        "Channel ID": "$1I10"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3194.645669291339,
+      "y": -4712.3031496062995,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "0.1u",
+          "source": "",
+          "uuid": "79e154f34fdc7b17"
+        }
+      },
+      "primitiveId": "2ee57286d6028ce2",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "d0c7ef1f5dd9a5f7",
+        "name": "GyreNanoSensor_C4_C4_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4",
+      "pads": [
+        {
+          "primitiveId": "bcb6351754db9166",
+          "net": "VCC",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "b91642b10704eb69",
+          "net": "GND",
+          "padNumber": "1"
+        }
+      ],
+      "name": "0.1u",
+      "uniqueId": "2ee57286d6028ce2",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C4_C4_C_0603_1608Metric",
+        "Value": "0.1u",
+        "Channel ID": "$1I2"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3504.0944881889764,
+      "y": -4456.299212598426,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "3.3u/16V",
+          "source": "",
+          "uuid": "de45f3754ec13bd5"
+        }
+      },
+      "primitiveId": "a294e5277797f3cb",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "9e82c1391d5f2638",
+        "name": "GyreNanoSensor_C3_C3_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3",
+      "pads": [
+        {
+          "primitiveId": "ba38c8b3553dabdf",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "23dfdad0dca9a25c",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "3.3u/16V",
+      "uniqueId": "a294e5277797f3cb",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C3_C3_C_0603_1608Metric",
+        "Value": "3.3u/16V",
+        "Channel ID": "$1I12"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3503.7007874015753,
+      "y": -4337.204724409449,
+      "rotation": 90,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "100n",
+          "source": "",
+          "uuid": "f27fdbc77b06561d"
+        }
+      },
+      "primitiveId": "e0c20b24afa574e4",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "ad50677bed65a497",
+        "name": "GyreNanoSensor_C2_C2_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2",
+      "pads": [
+        {
+          "primitiveId": "c00d33ac68031100",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "8d25da39b8c3c374",
+          "net": "+1V9",
+          "padNumber": "1"
+        }
+      ],
+      "name": "100n",
+      "uniqueId": "e0c20b24afa574e4",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C2_C2_C_0603_1608Metric",
+        "Value": "100n",
+        "Channel ID": "$1I15"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3503.307086614173,
+      "y": -4077.952755905512,
+      "rotation": 270,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": {
+          "name": "10n",
+          "source": "",
+          "uuid": "90fca52389abe291"
+        }
+      },
+      "primitiveId": "09344297cb6368ee",
+      "footprint": {
+        "libraryUuid": "8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b",
+        "uuid": "1f2e68deff745356",
+        "name": "GyreNanoSensor_C1_C1_C_0603_1608Metric"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1",
+      "pads": [
+        {
+          "primitiveId": "e75638b1fcade917",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d6724db15d913aca",
+          "net": "Net-(U2-+VCSEL)",
+          "padNumber": "1"
+        }
+      ],
+      "name": "10n",
+      "uniqueId": "09344297cb6368ee",
+      "otherProperty": {
+        "Footprint": "GyreNanoSensor_C1_C1_C_0603_1608Metric",
+        "Value": "10n",
+        "Channel ID": "$1I1"
+      }
+    }
+  ],
+  "pads": [
+    {
+      "ref": "U2",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "16",
+          "x": 3421.7,
+          "y": -4464.2,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2--VCSEL)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590eb2ad75bb0ebbf861",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "15",
+          "x": 3421.7,
+          "y": -4394.1,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2--VCSEL)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590ebf92c546a814622b",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "14",
+          "x": 3421.7,
+          "y": -4324,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "+1V9",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e101fe59a4c408114",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "13",
+          "x": 3421.7,
+          "y": -4253.9,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-CN)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e143750fd707b7318",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "12",
+          "x": 3421.7,
+          "y": -4183.9,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-CP)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e0d46851164c82a40",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "11",
+          "x": 3421.7,
+          "y": -4113.8,
+          "rotation": 0,
+          "pad": [
+            "RECT",
+            47.2,
+            47.2,
+            0
+          ],
+          "net": "GND",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590ea7aa58a2e040ec80",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "10",
+          "x": 3421.7,
+          "y": -4043.7,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-+VCSEL)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e7b222107dae14c97",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "9",
+          "x": 3421.7,
+          "y": -3973.6,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-VCP)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e1ad36a3097f877d3",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "8",
+          "x": 3000.4,
+          "y": -4008.7,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "MOTION_2",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590ec503ee1ac2263f07",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "7",
+          "x": 3000.4,
+          "y": -4078.7,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-NRESET)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e094326ad7870c7f4",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "6",
+          "x": 3000.4,
+          "y": -4148.8,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "VCC",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590ee910baf9a37429f1",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "5",
+          "x": 3000.4,
+          "y": -4218.9,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "NCS_2",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e4453f1cb9c5cd56b",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "4",
+          "x": 3000.4,
+          "y": -4289,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e950bf52b722b29bc",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "3",
+          "x": 3000.4,
+          "y": -4359.1,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "SCLK_2",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590ec057ee6ad5eaf8ae",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "2",
+          "x": 3000.4,
+          "y": -4429.1,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "SDIO_2",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590e4ad5d2d9dcfa5f86",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "1",
+          "x": 3000.4,
+          "y": -4499.2,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            47.2,
+            47.2
+          ],
+          "net": "Net-(U2-+VCSEL)",
+          "hole": [
+            "ROUND",
+            2.7559055118110236,
+            2.7559055118110236
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 3.141592653589793,
+          "metallization": true,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "b434487a5ef4590eee2c17a0d0e5ef4b",
+          "parentComponentPrimitiveId": "b434487a5ef4590e"
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "5",
+          "x": 3060,
+          "y": -4806.1,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            52.2,
+            23.6,
+            50
+          ],
+          "net": "+1V9",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "78315402fef35e5511be625845732c1a",
+          "parentComponentPrimitiveId": "78315402fef35e55"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "4",
+          "x": 3134.8,
+          "y": -4806.1,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            52.2,
+            23.6,
+            50
+          ],
+          "net": "",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "78315402fef35e55e92b0fee37c78d86",
+          "parentComponentPrimitiveId": "78315402fef35e55"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "3",
+          "x": 3134.8,
+          "y": -4716.5,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            52.2,
+            23.6,
+            50
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "78315402fef35e552411ab0fedcd3434",
+          "parentComponentPrimitiveId": "78315402fef35e55"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3097.4,
+          "y": -4716.5,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            52.2,
+            23.6,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "78315402fef35e55b7506e0d47f1ec57",
+          "parentComponentPrimitiveId": "78315402fef35e55"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3060,
+          "y": -4716.5,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            52.2,
+            23.6,
+            50
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "78315402fef35e55ba0e09bdf8d84154",
+          "parentComponentPrimitiveId": "78315402fef35e55"
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 2927.6,
+          "y": -4086.4,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            31.5,
+            37.4,
+            50
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "797cfd2402a346b0752ed2fa11f01093",
+          "parentComponentPrimitiveId": "797cfd2402a346b0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 2927.6,
+          "y": -4021.5,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            31.5,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-NRESET)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "797cfd2402a346b083c671f38df81dc8",
+          "parentComponentPrimitiveId": "797cfd2402a346b0"
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "MP",
+          "x": 3861.8,
+          "y": -4139.8,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            78.7,
+            51.2,
+            0
+          ],
+          "net": "",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd0de7f46d94a3c6e33",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "MP",
+          "x": 3861.8,
+          "y": -4557.1,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            78.7,
+            51.2,
+            0
+          ],
+          "net": "",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd0123415d93b34f26e",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "6",
+          "x": 3755.5,
+          "y": -4250,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd050f8462ec3636b79",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "5",
+          "x": 3755.5,
+          "y": -4289.4,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd086af0e5cfc7df5f5",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "4",
+          "x": 3755.5,
+          "y": -4328.7,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "MOTION_2",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd0285bd91162f83b19",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "3",
+          "x": 3755.5,
+          "y": -4368.1,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "NCS_2",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd0dcc1c795e6603c92",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "2",
+          "x": 3755.5,
+          "y": -4407.5,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "SDIO_2",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd006b4734950a44e83",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 1,
+          "padNumber": "1",
+          "x": 3755.5,
+          "y": -4446.9,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            15.7,
+            39.4,
+            0
+          ],
+          "net": "SCLK_2",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "80c02e488dcc9dd0d0b7d2dd0dfba2ba",
+          "parentComponentPrimitiveId": "80c02e488dcc9dd0"
+        }
+      ]
+    },
+    {
+      "ref": "H2",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "",
+          "x": 3212.1,
+          "y": -5086.2,
+          "rotation": 90,
+          "pad": [
+            "ELLIPSE",
+            0,
+            0
+          ],
+          "net": "",
+          "hole": [
+            "ROUND",
+            12.598425196850394,
+            12.598425196850394
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "32dc6dddbec601c7d74d77fef49a40ac",
+          "parentComponentPrimitiveId": "32dc6dddbec601c7"
+        }
+      ]
+    },
+    {
+      "ref": "H1",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 12,
+          "padNumber": "",
+          "x": 3212.5,
+          "y": -3629.9,
+          "rotation": 0,
+          "pad": [
+            "ELLIPSE",
+            0,
+            0
+          ],
+          "net": "",
+          "hole": [
+            "ROUND",
+            12.598425196850394,
+            12.598425196850394
+          ],
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "6c5b201261795d2afc84caf1955d978f",
+          "parentComponentPrimitiveId": "6c5b201261795d2a"
+        }
+      ]
+    },
+    {
+      "ref": "C9",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3317.7,
+          "y": -3824.3,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "bc6edcaaf38236d0e7c204c5ab0de7b7",
+          "parentComponentPrimitiveId": "bc6edcaaf38236d0"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3378.7,
+          "y": -3824.3,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-VCP)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "bc6edcaaf38236d04bad833288997dfa",
+          "parentComponentPrimitiveId": "bc6edcaaf38236d0"
+        }
+      ]
+    },
+    {
+      "ref": "C8",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3329.5,
+          "y": -3891.3,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "50d7b813f7277b58b7269d4712127127",
+          "parentComponentPrimitiveId": "50d7b813f7277b58"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3390.5,
+          "y": -3891.3,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-VCP)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "50d7b813f7277b580b772b77de3abb5d",
+          "parentComponentPrimitiveId": "50d7b813f7277b58"
+        }
+      ]
+    },
+    {
+      "ref": "C7",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 2865.2,
+          "y": -4153.5,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "5e4a20808a515895f351755ae76c1b78",
+          "parentComponentPrimitiveId": "5e4a20808a515895"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 2926.2,
+          "y": -4153.5,
+          "rotation": 180,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "5e4a20808a51589526fc69dc304c602f",
+          "parentComponentPrimitiveId": "5e4a20808a515895"
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3502.9,
+          "y": -4182.9,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-CP)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "9b2aaf3b4f1f3f16376b9333421d92d4",
+          "parentComponentPrimitiveId": "9b2aaf3b4f1f3f16"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3502.9,
+          "y": -4243.9,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-CN)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "9b2aaf3b4f1f3f16696c8b406c689306",
+          "parentComponentPrimitiveId": "9b2aaf3b4f1f3f16"
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3128.7,
+          "y": -4871.9,
+          "rotation": 0,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "89d7624760a0ed877d86cf83423f64c0",
+          "parentComponentPrimitiveId": "89d7624760a0ed87"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3067.7,
+          "y": -4871.9,
+          "rotation": 0,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "+1V9",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "89d7624760a0ed879cf7ce709d80ee81",
+          "parentComponentPrimitiveId": "89d7624760a0ed87"
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3194.6,
+          "y": -4681.8,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "VCC",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "2ee57286d6028ce2bcb6351754db9166",
+          "parentComponentPrimitiveId": "2ee57286d6028ce2"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3194.6,
+          "y": -4742.8,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "2ee57286d6028ce2b91642b10704eb69",
+          "parentComponentPrimitiveId": "2ee57286d6028ce2"
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3504.1,
+          "y": -4486.8,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "a294e5277797f3cbba38c8b3553dabdf",
+          "parentComponentPrimitiveId": "a294e5277797f3cb"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3504.1,
+          "y": -4425.8,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "+1V9",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "a294e5277797f3cb23dfdad0dca9a25c",
+          "parentComponentPrimitiveId": "a294e5277797f3cb"
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3503.7,
+          "y": -4306.7,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "e0c20b24afa574e4c00d33ac68031100",
+          "parentComponentPrimitiveId": "e0c20b24afa574e4"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3503.7,
+          "y": -4367.7,
+          "rotation": 90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "+1V9",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "e0c20b24afa574e48d25da39b8c3c374",
+          "parentComponentPrimitiveId": "e0c20b24afa574e4"
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "pads": [
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "2",
+          "x": 3503.3,
+          "y": -4108.5,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "GND",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "09344297cb6368eee75638b1fcade917",
+          "parentComponentPrimitiveId": "09344297cb6368ee"
+        },
+        {
+          "async": true,
+          "primitiveType": "ComponentPad",
+          "layer": 2,
+          "padNumber": "1",
+          "x": 3503.3,
+          "y": -4047.4,
+          "rotation": -90,
+          "pad": [
+            "RECT",
+            35.4,
+            37.4,
+            50
+          ],
+          "net": "Net-(U2-+VCSEL)",
+          "hole": null,
+          "holeOffsetX": 0,
+          "holeOffsetY": 0,
+          "holeRotation": 0,
+          "metallization": false,
+          "padType": 0,
+          "specialPad": [],
+          "solderMaskAndPasteMaskExpansion": {
+            "topSolderMask": 0,
+            "bottomSolderMask": 0,
+            "topPasteMask": 0,
+            "bottomPasteMask": 0
+          },
+          "heatWelding": {},
+          "primitiveLock": false,
+          "primitiveId": "09344297cb6368eed6724db15d913aca",
+          "parentComponentPrimitiveId": "09344297cb6368ee"
+        }
+      ]
+    }
+  ],
+  "synced": true,
+  "pourResults": [
+    {
+      "ok": true
+    },
+    {
+      "ok": true
+    }
+  ],
+  "drc": [],
+  "pcbNetlist": "{\n  \"version\": \"2.0.0\",\n  \"projectId\": \"8f73978b9f83a57a1320922871c4fe722df12ec9b2d8abe38a53680389437b4b\",\n  \"components\": {\n    \"b434487a5ef4590e\": {\n      \"props\": {\n        \"Footprint\": \"04694f1de12e2752\",\n        \"Designator\": \"U2\",\n        \"Name\": \"PMW3610\",\n        \"Unique ID\": \"b434487a5ef4590e\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I13\",\n        \"Value\": \"PMW3610\",\n        \"DeviceName\": \"PMW3610\",\n        \"FootprintName\": \"GyreNanoSensor_U2_U2_PMW3610\",\n        \"Device\": \"6ecfaedd1de78f03\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-+VCSEL)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"SDIO_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"3\": {\n          \"name\": \"\",\n          \"number\": \"3\",\n          \"net\": \"SCLK_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"4\": {\n          \"name\": \"\",\n          \"number\": \"4\",\n          \"net\": \"\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"5\": {\n          \"name\": \"\",\n          \"number\": \"5\",\n          \"net\": \"NCS_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"6\": {\n          \"name\": \"\",\n          \"number\": \"6\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"7\": {\n          \"name\": \"\",\n          \"number\": \"7\",\n          \"net\": \"Net-(U2-NRESET)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"8\": {\n          \"name\": \"\",\n          \"number\": \"8\",\n          \"net\": \"MOTION_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"9\": {\n          \"name\": \"\",\n          \"number\": \"9\",\n          \"net\": \"Net-(U2-VCP)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"10\": {\n          \"name\": \"\",\n          \"number\": \"10\",\n          \"net\": \"Net-(U2-+VCSEL)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"11\": {\n          \"name\": \"\",\n          \"number\": \"11\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"12\": {\n          \"name\": \"\",\n          \"number\": \"12\",\n          \"net\": \"Net-(U2-CP)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"13\": {\n          \"name\": \"\",\n          \"number\": \"13\",\n          \"net\": \"Net-(U2-CN)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"14\": {\n          \"name\": \"\",\n          \"number\": \"14\",\n          \"net\": \"+1V9\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"15\": {\n          \"name\": \"\",\n          \"number\": \"15\",\n          \"net\": \"Net-(U2--VCSEL)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"16\": {\n          \"name\": \"\",\n          \"number\": \"16\",\n          \"net\": \"Net-(U2--VCSEL)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"78315402fef35e55\": {\n      \"props\": {\n        \"Footprint\": \"9339be9d2db47c84\",\n        \"Designator\": \"U1\",\n        \"Name\": \"TCR2EF19\",\n        \"Unique ID\": \"78315402fef35e55\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I7\",\n        \"Value\": \"TCR2EF19\",\n        \"DeviceName\": \"TCR2EF19\",\n        \"FootprintName\": \"GyreNanoSensor_U1_U1_SOT-23-5\",\n        \"Device\": \"f0f98ff4279701fb\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"3\": {\n          \"name\": \"\",\n          \"number\": \"3\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"4\": {\n          \"name\": \"\",\n          \"number\": \"4\",\n          \"net\": \"\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"5\": {\n          \"name\": \"\",\n          \"number\": \"5\",\n          \"net\": \"+1V9\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"797cfd2402a346b0\": {\n      \"props\": {\n        \"Footprint\": \"7183821a26b73d61\",\n        \"Designator\": \"R1\",\n        \"Name\": \"2M\",\n        \"Unique ID\": \"797cfd2402a346b0\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I8\",\n        \"Value\": \"2M\",\n        \"DeviceName\": \"2M\",\n        \"FootprintName\": \"GyreNanoSensor_R1_R1_R_0603_1608Metric\",\n        \"Device\": \"7d9258f40e52fc36\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-NRESET)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"80c02e488dcc9dd0\": {\n      \"props\": {\n        \"Footprint\": \"47ed2a721c5c3763\",\n        \"Designator\": \"J1\",\n        \"Name\": \"2005280060\",\n        \"Unique ID\": \"80c02e488dcc9dd0\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I9\",\n        \"Value\": \"2005280060\",\n        \"DeviceName\": \"2005280060\",\n        \"FootprintName\": \"GyreNanoSensor_J1_Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal\",\n        \"Device\": \"e3571fd82979e593\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"TopLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"SCLK_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"SDIO_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"3\": {\n          \"name\": \"\",\n          \"number\": \"3\",\n          \"net\": \"NCS_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"4\": {\n          \"name\": \"\",\n          \"number\": \"4\",\n          \"net\": \"MOTION_2\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"5\": {\n          \"name\": \"\",\n          \"number\": \"5\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"6\": {\n          \"name\": \"\",\n          \"number\": \"6\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"MP\": {\n          \"name\": \"\",\n          \"number\": \"MP\",\n          \"net\": \"\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"32dc6dddbec601c7\": {\n      \"props\": {\n        \"Footprint\": \"5691ee29289575d4\",\n        \"Designator\": \"H2\",\n        \"Name\": \"MountingHole\",\n        \"Unique ID\": \"32dc6dddbec601c7\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I3\",\n        \"Value\": \"MountingHole\",\n        \"DeviceName\": \"MountingHole\",\n        \"FootprintName\": \"GyreNanoSensor_H2_H2_\",\n        \"Device\": \"2b3df16e27734c3e\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"TopLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"\": {\n          \"name\": \"\",\n          \"number\": \"\",\n          \"net\": \"\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"6c5b201261795d2a\": {\n      \"props\": {\n        \"Footprint\": \"ad5746898aeb5e9c\",\n        \"Designator\": \"H1\",\n        \"Name\": \"MountingHole\",\n        \"Unique ID\": \"6c5b201261795d2a\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I6\",\n        \"Value\": \"MountingHole\",\n        \"DeviceName\": \"MountingHole\",\n        \"FootprintName\": \"GyreNanoSensor_H1_H1_MountingHole_3.2mm_M3_ISO7380_Pad\",\n        \"Device\": \"f6edadb385ceea28\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"TopLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"\": {\n          \"name\": \"\",\n          \"number\": \"\",\n          \"net\": \"\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"bc6edcaaf38236d0\": {\n      \"props\": {\n        \"Footprint\": \"e8a1b289782a878b\",\n        \"Designator\": \"C9\",\n        \"Name\": \"10n (X7R)\",\n        \"Unique ID\": \"bc6edcaaf38236d0\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I14\",\n        \"Value\": \"10n (X7R)\",\n        \"DeviceName\": \"10n (X7R)\",\n        \"FootprintName\": \"GyreNanoSensor_C9_C9_C_0603_1608Metric\",\n        \"Device\": \"4d85ccdec7ed7a3b\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-VCP)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"50d7b813f7277b58\": {\n      \"props\": {\n        \"Footprint\": \"a6f05d28566a3098\",\n        \"Designator\": \"C8\",\n        \"Name\": \"10u (X7R)\",\n        \"Unique ID\": \"50d7b813f7277b58\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I4\",\n        \"Value\": \"10u (X7R)\",\n        \"DeviceName\": \"10u (X7R)\",\n        \"FootprintName\": \"GyreNanoSensor_C8_C8_C_0603_1608Metric\",\n        \"Device\": \"839742a8de6899b1\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-VCP)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"5e4a20808a515895\": {\n      \"props\": {\n        \"Footprint\": \"ca0253223bf92446\",\n        \"Designator\": \"C7\",\n        \"Name\": \"100n\",\n        \"Unique ID\": \"5e4a20808a515895\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I5\",\n        \"Value\": \"100n\",\n        \"DeviceName\": \"100n\",\n        \"FootprintName\": \"GyreNanoSensor_C7_C7_C_0603_1608Metric\",\n        \"Device\": \"f90e76c8f3b2b3e8\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"9b2aaf3b4f1f3f16\": {\n      \"props\": {\n        \"Footprint\": \"309aae3d75439769\",\n        \"Designator\": \"C6\",\n        \"Name\": \"100n (X7R)\",\n        \"Unique ID\": \"9b2aaf3b4f1f3f16\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I11\",\n        \"Value\": \"100n (X7R)\",\n        \"DeviceName\": \"100n (X7R)\",\n        \"FootprintName\": \"GyreNanoSensor_C6_C6_C_0603_1608Metric\",\n        \"Device\": \"64193919dd986cec\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-CN)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"Net-(U2-CP)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"89d7624760a0ed87\": {\n      \"props\": {\n        \"Footprint\": \"826a9ace85e244f1\",\n        \"Designator\": \"C5\",\n        \"Name\": \"1u\",\n        \"Unique ID\": \"89d7624760a0ed87\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I10\",\n        \"Value\": \"1u\",\n        \"DeviceName\": \"1u\",\n        \"FootprintName\": \"GyreNanoSensor_C5_C5_C_0603_1608Metric\",\n        \"Device\": \"f4555d0e85b07f64\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"+1V9\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"2ee57286d6028ce2\": {\n      \"props\": {\n        \"Footprint\": \"d0c7ef1f5dd9a5f7\",\n        \"Designator\": \"C4\",\n        \"Name\": \"0.1u\",\n        \"Unique ID\": \"2ee57286d6028ce2\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I2\",\n        \"Value\": \"0.1u\",\n        \"DeviceName\": \"0.1u\",\n        \"FootprintName\": \"GyreNanoSensor_C4_C4_C_0603_1608Metric\",\n        \"Device\": \"79e154f34fdc7b17\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"VCC\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"a294e5277797f3cb\": {\n      \"props\": {\n        \"Footprint\": \"9e82c1391d5f2638\",\n        \"Designator\": \"C3\",\n        \"Name\": \"3.3u/16V\",\n        \"Unique ID\": \"a294e5277797f3cb\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I12\",\n        \"Value\": \"3.3u/16V\",\n        \"DeviceName\": \"3.3u/16V\",\n        \"FootprintName\": \"GyreNanoSensor_C3_C3_C_0603_1608Metric\",\n        \"Device\": \"de45f3754ec13bd5\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"+1V9\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"e0c20b24afa574e4\": {\n      \"props\": {\n        \"Footprint\": \"ad50677bed65a497\",\n        \"Designator\": \"C2\",\n        \"Name\": \"100n\",\n        \"Unique ID\": \"e0c20b24afa574e4\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I15\",\n        \"Value\": \"100n\",\n        \"DeviceName\": \"100n\",\n        \"FootprintName\": \"GyreNanoSensor_C2_C2_C_0603_1608Metric\",\n        \"Device\": \"f27fdbc77b06561d\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"+1V9\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    },\n    \"09344297cb6368ee\": {\n      \"props\": {\n        \"Footprint\": \"1f2e68deff745356\",\n        \"Designator\": \"C1\",\n        \"Name\": \"10n\",\n        \"Unique ID\": \"09344297cb6368ee\",\n        \"Add into BOM\": \"yes\",\n        \"Channel ID\": \"$1I1\",\n        \"Value\": \"10n\",\n        \"DeviceName\": \"10n\",\n        \"FootprintName\": \"GyreNanoSensor_C1_C1_C_0603_1608Metric\",\n        \"Device\": \"90fca52389abe291\",\n        \"Group ID\": \"\",\n        \"Reuse Block\": \"\",\n        \"PCB Layer\": \"BottomLayer\",\n        \"Convert to PCB\": \"yes\"\n      },\n      \"footprintAttrKeys\": [],\n      \"pinInfoMap\": {\n        \"1\": {\n          \"name\": \"\",\n          \"number\": \"1\",\n          \"net\": \"Net-(U2-+VCSEL)\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        },\n        \"2\": {\n          \"name\": \"\",\n          \"number\": \"2\",\n          \"net\": \"GND\",\n          \"pinClass\": \"\",\n          \"pinDifferentialPairClass\": \"\"\n        }\n      },\n      \"altLibs\": {}\n    }\n  },\n  \"designRule\": {\n    \"trackPhysics\": {\n      \"trackWidth\": {\n        \"name\": \"trackWidth\",\n        \"isDefault\": true,\n        \"unit\": \"mm\",\n        \"strokeValue\": {\n          \"1\": {\n            \"default\": 0.254,\n            \"min\": 0.127,\n            \"max\": 2.54\n          }\n        }\n      }\n    },\n    \"netRule\": {\n      \"UNCONNECTED-(U2-NC-PAD4)\": {\n        \"net\": \"UNCONNECTED-(U2-NC-PAD4)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"UNCONNECTED-(U1-NC-PAD4)\": {\n        \"net\": \"UNCONNECTED-(U1-NC-PAD4)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"VCC\": {\n        \"net\": \"VCC\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"SDIO_2\": {\n        \"net\": \"SDIO_2\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"SCLK_2\": {\n        \"net\": \"SCLK_2\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2-VCP)\": {\n        \"net\": \"NET-(U2-VCP)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2-NRESET)\": {\n        \"net\": \"NET-(U2-NRESET)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2-CP)\": {\n        \"net\": \"NET-(U2-CP)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2-CN)\": {\n        \"net\": \"NET-(U2-CN)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2--VCSEL)\": {\n        \"net\": \"NET-(U2--VCSEL)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NET-(U2-+VCSEL)\": {\n        \"net\": \"NET-(U2-+VCSEL)\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"NCS_2\": {\n        \"net\": \"NCS_2\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"MOTION_2\": {\n        \"net\": \"MOTION_2\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"GND\": {\n        \"net\": \"GND\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      },\n      \"+1V9\": {\n        \"net\": \"+1V9\",\n        \"ruleMap\": {\n          \"TrackPhysics\": \"\"\n        }\n      }\n    }\n  },\n  \"netClass\": {},\n  \"equalLengthNetGroup\": {},\n  \"differentialPair\": {},\n  \"differentialPairGroups\": {}\n}",
+  "stack": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.39370078740157477,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "FR4 core",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR4",
+        "thickness": 47.24409448818898,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.39370078740157477,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 50.787401574803155,
+    "unit": "mil"
+  },
+  "exported": true,
+  "saved": true
+}

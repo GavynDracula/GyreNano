@@ -1,0 +1,181 @@
+{
+  "geometry_only": true,
+  "units": "mm",
+  "printer": "Creality K1C",
+  "assumed_nozzle_mm": 0.4,
+  "materials": [
+    "PLA",
+    "PETG"
+  ],
+  "user_will_slice": true,
+  "models": [
+    {
+      "file": "pcb/fpc-support-v31/mechanical/left_main_support_print.3mf",
+      "sha256": "b1c2fe9da13e79dbf62dd03ab3fced3a08fecf1da1e1ff0191dd03a6f6e0b957",
+      "source_stl_sha256": "acafc49ea5c709f378a561757e14cefed5d21432bc6500311939c133a22745c4",
+      "bytes": 466815,
+      "vertices": 12257,
+      "triangles": 24706,
+      "bounds_mm": [
+        [
+          -54.492530822753906,
+          -43.513118743896484,
+          0.0
+        ],
+        [
+          54.491844177246094,
+          43.513572692871094,
+          25.352622985839844
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/right_main_support_print.3mf",
+      "sha256": "4dae6a237ae5f249bd50280cc0a95ff07ba9de5ed286189bedbe17a5f6315e2a",
+      "source_stl_sha256": "bdee38ca1c7c455e54b9fb11e8be50f87a429337f7f975cb0bf14d57a2a404e9",
+      "bytes": 465330,
+      "vertices": 12202,
+      "triangles": 24600,
+      "bounds_mm": [
+        [
+          -54.491844177246094,
+          -43.5486946105957,
+          8.22808488010196e-12
+        ],
+        [
+          54.492530822753906,
+          43.54903793334961,
+          25.352622985839844
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/left_thumb_support_print.3mf",
+      "sha256": "3243e40334c2799bf703380cb8d1c454df0bd089862f94524927bef41fd9cfba",
+      "source_stl_sha256": "43db4453222f87602318c40087c05942d0bd0eb93b18ca363c9b1490c730e9b9",
+      "bytes": 90023,
+      "vertices": 2158,
+      "triangles": 4352,
+      "bounds_mm": [
+        [
+          -30.52814292907715,
+          -23.124279022216797,
+          2.4909356852731435e-06
+        ],
+        [
+          30.52814292907715,
+          23.124279022216797,
+          7.422603130340576
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/right_thumb_support_print.3mf",
+      "sha256": "0e4f443533b3f99109a4cb12d790a76a63e2507cdbdd4414844dd5e0899b9e60",
+      "source_stl_sha256": "0252dd57213cdddadea45db9cb744083474d76411be880a612cc3e4b2be4edef",
+      "bytes": 79641,
+      "vertices": 1910,
+      "triangles": 3844,
+      "bounds_mm": [
+        [
+          -21.202083587646484,
+          -21.501232147216797,
+          0.0
+        ],
+        [
+          21.202083587646484,
+          21.50131607055664,
+          6.429750442504883
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/coupon_gap_15.3mf",
+      "sha256": "a4c52c8eecfcfa4e19bd4a1c45515d04cb27d3427522bc65d43f5cf4f3f6b6c2",
+      "source_stl_sha256": "eab94eb5238131fcfc8399c54d4c98acd56cac6f4c9aba3a453a46b38f9eb549",
+      "bytes": 4159,
+      "vertices": 184,
+      "triangles": 372,
+      "bounds_mm": [
+        [
+          -9.399999618530273,
+          -9.649999618530273,
+          0.0
+        ],
+        [
+          9.399999618530273,
+          9.649999618530273,
+          4.860000133514404
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/coupon_gap_25.3mf",
+      "sha256": "5f9a1c6fc43b4c0a904ae80e8e418e96d38a42993ae437601752bc55dcdd8d49",
+      "source_stl_sha256": "24c877611a32af8e858095a4bc3b1d8cc794dac29b0f7f6fec9afcef12963fe2",
+      "bytes": 4158,
+      "vertices": 184,
+      "triangles": 372,
+      "bounds_mm": [
+        [
+          -9.399999618530273,
+          -9.649999618530273,
+          0.0
+        ],
+        [
+          9.399999618530273,
+          9.649999618530273,
+          4.960000038146973
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    },
+    {
+      "file": "pcb/fpc-support-v31/mechanical/coupon_gap_35.3mf",
+      "sha256": "3a8707b56349742189fe0e079c8acbfedf8f4508fc54b5f1c5101eb07e1721d9",
+      "source_stl_sha256": "4fe316764d148048adba5d370bfd9d00074ce309e0c5a3983a48554181b1900f",
+      "bytes": 4166,
+      "vertices": 184,
+      "triangles": 372,
+      "bounds_mm": [
+        [
+          -9.399999618530273,
+          -9.649999618530273,
+          0.0
+        ],
+        [
+          9.399999618530273,
+          9.649999618530273,
+          5.059999942779541
+        ]
+      ],
+      "watertight": true,
+      "single_component": true,
+      "coordinate_roundtrip_exact": true,
+      "triangle_indices_roundtrip_exact": true
+    }
+  ]
+}

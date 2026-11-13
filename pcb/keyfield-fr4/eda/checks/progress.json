@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-12T18:44:06.133378+08:00",
+  "completed": [
+    "Native linked schematic/PCB and embedded libraries",
+    "Strict EDA DRC and saved/reopened netlist check",
+    "Independent CAM comparison against frozen V33",
+    "Complete native project archive"
+  ],
+  "pending": [
+    "User order-page coupon recognition and manufacturer classification",
+    "Physical FR4 cutting/forming/assembly trials"
+  ],
+  "temporary_dependencies": {
+    "cam_packages": "/tmp/gyre-eda34-deps (GYRE_EDA_CAM_DEPS override)",
+    "preview_input": "/tmp/gyre-eda34-previews.json, recreated by verify_cam.py"
+  },
+  "disposable_logs": "/tmp/gyre-eda34-*",
+  "all_owned_editor_sessions_closed": true,
+  "order_submitted": false
+}

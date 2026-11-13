@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "GyreNanoHolder") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoHolder.pretty") (options "") (descr "Canonical V7 header and mount geometry")))

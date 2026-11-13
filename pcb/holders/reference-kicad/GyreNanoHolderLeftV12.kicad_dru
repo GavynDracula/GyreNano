@@ -1,0 +1,2 @@
+(version 1)
+(rule "Prototype fabrication minima" (constraint clearance (min .20mm)) (constraint edge_clearance (min .25mm)) (constraint track_width (min .20mm)) (constraint via_diameter (min .60mm)) (constraint hole_size (min .30mm)))

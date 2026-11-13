@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-12",
+  "status": "engineering_sample_package_ready_subject_to_supplier_CAM",
+  "purpose": "5-piece ED-copper material and assembly validation",
+  "frozen_evidence_hashes_verified": 36,
+  "verified_existing_checks_not_rerun": true,
+  "manufacturing_data_identical_to_checked_quote": true,
+  "fabrication_file_count": 9,
+  "archive": "GyreNanoKeyfieldFPCV27-SampleED.zip",
+  "archive_sha256": "a387a1aecb745f850e08ed033e5c3b5371fe0f7d223138e1dc6026d3f9caa87b",
+  "source_quote_sha256": "f5af8cc21657a87e065de1129994716241378c4ed767643840f22cd0d2ffb3b2",
+  "fabrication_files_sha256": {
+    "GyreNanoKeyfieldFPCV27-B_Cu.gbl": "afc699f60f8225020a4f40ba268a2936864e029210047ee55a4a4b6313761fb3",
+    "GyreNanoKeyfieldFPCV27-B_Mask.gbs": "2d4dd922aeb5a408cd4f00f74f6bda955c24ab656279e445fd39c2f1bb7152d1",
+    "GyreNanoKeyfieldFPCV27-B_Silkscreen.gbo": "394f48eb5b0e6d2e701f5107c90d83fd8f3b624b4c86d0b0aa0547d39b028e87",
+    "GyreNanoKeyfieldFPCV27-Edge_Cuts.gm1": "bb6a5dcacad8a6576ba5af564a5f6aac0a7b3f71e0b1225f50ceec0c7cefb9d8",
+    "GyreNanoKeyfieldFPCV27-F_Cu.gtl": "10c47178931c4801feb3fe77b545a7e731ea07d86ff7caa0f8985c4a4acc0208",
+    "GyreNanoKeyfieldFPCV27-F_Mask.gts": "2c99835d9f65b37cad59f9cee7cb803480e2d638bb8053e0dfa6232803eb65e5",
+    "GyreNanoKeyfieldFPCV27-F_Silkscreen.gto": "155883240bb83d187518f3d98462e0b852690c42ca17ce4b434229e7ef7bde45",
+    "GyreNanoKeyfieldFPCV27-NPTH.drl": "7d8325c6d39819dbabdc69d912e369f20d158381909126534b28021721e11704",
+    "GyreNanoKeyfieldFPCV27-PTH.drl": "7dae6b224756d000ae7427a4f3a37d87024a77d2bd700db596a6ec5b67d4cf76"
+  },
+  "physical_qualified": false,
+  "general_production_released": false,
+  "supplier_CAM_approved": false,
+  "coupon_available_in_assistant_user_reported": true,
+  "order_submitted_by_agent": false,
+  "pending": [
+    "supplier material/coverlay/laser/coupon classification review",
+    "ED copper fold/continuity qualification",
+    "backer adhesive thickness/peel/heat qualification",
+    "physical assembly and hot-swap load tests",
+    "complete FFC and latch/insertion fit",
+    "trim bridges flush; arbitrary stubs not modeled"
+  ]
+}

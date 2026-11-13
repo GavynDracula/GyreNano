@@ -1,0 +1,12 @@
+GyreNano FR4 V33 - functional interconnect prototype, fabrication review only.
+99.700 x 99.804 mm, two-layer 0.6 mm FR4, target 1 oz copper.
+Seven detachable regions share actual matrix signals through six cuttable electrical bridges.
+B1/B2: R0,R1,R2,COL_G2; B3/B4: R0,R1,R2; B5: COL_G2; B6: R3.
+Original holders remain unchanged. Main columns 1 and 3 reverse local R0/R2 mapping.
+Use five main FFCs plus the selected thumb FFC. Populate TL OR TR, never both.
+Cross-region FR4 bridges must be removed for the existing curved enclosure.
+Cut unpowered, trim to region outlines, remove copper burrs and check continuity/isolation.
+Exposed copper at intended cut exits remains; post-cut edge tolerance and physical assembly unqualified.
+Real electrical connections do not establish vendor single-board classification or coupon eligibility.
+Submit the actual design and intended separation to manufacturer review; no classification claim.
+V32 baseline and upload ZIP remain unchanged. This V33 is not a production release.

@@ -1,0 +1,1148 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "d1401f40-f5a8-5e51-993d-9351706938e9") (paper "A2")
+(title_block (title "GyreNano 3x5 selectable keyfield FR4") (date "2026-11-12") (rev "V32 - engineering review") (comment 1 "One blank, two alternative original thumb circuits. Assemble TL OR TR, never both. Keep five main FFCs plus the selected thumb FFC."))
+(lib_symbols (symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Connector_Generic:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Jumper:Jumper_3_Open"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "JP"
+			(at -2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 0 2.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 0 -17.78 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at -1.27 -20.32 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Jumper SPDT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Jumper_3_Open_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper_3_Open_0_1"
+			(arc
+				(start -2.032 1.016)
+				(mid -1.143 1.3235)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.508) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.143 1.3235)
+				(end 2.032 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper_3_Open_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "C0 : holder J1" (at 40.64 25.4 0) (effects (font (size 1.5 1.5))) (uuid "47b575f6-1652-5f05-bdc5-5458156ad4e7"))
+(symbol (lib_id "Switch:SW_Push") (at 40.64 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f3020e24-1bad-5581-8143-2f96367dc51c") (property "Reference" "C0_SW2" (at 40.64 102.68 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 40.64 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C0_SW2" (at 40.64 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "f1ad4b67-2b8e-5ef6-bdda-4b7b24929606"))(pin "2" (uuid "50ad774d-7391-53c3-a79f-0943261f6803"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_SW2") (unit 1)))))
+(wire (pts (xy 35.56 106.68) (xy 25.4 106.68)) (stroke (width 0) (type default)) (uuid "2b9e6896-a03f-5969-a57c-4d5dd450d315"))
+(label "C0_K2" (at 25.4 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b1eeb3bd-317e-5c5f-90d4-9c78ef7981f3"))
+(wire (pts (xy 45.72 106.68) (xy 55.88 106.68)) (stroke (width 0) (type default)) (uuid "2c85ad9d-85b1-513c-af59-228a7431b3ad"))
+(label "C0_COL" (at 55.88 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "96a3be01-f5b7-51db-8c78-3a0df44502f2"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 40.64 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "86a081e3-74be-5d62-84f6-aa43c7fbee40") (property "Reference" "J1" (at 40.64 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 40.64 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J1" (at 40.64 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "5968bbc4-b9e4-554b-96de-c185f589866b"))(pin "2" (uuid "3da69536-014d-50a7-9f2f-cf59a87f4aa9"))(pin "3" (uuid "d0e7d2e8-6e7f-5760-bcc8-c0b284910630"))(pin "4" (uuid "40bd700f-0802-5935-a42a-77bc607a6d7b"))(pin "5" (uuid "a8298523-64c7-5b6f-9aa9-9d5db3cd3fc3"))(pin "6" (uuid "6ae9ecfa-511d-5537-a221-1aa046e5e56f"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J1") (unit 1)))))
+(wire (pts (xy 35.56 172.72) (xy 25.4 172.72)) (stroke (width 0) (type default)) (uuid "d0b27ade-9d87-5422-add4-09b225085c3a"))
+(label "C0_R0" (at 25.4 172.72 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "eced52bc-b0dc-5940-98c3-1080f43d29a8"))
+(wire (pts (xy 35.56 175.26) (xy 25.4 175.26)) (stroke (width 0) (type default)) (uuid "400ecc9a-125c-5d3e-8c02-55e9e5203a2e"))
+(label "C0_R1" (at 25.4 175.26 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "beae62b2-cca1-565b-8a59-384cb7326ce8"))
+(wire (pts (xy 35.56 177.8) (xy 25.4 177.8)) (stroke (width 0) (type default)) (uuid "290ded5c-ef58-5b43-97d9-87f5d451bf0f"))
+(label "C0_R2" (at 25.4 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "1d33c2a1-e04c-5873-b562-95d69ce4f134"))
+(wire (pts (xy 35.56 180.34) (xy 25.4 180.34)) (stroke (width 0) (type default)) (uuid "a1be10c5-b617-5f84-b8ac-fd17f3e59dc0"))
+(label "C0_COL" (at 25.4 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "51c305e0-ca22-5309-9d75-fbc3a3096de8"))
+(no_connect (at 35.56 182.88) (uuid "2b892484-b56c-523d-aa78-3bc83e1f8c86"))
+(no_connect (at 35.56 185.42) (uuid "ba69d2f6-7697-5123-92a6-2b7b4c878501"))
+(symbol (lib_id "Device:D") (at 40.64 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "454ced7d-e815-5beb-ab79-6cf9f574c6e7") (property "Reference" "C0_D1" (at 40.64 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 40.64 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C0_D1" (at 40.64 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "8dc217f2-a3fe-538c-996a-8fd065274b96"))(pin "2" (uuid "d24ea2a5-6800-5895-8867-4bf7aecb5441"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_D1") (unit 1)))))
+(wire (pts (xy 36.83 88.9) (xy 26.67 88.9)) (stroke (width 0) (type default)) (uuid "79e76aca-b766-5d30-b783-87c4d5a0187c"))
+(label "C0_K1" (at 26.67 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "d3196a22-e9a5-5862-81ab-f25a0ab2ace8"))
+(wire (pts (xy 44.45 88.9) (xy 54.61 88.9)) (stroke (width 0) (type default)) (uuid "2dfb294b-5944-557e-b2a2-7202b0db4211"))
+(label "C0_R2" (at 54.61 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "25b2bfea-3b10-5e94-b6f3-4ad89ba1b044"))
+(symbol (lib_id "Device:D") (at 40.64 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7461b126-10b6-5caf-9569-129ed505adf2") (property "Reference" "C0_D2" (at 40.64 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 40.64 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C0_D2" (at 40.64 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "982c8a3f-7926-5ac0-ba56-f4a368dd09da"))(pin "2" (uuid "76479041-823e-52cf-9861-9feeb0982266"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_D2") (unit 1)))))
+(wire (pts (xy 36.83 119.38) (xy 26.67 119.38)) (stroke (width 0) (type default)) (uuid "b4aaaa3f-f811-5a6e-bc5b-c3470fae24cb"))
+(label "C0_K2" (at 26.67 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "f8631e4d-b9a6-502b-9215-127e07336ccb"))
+(wire (pts (xy 44.45 119.38) (xy 54.61 119.38)) (stroke (width 0) (type default)) (uuid "a0966ec4-ed18-5b16-9e40-6e980cd07940"))
+(label "C0_R1" (at 54.61 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6942d2d8-33e6-5ae4-a2c4-218f0cc91c90"))
+(symbol (lib_id "Switch:SW_Push") (at 40.64 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "4aa1983b-a749-5702-8707-d3e16d9bcdc0") (property "Reference" "C0_SW3" (at 40.64 133.16 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 40.64 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C0_SW3" (at 40.64 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "b62959c5-a0e9-53b7-86bb-34270e09b41e"))(pin "2" (uuid "17d3b350-7baa-5658-8f71-991e48e3f4f1"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_SW3") (unit 1)))))
+(wire (pts (xy 35.56 137.16) (xy 25.4 137.16)) (stroke (width 0) (type default)) (uuid "8ee83b99-4f8b-56d9-bf43-a2056b639764"))
+(label "C0_K3" (at 25.4 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2cf782ea-cb7f-5287-aa56-ad1566d078bf"))
+(wire (pts (xy 45.72 137.16) (xy 55.88 137.16)) (stroke (width 0) (type default)) (uuid "86438d64-e0fd-5e77-bf8c-905fdc438ead"))
+(label "C0_COL" (at 55.88 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2c19a976-8712-55da-8f40-2a3c0791410d"))
+(symbol (lib_id "Device:D") (at 40.64 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "756f5e77-ff96-5aa4-ab3b-e55243523221") (property "Reference" "C0_D3" (at 40.64 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 40.64 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C0_D3" (at 40.64 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "736ddef5-6b39-5314-a98c-9790ac58db73"))(pin "2" (uuid "aecd526e-bebf-53ce-b883-458d107e1004"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_D3") (unit 1)))))
+(wire (pts (xy 36.83 149.86) (xy 26.67 149.86)) (stroke (width 0) (type default)) (uuid "9a1cfbe2-5d8e-5921-8427-d87542821c5a"))
+(label "C0_K3" (at 26.67 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "344a70e3-7ca0-5e16-9002-b62a9134d71c"))
+(wire (pts (xy 44.45 149.86) (xy 54.61 149.86)) (stroke (width 0) (type default)) (uuid "08f2fd79-ca31-5cb2-b413-e846e5ef03e8"))
+(label "C0_R0" (at 54.61 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "50332e01-053e-5638-ba96-629bb54447b1"))
+(symbol (lib_id "Switch:SW_Push") (at 40.64 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "9d704862-71ae-52ad-9ace-1e09b8482cc6") (property "Reference" "C0_SW1" (at 40.64 72.2 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 40.64 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C0_SW1" (at 40.64 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "7b4fb0a0-00c3-53f9-b58e-df2f7ac5921c"))(pin "2" (uuid "ac48d259-1fc4-5b9f-8e78-a63f8c23cbdc"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C0_SW1") (unit 1)))))
+(wire (pts (xy 35.56 76.2) (xy 25.4 76.2)) (stroke (width 0) (type default)) (uuid "9e826872-df3c-576d-b9a2-c0463566c497"))
+(label "C0_K1" (at 25.4 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "91adb98b-19f1-50e7-8e0e-63da38ac6010"))
+(wire (pts (xy 45.72 76.2) (xy 55.88 76.2)) (stroke (width 0) (type default)) (uuid "a97c6028-a005-59d0-8d67-c1d9c47d1e28"))
+(label "C0_COL" (at 55.88 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "5de90dcb-45e2-50f1-af26-63c61b23c9c9"))
+(text "C1 : holder J2" (at 119.38 25.4 0) (effects (font (size 1.5 1.5))) (uuid "bf5f5725-1ba7-5ba7-8d19-63f90f2197b0"))
+(symbol (lib_id "Device:D") (at 119.38 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b098b94a-2e2b-5ab0-8771-1cb16aaf8519") (property "Reference" "C1_D2" (at 119.38 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 119.38 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C1_D2" (at 119.38 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "48d0f894-4129-5ca1-91b8-73f30bf03894"))(pin "2" (uuid "523d2ae9-1e0a-5be1-8312-615ef7eda224"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_D2") (unit 1)))))
+(wire (pts (xy 115.57 119.38) (xy 105.41 119.38)) (stroke (width 0) (type default)) (uuid "29cd842e-528b-5eed-8909-7766166ea2fb"))
+(label "C1_K2" (at 105.41 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "529d9dd3-8ab9-5447-a06e-5b9073c36975"))
+(wire (pts (xy 123.19 119.38) (xy 133.35 119.38)) (stroke (width 0) (type default)) (uuid "fa99f216-76ca-5844-ab41-8c97bb502231"))
+(label "C1_R1" (at 133.35 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b1ddee76-af1d-5206-8370-0826aa01389c"))
+(symbol (lib_id "Switch:SW_Push") (at 119.38 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0a81585d-de8d-5bff-a6a1-9e64b12c4cd9") (property "Reference" "C1_SW3" (at 119.38 133.16 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 119.38 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C1_SW3" (at 119.38 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "d72efa50-1c85-59f4-ad3d-67b6f0b81111"))(pin "2" (uuid "3de9e293-2cf6-5729-bec4-c110e58e3e68"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_SW3") (unit 1)))))
+(wire (pts (xy 114.3 137.16) (xy 104.14 137.16)) (stroke (width 0) (type default)) (uuid "7b5b138f-a422-5ce3-8429-79dee95dc53e"))
+(label "C1_K3" (at 104.14 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6e63823b-a64e-5d0e-9818-0d404fdfea14"))
+(wire (pts (xy 124.46 137.16) (xy 134.62 137.16)) (stroke (width 0) (type default)) (uuid "431029b2-5e6f-5c0e-a049-e80138bcd7a1"))
+(label "C1_COL" (at 134.62 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "a798343a-30b3-576c-8e99-ff2126eaf09a"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 119.38 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "c4cfeb24-f2e4-5959-b07a-b2812ef21334") (property "Reference" "J2" (at 119.38 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 119.38 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J2" (at 119.38 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "8f302c56-cefa-5690-b3fb-7a32fb675658"))(pin "2" (uuid "d7b5a81e-8673-55ee-ae4f-de0cd90ceb1a"))(pin "3" (uuid "6da39a93-298e-5545-960d-3d642b7d3da0"))(pin "4" (uuid "a413eadc-4594-52ff-8a57-97271872dcb0"))(pin "5" (uuid "ad4436ef-7373-5bdf-b8fc-b6b3cc9c9d54"))(pin "6" (uuid "037b1290-98d7-5525-938b-c31a51dcc7ca"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J2") (unit 1)))))
+(wire (pts (xy 114.3 172.72) (xy 104.14 172.72)) (stroke (width 0) (type default)) (uuid "f98b03ba-be8d-5ed0-a274-a3864675bfe1"))
+(label "C1_R0" (at 104.14 172.72 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "93ea9c8c-e8ed-56b1-a505-cdb6607e775f"))
+(wire (pts (xy 114.3 175.26) (xy 104.14 175.26)) (stroke (width 0) (type default)) (uuid "99b39da3-2a95-52ac-aed1-a7a5cd0a4c3d"))
+(label "C1_R1" (at 104.14 175.26 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "74ce18c0-e75b-5f74-a8c7-add30abf7c1a"))
+(wire (pts (xy 114.3 177.8) (xy 104.14 177.8)) (stroke (width 0) (type default)) (uuid "513b2bdf-a848-52e4-bc12-a451457e3482"))
+(label "C1_R2" (at 104.14 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "277d986d-801f-5444-8e23-ea6e173a3a76"))
+(wire (pts (xy 114.3 180.34) (xy 104.14 180.34)) (stroke (width 0) (type default)) (uuid "c3c2de8a-ad2c-53d9-ac3e-785635f04e66"))
+(label "C1_COL" (at 104.14 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "7762f478-995f-5ce4-a998-fa3a28d9f498"))
+(no_connect (at 114.3 182.88) (uuid "256a462a-bd77-5785-aa19-f2a8b6d3b28c"))
+(no_connect (at 114.3 185.42) (uuid "97bb0474-672c-5727-9596-f608111fc163"))
+(symbol (lib_id "Device:D") (at 119.38 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "dab96a9c-1fb0-55d2-8bca-23cf64b028b3") (property "Reference" "C1_D3" (at 119.38 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 119.38 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C1_D3" (at 119.38 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "4706b9a2-fd86-5217-90f7-dcd7b2dcc983"))(pin "2" (uuid "27556b8e-8c22-52e4-b0bb-d4f9ba3c7857"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_D3") (unit 1)))))
+(wire (pts (xy 115.57 149.86) (xy 105.41 149.86)) (stroke (width 0) (type default)) (uuid "28ff5a59-d12e-5ad6-b98a-53721cad691d"))
+(label "C1_K3" (at 105.41 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c8447a28-a4ae-5d81-b10c-c71563cde7e3"))
+(wire (pts (xy 123.19 149.86) (xy 133.35 149.86)) (stroke (width 0) (type default)) (uuid "586d7f98-08e8-5e38-a422-c1013efcea39"))
+(label "C1_R0" (at 133.35 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c00a3283-6466-5fd6-aaa0-13179d56fcdd"))
+(symbol (lib_id "Device:D") (at 119.38 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "00e91aa7-a795-51da-8784-e5d1686b4374") (property "Reference" "C1_D1" (at 119.38 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 119.38 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C1_D1" (at 119.38 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "27b3b817-b361-5229-802c-9998c7f27212"))(pin "2" (uuid "171bf6af-05fb-596b-b013-698c597439b3"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_D1") (unit 1)))))
+(wire (pts (xy 115.57 88.9) (xy 105.41 88.9)) (stroke (width 0) (type default)) (uuid "fae171fb-4ed3-50f1-8ca2-c364754aa5ae"))
+(label "C1_K1" (at 105.41 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c68590bf-c85a-52b6-84e2-514620204f68"))
+(wire (pts (xy 123.19 88.9) (xy 133.35 88.9)) (stroke (width 0) (type default)) (uuid "a9b7ecf9-d2c3-5ce6-abd9-8dc60aadd388"))
+(label "C1_R2" (at 133.35 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "0a32ea36-bfcc-597e-8441-90714bd4972a"))
+(symbol (lib_id "Switch:SW_Push") (at 119.38 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3e97c122-de39-5425-9db9-c01be95a7bbb") (property "Reference" "C1_SW1" (at 119.38 72.2 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 119.38 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C1_SW1" (at 119.38 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "5317dded-7bd0-50f4-855d-7a18bc576bb8"))(pin "2" (uuid "7cc39541-d365-5bc8-b44f-8fb41eab0514"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_SW1") (unit 1)))))
+(wire (pts (xy 114.3 76.2) (xy 104.14 76.2)) (stroke (width 0) (type default)) (uuid "d8a48787-ff39-5a4f-9ee9-79b7d5e138b9"))
+(label "C1_K1" (at 104.14 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "7800f3e4-cba3-5ae0-a280-f27588f2db4d"))
+(wire (pts (xy 124.46 76.2) (xy 134.62 76.2)) (stroke (width 0) (type default)) (uuid "c4997ba1-53b6-596e-9b36-3a8ef41c88a5"))
+(label "C1_COL" (at 134.62 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "9e8589a3-a99b-5722-bf13-93507dde79ae"))
+(symbol (lib_id "Switch:SW_Push") (at 119.38 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ce1eefb1-5625-5249-a486-a3c6fa07e344") (property "Reference" "C1_SW2" (at 119.38 102.68 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 119.38 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C1_SW2" (at 119.38 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "6939cd45-9084-5fe5-b64e-91578fb51d53"))(pin "2" (uuid "44873620-d6c1-5b39-84b8-9c2a8160a074"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C1_SW2") (unit 1)))))
+(wire (pts (xy 114.3 106.68) (xy 104.14 106.68)) (stroke (width 0) (type default)) (uuid "25e4dc90-72aa-5cc9-b7ba-ec4e1ba7f25b"))
+(label "C1_K2" (at 104.14 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "862a59bd-d061-50fd-8052-de6b86a49d79"))
+(wire (pts (xy 124.46 106.68) (xy 134.62 106.68)) (stroke (width 0) (type default)) (uuid "6f83c2d8-1231-5cf3-87c3-23fe5a3cc611"))
+(label "C1_COL" (at 134.62 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "13a51d20-8486-59e8-958c-65e5cb3c59ee"))
+(text "C2 : holder J3" (at 198.12 25.4 0) (effects (font (size 1.5 1.5))) (uuid "d6a1a6d9-ad87-553c-9288-a5ccd1b9b9ad"))
+(symbol (lib_id "Switch:SW_Push") (at 198.12 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3bb6af71-e19d-567b-afca-c19115c5d301") (property "Reference" "C2_SW2" (at 198.12 102.68 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 198.12 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C2_SW2" (at 198.12 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "bce5f922-bef5-54b8-be7a-88f1cf3cfc48"))(pin "2" (uuid "5b099fe8-ff08-51d3-9bef-b204985fc282"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_SW2") (unit 1)))))
+(wire (pts (xy 193.04 106.68) (xy 182.88 106.68)) (stroke (width 0) (type default)) (uuid "fb80b154-276e-5399-96f2-48c99baca85f"))
+(label "C2_K2" (at 182.88 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "539fb8f3-efba-5f9c-a8b8-288b8d8c0172"))
+(wire (pts (xy 203.2 106.68) (xy 213.36 106.68)) (stroke (width 0) (type default)) (uuid "35405a1a-d872-5a05-9b6b-3a454764ac63"))
+(label "C2_COL" (at 213.36 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2290c82e-883a-5e16-bf54-ed10a6f47bae"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 198.12 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "54ff254b-48bd-58be-96a1-69a3e87cd733") (property "Reference" "J3" (at 198.12 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 198.12 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J3" (at 198.12 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "ee95b96e-b069-5888-99f2-3bf2c305c67a"))(pin "2" (uuid "0578361d-7bfd-530a-b932-34fad34f6be2"))(pin "3" (uuid "92dc8080-fb88-5c79-bfd1-4a2ea45c6e81"))(pin "4" (uuid "396d0c5f-5f3f-542e-af87-1e8117b862f0"))(pin "5" (uuid "6adb8daa-717e-56df-a25c-b5b5f31f75df"))(pin "6" (uuid "30ab9f0b-3fc3-530b-8345-ecd0c6e4203e"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J3") (unit 1)))))
+(wire (pts (xy 193.04 172.72) (xy 182.88 172.72)) (stroke (width 0) (type default)) (uuid "db94254f-d03a-5b5d-a0b1-a97a1179a751"))
+(label "C2_R0" (at 182.88 172.72 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b9d0e99b-7aff-55f7-a6da-13ed3f6fc608"))
+(wire (pts (xy 193.04 175.26) (xy 182.88 175.26)) (stroke (width 0) (type default)) (uuid "6c1e2559-f80b-58ed-b881-6bada47b3cdc"))
+(label "C2_R1" (at 182.88 175.26 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "fa6495d5-67f8-5791-be9c-2458b63346dd"))
+(wire (pts (xy 193.04 177.8) (xy 182.88 177.8)) (stroke (width 0) (type default)) (uuid "434e7e2e-2a24-5856-95ee-1a9dc39b8167"))
+(label "C2_R2" (at 182.88 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "1f82e3ca-66ef-5c77-8042-0c73c560a514"))
+(wire (pts (xy 193.04 180.34) (xy 182.88 180.34)) (stroke (width 0) (type default)) (uuid "b828d321-79b3-5b8f-ae4d-5d26ebb77e25"))
+(label "C2_COL" (at 182.88 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c87810b9-b507-5d24-ba2c-f25a731cc7ad"))
+(no_connect (at 193.04 182.88) (uuid "0bda5dd8-a114-5b12-b836-fd73f450f78e"))
+(no_connect (at 193.04 185.42) (uuid "7539fda6-64a8-5541-abb9-0606b1699bf3"))
+(symbol (lib_id "Device:D") (at 198.12 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "2bda23f2-dc41-55b2-80bd-d6fb9b92b863") (property "Reference" "C2_D1" (at 198.12 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 198.12 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C2_D1" (at 198.12 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "837ace21-c7d7-55b6-bde1-39593d97feab"))(pin "2" (uuid "a54e8752-05c3-576b-ab8e-425a1f1ae37e"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_D1") (unit 1)))))
+(wire (pts (xy 194.31 88.9) (xy 184.15 88.9)) (stroke (width 0) (type default)) (uuid "25ac0721-e074-5581-a8fd-68dee3b8259d"))
+(label "C2_K1" (at 184.15 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "59f49eda-6a1b-5e5e-9d96-6ea03183fda0"))
+(wire (pts (xy 201.93 88.9) (xy 212.09 88.9)) (stroke (width 0) (type default)) (uuid "bef0c87d-6a1a-549b-91ee-7dfc31da9cf6"))
+(label "C2_R2" (at 212.09 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "09f7ffd8-bf8c-54fa-ad83-a87d44e7b9d6"))
+(symbol (lib_id "Device:D") (at 198.12 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "eeccd561-7f7a-51b8-8733-c741a7ed14de") (property "Reference" "C2_D2" (at 198.12 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 198.12 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C2_D2" (at 198.12 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "830221c6-b25b-5cfa-9b23-080eb7d38445"))(pin "2" (uuid "62e38d69-ca45-5910-93fe-4c1ed9997735"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_D2") (unit 1)))))
+(wire (pts (xy 194.31 119.38) (xy 184.15 119.38)) (stroke (width 0) (type default)) (uuid "d4c00a8f-6f49-5aaf-aa55-9dd56b52551b"))
+(label "C2_K2" (at 184.15 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "e7cf5ce5-9e65-5fa2-b450-ac0b8885b544"))
+(wire (pts (xy 201.93 119.38) (xy 212.09 119.38)) (stroke (width 0) (type default)) (uuid "9ce4f123-df61-5776-9e93-e5b363f4456d"))
+(label "C2_R1" (at 212.09 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b960b9b8-522a-5db0-91df-2ec9d6d1f980"))
+(symbol (lib_id "Switch:SW_Push") (at 198.12 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0bf4971f-07e8-54c9-a37e-6433d0f8b12c") (property "Reference" "C2_SW3" (at 198.12 133.16 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 198.12 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C2_SW3" (at 198.12 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "0d737596-0f27-5418-86b9-6c5bc60df6e9"))(pin "2" (uuid "9f1b0e18-21a7-5025-a025-ac3fa9c18719"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_SW3") (unit 1)))))
+(wire (pts (xy 193.04 137.16) (xy 182.88 137.16)) (stroke (width 0) (type default)) (uuid "7fa0d50e-a3fb-5d50-88ce-53fbe1568d41"))
+(label "C2_K3" (at 182.88 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c70adc32-47cd-55dc-987a-501b1cd4d94a"))
+(wire (pts (xy 203.2 137.16) (xy 213.36 137.16)) (stroke (width 0) (type default)) (uuid "2a21f53b-11b6-5aa0-8b95-1a47e60f8327"))
+(label "C2_COL" (at 213.36 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "4e1e5e52-2b2b-5b61-9582-ee87709208e4"))
+(symbol (lib_id "Device:D") (at 198.12 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "bafb1ab3-3834-5a7e-8598-79b5be2ac6f4") (property "Reference" "C2_D3" (at 198.12 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 198.12 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C2_D3" (at 198.12 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "c5a56a64-e557-5ca4-9d00-f154379a25b6"))(pin "2" (uuid "5e3bebe0-7475-5d68-b71f-a8afb3020724"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_D3") (unit 1)))))
+(wire (pts (xy 194.31 149.86) (xy 184.15 149.86)) (stroke (width 0) (type default)) (uuid "197b3373-2bb0-59f5-a0e8-db1a31f7f70d"))
+(label "C2_K3" (at 184.15 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "31ad9856-ad2c-5c63-93aa-999e6174788a"))
+(wire (pts (xy 201.93 149.86) (xy 212.09 149.86)) (stroke (width 0) (type default)) (uuid "df1e1d6f-c482-50af-a66e-bde09b6ca930"))
+(label "C2_R0" (at 212.09 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "0a478d4d-04f0-5f41-8abe-989dff88c9e3"))
+(symbol (lib_id "Switch:SW_Push") (at 198.12 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "525d1c04-f138-57c6-a774-d8d90a6119a3") (property "Reference" "C2_SW1" (at 198.12 72.2 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 198.12 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C2_SW1" (at 198.12 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "5d8485b9-3d4d-59b6-a3e5-15ab96b102e8"))(pin "2" (uuid "de9024b0-2c6c-5da8-91d9-ba51215ac7b5"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C2_SW1") (unit 1)))))
+(wire (pts (xy 193.04 76.2) (xy 182.88 76.2)) (stroke (width 0) (type default)) (uuid "30305d5a-1962-5022-8bec-a945015aa0a1"))
+(label "C2_K1" (at 182.88 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "dea78407-f671-585f-b993-7488095565e9"))
+(wire (pts (xy 203.2 76.2) (xy 213.36 76.2)) (stroke (width 0) (type default)) (uuid "634365a9-5dfa-5928-a6c0-bc53cf364dd8"))
+(label "C2_COL" (at 213.36 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "bc2d95c1-2c19-5fd7-b87f-15525746bfff"))
+(text "C3 : holder J4" (at 276.85999999999996 25.4 0) (effects (font (size 1.5 1.5))) (uuid "456444b3-9e11-5db3-9e53-10203a072ca1"))
+(symbol (lib_id "Device:D") (at 276.85999999999996 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "532b89a9-4a64-5659-b2f1-a7ff2c7e9033") (property "Reference" "C3_D2" (at 276.85999999999996 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 276.85999999999996 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C3_D2" (at 276.85999999999996 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "bcbbf8ff-121c-5608-82f0-7cfde308899d"))(pin "2" (uuid "987e230e-1d92-5fc1-84cc-8635a537d8a5"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_D2") (unit 1)))))
+(wire (pts (xy 273.05 119.38) (xy 262.89 119.38)) (stroke (width 0) (type default)) (uuid "46874dc7-5c40-574f-800f-05733dcfec09"))
+(label "C3_K2" (at 262.89 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "a7c928c6-7dff-5935-b6e9-9baa7a18705f"))
+(wire (pts (xy 280.67 119.38) (xy 290.83 119.38)) (stroke (width 0) (type default)) (uuid "bd029a68-d83d-5195-b146-2602e069015c"))
+(label "C3_R1" (at 290.83 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b9a43544-4940-5b62-9b71-cc7350b3699d"))
+(symbol (lib_id "Switch:SW_Push") (at 276.85999999999996 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "2d748e42-6413-567c-aab0-f29cc96c5299") (property "Reference" "C3_SW3" (at 276.85999999999996 133.16 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 276.85999999999996 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C3_SW3" (at 276.85999999999996 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "e44def70-1aed-5d0f-b5bf-306a70651176"))(pin "2" (uuid "dfb3cb2c-d2fc-559f-baec-1abece4011bf"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_SW3") (unit 1)))))
+(wire (pts (xy 271.78 137.16) (xy 261.62 137.16)) (stroke (width 0) (type default)) (uuid "3ff3841f-55e7-59f1-841e-393c81e24dd4"))
+(label "C3_K3" (at 261.62 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "12abf5a7-eda3-5f26-8d4b-c0f6acc2b21b"))
+(wire (pts (xy 281.94 137.16) (xy 292.1 137.16)) (stroke (width 0) (type default)) (uuid "408f3691-35fc-5daf-b6e3-17ffdf473eaa"))
+(label "C3_COL" (at 292.1 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "fc32e12c-e3d1-5b83-ab4e-9054616e0baf"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 276.85999999999996 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d9d8b28d-4c58-5d8d-8874-e5bf656b01f4") (property "Reference" "J4" (at 276.85999999999996 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 276.85999999999996 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J4" (at 276.85999999999996 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "b88b2126-4fd3-5da4-b9c9-0fb998ca7331"))(pin "2" (uuid "2c90e849-be83-5f96-a341-ad9878b0cae2"))(pin "3" (uuid "dfab0d5e-3671-5d8a-83e4-b170365145aa"))(pin "4" (uuid "269709e3-524c-51f0-a461-b98d67a5ce20"))(pin "5" (uuid "f5e02c0a-3b0e-5fa8-ac32-b616fb228401"))(pin "6" (uuid "c1f0c8d3-8f1d-558a-a071-4de05c1f0baf"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J4") (unit 1)))))
+(wire (pts (xy 271.78 172.72) (xy 261.62 172.72)) (stroke (width 0) (type default)) (uuid "b860a399-3046-552c-83cb-66c34fff275b"))
+(label "C3_R0" (at 261.62 172.72 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6869ea74-0135-5b4c-a091-3b6ecc1e0270"))
+(wire (pts (xy 271.78 175.26) (xy 261.62 175.26)) (stroke (width 0) (type default)) (uuid "3f3ac48b-620f-51e1-81fe-91f6997bf8f9"))
+(label "C3_R1" (at 261.62 175.26 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "4b598c81-ff52-57fd-b26a-c15f15797714"))
+(wire (pts (xy 271.78 177.8) (xy 261.62 177.8)) (stroke (width 0) (type default)) (uuid "d3b44bab-1239-5046-ba4e-62eea6f36685"))
+(label "C3_R2" (at 261.62 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "f839dc20-6153-5e9b-bf0c-dc41054bdfaa"))
+(wire (pts (xy 271.78 180.34) (xy 261.62 180.34)) (stroke (width 0) (type default)) (uuid "033382da-ccff-5d7e-9d24-eaccd6bb507b"))
+(label "C3_COL" (at 261.62 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "e02e0588-5894-5b94-9883-b4bb5cb416b2"))
+(no_connect (at 271.78 182.88) (uuid "bedebf77-dbf5-5ee2-b51c-3a56d4be1c63"))
+(no_connect (at 271.78 185.42) (uuid "8f37e087-5e5d-5fef-9880-6fd06c58d2b2"))
+(symbol (lib_id "Device:D") (at 276.85999999999996 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "be9ca580-2911-5f06-9e3c-f5e8286ddf02") (property "Reference" "C3_D3" (at 276.85999999999996 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 276.85999999999996 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C3_D3" (at 276.85999999999996 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "e17d4baa-df73-587f-8a92-cf7c0dade8ab"))(pin "2" (uuid "f4708f69-ffc5-5481-aa1e-012a7d850044"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_D3") (unit 1)))))
+(wire (pts (xy 273.05 149.86) (xy 262.89 149.86)) (stroke (width 0) (type default)) (uuid "60c3a6c1-9cba-5a60-ae7b-ad274e44ec53"))
+(label "C3_K3" (at 262.89 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6833edde-286e-5e7f-9f32-640a6ad5457d"))
+(wire (pts (xy 280.67 149.86) (xy 290.83 149.86)) (stroke (width 0) (type default)) (uuid "a6133df3-e098-5bfc-b5aa-9353099ace93"))
+(label "C3_R0" (at 290.83 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "fd64aa11-455d-5ccf-86a2-d4a4695fa954"))
+(symbol (lib_id "Device:D") (at 276.85999999999996 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "39ce9934-a185-54c7-9da2-0ae796b92eff") (property "Reference" "C3_D1" (at 276.85999999999996 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 276.85999999999996 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C3_D1" (at 276.85999999999996 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "1948409b-5eda-51d4-9ce4-ce10f7f03d04"))(pin "2" (uuid "a39590f0-f9ec-5d81-b774-b22f3929dc4f"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_D1") (unit 1)))))
+(wire (pts (xy 273.05 88.9) (xy 262.89 88.9)) (stroke (width 0) (type default)) (uuid "044259e7-b342-5e65-b19b-53485266f6a3"))
+(label "C3_K1" (at 262.89 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "9f31115d-6d7b-5fa1-a2ce-5f9980f10d50"))
+(wire (pts (xy 280.67 88.9) (xy 290.83 88.9)) (stroke (width 0) (type default)) (uuid "7d24e15c-049a-5035-aae6-454544d34a6d"))
+(label "C3_R2" (at 290.83 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "62a579f0-48ed-57a9-baaf-b4cabb1b2f21"))
+(symbol (lib_id "Switch:SW_Push") (at 276.85999999999996 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7844124b-809e-5b65-9665-7f5f853a859b") (property "Reference" "C3_SW1" (at 276.85999999999996 72.2 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 276.85999999999996 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C3_SW1" (at 276.85999999999996 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "bcf54fbf-77cb-5f29-896d-a8557892797d"))(pin "2" (uuid "5301d264-0e22-510f-aa69-fea17b10eb80"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_SW1") (unit 1)))))
+(wire (pts (xy 271.78 76.2) (xy 261.62 76.2)) (stroke (width 0) (type default)) (uuid "fa76ff13-4e69-597a-afd9-19180d0c8aa5"))
+(label "C3_K1" (at 261.62 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "f52f9ca0-b9e7-5a35-ae15-a678cec9cfc1"))
+(wire (pts (xy 281.94 76.2) (xy 292.1 76.2)) (stroke (width 0) (type default)) (uuid "e9623bea-c34d-5c1d-949c-5786debb511d"))
+(label "C3_COL" (at 292.1 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "993e0efd-681f-5086-9114-bbebfda7fe4e"))
+(symbol (lib_id "Switch:SW_Push") (at 276.85999999999996 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "a77546f6-6d9f-5d75-92f2-2747418e9d8e") (property "Reference" "C3_SW2" (at 276.85999999999996 102.68 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 276.85999999999996 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C3_SW2" (at 276.85999999999996 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "b6020709-2b4f-52bf-aec2-2fb3b02f6be5"))(pin "2" (uuid "2e2fc82d-9208-5f94-898b-ad2e5ebb4f3f"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C3_SW2") (unit 1)))))
+(wire (pts (xy 271.78 106.68) (xy 261.62 106.68)) (stroke (width 0) (type default)) (uuid "a0661de8-5531-5109-a4d2-cdf434870bbf"))
+(label "C3_K2" (at 261.62 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "fcc70161-8781-5f77-9cdc-765d090cf977"))
+(wire (pts (xy 281.94 106.68) (xy 292.1 106.68)) (stroke (width 0) (type default)) (uuid "b183d86b-e76f-50c4-aab3-47c7d4aa5a0e"))
+(label "C3_COL" (at 292.1 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "91e48b0c-471e-521b-a331-b4e3b670e85e"))
+(text "C4 : holder J5" (at 355.59999999999997 25.4 0) (effects (font (size 1.5 1.5))) (uuid "1f00cdbd-a474-5f45-91b4-542c0c588740"))
+(symbol (lib_id "Switch:SW_Push") (at 355.59999999999997 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ed188c79-66df-556f-8692-3bc11c16b18b") (property "Reference" "C4_SW2" (at 355.59999999999997 102.68 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 355.59999999999997 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C4_SW2" (at 355.59999999999997 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "d99bf453-0bf4-57d8-9667-ee5d85071aa3"))(pin "2" (uuid "3db0dea4-8343-5666-a769-9f2e04dd3845"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_SW2") (unit 1)))))
+(wire (pts (xy 350.52 106.68) (xy 340.36 106.68)) (stroke (width 0) (type default)) (uuid "71cc978d-22ea-5964-a501-e9725e942f29"))
+(label "C4_K2" (at 340.36 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "69a4431c-ed7c-5ea6-803d-805bd55b77c0"))
+(wire (pts (xy 360.68 106.68) (xy 370.84 106.68)) (stroke (width 0) (type default)) (uuid "6e148d11-847e-53d5-bf96-de9cf6e27987"))
+(label "C4_COL" (at 370.84 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "09f1c44f-b50b-5268-9a80-1460a2e3cca3"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 355.59999999999997 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "c372b4cc-a40e-5508-87ec-179e245f9e88") (property "Reference" "J5" (at 355.59999999999997 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 355.59999999999997 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J5" (at 355.59999999999997 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "ed6ed88b-5d0c-53da-a1d4-86550887e27b"))(pin "2" (uuid "7a29c3ab-8114-54d3-9288-49a7781f8c27"))(pin "3" (uuid "bac5603a-f3fb-5532-9a9f-b257757e6367"))(pin "4" (uuid "cb652f15-593b-5cf8-a687-f9318717d11a"))(pin "5" (uuid "5da3e51d-137a-5067-a55c-a28f3a7ba39c"))(pin "6" (uuid "9dc5e480-a1ae-5b22-bf2a-4ae0fbebceab"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J5") (unit 1)))))
+(wire (pts (xy 350.52 172.72) (xy 340.36 172.72)) (stroke (width 0) (type default)) (uuid "f25d68f1-7624-5b03-957d-8170f1bcb068"))
+(label "C4_R0" (at 340.36 172.72 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "4dd96142-2cb3-5908-8eaa-e5529df34920"))
+(wire (pts (xy 350.52 175.26) (xy 340.36 175.26)) (stroke (width 0) (type default)) (uuid "686b9de0-901d-504d-8efd-f1b12d9177b1"))
+(label "C4_R1" (at 340.36 175.26 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "7cbb79ba-0f22-5d92-8d81-8f3be209db3d"))
+(wire (pts (xy 350.52 177.8) (xy 340.36 177.8)) (stroke (width 0) (type default)) (uuid "62d7ff97-56e0-5d92-aacf-c2ec7fae0818"))
+(label "C4_R2" (at 340.36 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "0c2c6940-2c76-5ef6-8df8-16d484e8d4bf"))
+(wire (pts (xy 350.52 180.34) (xy 340.36 180.34)) (stroke (width 0) (type default)) (uuid "2d72ea26-48e2-5dc0-9287-bc78fd784fbf"))
+(label "C4_COL" (at 340.36 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "d40833d1-4847-557a-82bc-48dec207b983"))
+(no_connect (at 350.52 182.88) (uuid "4dff41c2-2c7e-53e0-ba15-1c5273473101"))
+(no_connect (at 350.52 185.42) (uuid "f79702f3-74d2-5d01-a8e0-7d17c7e6d8f1"))
+(symbol (lib_id "Device:D") (at 355.59999999999997 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0e27e75a-b6c6-56f3-9dbe-b81407bc5b7e") (property "Reference" "C4_D1" (at 355.59999999999997 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 355.59999999999997 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C4_D1" (at 355.59999999999997 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "bc7f193c-5482-5e04-b286-572a8cf721c8"))(pin "2" (uuid "57c415ff-fead-56a2-869a-fbfc45fab73d"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_D1") (unit 1)))))
+(wire (pts (xy 351.79 88.9) (xy 341.63 88.9)) (stroke (width 0) (type default)) (uuid "45ef92b8-04b5-53cb-96c1-b6b2b23127f4"))
+(label "C4_K1" (at 341.63 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "ba3d5868-c6fe-5967-b801-4ba7c77198a9"))
+(wire (pts (xy 359.41 88.9) (xy 369.57 88.9)) (stroke (width 0) (type default)) (uuid "c1220427-f710-568b-bfd6-63226a0105b1"))
+(label "C4_R2" (at 369.57 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "a13f72d9-3b5e-535d-9543-6fad8122d79e"))
+(symbol (lib_id "Device:D") (at 355.59999999999997 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "583716a0-542e-562c-87e5-59321c9b90a0") (property "Reference" "C4_D2" (at 355.59999999999997 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 355.59999999999997 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C4_D2" (at 355.59999999999997 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "948bf8ff-34e7-5bb6-92c6-98be5316e3d0"))(pin "2" (uuid "3c28c5df-4af9-5508-81ec-dec353b290a2"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_D2") (unit 1)))))
+(wire (pts (xy 351.79 119.38) (xy 341.63 119.38)) (stroke (width 0) (type default)) (uuid "627f860f-1183-5299-aa2d-ab07fcf5e626"))
+(label "C4_K2" (at 341.63 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "d347aad3-f213-5a79-b060-99f09e219aec"))
+(wire (pts (xy 359.41 119.38) (xy 369.57 119.38)) (stroke (width 0) (type default)) (uuid "e3272881-ba54-5a02-a94c-3bd7665936b7"))
+(label "C4_R1" (at 369.57 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "c79b274b-b778-57a1-bb93-b96edda0bb49"))
+(symbol (lib_id "Switch:SW_Push") (at 355.59999999999997 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "5d98a1bf-a5fd-589b-a12d-36e1474183ad") (property "Reference" "C4_SW3" (at 355.59999999999997 133.16 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 355.59999999999997 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C4_SW3" (at 355.59999999999997 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "b9322ea6-e9f0-5c9e-9836-ae970c050f1c"))(pin "2" (uuid "c99b5463-8772-59be-b02f-d127b69a7ce8"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_SW3") (unit 1)))))
+(wire (pts (xy 350.52 137.16) (xy 340.36 137.16)) (stroke (width 0) (type default)) (uuid "0319da96-0122-53ed-806a-9019ea216816"))
+(label "C4_K3" (at 340.36 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "243fa9e4-b909-5d05-9c94-2b9965acf340"))
+(wire (pts (xy 360.68 137.16) (xy 370.84 137.16)) (stroke (width 0) (type default)) (uuid "cd43ef0b-cb0d-5b82-ab56-c1f6db877344"))
+(label "C4_COL" (at 370.84 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "fbd8321a-e367-5d58-9c38-33e8097a9872"))
+(symbol (lib_id "Device:D") (at 355.59999999999997 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "95c245b8-aa8e-5c78-929b-c60f6c5ed2b2") (property "Reference" "C4_D3" (at 355.59999999999997 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 355.59999999999997 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_C4_D3" (at 355.59999999999997 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "b4bbe44d-6f16-51f5-8fa4-4dcf87fd3255"))(pin "2" (uuid "9eb9eb48-81a5-563a-9ad3-bbfc87de35d7"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_D3") (unit 1)))))
+(wire (pts (xy 351.79 149.86) (xy 341.63 149.86)) (stroke (width 0) (type default)) (uuid "a0119532-2dad-5e52-b7ae-687351b311e0"))
+(label "C4_K3" (at 341.63 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "e05b8b9a-829d-52a1-9039-f83ff23f80bf"))
+(wire (pts (xy 359.41 149.86) (xy 369.57 149.86)) (stroke (width 0) (type default)) (uuid "8689eb9b-dff8-5675-8bc1-6bb013c9f68c"))
+(label "C4_R0" (at 369.57 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "5638367f-1574-543d-af05-afefe9b69927"))
+(symbol (lib_id "Switch:SW_Push") (at 355.59999999999997 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "9dd521c9-37ff-5ff1-836f-f2ea8879cf75") (property "Reference" "C4_SW1" (at 355.59999999999997 72.2 0) (effects (font (size .9 .9))))(property "Value" "CPG151101S11-16" (at 355.59999999999997 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_C4_SW1" (at 355.59999999999997 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "8c524586-d7b7-5967-bfdc-324017a756c5"))(pin "2" (uuid "6042fbf1-6fa9-5949-92b0-ed8d64e9b577"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "C4_SW1") (unit 1)))))
+(wire (pts (xy 350.52 76.2) (xy 340.36 76.2)) (stroke (width 0) (type default)) (uuid "1abf9acb-9ea0-522c-92b0-e31950ee0f01"))
+(label "C4_K1" (at 340.36 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "5f6c76a7-da83-5307-aff7-64c80a0ffd81"))
+(wire (pts (xy 360.68 76.2) (xy 370.84 76.2)) (stroke (width 0) (type default)) (uuid "a844a723-cc15-57c9-bab1-62f1a3386e01"))
+(label "C4_COL" (at 370.84 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2b0f10c7-e6a8-5b76-ad0b-3c0b1800a1a3"))
+(text "TL : holder J6L" (at 434.34 25.4 0) (effects (font (size 1.5 1.5))) (uuid "2b582017-7062-5054-b514-da9c5d8a51b8"))
+(symbol (lib_id "Switch:SW_Push") (at 434.34 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "2cd3e004-fc71-52ea-8e79-c979440f1b85") (property "Reference" "TL_SW3" (at 434.34 133.16 0) (effects (font (size .9 .9))))(property "Value" "MX hot-swap" (at 434.34 140.16 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_TL_SW3" (at 434.34 137.16 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "e1cd93e3-4855-51d9-b632-8d6f8bef4185"))(pin "2" (uuid "01b11ba0-3f15-5a4b-81c4-a6c406fc56d3"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_SW3") (unit 1)))))
+(wire (pts (xy 429.26 137.16) (xy 419.1 137.16)) (stroke (width 0) (type default)) (uuid "b7076388-2ece-56d6-b3d8-cfd327091fbb"))
+(label "TL_K3" (at 419.1 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "15eb8fde-053f-55a5-9490-68490e365fec"))
+(wire (pts (xy 439.42 137.16) (xy 449.58 137.16)) (stroke (width 0) (type default)) (uuid "9dd6d3a8-21f4-5eae-94e8-052c6719565d"))
+(label "TL_COL_G0" (at 449.58 137.16 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "dd2178c1-32a8-5c84-bd15-b127fcc043fb"))
+(symbol (lib_id "Device:D") (at 434.34 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e49cd62b-e6ec-50c5-87ea-0cc11d047c91") (property "Reference" "TL_D1" (at 434.34 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 434.34 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_TL_D1" (at 434.34 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "2c587643-c220-5252-bc2f-689a76b07f6e"))(pin "2" (uuid "0e18ad3c-1f18-5990-b95b-19b114b0cd62"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_D1") (unit 1)))))
+(wire (pts (xy 430.53 88.9) (xy 420.37 88.9)) (stroke (width 0) (type default)) (uuid "076b13c8-c9aa-56a2-9e3c-f2ed2ccee85c"))
+(label "TL_K1" (at 420.37 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6c379d3c-665e-534d-9229-aa2adb5b153e"))
+(wire (pts (xy 438.15 88.9) (xy 448.31 88.9)) (stroke (width 0) (type default)) (uuid "ffadcae3-3562-5852-bc96-557822d598c0"))
+(label "TL_R3" (at 448.31 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "71559ad1-1d83-5dcb-9688-9075f1949602"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 434.34 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e597cb3e-5751-5a2c-820a-8afc2d4b7110") (property "Reference" "J6L" (at 434.34 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 434.34 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J6L" (at 434.34 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "c1920ec9-38d7-5e95-b9c1-470429f77a88"))(pin "2" (uuid "f5c1229d-b082-55e2-89c5-1473ac54e590"))(pin "3" (uuid "f22f0663-5ebb-5b6c-9125-75b53fbb2ece"))(pin "4" (uuid "0473fc6a-50b6-5877-9b3c-69c7b02cdda4"))(pin "5" (uuid "49a1b02e-f7cd-5689-9bda-8339a4f0194a"))(pin "6" (uuid "b85f72ac-0429-5da8-a440-ef11d19600a1"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J6L") (unit 1)))))
+(no_connect (at 429.26 172.72) (uuid "184ec93b-0658-5d53-ad7b-7f19c49b68ea"))
+(no_connect (at 429.26 175.26) (uuid "3f53d92d-0898-579a-93a6-4b67a2fc0145"))
+(wire (pts (xy 429.26 177.8) (xy 419.1 177.8)) (stroke (width 0) (type default)) (uuid "c31a52ad-a0a5-542f-a005-31ff4d72852c"))
+(label "TL_COL_G3" (at 419.1 177.8 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "88dc3047-3041-505e-8fbf-b3c5cc3b58ad"))
+(wire (pts (xy 429.26 180.34) (xy 419.1 180.34)) (stroke (width 0) (type default)) (uuid "e5f05b72-46bf-5f15-8ea4-ea8602b16079"))
+(label "TL_COL_G2" (at 419.1 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "bb62ac6b-2ca9-53af-b293-11ca9b24b877"))
+(wire (pts (xy 429.26 182.88) (xy 419.1 182.88)) (stroke (width 0) (type default)) (uuid "ff083163-366a-5add-b2d3-f2b4ff0ca403"))
+(label "TL_COL_G0" (at 419.1 182.88 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "d2309194-c310-5652-8551-30012b5d5863"))
+(wire (pts (xy 429.26 185.42) (xy 419.1 185.42)) (stroke (width 0) (type default)) (uuid "eccbe19e-26fd-5931-be86-08b305a6ed01"))
+(label "TL_R3" (at 419.1 185.42 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2e9b4497-db62-5430-97ac-3cf4d5d251a3"))
+(symbol (lib_id "Switch:SW_Push") (at 434.34 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "febe92ce-4631-5dc6-9404-39398f1c46b7") (property "Reference" "TL_SW2" (at 434.34 102.68 0) (effects (font (size .9 .9))))(property "Value" "MX hot-swap" (at 434.34 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_TL_SW2" (at 434.34 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "49136b67-aeb3-5be2-af67-6ea98006ad04"))(pin "2" (uuid "128b43b3-f281-50a0-9893-a593b4bf2463"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_SW2") (unit 1)))))
+(wire (pts (xy 429.26 106.68) (xy 419.1 106.68)) (stroke (width 0) (type default)) (uuid "427b8b08-6d21-50fb-b1ab-a705d6137bf0"))
+(label "TL_K2" (at 419.1 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "b28649d7-6fe1-590f-af4b-1b700d60b9d7"))
+(wire (pts (xy 439.42 106.68) (xy 449.58 106.68)) (stroke (width 0) (type default)) (uuid "b8144771-0403-54aa-bf2c-cf98946858dc"))
+(label "TL_COL_G3" (at 449.58 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "35a585a3-da21-5408-aade-7239c8ce7bf1"))
+(symbol (lib_id "Device:D") (at 434.34 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1674bf6e-3082-587e-9810-c5ff51265d9f") (property "Reference" "TL_D2" (at 434.34 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 434.34 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_TL_D2" (at 434.34 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "bb602530-c5cc-5d11-9272-fe240c66acae"))(pin "2" (uuid "d3228a94-3e1e-5de8-a425-aef1c1faaf30"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_D2") (unit 1)))))
+(wire (pts (xy 430.53 119.38) (xy 420.37 119.38)) (stroke (width 0) (type default)) (uuid "6cade374-c7e2-5335-9b92-ea856ceac533"))
+(label "TL_K2" (at 420.37 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "83c29529-6c14-59a6-abf3-32595ad93e60"))
+(wire (pts (xy 438.15 119.38) (xy 448.31 119.38)) (stroke (width 0) (type default)) (uuid "c6967bca-007f-523c-b6a6-0f1b21f72e18"))
+(label "TL_R3" (at 448.31 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "3b95d9d1-6cce-57b8-a515-ec51259547a3"))
+(symbol (lib_id "Switch:SW_Push") (at 434.34 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "dc8505ed-cb0e-569b-b880-a4d460e43748") (property "Reference" "TL_SW1" (at 434.34 72.2 0) (effects (font (size .9 .9))))(property "Value" "MX hot-swap" (at 434.34 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_TL_SW1" (at 434.34 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "c87d2171-79c0-5018-b3ae-f61a098879ff"))(pin "2" (uuid "f68ae481-2782-5406-98c4-1de702dfb814"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_SW1") (unit 1)))))
+(wire (pts (xy 429.26 76.2) (xy 419.1 76.2)) (stroke (width 0) (type default)) (uuid "e894644d-3104-5603-aa4a-6c73941dbb20"))
+(label "TL_K1" (at 419.1 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "766473e3-a6a0-5ca9-9b69-7f8a1e99c21e"))
+(wire (pts (xy 439.42 76.2) (xy 449.58 76.2)) (stroke (width 0) (type default)) (uuid "9d086b82-fcff-5b42-a037-0cd947767d82"))
+(label "TL_COL_G2" (at 449.58 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "9ca3bdee-f672-5a94-bd84-70fe13a5ceab"))
+(symbol (lib_id "Device:D") (at 434.34 149.85999999999999 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f10c42f5-f228-5dbb-b4a0-c05233b52d0f") (property "Reference" "TL_D3" (at 434.34 145.85999999999999 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 434.34 152.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_TL_D3" (at 434.34 149.85999999999999 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "25f364cd-d8ca-5aeb-b564-adad58937d78"))(pin "2" (uuid "d7e032cd-17ac-564b-a273-8987559828f3"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TL_D3") (unit 1)))))
+(wire (pts (xy 430.53 149.86) (xy 420.37 149.86)) (stroke (width 0) (type default)) (uuid "7f52a47c-6014-56e2-8e5f-0b359b7d019b"))
+(label "TL_K3" (at 420.37 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "1d64cbe7-bcea-570e-b3ac-e0207adbb9b3"))
+(wire (pts (xy 438.15 149.86) (xy 448.31 149.86)) (stroke (width 0) (type default)) (uuid "e8701066-5b75-5659-a64a-0ef7d507c743"))
+(label "TL_R3" (at 448.31 149.86 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "534aa026-8d28-544e-88ad-215dc09dbfbc"))
+(text "TR : holder J6R" (at 513.0799999999999 25.4 0) (effects (font (size 1.5 1.5))) (uuid "bee80dd4-b2f1-5693-9788-8b825842bca9"))
+(symbol (lib_id "Switch:SW_Push") (at 513.0799999999999 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1299bba0-383b-5aea-9751-256cb2b8929e") (property "Reference" "TR_SW1" (at 513.0799999999999 72.2 0) (effects (font (size .9 .9))))(property "Value" "MX hot-swap" (at 513.0799999999999 79.2 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_TR_SW1" (at 513.0799999999999 76.2 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "2bfb39d1-9760-5893-89a0-72ba59031ea9"))(pin "2" (uuid "53af1a40-fdd6-52bd-ab62-ce48e1162675"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TR_SW1") (unit 1)))))
+(wire (pts (xy 508.0 76.2) (xy 497.84 76.2)) (stroke (width 0) (type default)) (uuid "83baa5df-27a6-5858-bdf8-a449c5102434"))
+(label "TR_K1" (at 497.84 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6f20b008-a3fe-598d-9aa6-88d9ecaa29e1"))
+(wire (pts (xy 518.16 76.2) (xy 528.32 76.2)) (stroke (width 0) (type default)) (uuid "c42d964a-759b-5c69-991f-5ef7aa04475e"))
+(label "TR_COL_G0" (at 528.32 76.2 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "a7578701-beba-5dbd-84a1-beb4e5bdb0ac"))
+(symbol (lib_id "Switch:SW_Push") (at 513.0799999999999 106.68 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "90552131-9858-57ae-b751-427feef7cf3b") (property "Reference" "TR_SW2" (at 513.0799999999999 102.68 0) (effects (font (size .9 .9))))(property "Value" "MX hot-swap" (at 513.0799999999999 109.68 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:SW_TR_SW2" (at 513.0799999999999 106.68 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "66d592b2-415c-5db7-8512-17f07ea7f31f"))(pin "2" (uuid "1e51e933-8276-5873-947d-3595a7320564"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TR_SW2") (unit 1)))))
+(wire (pts (xy 508.0 106.68) (xy 497.84 106.68)) (stroke (width 0) (type default)) (uuid "ac657d08-101d-520b-8876-5e01c051ca1b"))
+(label "TR_K2" (at 497.84 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "ff1cd7d4-c9eb-5136-adc6-667799ff332e"))
+(wire (pts (xy 518.16 106.68) (xy 528.32 106.68)) (stroke (width 0) (type default)) (uuid "e4080557-4548-5d00-9b34-5a9d5d543b12"))
+(label "TR_COL_G2" (at 528.32 106.68 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "6e39c5dd-f9d0-5971-bf0c-b81c93f7d34f"))
+(symbol (lib_id "Device:D") (at 513.0799999999999 119.38000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7eb4c31f-76b3-5f01-a250-71a7aadb8a88") (property "Reference" "TR_D2" (at 513.0799999999999 115.38000000000001 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 513.0799999999999 122.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_TR_D2" (at 513.0799999999999 119.38000000000001 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "26e11a1c-93ec-5f2b-b403-e658bdf830b9"))(pin "2" (uuid "76a587c2-0b99-5215-a528-da187015e819"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TR_D2") (unit 1)))))
+(wire (pts (xy 509.27 119.38) (xy 499.11 119.38)) (stroke (width 0) (type default)) (uuid "aaf23de2-69f3-55c0-b26e-207b31005d19"))
+(label "TR_K2" (at 499.11 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "16ae919b-d7b1-5443-a173-50566d3d376a"))
+(wire (pts (xy 516.89 119.38) (xy 527.05 119.38)) (stroke (width 0) (type default)) (uuid "5a3082b0-d5cc-5503-9aae-dd1ef17399b3"))
+(label "TR_R3" (at 527.05 119.38 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "2a645cfa-b88c-5454-9bb5-5e89eb22edb1"))
+(symbol (lib_id "Connector_Generic:Conn_01x06") (at 513.0799999999999 177.8 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "59c959b2-2819-58d0-b3b0-6a87488d8e38") (property "Reference" "J6R" (at 513.0799999999999 170.8 0) (effects (font (size .9 .9))))(property "Value" "2005280060" (at 513.0799999999999 189.8 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "Connector_GyreNanoFR4V32:Molex_1x06_J6R" (at 513.0799999999999 177.8 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "96c24af3-b0e3-5cec-8dce-e9a8b4b54a37"))(pin "2" (uuid "e5f90016-5d83-5d7e-a46c-ee0ca4638440"))(pin "3" (uuid "6f301e3a-4521-5209-8a1f-038892f5d18f"))(pin "4" (uuid "57d5fe55-6317-5438-84f2-8769c6908921"))(pin "5" (uuid "0b586e4a-791b-5be4-9b7c-71785c1ff846"))(pin "6" (uuid "915ffbf6-c4fd-5448-8b0d-185030d033dd"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "J6R") (unit 1)))))
+(no_connect (at 508.0 172.72) (uuid "642fb353-7b1b-5f41-8ac4-0261db89ed1c"))
+(no_connect (at 508.0 175.26) (uuid "35525db8-6b12-506b-b00e-96ff5eb50a84"))
+(no_connect (at 508.0 177.8) (uuid "e9d7cadc-3841-53a3-b419-fbacc480179f"))
+(wire (pts (xy 508.0 180.34) (xy 497.84 180.34)) (stroke (width 0) (type default)) (uuid "2d411403-ca5d-5e05-9c88-3456fb3c03d6"))
+(label "TR_COL_G2" (at 497.84 180.34 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "73a06908-476c-58d3-a45e-03c3dcfa8230"))
+(wire (pts (xy 508.0 182.88) (xy 497.84 182.88)) (stroke (width 0) (type default)) (uuid "03278ff1-5f03-5f19-9f09-2a9d029a7fba"))
+(label "TR_COL_G0" (at 497.84 182.88 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "d49534ba-f5d1-5979-9396-e5cb953f050f"))
+(wire (pts (xy 508.0 185.42) (xy 497.84 185.42)) (stroke (width 0) (type default)) (uuid "14bf5edb-b571-56f5-98b4-ab9047623a91"))
+(label "TR_R3" (at 497.84 185.42 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "24883b5e-7aa3-501a-b558-4af1bd41466f"))
+(symbol (lib_id "Device:D") (at 513.0799999999999 88.9 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "88b5b24b-9b43-5778-b679-2b3b800a3717") (property "Reference" "TR_D1" (at 513.0799999999999 84.9 0) (effects (font (size .9 .9))))(property "Value" "1N4148W-7-F" (at 513.0799999999999 91.9 0) (effects (font (size .9 .9)) (hide yes)))(property "Footprint" "GyreNanoFR4V32:D_TR_D1" (at 513.0799999999999 88.9 0) (effects (font (size .9 .9)) (hide yes)))(pin "1" (uuid "d8e40d36-07cd-5259-bbcf-f9ae9be01924"))(pin "2" (uuid "aea45467-1378-5fe5-90e6-f38705eb2bfe"))(instances (project "GyreNanoKeyfieldFR4V32" (path "/d1401f40-f5a8-5e51-993d-9351706938e9" (reference "TR_D1") (unit 1)))))
+(wire (pts (xy 509.27 88.9) (xy 499.11 88.9)) (stroke (width 0) (type default)) (uuid "a12a8234-9e1d-5f96-a393-86d232ad493f"))
+(label "TR_K1" (at 499.11 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "3f18dec1-dcec-5504-a037-f9828e799554"))
+(wire (pts (xy 516.89 88.9) (xy 527.05 88.9)) (stroke (width 0) (type default)) (uuid "6d0720c8-e0f1-54ec-886a-9dc487046e68"))
+(label "TR_R3" (at 527.05 88.9 0) (effects (font (size .9 .9)) (justify left bottom)) (uuid "4ea46856-0b91-5f0c-ae99-3c4c61fcfef6"))
+(embedded_fonts no)
+)

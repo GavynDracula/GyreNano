@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "snapshot": {
+    "archive": "GyreNano-EngineeringSnapshot-20261113.tar.gz",
+    "sha256": "9d6422596bbbffff9a00e2b6aac1937ce340d9781d717369f6b474536cf597b5",
+    "files": 3639,
+    "size_bytes": 628927431
+  },
+  "preserved_deliverables": 425,
+  "removed_loose_files": 3629,
+  "removed_loose_bytes": 3179617046,
+  "physical_validation_pending": true,
+  "pcb_thickness_changed": false,
+  "old_pcb_directories": 37,
+  "new_pcb_directories": 5,
+  "tracked_delivery_manifest": "delivery-sha256.json"
+}

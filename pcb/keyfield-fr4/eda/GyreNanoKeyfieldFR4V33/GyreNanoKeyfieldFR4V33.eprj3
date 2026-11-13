@@ -1,0 +1,61 @@
+{
+  "name": "GyreNanoKeyfieldFR4V33",
+  "content": "Editable EDA rebuild of pcb/keyfield-fr4-v33/GyreNanoKeyfieldFR4V33; KiCad-derived geometry and nets. Coupon eligibility unconfirmed.",
+  "format": "folder",
+  "boards": [],
+  "ticket": 1,
+  "g_ticket": 1,
+  "pcb_count": 0,
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "block_symbol_attrs_groups": {},
+  "branch_uuid": "",
+  "default_sheet": "0844c5ac7c337630",
+  "profile": {
+    "boards": {
+      "0131f1bda2343138": {
+        "uuid": "0131f1bda2343138",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "ffccb85a5424ec86": {
+        "uuid": "ffccb85a5424ec86",
+        "name": "Circuit",
+        "board": "0131f1bda2343138",
+        "source": "",
+        "version": "1794479774508",
+        "updateTime": 1794479774508
+      }
+    },
+    "sheets": {
+      "0844c5ac7c337630": {
+        "uuid": "0844c5ac7c337630",
+        "title": "Connections",
+        "schematic_uuid": "ffccb85a5424ec86",
+        "zIndex": 1,
+        "source": "",
+        "version": "1794479626129",
+        "updateTime": 1794479626129
+      }
+    },
+    "pcbs": {
+      "b9e698e47781770e": {
+        "uuid": "b9e698e47781770e",
+        "title": "GyreNanoKeyfieldFR4V33",
+        "board": "0131f1bda2343138",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1794479775238",
+        "updateTime": 1794479775238
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {},
+    "simSchematics": {},
+    "simulations": {}
+  }
+}

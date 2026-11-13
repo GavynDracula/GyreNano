@@ -1,0 +1,778 @@
+{
+  "layout_sha256": "b9775b325e4465b6cd413783b3a276ab9908d9dd72f82d8bb31b77a1996c3449",
+  "routes_sha256": "23e19b7e0c6af47dfdb4b6fbb169bb7fe9aa956f5e9ac5885f41c050238117b2",
+  "kerf_mm": 0.15,
+  "configurations": [
+    {
+      "side": "left",
+      "cut_mask": 0,
+      "removed": [],
+      "material_pieces": 1,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 1,
+      "removed": [
+        "B1"
+      ],
+      "material_pieces": 3,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 2,
+      "removed": [
+        "B2"
+      ],
+      "material_pieces": 3,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 3,
+      "removed": [
+        "B1",
+        "B2"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 4,
+      "removed": [
+        "B3"
+      ],
+      "material_pieces": 3,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 5,
+      "removed": [
+        "B1",
+        "B3"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 6,
+      "removed": [
+        "B2",
+        "B3"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 7,
+      "removed": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 8,
+      "removed": [
+        "B4"
+      ],
+      "material_pieces": 3,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 9,
+      "removed": [
+        "B1",
+        "B4"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 10,
+      "removed": [
+        "B2",
+        "B4"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 11,
+      "removed": [
+        "B1",
+        "B2",
+        "B4"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 12,
+      "removed": [
+        "B3",
+        "B4"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 13,
+      "removed": [
+        "B1",
+        "B3",
+        "B4"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 14,
+      "removed": [
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 15,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "material_pieces": 9,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 16,
+      "removed": [
+        "BT"
+      ],
+      "material_pieces": 3,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 17,
+      "removed": [
+        "B1",
+        "BT"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 18,
+      "removed": [
+        "B2",
+        "BT"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 19,
+      "removed": [
+        "B1",
+        "B2",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 20,
+      "removed": [
+        "B3",
+        "BT"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 21,
+      "removed": [
+        "B1",
+        "B3",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 22,
+      "removed": [
+        "B2",
+        "B3",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 23,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "BT"
+      ],
+      "material_pieces": 9,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 24,
+      "removed": [
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 5,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 25,
+      "removed": [
+        "B1",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 26,
+      "removed": [
+        "B2",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 27,
+      "removed": [
+        "B1",
+        "B2",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 9,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 28,
+      "removed": [
+        "B3",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 7,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 29,
+      "removed": [
+        "B1",
+        "B3",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 9,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 30,
+      "removed": [
+        "B2",
+        "B3",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 9,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "left",
+      "cut_mask": 31,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "BT"
+      ],
+      "material_pieces": 11,
+      "keys": 18,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 0,
+      "removed": [
+        "THUMB"
+      ],
+      "material_pieces": 2,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 1,
+      "removed": [
+        "B1",
+        "THUMB"
+      ],
+      "material_pieces": 4,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 2,
+      "removed": [
+        "B2",
+        "THUMB"
+      ],
+      "material_pieces": 4,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 3,
+      "removed": [
+        "B1",
+        "B2",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 4,
+      "removed": [
+        "B3",
+        "THUMB"
+      ],
+      "material_pieces": 4,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 5,
+      "removed": [
+        "B1",
+        "B3",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 6,
+      "removed": [
+        "B2",
+        "B3",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 7,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 8,
+      "removed": [
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 4,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 9,
+      "removed": [
+        "B1",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 10,
+      "removed": [
+        "B2",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 11,
+      "removed": [
+        "B1",
+        "B2",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 12,
+      "removed": [
+        "B3",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 13,
+      "removed": [
+        "B1",
+        "B3",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 14,
+      "removed": [
+        "B2",
+        "B3",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 15,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "THUMB"
+      ],
+      "material_pieces": 10,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 16,
+      "removed": [
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 4,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 17,
+      "removed": [
+        "B1",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 18,
+      "removed": [
+        "B2",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 19,
+      "removed": [
+        "B1",
+        "B2",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 20,
+      "removed": [
+        "B3",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 21,
+      "removed": [
+        "B1",
+        "B3",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 22,
+      "removed": [
+        "B2",
+        "B3",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 23,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 10,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 24,
+      "removed": [
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 6,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 25,
+      "removed": [
+        "B1",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 26,
+      "removed": [
+        "B2",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 27,
+      "removed": [
+        "B1",
+        "B2",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 10,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 28,
+      "removed": [
+        "B3",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 8,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 29,
+      "removed": [
+        "B1",
+        "B3",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 10,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 30,
+      "removed": [
+        "B2",
+        "B3",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 10,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    },
+    {
+      "side": "right",
+      "cut_mask": 31,
+      "removed": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "BT",
+        "THUMB"
+      ],
+      "material_pieces": 12,
+      "keys": 17,
+      "copper_connectivity_passed": true
+    }
+  ],
+  "all_64_passed": true,
+  "checks_real_layer_copper_and_vias": true,
+  "both_selector_pairs_closed_short_detected": true,
+  "physical_cut_tolerance_qualified": false
+}

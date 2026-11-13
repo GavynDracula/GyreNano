@@ -1,0 +1,294 @@
+{
+  "left": [
+    {
+      "kind": "main",
+      "id": "l1",
+      "seat_world": [
+        7.259222700528809,
+        -19.783314682961226,
+        9.75736516380667
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "l2",
+      "seat_world": [
+        16.940786066492763,
+        61.05036937044582,
+        5.434671008921898
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "l3",
+      "seat_world": [
+        95.4352502641121,
+        -2.6179899764061556,
+        28.90720637728754
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "l4",
+      "seat_world": [
+        96.26181867971607,
+        44.282202550558836,
+        25.9006376738717
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "thumb",
+      "id": "l5",
+      "seat_world": [
+        55.76928089616211,
+        -27.16230555719946,
+        28.38079361107044
+      ],
+      "axis": [
+        0.29015247739642314,
+        -0.31743736022349006,
+        0.9027984615599765
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "thumb",
+      "id": "l27",
+      "seat_world": [
+        104.6471443158181,
+        -38.18144051560186,
+        5.0424013278011195
+      ],
+      "axis": [
+        0.410229999792365,
+        -0.338752598735627,
+        0.846733738621661
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    }
+  ],
+  "right": [
+    {
+      "kind": "main",
+      "id": "r1",
+      "seat_world": [
+        4.693292973239779,
+        -19.85167148749609,
+        8.693083051023562
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "r2",
+      "seat_world": [
+        -16.940786066492763,
+        61.05036937044582,
+        5.434671008921898
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "r3",
+      "seat_world": [
+        -95.4352502641121,
+        -2.6179899764061405,
+        28.907206377287533
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "main",
+      "id": "r4",
+      "seat_world": [
+        -96.26181867971607,
+        44.28220255055886,
+        25.9006376738717
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "thumb",
+      "id": "r1",
+      "seat_world": [
+        -102.30237798912886,
+        -41.19318577880021,
+        5.045206493840224
+      ],
+      "axis": [
+        -0.410229999792365,
+        -0.338752598735627,
+        0.846733738621661
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    },
+    {
+      "kind": "thumb",
+      "id": "r21",
+      "seat_world": [
+        -81.71838292866066,
+        -10.030687516938352,
+        26.34679914055875
+      ],
+      "axis": [
+        -0.342072364644618,
+        -0.340210630536339,
+        0.8759242114569651
+      ],
+      "under_head_length_mm": 4,
+      "head_max_diameter_mm": 4,
+      "head_height_mm": 1.6,
+      "grip_mm": 1.75,
+      "engagement_mm": 2.25,
+      "pilot_depth_mm": 2.82,
+      "pilot_diameter_mm": 1.72,
+      "pilot_radial_relief_mm": 0.01,
+      "pilot_floor_relief_mm": 0.02,
+      "bottom_reserve_mm": 0.57
+    }
+  ]
+}

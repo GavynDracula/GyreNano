@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-12T18:11:17.576624+08:00",
+  "status": "functional interconnect prototype; electrical checks passed; not a production release",
+  "dimensions_mm": [
+    99.69997084346137,
+    99.80390636159139
+  ],
+  "v32_preserved_files": 107,
+  "v33_order_zip_created": true,
+  "order_submitted": false,
+  "slicing_performed": false,
+  "next": [
+    "Manufacturer review of actual detachable structure and quote",
+    "Material-matched 0.6 mm FR4 cutting/forming/retainer trials"
+  ],
+  "not_verified": [
+    "Manufacturer single-board classification/coupon eligibility",
+    "Physical cut-edge tolerance and copper-burr removal",
+    "Insertion and fatigue; intact cross-region bridges in curved enclosure"
+  ],
+  "temporary_dependencies": [
+    "Shapely: /tmp/gyre-fpc23-deps, override GYRE_FPC_DEPS"
+  ],
+  "disposable_logs": "/tmp/gyre-v33-*"
+}

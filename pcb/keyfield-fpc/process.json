@@ -1,0 +1,23 @@
+{
+  "status": "quotation_and_vendor_review_only",
+  "layers": 2,
+  "substrate": "PI",
+  "flex_thickness_mm": 0.11,
+  "copper_um": 12,
+  "copper_oz": "1/3",
+  "finish": "ENIG 1 microinch",
+  "coverlay": "yellow",
+  "factory_stiffeners": false,
+  "external_backers_required": true,
+  "external_backer_mm": 0.4,
+  "adhesive_budget_mm": 0.05,
+  "quote_variants": [
+    "rolled-annealed",
+    "adhesiveless electrodeposited (not qualified)"
+  ],
+  "SMT": false,
+  "holder_modified": false,
+  "all_six_FFC_required": true,
+  "installed_key_frames_preserved": true,
+  "manufacturing_released": false
+}

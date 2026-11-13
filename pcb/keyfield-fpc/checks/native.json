@@ -1,0 +1,22 @@
+{
+  "layout_sha256": "b9775b325e4465b6cd413783b3a276ab9908d9dd72f82d8bb31b77a1996c3449",
+  "schematic_sha256": "4758d53bed4d84383a9991af0d87611578bae22eb029bd9aa11faf0cac53caff",
+  "board_sha256": "e895a0598ff0fc0c464907dceae1233922db1a2a72bce3db6defb935423a8eb5",
+  "source_derived_copper_items": 2304,
+  "removed_thumb_source_copper_items": 293,
+  "new_thumb_arm_copper_items": 600,
+  "new_selector_and_bridge_copper_items": 310,
+  "source_pad_geometry_preserved": true,
+  "source_copper_geometry_preserved": false,
+  "all_components_B_Cu": true,
+  "all_stiffeners_F_Cu": true,
+  "component_faces_preserved": true,
+  "max_numeric_track_error_mm": 9.999999974752427e-07,
+  "max_numeric_pad_error_mm": 9.970197822894988e-07,
+  "source_files_unchanged": true,
+  "no_drc_exclusions": true,
+  "footprints": 43,
+  "selector_open_in_fabrication": true,
+  "selector_mask_bridge_intentional": true,
+  "holder_files_modified": false
+}

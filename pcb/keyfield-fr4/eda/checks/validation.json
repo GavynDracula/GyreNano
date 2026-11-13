@@ -1,0 +1,59 @@
+{
+  "GyreNanoKeyfieldFR4V33": {
+    "source_sha256_unchanged": true,
+    "sch_drc": [],
+    "pcb_drc": [],
+    "stack_mm": 0.5999999999999999,
+    "electrical_clean": true,
+    "netlist_nodes_verified": 122,
+    "sync_preserves_all_placements": true,
+    "PTH": {
+      "count": 71,
+      "max_coordinate_or_diameter_error_mm": 5.000000001587068e-06
+    },
+    "NPTH": {
+      "count": 100,
+      "max_coordinate_or_diameter_error_mm": 7.999999994012796e-06
+    },
+    "outline": {
+      "segments": 4847,
+      "max_hausdorff_mm": 7.071067814109929e-06,
+      "bounds_mm": [
+        0.0,
+        -99.80391,
+        99.69997,
+        0.0
+      ]
+    },
+    "F_Cu.gtl": {
+      "source_area_mm2": 195.50496926914573,
+      "eda_area_mm2": 195.5050378215915,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 7.853193127336367e-05,
+      "residual_outside_npth_mm2": 0.0
+    },
+    "B_Cu.gbl": {
+      "source_area_mm2": 473.78712002697705,
+      "eda_area_mm2": 473.78627879435004,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 7.853193127336368e-05,
+      "residual_outside_npth_mm2": 0.0
+    },
+    "F_Mask.gts": {
+      "source_area_mm2": 468.60003390789586,
+      "eda_area_mm2": 468.9158108035461,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 1.9632982818336735e-05,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.9632982818336735e-05
+    },
+    "B_Mask.gbs": {
+      "source_area_mm2": 751.8963248947003,
+      "eda_area_mm2": 752.2112259621565,
+      "missing_beyond_5um_mm2": 0.0,
+      "extra_beyond_5um_mm2": 1.9632982818336742e-05,
+      "unexplained_missing_mm2": 0.0,
+      "unexplained_extra_mm2": 1.9632982818336742e-05
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "bridges": [
+    {
+      "id": "B1",
+      "regions": [
+        "C0",
+        "C1"
+      ],
+      "signals": [
+        "ROW_R0",
+        "ROW_R1",
+        "ROW_R2",
+        "BUS_COL_G2"
+      ]
+    },
+    {
+      "id": "B2",
+      "regions": [
+        "C1",
+        "C2"
+      ],
+      "signals": [
+        "ROW_R0",
+        "ROW_R1",
+        "ROW_R2",
+        "BUS_COL_G2"
+      ]
+    },
+    {
+      "id": "B3",
+      "regions": [
+        "C2",
+        "C3"
+      ],
+      "signals": [
+        "ROW_R0",
+        "ROW_R1",
+        "ROW_R2"
+      ]
+    },
+    {
+      "id": "B4",
+      "regions": [
+        "C3",
+        "C4"
+      ],
+      "signals": [
+        "ROW_R0",
+        "ROW_R1",
+        "ROW_R2"
+      ]
+    },
+    {
+      "id": "B5",
+      "regions": [
+        "C0",
+        "TL"
+      ],
+      "signals": [
+        "BUS_COL_G2"
+      ]
+    },
+    {
+      "id": "B6",
+      "regions": [
+        "TL",
+        "TR"
+      ],
+      "signals": [
+        "BUS_R3"
+      ]
+    }
+  ],
+  "unchanged_v32": true,
+  "source_copper_geometry_unchanged": true,
+  "rigid_outline_poses_unchanged": true,
+  "no_new_copper_on_bending_arms": true,
+  "added_items": 542,
+  "added_vias": 27,
+  "new_drill_min_contact_gap_mm": 0.1499999999999977,
+  "new_copper_min_outline_gap_mm": 0.3806587280180703,
+  "holders": {
+    "Left": {
+      "ROW_R0": "R0",
+      "ROW_R1": "R1",
+      "ROW_R2": "R2",
+      "C0_COL": "COL_G0",
+      "C1_COL": "COL_G1",
+      "BUS_COL_G2": "COL_G2",
+      "C3_COL": "COL_G3",
+      "C4_COL": "COL_G4",
+      "TL_COL_G3": "COL_G3",
+      "TL_COL_G0": "COL_G0",
+      "BUS_R3": "R3",
+      "TR_COL_G2": "COL_G2",
+      "TR_COL_G0": "COL_G0"
+    },
+    "Right": {
+      "ROW_R0": "R0",
+      "ROW_R1": "R1",
+      "ROW_R2": "R2",
+      "C0_COL": "COL_G0",
+      "C1_COL": "COL_G1",
+      "BUS_COL_G2": "COL_G2",
+      "C3_COL": "COL_G3",
+      "C4_COL": "COL_G4",
+      "TL_COL_G3": "COL_G3",
+      "TL_COL_G0": "COL_G0",
+      "BUS_R3": "R3",
+      "TR_COL_G2": "COL_G2",
+      "TR_COL_G0": "COL_G0"
+    }
+  },
+  "full_contact_patches_preserved": true,
+  "six_ffcs_per_hand_still_required": true,
+  "manufacturer_classification_confirmed": false,
+  "physical_trial_passed": false
+}

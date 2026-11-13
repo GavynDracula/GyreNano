@@ -1,0 +1,14 @@
+{
+  "archive": "deliverables/GyreNanoKeyfieldFR4V33-EDAProject.zip",
+  "sha256": "2e2fc6a05282a2d88b57d9116a701c691d1ab80de837e43de38bfe9beb6fda88",
+  "project_entry": "GyreNanoKeyfieldFR4V33/GyreNanoKeyfieldFR4V33.eprj3",
+  "project_files": {
+    "GyreNanoKeyfieldFR4V33/GyreNanoKeyfieldFR4V33.eprj3": "f83695e674b7e9229b9a00321aa432d00fa4e2651871a4b5f3570acc7931e790",
+    "GyreNanoKeyfieldFR4V33/pcb/GyreNanoKeyfieldFR4V33.epcb2": "243fb89c331706442e545bbffc1e650b39bd35775eb3c4ab5b410623e2354d37",
+    "GyreNanoKeyfieldFR4V33/sch/Circuit/Circuit.ecfg": "a7ad21bfce7d5d753ff32fa4a9fe8337e80963a7c9cdcd0a577bdfbcbe7b1eee",
+    "GyreNanoKeyfieldFR4V33/sch/Circuit/Connections.esch2": "695e92d95d96b16b2ea5b97f69ecb0121da7acfb9c53db3ee20c5bf52198c5d6"
+  },
+  "archive_requires_extraction": true,
+  "order_submitted": false,
+  "coupon_eligibility_confirmed": false
+}

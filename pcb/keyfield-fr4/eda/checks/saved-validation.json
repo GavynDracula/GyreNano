@@ -1,0 +1,13 @@
+{
+  "component_count": 47,
+  "netlist_pin_count": 122,
+  "all_saved_netlists_match": true,
+  "saved_placements_match_serialization_precision": true,
+  "max_saved_position_error_mm": 1.22000001338165e-06,
+  "max_saved_angle_error_deg": 4.9700000005259426e-05,
+  "stack_mm": 0.6,
+  "original_v33_and_eda_v22_preserved": true,
+  "strict_drc_empty": true,
+  "rules_match_0p0001mil_serialization": true,
+  "source_inputs_count": 149
+}

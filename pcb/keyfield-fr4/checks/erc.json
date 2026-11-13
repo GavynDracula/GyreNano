@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T18:01:26",
+    "ignored_checks": [
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/51b1d27a-6a12-5988-a52e-fe73504f666c",
+            "violations": []
+        }
+    ],
+    "source": "GyreNanoKeyfieldFR4V33.kicad_sch"
+}

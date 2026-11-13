@@ -1,0 +1,15 @@
+{
+  "dimensions_mm": [
+    99.69997084346137,
+    99.80390636159139
+  ],
+  "under_100mm": true,
+  "cutter_diameter_mm": 1,
+  "cutter_boundary_deviation_mm": 0.0012802028394692775,
+  "outline_valid": true,
+  "region_count": 7,
+  "original_thumb_regions_preserved": true,
+  "main_end_trim_mm": 0.6,
+  "trim_to_v33_outline_required": true,
+  "physical_material_qualified": false
+}

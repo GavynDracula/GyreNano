@@ -83,5 +83,14 @@ between halves in its preview is arbitrary and does not specify typing posture.
 
 `files/` and `pics/` are the public deliverables. `.gitignore` excludes working
 exports, previews, local logs, historical archives, personal progress notes,
-nested upstream checkouts and generated dense envelopes. Nothing in those local
-directories is deleted by this repository preparation.
+nested upstream checkouts and generated dense envelopes. Disposable historical exports were removed during the 2026-11-13 cleanup. The cross-version PCB pipeline is preserved in the release snapshot described below.
+
+## PCB development snapshot and current sources
+
+Current editable KiCad/EDA projects live in `pcb/keyfield-fr4`, `pcb/keyfield-fpc`, `pcb/holders` and `pcb/sensor`. Their project-local footprint libraries travel with them. Native PCB/schematic/CAM data was not changed by the reorganization. Holders and sensor use EDA as the corrected source; their older KiCad versions are explicitly reference-only.
+
+The historical generated PCB pipeline is frozen as a separate archive because it references many older revisions by path and SHA-256. It is not installed alongside the current projects. Download [GyreNano-EngineeringSnapshot-20261113.tar.gz](https://github.com/GavynDracula/GyreNano/releases/download/v0.2.0-prototype.1/GyreNano-EngineeringSnapshot-20261113.tar.gz) from the pre-release and verify the checksum in [cleanup.json](releases/cleanup.json). Local copy: `.local/GyreNano-EngineeringSnapshot-20261113.tar.gz` (ignored by Git).
+
+Extract into an **empty separate workspace**, never over this checkout. `SNAPSHOT-SHA256.json` covers each retained input. It includes original PCB scripts/projects/reports, mechanical inputs, reference geometry, original enclosure scripts and working exports. Dependencies such as Python, KiCad, CAD tools and the sibling Charybdis checkout remain external. Some historical generated scripts embed the original absolute workspace path: regenerate their preparation stage or adjust that path in the restored copy before execution. The frozen archive is provenance, not a claim of a one-command portable rebuild.
+
+Discarded loose files include the old large pre-print backup ZIP, extracted delivery duplicates, previews, runtime logs, Blender autosaves and caches. The local detailed progress journal is now `.local/PROGRESS.md`. Current status is summarized in the release notes. New development should use the component-based projects; restore the historical workspace only when a specific generator/reference check is needed.

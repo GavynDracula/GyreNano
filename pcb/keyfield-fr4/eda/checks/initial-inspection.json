@@ -1,0 +1,3395 @@
+{
+  "components": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2759.7046062992126,
+      "y": -3023.646732283465,
+      "rotation": 144.1966983,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "MX hot-swap",
+          "source": "",
+          "uuid": "ce5e129c07e07421"
+        }
+      },
+      "primitiveId": "4804506b15146849",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "c20b782dbeaa9343",
+        "name": "GyreNanoKeyfieldFR4V33_TR_SW2_SW_TR_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TR_SW2",
+      "pads": [
+        {
+          "primitiveId": "bd94876629e2dbee",
+          "net": "/TR_COL_G2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "0c8d954037f57361",
+          "net": "/TR_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "0f9352b79c9f3387",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "2250044cc5c7b087",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d9f90592f7b04fe2",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "2f88dc1a92b99007",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "5a1f731dce096eaa",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MX hot-swap",
+      "uniqueId": "4804506b15146849",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TR_SW2_SW_TR_SW2",
+        "Value": "MX hot-swap"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3442.7692519685033,
+      "y": -3446.8611811023625,
+      "rotation": 152.1624503,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "MX hot-swap",
+          "source": "",
+          "uuid": "f36247560bb7f4d4"
+        }
+      },
+      "primitiveId": "a251ed520f45ac46",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "755d460a77cf1fa3",
+        "name": "GyreNanoKeyfieldFR4V33_TR_SW1_SW_TR_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TR_SW1",
+      "pads": [
+        {
+          "primitiveId": "fcc1a5d2bc0ae147",
+          "net": "/TR_COL_G0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "613f2ec22e2a81f1",
+          "net": "/TR_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "a4f048b70b50a853",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "701a2f7cea6ec64c",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "150cc89801842b62",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "5d08675af3d305c2",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "30e792c66490e2ba",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MX hot-swap",
+      "uniqueId": "a251ed520f45ac46",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TR_SW1_SW_TR_SW1",
+        "Value": "MX hot-swap"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2433.7537401574805,
+      "y": -2943.873543307087,
+      "rotation": 144.1966983,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "8951b0e125ab4541"
+        }
+      },
+      "primitiveId": "db03e3b13277d990",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "31da3bbe492d2d3b",
+        "name": "GyreNanoKeyfieldFR4V33_TR_D2_D_TR_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TR_D2",
+      "pads": [
+        {
+          "primitiveId": "d4ebe13110588699",
+          "net": "/BUS_R3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ac867eedcec079a5",
+          "net": "/TR_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "db03e3b13277d990",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TR_D2_D_TR_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3108.908385826772,
+      "y": -3413.0284251968505,
+      "rotation": 152.1624503,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "edebc69d60d34126"
+        }
+      },
+      "primitiveId": "0e68e5376ed02c12",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "7671f4a799b9342d",
+        "name": "GyreNanoKeyfieldFR4V33_TR_D1_D_TR_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TR_D1",
+      "pads": [
+        {
+          "primitiveId": "3a4e0e3ed2d2649b",
+          "net": "/BUS_R3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "1984b7bed8097643",
+          "net": "/TR_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "0e68e5376ed02c12",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TR_D1_D_TR_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1967.3785433070866,
+      "y": -3444.2911811023623,
+      "rotation": 331.08618702000007,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "MX hot-swap",
+          "source": "",
+          "uuid": "444afc7efac69636"
+        }
+      },
+      "primitiveId": "e0d0e46ccd92c483",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "c314bfbf8d706f10",
+        "name": "GyreNanoKeyfieldFR4V33_TL_SW3_SW_TL_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_SW3",
+      "pads": [
+        {
+          "primitiveId": "352ac5243276925e",
+          "net": "/TL_COL_G0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "c98037ac6d1df66e",
+          "net": "/TL_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "aef8047173798cb4",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "4bec348f2fd1877a",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "b41881f5c6fd0650",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "83cfbc7b3ad7b366",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "71fdb881c5f5aae2",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MX hot-swap",
+      "uniqueId": "e0d0e46ccd92c483",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_SW3_SW_TL_SW3",
+        "Value": "MX hot-swap"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1238.9385433070865,
+      "y": -3105.0820078740157,
+      "rotation": 339.05193902,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "MX hot-swap",
+          "source": "",
+          "uuid": "8e84857582fc0ecc"
+        }
+      },
+      "primitiveId": "332a7f07142620ec",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "fd6836e00c40605c",
+        "name": "GyreNanoKeyfieldFR4V33_TL_SW2_SW_TL_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_SW2",
+      "pads": [
+        {
+          "primitiveId": "4f0f36a7aa0bf42f",
+          "net": "/TL_COL_G3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "83fd3762b66c2c16",
+          "net": "/TL_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "f730cf3ad02fb676",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "1bd0fedc5bce6067",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "ac20beb55af5e4f7",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "7619dad2c1d0cf24",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "104e047de8d0f6f5",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MX hot-swap",
+      "uniqueId": "332a7f07142620ec",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_SW2_SW_TL_SW2",
+        "Value": "MX hot-swap"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 384.7723622047244,
+      "y": -2910.946299212598,
+      "rotation": 356.080405021,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "MX hot-swap",
+          "source": "",
+          "uuid": "3e33c13e260070a4"
+        }
+      },
+      "primitiveId": "d23deb4d390229bf",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "bc8fed462450b604",
+        "name": "GyreNanoKeyfieldFR4V33_TL_SW1_SW_TL_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_SW1",
+      "pads": [
+        {
+          "primitiveId": "de57e1685b9c720e",
+          "net": "/BUS_COL_G2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "0d000858caf60b31",
+          "net": "/TL_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "baaa54a763fc5b19",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "91c0c7567c10ee1c",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "ebd11e0798bf4d45",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "0ad0c2bd6deb5bf4",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "9ed7e0ec3b412add",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "MX hot-swap",
+      "uniqueId": "d23deb4d390229bf",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_SW1_SW_TL_SW1",
+        "Value": "MX hot-swap"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2300.545,
+      "y": -3484.3890157480314,
+      "rotation": 331.08618702000007,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "d2acfa5e2d8a0ce8"
+        }
+      },
+      "primitiveId": "25128f98890e0605",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "064b82c7ac99b890",
+        "name": "GyreNanoKeyfieldFR4V33_TL_D3_D_TL_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_D3",
+      "pads": [
+        {
+          "primitiveId": "814fa85b416bd1ab",
+          "net": "/BUS_R3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d8ce0f5b761eec1e",
+          "net": "/TL_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "25128f98890e0605",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_D3_D_TL_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1574.4471259842521,
+      "y": -3098.6223228346453,
+      "rotation": 339.05193902,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "10560a3069ea35a6"
+        }
+      },
+      "primitiveId": "7e52b606f52744f3",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "af6a7218907f0558",
+        "name": "GyreNanoKeyfieldFR4V33_TL_D2_D_TL_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_D2",
+      "pads": [
+        {
+          "primitiveId": "f5b3ac72f59aeff9",
+          "net": "/BUS_R3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "3b77c590e556f1f7",
+          "net": "/TL_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "7e52b606f52744f3",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_D2_D_TL_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 703.6803543307087,
+      "y": -2806.5172047244096,
+      "rotation": 356.080405021,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "c3521455ad813486"
+        }
+      },
+      "primitiveId": "57750ce2a24e8eec",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "b60819d020d1a7ce",
+        "name": "GyreNanoKeyfieldFR4V33_TL_D1_D_TL_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "TL_D1",
+      "pads": [
+        {
+          "primitiveId": "e7c30a2660ceb409",
+          "net": "/BUS_R3",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9edb71f4fd625f5f",
+          "net": "/TL_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "57750ce2a24e8eec",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_TL_D1_D_TL_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2662.7412992125983,
+      "y": -3158.0733858267718,
+      "rotation": 144.1966983,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "63c545526f84ba2d"
+        }
+      },
+      "primitiveId": "0a8bda54871e0e32",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "664c6e4672844d0a",
+        "name": "GyreNanoKeyfieldFR4V33_J6R_Molex_1x06_J6R"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J6R",
+      "pads": [
+        {
+          "primitiveId": "55732235093632d6",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "9e0b35b046c67d4c",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "9d5bc8dc1bbd2a10",
+          "net": "/BUS_R3",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "73743d2f190647cc",
+          "net": "/TR_COL_G0",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "eb157683dfd077c1",
+          "net": "/TR_COL_G2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "4708e453d78e5048",
+          "net": "",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "56906bb5f959bb8d",
+          "net": "",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "1117f50f9e037efc",
+          "net": "",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "0a8bda54871e0e32",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J6R_Molex_1x06_J6R",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1298.1970472440944,
+      "y": -2950.289094488189,
+      "rotation": 339.05193902,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "e41893c3db083624"
+        }
+      },
+      "primitiveId": "dba609d3ee6e01b8",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "aacc36a2f12a5fab",
+        "name": "GyreNanoKeyfieldFR4V33_J6L_Molex_1x06_J6L"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J6L",
+      "pads": [
+        {
+          "primitiveId": "bff2a08739286f8a",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "4b6b389e4275fa5b",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "cb7e6767c8ae2578",
+          "net": "/BUS_R3",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "57137a3112755a42",
+          "net": "/TL_COL_G0",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "fe18b811cdfec6d6",
+          "net": "/BUS_COL_G2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "c7278305c46d0c0b",
+          "net": "/TL_COL_G3",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "97b3e606a087468b",
+          "net": "",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "c0f20918fdcf25b4",
+          "net": "",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "dba609d3ee6e01b8",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J6L_Molex_1x06_J6L",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3433.0709055118114,
+      "y": -2311.0848031496066,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "7c8392a11ad49a29"
+        }
+      },
+      "primitiveId": "b7463d4415e0ef66",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "f9b84730d025889b",
+        "name": "GyreNanoKeyfieldFR4V33_J5_Molex_1x06_J5"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J5",
+      "pads": [
+        {
+          "primitiveId": "c429a99abf81c7b9",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "5658fc320ab1f6a4",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "32b3875cf1eb8934",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "e75cc70064bbcc9d",
+          "net": "",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "59c2c3311ce0b0a0",
+          "net": "/C4_COL",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "dcdd17d0f862f8c2",
+          "net": "/ROW_R2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "3a815789e15f539c",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "959b0b1d28f9403b",
+          "net": "/ROW_R0",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "b7463d4415e0ef66",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J5_Molex_1x06_J5",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2665.3543700787404,
+      "y": -2291.399763779528,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "0645f56c672903ec"
+        }
+      },
+      "primitiveId": "fc925b9a6e542282",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "8f04faaa3e3b8bfb",
+        "name": "GyreNanoKeyfieldFR4V33_J4_Molex_1x06_J4"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J4",
+      "pads": [
+        {
+          "primitiveId": "356e926b4adc62a0",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "a429464beb7a9a42",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "090f363716350da0",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "e5f72909625b3585",
+          "net": "",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "8d64ae45b37a38f8",
+          "net": "/C3_COL",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "b9ef3e0eb50326f6",
+          "net": "/ROW_R0",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "73aa8a2e644102fc",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9582edfe63bfc4a0",
+          "net": "/ROW_R2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "fc925b9a6e542282",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J4_Molex_1x06_J4",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1897.6377952755906,
+      "y": -2311.0848031496066,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "5de1d89cb272a322"
+        }
+      },
+      "primitiveId": "df54a9fd0253fd53",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "537115b073c69c35",
+        "name": "GyreNanoKeyfieldFR4V33_J3_Molex_1x06_J3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J3",
+      "pads": [
+        {
+          "primitiveId": "6802775a3fd4d285",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "17cf9508fec0ba7f",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "453434da240863d7",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "60c782f64fb9e78a",
+          "net": "",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "4dad9aabfba84b4d",
+          "net": "/BUS_COL_G2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e145d7eaab71eb6e",
+          "net": "/ROW_R2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "5d5c29e3f9b28193",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "6435960621659ad4",
+          "net": "/ROW_R0",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "df54a9fd0253fd53",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J3_Molex_1x06_J3",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1129.9212598425197,
+      "y": -2291.399763779528,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "e0f29285698a77c0"
+        }
+      },
+      "primitiveId": "bd374fffa6cce771",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "47d1c4dd85871d7b",
+        "name": "GyreNanoKeyfieldFR4V33_J2_Molex_1x06_J2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J2",
+      "pads": [
+        {
+          "primitiveId": "e2415697032831b7",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "cedde4f8a0792915",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "f64d5a9c2533648f",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "2a2692f0fee98adf",
+          "net": "",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "9f41e5e5a7470b67",
+          "net": "/C1_COL",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "d0d98e14eed97fca",
+          "net": "/ROW_R0",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "f1b3d610207cbb49",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "83db5ee5054cf5c8",
+          "net": "/ROW_R2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "bd374fffa6cce771",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J2_Molex_1x06_J2",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 362.20472440944883,
+      "y": -2311.0848031496066,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "2005280060",
+          "source": "",
+          "uuid": "5950adeaf5973975"
+        }
+      },
+      "primitiveId": "a5aadf03ea7235e9",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "d69682ad8be2a71e",
+        "name": "GyreNanoKeyfieldFR4V33_J1_Molex_1x06_J1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "J1",
+      "pads": [
+        {
+          "primitiveId": "de7f46d94a3c6e33",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "123415d93b34f26e",
+          "net": "",
+          "padNumber": "MP"
+        },
+        {
+          "primitiveId": "50f8462ec3636b79",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "86af0e5cfc7df5f5",
+          "net": "",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "285bd91162f83b19",
+          "net": "/C0_COL",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "dcc1c795e6603c92",
+          "net": "/ROW_R2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "06b4734950a44e83",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d0b7d2dd0dfba2ba",
+          "net": "/ROW_R0",
+          "padNumber": "1"
+        }
+      ],
+      "name": "2005280060",
+      "uniqueId": "a5aadf03ea7235e9",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_J1_Molex_1x06_J1",
+        "Value": "2005280060"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3433.0709055118114,
+      "y": -2145.730472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "d921a127e0d65355"
+        }
+      },
+      "primitiveId": "10a00905642873c3",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "539d32b70d2eb24f",
+        "name": "GyreNanoKeyfieldFR4V33_C4_SW3_SW_C4_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_SW3",
+      "pads": [
+        {
+          "primitiveId": "219d2d686626d55f",
+          "net": "/C4_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "2f9f851908d1d29f",
+          "net": "/C4_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "cfa1da2d9788c1f9",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "42163b2184c398ec",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "3db996e645691771",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "a0e371b6a7591571",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "4836812e0601a030",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "10a00905642873c3",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_SW3_SW_C4_SW3",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3433.0709055118114,
+      "y": -1242.1565748031496,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "967b5c3a09867c60"
+        }
+      },
+      "primitiveId": "355c8cf9792c2d22",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "cd6ec60febadc5be",
+        "name": "GyreNanoKeyfieldFR4V33_C4_SW2_SW_C4_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_SW2",
+      "pads": [
+        {
+          "primitiveId": "385f6d397003398b",
+          "net": "/C4_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "a59c7309571f0631",
+          "net": "/C4_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "033610ed8fe3c173",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d5ce1b5b35cec19e",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "8f7d1653fdc16ee5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d37e70aad7600ce8",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "acf836eeb26ebb2e",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "355c8cf9792c2d22",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_SW2_SW_C4_SW2",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3433.0709055118114,
+      "y": -338.5826771653543,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "fdc4585a26fa2eed"
+        }
+      },
+      "primitiveId": "a1c27930e2d9a5fc",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "93ea56a3061ea2a6",
+        "name": "GyreNanoKeyfieldFR4V33_C4_SW1_SW_C4_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_SW1",
+      "pads": [
+        {
+          "primitiveId": "b329e48770130576",
+          "net": "/C4_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "6b8125d062b2fc32",
+          "net": "/C4_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "3a48bcbb11b9b2ab",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "3801d3b55409adf8",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "c7b70045e6bbb794",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "5d16d4e20091c9b6",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "30050b29c0c05583",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "a1c27930e2d9a5fc",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_SW1_SW_C4_SW1",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3122.0472834645666,
+      "y": -2271.714724409449,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "7e3c724fe3902e8f"
+        }
+      },
+      "primitiveId": "addd3a139fdbc024",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "830491fc6a931e52",
+        "name": "GyreNanoKeyfieldFR4V33_C4_D3_D_C4_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_D3",
+      "pads": [
+        {
+          "primitiveId": "dd9e7cb6bf10b272",
+          "net": "/ROW_R0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9ac39ef4f0c971ac",
+          "net": "/C4_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "addd3a139fdbc024",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_D3_D_C4_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3122.0472834645666,
+      "y": -1368.1408267716533,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "977cbfd3133a1fe4"
+        }
+      },
+      "primitiveId": "690699738b4dfbc6",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "5092e8b28111c75c",
+        "name": "GyreNanoKeyfieldFR4V33_C4_D2_D_C4_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_D2",
+      "pads": [
+        {
+          "primitiveId": "10ea5fe0ab345139",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "612f4779a1ff97a4",
+          "net": "/C4_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "690699738b4dfbc6",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_D2_D_C4_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 3122.0472834645666,
+      "y": -464.5669291338583,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "a0bee0f5cb67fea5"
+        }
+      },
+      "primitiveId": "3c7f43cc01e731df",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "d131c2b0cb718e21",
+        "name": "GyreNanoKeyfieldFR4V33_C4_D1_D_C4_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C4_D1",
+      "pads": [
+        {
+          "primitiveId": "ef8cdbb726bbff3e",
+          "net": "/ROW_R2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "2d4d91644ae9def7",
+          "net": "/C4_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "3c7f43cc01e731df",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C4_D1_D_C4_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2665.3543700787404,
+      "y": -2145.730472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "dbb88b420afea94d"
+        }
+      },
+      "primitiveId": "619d3c2f61aca090",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "1f371b83bc8e9a2e",
+        "name": "GyreNanoKeyfieldFR4V33_C3_SW3_SW_C3_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_SW3",
+      "pads": [
+        {
+          "primitiveId": "b3b234d0fc13bd47",
+          "net": "/C3_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "6e06592a918ec029",
+          "net": "/C3_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "0e8ecceced2521ed",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "074ac0b7a19e269c",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "a193ac9ad41460ad",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "dd6181a97f6e83b7",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "de10d806d9d7c4b6",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "619d3c2f61aca090",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_SW3_SW_C3_SW3",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2665.3543700787404,
+      "y": -1242.1565748031496,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "be138084d1061faf"
+        }
+      },
+      "primitiveId": "7c5adcfb5e46f5d4",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "0dcf2b79ac268e6e",
+        "name": "GyreNanoKeyfieldFR4V33_C3_SW2_SW_C3_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_SW2",
+      "pads": [
+        {
+          "primitiveId": "523e5a8c727e458a",
+          "net": "/C3_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "fea681b9a27802f0",
+          "net": "/C3_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "25dfaaaa7499e2eb",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "732cc600ebeb84b5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "1b2714d5a90199d5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "55b5c3868a8d1268",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "c694648aa72b3c29",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "7c5adcfb5e46f5d4",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_SW2_SW_C3_SW2",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2665.3543700787404,
+      "y": -338.5826771653543,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "004bbb474ae8a5bd"
+        }
+      },
+      "primitiveId": "ac7f90725f0b0520",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "de6ab4d71e2abc2e",
+        "name": "GyreNanoKeyfieldFR4V33_C3_SW1_SW_C3_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_SW1",
+      "pads": [
+        {
+          "primitiveId": "6bfb5f7861905e6c",
+          "net": "/C3_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "fddef208742c595a",
+          "net": "/C3_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "8055ad96b6667d51",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "6a9d8b71e9e1de14",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "e81b1bc5e81b373b",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "625599a2755b71b6",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "0c5a3403ed682689",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "ac7f90725f0b0520",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_SW1_SW_C3_SW1",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2354.330748031496,
+      "y": -2271.714724409449,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "e966ccc4b7752a53"
+        }
+      },
+      "primitiveId": "8d056bf4cf95f7be",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "43ffe550dec66396",
+        "name": "GyreNanoKeyfieldFR4V33_C3_D3_D_C3_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_D3",
+      "pads": [
+        {
+          "primitiveId": "9002afd735b0ecfa",
+          "net": "/ROW_R2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d0d35c71ca9ff2ef",
+          "net": "/C3_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "8d056bf4cf95f7be",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_D3_D_C3_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2354.330748031496,
+      "y": -1368.1408267716533,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "d08e3c02a6d2b351"
+        }
+      },
+      "primitiveId": "bc1999ee82865222",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "381cfcbee45f43fa",
+        "name": "GyreNanoKeyfieldFR4V33_C3_D2_D_C3_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_D2",
+      "pads": [
+        {
+          "primitiveId": "809983a6b0296f50",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "382baf502c3d01cc",
+          "net": "/C3_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "bc1999ee82865222",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_D2_D_C3_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 2354.330748031496,
+      "y": -464.5669291338583,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "3a00dafa34d55e27"
+        }
+      },
+      "primitiveId": "512681ad21f875d3",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "a0da78b720dadcaa",
+        "name": "GyreNanoKeyfieldFR4V33_C3_D1_D_C3_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C3_D1",
+      "pads": [
+        {
+          "primitiveId": "0cabe8a9e62b57f9",
+          "net": "/ROW_R0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "76169f9a47da33bb",
+          "net": "/C3_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "512681ad21f875d3",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C3_D1_D_C3_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1897.6377952755906,
+      "y": -2145.730472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "156870315085c72a"
+        }
+      },
+      "primitiveId": "a222f93e6082fb03",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "2f041b9d23dc2a6a",
+        "name": "GyreNanoKeyfieldFR4V33_C2_SW3_SW_C2_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_SW3",
+      "pads": [
+        {
+          "primitiveId": "a9f70e06b6fe556e",
+          "net": "/BUS_COL_G2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "31d6d74f96ce025a",
+          "net": "/C2_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "926642f17db8350b",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "fea0268d811932e5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d2db69ecd353bafb",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d99eaf4b880202de",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "1e1ad13260f46a86",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "a222f93e6082fb03",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_SW3_SW_C2_SW3",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1897.6377952755906,
+      "y": -1242.1565748031496,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "556d9901afec16ba"
+        }
+      },
+      "primitiveId": "93243f427b46e98f",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "5857b0c6269e4295",
+        "name": "GyreNanoKeyfieldFR4V33_C2_SW2_SW_C2_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_SW2",
+      "pads": [
+        {
+          "primitiveId": "a9334540694a3fb2",
+          "net": "/BUS_COL_G2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "930e2edda476e086",
+          "net": "/C2_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "9891d84397e8725e",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "e5ccc043987d3b4e",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "f2fc64ab8512c5c5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d08f9791deb2b669",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "84c05c29664d76b0",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "93243f427b46e98f",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_SW2_SW_C2_SW2",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1897.6377952755906,
+      "y": -338.5826771653543,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "d43031ebab60c5dd"
+        }
+      },
+      "primitiveId": "34274f6af414ae1e",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "96dfe11110889293",
+        "name": "GyreNanoKeyfieldFR4V33_C2_SW1_SW_C2_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_SW1",
+      "pads": [
+        {
+          "primitiveId": "b00880f0cea7dd9e",
+          "net": "/BUS_COL_G2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "80efb22606f9df40",
+          "net": "/C2_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "64960f8e9caa9caf",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "516c3809713cbe55",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "07d28cc236b22afc",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "acba16a8ee911176",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "a10126d84e950ff6",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "34274f6af414ae1e",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_SW1_SW_C2_SW1",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1586.6141732283463,
+      "y": -2271.714724409449,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "5c031a0e800c41c7"
+        }
+      },
+      "primitiveId": "7892086a3a477b5c",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "40bb92e1c64e4984",
+        "name": "GyreNanoKeyfieldFR4V33_C2_D3_D_C2_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_D3",
+      "pads": [
+        {
+          "primitiveId": "4a9cd20c4df01e6f",
+          "net": "/ROW_R0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "50fc659c13bbf860",
+          "net": "/C2_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "7892086a3a477b5c",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_D3_D_C2_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1586.6141732283463,
+      "y": -1368.1408267716533,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "6ec2c6761176d18d"
+        }
+      },
+      "primitiveId": "11af90e65944bf59",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "36fbe141e21aace0",
+        "name": "GyreNanoKeyfieldFR4V33_C2_D2_D_C2_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_D2",
+      "pads": [
+        {
+          "primitiveId": "b1f148dbfa23a02f",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "1820b9ec1ee8e1b8",
+          "net": "/C2_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "11af90e65944bf59",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_D2_D_C2_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1586.6141732283463,
+      "y": -464.5669291338583,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "6479ff14ac934504"
+        }
+      },
+      "primitiveId": "cbd68ff207903a75",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "852108e2489e5661",
+        "name": "GyreNanoKeyfieldFR4V33_C2_D1_D_C2_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C2_D1",
+      "pads": [
+        {
+          "primitiveId": "0456ba59675ec10b",
+          "net": "/ROW_R2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "b1148f0b0ccd756a",
+          "net": "/C2_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "cbd68ff207903a75",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C2_D1_D_C2_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1129.9212598425197,
+      "y": -2145.730472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "f20f900bb511144e"
+        }
+      },
+      "primitiveId": "c3f64e72f90494fe",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "6b76d9ade39851e5",
+        "name": "GyreNanoKeyfieldFR4V33_C1_SW3_SW_C1_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_SW3",
+      "pads": [
+        {
+          "primitiveId": "76495f25f067ea1c",
+          "net": "/C1_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "deea3e54ad7714b9",
+          "net": "/C1_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "44cac937c31c6b25",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "f501ab16f50b4e5e",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "b8c4239d213c355c",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d9007c186a3321b1",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "c69d25c77da3d5a5",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "c3f64e72f90494fe",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_SW3_SW_C1_SW3",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1129.9212598425197,
+      "y": -1242.1565748031496,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "48a66664d7d46cdc"
+        }
+      },
+      "primitiveId": "a857c2929ff0f311",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "e40cdb743cde0f5a",
+        "name": "GyreNanoKeyfieldFR4V33_C1_SW2_SW_C1_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_SW2",
+      "pads": [
+        {
+          "primitiveId": "4beb813dd2c92338",
+          "net": "/C1_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "411b1932df4c8550",
+          "net": "/C1_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e857ebd9966d34ea",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "04e9e9ab6fbcc316",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "00ef69cfe0c242d1",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "67f1143f474a9a48",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "391aea963ef1c59d",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "a857c2929ff0f311",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_SW2_SW_C1_SW2",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 1129.9212598425197,
+      "y": -338.5826771653543,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "dea31d18b3043580"
+        }
+      },
+      "primitiveId": "b5844e34ad19acb6",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "d4e8887f9324deb6",
+        "name": "GyreNanoKeyfieldFR4V33_C1_SW1_SW_C1_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_SW1",
+      "pads": [
+        {
+          "primitiveId": "b9678e56264979af",
+          "net": "/C1_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "cac9aaed444ad2da",
+          "net": "/C1_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "a423801160322196",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "7e830785dc101442",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "aa9bc46ae28964f5",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "63b8a55bf64e8851",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "23a16ba5eb3079a3",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "b5844e34ad19acb6",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_SW1_SW_C1_SW1",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 818.8976377952756,
+      "y": -2271.714724409449,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "5c760220a2bfbb73"
+        }
+      },
+      "primitiveId": "408659777d6c788c",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "2255b54afa95ed29",
+        "name": "GyreNanoKeyfieldFR4V33_C1_D3_D_C1_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_D3",
+      "pads": [
+        {
+          "primitiveId": "abafc473509c6c38",
+          "net": "/ROW_R2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "9ea293eaf83d0367",
+          "net": "/C1_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "408659777d6c788c",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_D3_D_C1_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 818.8976377952756,
+      "y": -1368.1408267716533,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "d65250fa79ea9cc6"
+        }
+      },
+      "primitiveId": "6b30e68250e566aa",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "ac681987cd2a0d8b",
+        "name": "GyreNanoKeyfieldFR4V33_C1_D2_D_C1_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_D2",
+      "pads": [
+        {
+          "primitiveId": "16098a6a08f38179",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "f9490490e35439a7",
+          "net": "/C1_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "6b30e68250e566aa",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_D2_D_C1_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 818.8976377952756,
+      "y": -464.5669291338583,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "786c4d2174350bde"
+        }
+      },
+      "primitiveId": "cdac26351839936d",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "8ed5a43d20930e98",
+        "name": "GyreNanoKeyfieldFR4V33_C1_D1_D_C1_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C1_D1",
+      "pads": [
+        {
+          "primitiveId": "6cb98048d69d1f0a",
+          "net": "/ROW_R0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "d2d129c5c3af4bd9",
+          "net": "/C1_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "cdac26351839936d",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C1_D1_D_C1_D1",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 362.20472440944883,
+      "y": -2145.730472440945,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "985d6cdb617b2735"
+        }
+      },
+      "primitiveId": "2787dd4191bb1ac0",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "fcd90130b9f67d84",
+        "name": "GyreNanoKeyfieldFR4V33_C0_SW3_SW_C0_SW3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_SW3",
+      "pads": [
+        {
+          "primitiveId": "94ced4029883cee7",
+          "net": "/C0_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "ad89b576faa0892d",
+          "net": "/C0_K3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "77990a54dd73f408",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "5e68fa2367a456fa",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "edcf5c8fef895420",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "cf798a7d539c6da1",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "d11b6ab40ec6afba",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "2787dd4191bb1ac0",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_SW3_SW_C0_SW3",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 362.20472440944883,
+      "y": -1242.1565748031496,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "95361b12cab3f7ab"
+        }
+      },
+      "primitiveId": "38535177adc65465",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "f154a398e11f9e6f",
+        "name": "GyreNanoKeyfieldFR4V33_C0_SW2_SW_C0_SW2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_SW2",
+      "pads": [
+        {
+          "primitiveId": "46fa6caf1df0f95c",
+          "net": "/C0_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "f9c063bb6adf386b",
+          "net": "/C0_K2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e9679bc5fb80141d",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "88cd99e0baad9408",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "fc40e3a69e766893",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "ac5fc729183afed4",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "84d9446fc22d7fa0",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "38535177adc65465",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_SW2_SW_C0_SW2",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 362.20472440944883,
+      "y": -338.5826771653543,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "CPG151101S11-16",
+          "source": "",
+          "uuid": "ef1ed31611a79703"
+        }
+      },
+      "primitiveId": "a2a3a33077eb1efa",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "36e3a5e32e536001",
+        "name": "GyreNanoKeyfieldFR4V33_C0_SW1_SW_C0_SW1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_SW1",
+      "pads": [
+        {
+          "primitiveId": "923b76a28d7a7324",
+          "net": "/C0_COL",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "248cb75f6fc60332",
+          "net": "/C0_K1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "adba9f5f31daafc3",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "acb755b6353aa7f2",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "a20aa52e1e429420",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "539ac9bb409ef460",
+          "net": "",
+          "padNumber": ""
+        },
+        {
+          "primitiveId": "14efcf38d4676fe2",
+          "net": "",
+          "padNumber": ""
+        }
+      ],
+      "name": "CPG151101S11-16",
+      "uniqueId": "a2a3a33077eb1efa",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_SW1_SW_C0_SW1",
+        "Value": "CPG151101S11-16"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 51.181102362204726,
+      "y": -2271.714724409449,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "fde9bcc60c9b4295"
+        }
+      },
+      "primitiveId": "0843859131bd0298",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "445570d3379ed4b5",
+        "name": "GyreNanoKeyfieldFR4V33_C0_D3_D_C0_D3"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_D3",
+      "pads": [
+        {
+          "primitiveId": "3e2238317d48ce61",
+          "net": "/ROW_R0",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "a50bf3cf83901b2a",
+          "net": "/C0_K3",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "0843859131bd0298",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_D3_D_C0_D3",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 51.181102362204726,
+      "y": -1368.1408267716533,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "d9c6aab1ef317cbf"
+        }
+      },
+      "primitiveId": "6de381a51b297e0a",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "436037d5fc4cb215",
+        "name": "GyreNanoKeyfieldFR4V33_C0_D2_D_C0_D2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_D2",
+      "pads": [
+        {
+          "primitiveId": "9cdd89ed215e9753",
+          "net": "/ROW_R1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "97f880e12598a73e",
+          "net": "/C0_K2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "6de381a51b297e0a",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_D2_D_C0_D2",
+        "Value": "1N4148W-7-F"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 2,
+      "x": 51.181102362204726,
+      "y": -464.5669291338583,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": {
+          "name": "1N4148W-7-F",
+          "source": "",
+          "uuid": "cef6cb04675472eb"
+        }
+      },
+      "primitiveId": "aaa7d97b792c5632",
+      "footprint": {
+        "libraryUuid": "34d5699e0089639dde5101cc780f523a14a17db3c06d31e6548564284751f637",
+        "uuid": "d3c92de1948e26fd",
+        "name": "GyreNanoKeyfieldFR4V33_C0_D1_D_C0_D1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "C0_D1",
+      "pads": [
+        {
+          "primitiveId": "85219905ba36ef87",
+          "net": "/ROW_R2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "6d50d85f16851549",
+          "net": "/C0_K1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "1N4148W-7-F",
+      "uniqueId": "aaa7d97b792c5632",
+      "otherProperty": {
+        "Footprint": "GyreNanoKeyfieldFR4V33_C0_D1_D_C0_D1",
+        "Value": "1N4148W-7-F"
+      }
+    }
+  ],
+  "rules": {
+    "config": {
+      "Spacing": {
+        "Safe Spacing": {
+          "safeClearance": {
+            "editName": "safeClearance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.29972,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.29972,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.254,
+                    0.29972,
+                    0.29972,
+                    0.29972
+                  ],
+                  [
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.254,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "Other Spacing": {
+          "otherClearance": {
+            "editName": "otherClearance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "device2device": 0,
+              "thru2Smd": 0,
+              "hole2Hole": 0.3
+            }
+          }
+        },
+        "Creepage Distance": {
+          "creepage": {
+            "editName": "creepage",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "creepageDistance": 0,
+              "ignoreLayer": true
+            }
+          }
+        }
+      },
+      "Physics": {
+        "Track": {
+          "trackWidth": {
+            "editName": "trackWidth",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "minValue": 0.127,
+                  "defaultValue": 0.254,
+                  "maxValue": 2.54
+                }
+              }
+            }
+          }
+        },
+        "Net Length Range": {
+          "netLength": {
+            "editName": "netLength",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthMin": 0,
+              "netLengthMax": 0
+            }
+          }
+        },
+        "Net Length Tolerance": {
+          "netLengthTolerance": {
+            "editName": "netLengthTolerance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthTolerance": 25.4
+            }
+          }
+        },
+        "Differential Pair": {
+          "differentialPair": {
+            "editName": "differentialPair",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "strokeWidthTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.127,
+                    "defaultValue": 0.254,
+                    "maxValue": 2.54
+                  }
+                }
+              },
+              "diffPairSpacingTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.15239999999999998,
+                    "defaultValue": 0.15239999999999998,
+                    "maxValue": 1.27
+                  }
+                }
+              },
+              "toleranceUnit": "mm",
+              "differentailPairLenTolerMax": 0.254
+            }
+          }
+        },
+        "Blind/Buried Via": {
+          "blindVia": {
+            "editName": "blindVia",
+            "isSetDefault": true,
+            "table": []
+          }
+        },
+        "Via Size": {
+          "viaSize": {
+            "editName": "viaSize",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "viaOuterdiameterMin": 0.49999899999999997,
+              "viaOuterdiameterMax": 10.00000032,
+              "viaOuterdiameterDefault": 0.61000132,
+              "viaInnerdiameterMin": 0.29999939999999997,
+              "viaInnerdiameterMax": 5.99999816,
+              "viaInnerdiameterDefault": 0.30499812
+            }
+          }
+        },
+        "Height": {
+          "height": {
+            "editName": "height",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "maxHeight": 0
+            }
+          }
+        }
+      },
+      "Plane": {
+        "Plane Zone": {
+          "innerPlane": {
+            "editName": "innerPlane",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "connectMode": 0,
+                  "lineClearance": 0.254,
+                  "lineWidth": 0.254,
+                  "lineAngle": 90
+                }
+              }
+            }
+          }
+        },
+        "Copper Zone": {
+          "copperRegion": {
+            "editName": "copperRegion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "singleLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "multiLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "trackConnectModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "trackConnectMode": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Expansion": {
+        "Solder Mask Expansion": {
+          "solderMaskExpansion": {
+            "editName": "solderMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0.0508,
+              "padBottomlayerExpansion": 0.0508,
+              "viaToplayerExpansion": -25.4,
+              "viaBottomlayerExpansion": -25.4,
+              "testPointToplayerExpansion": 0.0508,
+              "testPointBottomlayerExpansion": 0.0508
+            }
+          }
+        },
+        "Paste Mask Expansion": {
+          "pasteMaskExpansion": {
+            "editName": "pasteMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0,
+              "padBottomlayerExpansion": 0,
+              "testPointToplayerExpansion": -25.4,
+              "testPointBottomlayerExpansion": -25.4
+            }
+          }
+        }
+      },
+      "Copper Analysis": {
+        "Acute Angle": [],
+        "Hole Falls on Pad": [],
+        "Bare Track Ends": [],
+        "Pad Hole Ring": [],
+        "Track Neckdown": [],
+        "Short Circuit Prompt": [],
+        "Minimum Copper Width": []
+      },
+      "Drill Hole Analysis": {
+        "No Connected Vias": [],
+        "Hole Size": [],
+        "NPTH to Copper": []
+      },
+      "Silkscreen Analysis": {
+        "Silkscreen to Pad": [],
+        "Silkscreen to Hole": [],
+        "Silkscreen Line Width": []
+      },
+      "Solder Mask Analysis": {
+        "Solder Mask Bridge": [],
+        "SMask Opening Copper": [],
+        "Pad Negative Opening": []
+      }
+    },
+    "name": ""
+  },
+  "stack": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.39370078740157477,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "FR4 core",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR4",
+        "thickness": 20.078740157480315,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.39370078740157477,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": 1,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 23.622047244094485,
+    "unit": "mil"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parts": [
+    "left_main_support",
+    "left_thumb_support",
+    "right_main_support",
+    "right_thumb_support"
+  ],
+  "all_rotations_orthogonal": true,
+  "determinant_positive_one": true,
+  "volume_preserved": true,
+  "bed_z_zero": true,
+  "scaled": false,
+  "sliced": false
+}

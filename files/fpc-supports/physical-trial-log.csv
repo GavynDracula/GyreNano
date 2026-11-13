@@ -1,0 +1,7 @@
+material,coupon_upper_gap_mm,printer,nozzle_mm,layer_height_mm,slot_clean,board_flat,socket_supported_on_insertion,no_pad_peeling_on_removal,ffc_latch_access,result,notes
+PLA,0.15,K1C,0.4,,,,,,,,
+PLA,0.25,K1C,0.4,,,,,,,,
+PLA,0.35,K1C,0.4,,,,,,,,
+PETG,0.15,K1C,0.4,,,,,,,,
+PETG,0.25,K1C,0.4,,,,,,,,
+PETG,0.35,K1C,0.4,,,,,,,,

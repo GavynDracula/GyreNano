@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "scope": "Reference toolpaths only; no physical fit or support-removal qualification.",
+  "profile": "Bambu A1 0.4 / Generic PLA / 0.20 mm / 3 walls / 15% infill / auto support; user printer unconfirmed",
+  "config_sha256": {
+    "machine": "65af21967f435e5b036f1b56aef53b771f12e9cb7b68e12b26e2cff2a5243707",
+    "process": "9c3ed9b88910b1080dc76e179bac698e583e974a0401c38d17561e55f7021b01",
+    "filament": "ad8b8a2dd89a00f04318855414c76453a67e9f19faa90212a982fb94622862c9"
+  },
+  "results": [
+    {
+      "model": "pcb/enclosure-v14/mechanical/left-shell.stl",
+      "model_sha256": "e8d411ce466a7449e0d5026e1d5747191d813a97db38caa00f162bef44d15ea7",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "temporary_log": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/left-shell/slice.log",
+      "temporary_gcode": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/left-shell/output/plate_1.gcode",
+      "warnings": [
+        "[2026-11-11 15:09:35.468485] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-11 15:09:35.608431] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-11 15:09:37.877940] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-11 15:09:40.335273] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ],
+      "estimated_model_time": "5h 0m 45s",
+      "estimated_weight_g": "82.78",
+      "layers": "213"
+    },
+    {
+      "model": "pcb/enclosure-v14/mechanical/right-shell.stl",
+      "model_sha256": "7ac02fda6f661dd728d71796be6d4cadde922f52cdeade3510e089727ed26e7d",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "temporary_log": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/right-shell/slice.log",
+      "temporary_gcode": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/right-shell/output/plate_1.gcode",
+      "warnings": [
+        "[2026-11-11 15:09:35.468485] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-11 15:09:35.613695] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-11 15:09:38.161112] [0x000000016d887000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-11 15:09:38.239331] [0x000000016cc63000] [warning] [Voronoi.cpp:33 construct_voronoi] Detected missing Voronoi vertex, input polygons will be rotated back and forth.",
+        "[2026-11-11 15:09:38.270136] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-11 15:09:41.495602] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ],
+      "estimated_model_time": "5h 28m 3s",
+      "estimated_weight_g": "92.46",
+      "layers": "237"
+    },
+    {
+      "model": "pcb/enclosure-v14/mechanical/left_retainer.stl",
+      "model_sha256": "0894cece51b413390a9a541d6475c98bd22f412ce42103cba740b2ae039ce35b",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "temporary_log": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/left_retainer/slice.log",
+      "temporary_gcode": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/left_retainer/output/plate_1.gcode",
+      "warnings": [
+        "[2026-11-11 15:09:52.343141] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-11 15:09:52.352077] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-11 15:09:52.622828] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-11 15:09:53.543089] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ],
+      "estimated_model_time": "1h 56m 17s",
+      "estimated_weight_g": "18.12",
+      "layers": "169"
+    },
+    {
+      "model": "pcb/enclosure-v14/mechanical/right_retainer.stl",
+      "model_sha256": "172d293fb8134d06e6eb532e88749ab1992129c450d7d7ccd658658cf14c05e0",
+      "exit_code": 0,
+      "gcode_complete_marker": true,
+      "temporary_log": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/right_retainer/slice.log",
+      "temporary_gcode": "/var/folders/ft/lwjvpvls1vb2c171qt4qqwv00000gp/T/gyre-v14-slice-6mj3a6h3/right_retainer/output/plate_1.gcode",
+      "warnings": [
+        "[2026-11-11 15:09:55.035485] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70",
+        "[2026-11-11 15:09:55.056237] [0x00000001ed9258c0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects",
+        "[2026-11-11 15:09:55.379163] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support",
+        "[2026-11-11 15:09:56.535735] [0x00000001ed9258c0] [warning] [SupportParameters.hpp:204 SupportParameters] tree support default to organic support"
+      ],
+      "estimated_model_time": "1h 55m 40s",
+      "estimated_weight_g": "17.97",
+      "layers": "169"
+    }
+  ]
+}

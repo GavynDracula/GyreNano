@@ -1,0 +1,92 @@
+[
+  {
+    "ref": "C0_SW1",
+    "row": "R2",
+    "column": "COL_G0"
+  },
+  {
+    "ref": "C0_SW3",
+    "row": "R0",
+    "column": "COL_G0"
+  },
+  {
+    "ref": "C0_SW2",
+    "row": "R1",
+    "column": "COL_G0"
+  },
+  {
+    "ref": "C1_SW1",
+    "row": "R0",
+    "column": "COL_G1"
+  },
+  {
+    "ref": "C1_SW3",
+    "row": "R2",
+    "column": "COL_G1"
+  },
+  {
+    "ref": "C1_SW2",
+    "row": "R1",
+    "column": "COL_G1"
+  },
+  {
+    "ref": "C2_SW1",
+    "row": "R2",
+    "column": "COL_G2"
+  },
+  {
+    "ref": "C2_SW3",
+    "row": "R0",
+    "column": "COL_G2"
+  },
+  {
+    "ref": "C2_SW2",
+    "row": "R1",
+    "column": "COL_G2"
+  },
+  {
+    "ref": "C3_SW1",
+    "row": "R0",
+    "column": "COL_G3"
+  },
+  {
+    "ref": "C3_SW3",
+    "row": "R2",
+    "column": "COL_G3"
+  },
+  {
+    "ref": "C3_SW2",
+    "row": "R1",
+    "column": "COL_G3"
+  },
+  {
+    "ref": "C4_SW1",
+    "row": "R2",
+    "column": "COL_G4"
+  },
+  {
+    "ref": "C4_SW3",
+    "row": "R0",
+    "column": "COL_G4"
+  },
+  {
+    "ref": "C4_SW2",
+    "row": "R1",
+    "column": "COL_G4"
+  },
+  {
+    "ref": "T_SW3",
+    "row": "R3",
+    "column": "COL_G0"
+  },
+  {
+    "ref": "T_SW2",
+    "row": "R3",
+    "column": "COL_G3"
+  },
+  {
+    "ref": "T_SW1",
+    "row": "R3",
+    "column": "COL_G2"
+  }
+]

@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "GyreNanoHolder") (type "KiCad") (uri "${KIPRJMOD}/GyreNanoHolder.kicad_sym") (options "") (descr "Explicit V7 controller pin numbering and pinned KiCad symbols")))
